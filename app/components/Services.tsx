@@ -44,7 +44,7 @@ const services = [
   },
   {
     id: "hypnose",
-    href: null as string | null,
+    href: "/hypnose-therapeutique" as string | null,
     icon: (
       <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
         <path d="M16 4 C16 4 8 10 8 16 C8 22 11 26 16 28 C21 26 24 22 24 16 C24 10 16 4 16 4Z" stroke="#D4336E" strokeWidth="1.8" fill="none"/>
