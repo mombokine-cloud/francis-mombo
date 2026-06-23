@@ -2,6 +2,17 @@ import { ArrowRight, Clock } from "lucide-react";
 
 const articles = [
   {
+    category: "Presse",
+    title: "Le MHSC VB profite des installations des footballeurs pour les soins",
+    excerpt:
+      "Midi Libre met en lumière le travail de Francis MOMBO auprès des volleyeurs du Montpellier Hérault Sport Club, qui utilisent les infrastructures des footballeurs pour leur récupération et leurs soins.",
+    readTime: "3 min",
+    date: "10 octobre 2024",
+    color: "#fff3e8",
+    accent: "#E8A020",
+    href: "https://www.midilibre.fr/2024/10/10/sur-pied-pour-preparer-le-prochain-match-les-volleyeurs-du-mhsc-profitent-des-installations-des-footballeurs-pour-les-soins-et-la-recuperation-12251773.php",
+  },
+  {
     category: "Ostéopathie",
     title: "Le mal de dos : comprendre et prévenir",
     excerpt:
@@ -10,6 +21,7 @@ const articles = [
     date: "12 juin 2025",
     color: "#fdeef3",
     accent: "#D4336E",
+    href: null,
   },
   {
     category: "Sport",
@@ -18,18 +30,9 @@ const articles = [
       "L'ostéopathie du sport ne sert pas uniquement à traiter les blessures. Elle joue un rôle majeur dans la récupération et l'optimisation des performances sportives.",
     readTime: "4 min",
     date: "3 juin 2025",
-    color: "#fff3e8",
-    accent: "#E8A020",
-  },
-  {
-    category: "Équilibre féminin",
-    title: "Ostéopathie et grossesse : ce qu'il faut savoir",
-    excerpt:
-      "La grossesse entraîne de nombreuses transformations corporelles. L'ostéopathie accompagne les futures mamans de façon douce et sécurisée pour un meilleur confort.",
-    readTime: "6 min",
-    date: "25 mai 2025",
     color: "#fdeef3",
     accent: "#8B2035",
+    href: null,
   },
 ];
 
@@ -61,6 +64,7 @@ export default function Articles() {
             <article
               key={a.title}
               className="group rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100 hover:-translate-y-1 bg-white cursor-pointer"
+              onClick={a.href ? () => window.open(a.href!, "_blank", "noopener noreferrer") : undefined}
             >
               {/* Card header */}
               <div
