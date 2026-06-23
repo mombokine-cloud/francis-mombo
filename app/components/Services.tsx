@@ -1,6 +1,7 @@
-﻿const services = [
+const services = [
   {
     id: "osteopathie",
+    href: "/maladies-chroniques-osteopathie",
     icon: (
       <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
         <path d="M16 3 C10 3 5 8 5 14 C5 20 10 25 16 28 C22 25 27 20 27 14 C27 8 22 3 16 3Z" stroke="#D4336E" strokeWidth="1.8" fill="none"/>
@@ -14,6 +15,7 @@
   },
   {
     id: "sport",
+    href: "/osteopathie-sport-montpellier",
     icon: (
       <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
         <circle cx="16" cy="16" r="12" stroke="#D4336E" strokeWidth="1.8" fill="none"/>
@@ -28,6 +30,7 @@
   },
   {
     id: "feminin",
+    href: "/sante-femme-fertilite-endometriose",
     icon: (
       <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
         <circle cx="16" cy="11" r="7" stroke="#D4336E" strokeWidth="1.8" fill="none"/>
@@ -41,6 +44,7 @@
   },
   {
     id: "hypnose",
+    href: null as string | null,
     icon: (
       <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
         <path d="M16 4 C16 4 8 10 8 16 C8 22 11 26 16 28 C21 26 24 22 24 16 C24 10 16 4 16 4Z" stroke="#D4336E" strokeWidth="1.8" fill="none"/>
@@ -54,6 +58,47 @@
     benefits: ["Gestion du stress et anxiété", "Douleurs chroniques", "Troubles du sommeil", "Phobies et blocages"],
   },
 ];
+
+const CardContent = ({ s }: { s: typeof services[0] }) => (
+  <>
+    <div
+      className="w-14 h-14 rounded-xl flex items-center justify-center mb-5 transition-colors duration-200"
+      style={{ background: "#fdeef3" }}
+    >
+      {s.icon}
+    </div>
+
+    <h3
+      className="text-lg font-bold text-gray-900 mb-3 group-hover:text-[#D4336E] transition-colors"
+      style={{ fontFamily: "Figtree, sans-serif" }}
+    >
+      {s.title}
+    </h3>
+
+    <p className="text-gray-500 text-sm leading-relaxed mb-4">
+      {s.description}
+    </p>
+
+    <ul className="space-y-1.5">
+      {s.benefits.map((b) => (
+        <li key={b} className="flex items-center gap-2 text-sm text-gray-600">
+          <span
+            className="w-1.5 h-1.5 rounded-full flex-shrink-0"
+            style={{ background: "#D4336E" }}
+          />
+          {b}
+        </li>
+      ))}
+    </ul>
+
+    {s.href && (
+      <p className="mt-4 text-xs font-semibold flex items-center gap-1" style={{ color: "#D4336E" }}>
+        En savoir plus
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </p>
+    )}
+  </>
+);
 
 export default function Services() {
   return (
@@ -74,43 +119,26 @@ export default function Services() {
         </div>
 
         <div className="grid sm:grid-cols-2 xl:grid-cols-4 gap-6">
-          {services.map((s) => (
-            <div
-              key={s.id}
-              id={s.id}
-              className="group bg-white rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-transparent hover:border-pink-100 hover:-translate-y-1"
-            >
+          {services.map((s) =>
+            s.href ? (
+              <a
+                key={s.id}
+                id={s.id}
+                href={s.href}
+                className="group bg-white rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-transparent hover:border-pink-100 hover:-translate-y-1 block"
+              >
+                <CardContent s={s} />
+              </a>
+            ) : (
               <div
-                className="w-14 h-14 rounded-xl flex items-center justify-center mb-5 transition-colors duration-200"
-                style={{ background: "#fdeef3" }}
+                key={s.id}
+                id={s.id}
+                className="group bg-white rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-transparent hover:border-pink-100 hover:-translate-y-1"
               >
-                {s.icon}
+                <CardContent s={s} />
               </div>
-
-              <h3
-                className="text-lg font-bold text-gray-900 mb-3"
-                style={{ fontFamily: "Figtree, sans-serif" }}
-              >
-                {s.title}
-              </h3>
-
-              <p className="text-gray-500 text-sm leading-relaxed mb-4">
-                {s.description}
-              </p>
-
-              <ul className="space-y-1.5">
-                {s.benefits.map((b) => (
-                  <li key={b} className="flex items-center gap-2 text-sm text-gray-600">
-                    <span
-                      className="w-1.5 h-1.5 rounded-full flex-shrink-0"
-                      style={{ background: "#D4336E" }}
-                    />
-                    {b}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+            )
+          )}
         </div>
 
         <div className="text-center mt-12">
