@@ -74,7 +74,7 @@ export default function ArticleRecuperationSportive() {
             <span className="text-xs font-bold px-3 py-1 rounded-full text-white" style={{ background: "#8B2035" }}>
               Sport
             </span>
-            <span className="text-xs text-gray-400">3 juin 2025 · 4 min de lecture</span>
+            <span className="text-xs text-gray-400">8 avril 2026 · 4 min de lecture</span>
           </div>
           <h1
             className="font-black text-gray-900 leading-tight mb-4"

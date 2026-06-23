@@ -77,7 +77,7 @@ export default function ArticleMalDeDos() {
             <span className="text-xs font-bold px-3 py-1 rounded-full text-white" style={{ background: "#D4336E" }}>
               Ostéopathie
             </span>
-            <span className="text-xs text-gray-400">12 juin 2025 · 5 min de lecture</span>
+            <span className="text-xs text-gray-400">15 mai 2026 · 5 min de lecture</span>
           </div>
           <h1
             className="font-black text-gray-900 leading-tight mb-4"

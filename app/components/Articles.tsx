@@ -7,7 +7,7 @@ const articles = [
     excerpt:
       "Midi Libre met en lumière le travail de Francis MOMBO auprès des volleyeurs du Montpellier Hérault Sport Club, qui utilisent les infrastructures des footballeurs pour leur récupération et leurs soins.",
     readTime: "3 min",
-    date: "10 octobre 2024",
+    date: "23 juin 2026",
     color: "#fff3e8",
     accent: "#E8A020",
     href: "https://www.midilibre.fr/2024/10/10/sur-pied-pour-preparer-le-prochain-match-les-volleyeurs-du-mhsc-profitent-des-installations-des-footballeurs-pour-les-soins-et-la-recuperation-12251773.php",
@@ -19,7 +19,7 @@ const articles = [
     excerpt:
       "Le mal de dos touche 80% des Français au cours de leur vie. Découvrez les causes principales et les solutions ostéopathiques pour retrouver un dos en bonne santé.",
     readTime: "5 min",
-    date: "12 juin 2025",
+    date: "15 mai 2026",
     color: "#fdeef3",
     accent: "#D4336E",
     href: "/mal-de-dos-comprendre-prevenir",
@@ -31,7 +31,7 @@ const articles = [
     excerpt:
       "L'ostéopathie du sport ne sert pas uniquement à traiter les blessures. Elle joue un rôle majeur dans la récupération et l'optimisation des performances sportives.",
     readTime: "4 min",
-    date: "3 juin 2025",
+    date: "8 avril 2026",
     color: "#fdeef3",
     accent: "#8B2035",
     href: "/recuperation-sportive-osteopathie",
@@ -43,7 +43,7 @@ const articles = [
     excerpt:
       "La grossesse entraîne de nombreuses transformations corporelles. L'ostéopathie accompagne les futures mamans de façon douce et sécurisée pour un meilleur confort.",
     readTime: "6 min",
-    date: "25 mai 2025",
+    date: "8 avril 2026",
     color: "#fdeef3",
     accent: "#8B2035",
     href: "/osteopathie-grossesse-equilibre-feminin",

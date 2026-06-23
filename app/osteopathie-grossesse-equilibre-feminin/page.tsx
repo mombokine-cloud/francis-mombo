@@ -74,7 +74,7 @@ export default function ArticleOsteopathieGrossesse() {
             <span className="text-xs font-bold px-3 py-1 rounded-full text-white" style={{ background: "#D4336E" }}>
               Équilibre féminin
             </span>
-            <span className="text-xs text-gray-400">25 mai 2025 · 6 min de lecture</span>
+            <span className="text-xs text-gray-400">8 avril 2026 · 6 min de lecture</span>
           </div>
           <h1
             className="font-black text-gray-900 leading-tight mb-4"
