@@ -1,4 +1,4 @@
-const services = [
+﻿const services = [
   {
     id: "osteopathie",
     icon: (
@@ -115,7 +115,7 @@ export default function Services() {
 
         <div className="text-center mt-12">
           <a
-            href="https://www.doctolib.fr"
+            href="https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary"

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import { useState } from "react";
 import { Phone, Mail, MapPin, Calendar, Send, Loader2 } from "lucide-react";
 
@@ -86,7 +86,7 @@ export default function Contact() {
                 La façon la plus rapide de réserver est de passer par Doctolib — disponible 24h/24.
               </p>
               <a
-                href="https://www.doctolib.fr"
+                href="https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary w-full justify-center"

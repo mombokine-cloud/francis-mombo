@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import { useState, useEffect } from "react";
 import { Menu, X, Phone } from "lucide-react";
 
@@ -68,7 +68,7 @@ export default function Navbar() {
             06 50 14 91 92
           </a>
           <a
-            href="https://www.doctolib.fr"
+            href="https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary text-sm py-2.5 px-5"
@@ -109,7 +109,7 @@ export default function Navbar() {
               06 50 14 91 92
             </a>
             <a
-              href="https://www.doctolib.fr"
+              href="https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary justify-center"

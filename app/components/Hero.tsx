@@ -1,4 +1,4 @@
-import { Calendar, Mail } from "lucide-react";
+﻿import { Calendar, Mail } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -28,7 +28,7 @@ export default function Hero() {
             <Mail size={16} />
           </a>
           <a
-            href="https://www.doctolib.fr"
+            href="https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo"
             target="_blank"
             rel="noopener noreferrer"
             className="text-xs font-bold tracking-widest uppercase px-4 py-2 rounded-full transition-all duration-200 hover:opacity-90"
@@ -177,7 +177,7 @@ export default function Hero() {
         </p>
         <div className="flex flex-wrap gap-3">
           <a
-            href="https://www.doctolib.fr"
+            href="https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-xs font-bold uppercase tracking-widest px-5 py-2.5 rounded-full transition-all duration-200 hover:-translate-y-0.5"

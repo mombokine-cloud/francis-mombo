@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 const siteUrl = "https://mombofrancis.com";
+const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -104,7 +105,7 @@ const jsonLd = {
           },
         },
       ],
-      sameAs: ["https://www.doctolib.fr"],
+      sameAs: [doctolib],
     },
     {
       "@type": "Person",

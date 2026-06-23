@@ -1,4 +1,4 @@
-import { Phone, MapPin } from "lucide-react";
+﻿import { Phone, MapPin } from "lucide-react";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -102,7 +102,7 @@ export default function Footer() {
             </ul>
 
             <a
-              href="https://www.doctolib.fr"
+              href="https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-4 px-4 py-2 rounded-full text-xs font-bold text-white transition-all duration-200 hover:opacity-90"

@@ -1,4 +1,4 @@
-import { MapPin, Phone, Clock, ExternalLink } from "lucide-react";
+﻿import { MapPin, Phone, Clock, ExternalLink } from "lucide-react";
 
 const cabinets = [
   {
@@ -113,7 +113,7 @@ export default function Locations() {
                 </div>
 
                 <a
-                  href="https://www.doctolib.fr"
+                  href="https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block text-center py-3 rounded-xl font-semibold text-sm transition-all duration-200 hover:-translate-y-0.5"
@@ -145,7 +145,7 @@ export default function Locations() {
             <p className="text-sm text-gray-500">Consultations disponibles dans les deux cabinets</p>
           </div>
           <a
-            href="https://www.doctolib.fr"
+            href="https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary whitespace-nowrap"

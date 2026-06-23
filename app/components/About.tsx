@@ -1,4 +1,4 @@
-import { CheckCircle } from "lucide-react";
+﻿import { CheckCircle } from "lucide-react";
 
 const credentials = [
   "Master en kinésithérapie — Haute-École Lier de Bruxelles (2005–2008)",
@@ -94,7 +94,7 @@ export default function About() {
             </ul>
 
             <div className="pt-4">
-              <a href="https://www.doctolib.fr" target="_blank" rel="noopener noreferrer" className="btn-primary">
+              <a href="https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo" target="_blank" rel="noopener noreferrer" className="btn-primary">
                 Prendre rendez-vous sur Doctolib
               </a>
             </div>

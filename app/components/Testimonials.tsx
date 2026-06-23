@@ -1,4 +1,4 @@
-const testimonials = [
+﻿const testimonials = [
   {
     name: "Marie L.",
     role: "Patiente, Castelnau-le-Lez",
@@ -98,7 +98,7 @@ export default function Testimonials() {
 
         <div className="text-center mt-12">
           <a
-            href="https://www.doctolib.fr"
+            href="https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary"
