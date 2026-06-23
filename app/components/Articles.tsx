@@ -22,7 +22,8 @@ const articles = [
     date: "12 juin 2025",
     color: "#fdeef3",
     accent: "#D4336E",
-    href: null,
+    href: "/mal-de-dos-comprendre-prevenir",
+    image: null,
   },
   {
     category: "Sport",
@@ -34,6 +35,7 @@ const articles = [
     color: "#fdeef3",
     accent: "#8B2035",
     href: null,
+    image: null,
   },
 ];
 
