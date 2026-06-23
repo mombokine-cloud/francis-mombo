@@ -63,39 +63,51 @@ export default function Articles() {
           {articles.map((a) => (
             <article
               key={a.title}
-              className="group rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100 hover:-translate-y-1 bg-white cursor-pointer"
-              onClick={a.href ? () => window.open(a.href!, "_blank", "noopener noreferrer") : undefined}
+              className="group rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100 hover:-translate-y-1 bg-white"
             >
-              {/* Card header */}
-              <div
-                className="h-36 flex items-center justify-center p-6"
-                style={{ background: a.color }}
-              >
-                <span
-                  className="text-xs font-bold px-3 py-1.5 rounded-full"
-                  style={{ background: a.accent, color: "white" }}
-                >
-                  {a.category}
-                </span>
-              </div>
-
-              <div className="p-6 space-y-3">
-                <h3
-                  className="font-bold text-gray-900 text-base leading-snug group-hover:text-[#D4336E] transition-colors"
-                  style={{ fontFamily: "Figtree, sans-serif" }}
-                >
-                  {a.title}
-                </h3>
-                <p className="text-gray-500 text-sm leading-relaxed line-clamp-3">{a.excerpt}</p>
-
-                <div className="flex items-center justify-between pt-2">
-                  <span className="text-xs text-gray-400">{a.date}</span>
-                  <div className="flex items-center gap-1.5 text-xs text-gray-400">
-                    <Clock size={12} />
-                    {a.readTime}
+              {a.href ? (
+                <a href={a.href} target="_blank" rel="noopener noreferrer" className="block">
+                  <div className="h-36 flex items-center justify-center p-6" style={{ background: a.color }}>
+                    <span className="text-xs font-bold px-3 py-1.5 rounded-full" style={{ background: a.accent, color: "white" }}>
+                      {a.category}
+                    </span>
                   </div>
-                </div>
-              </div>
+                  <div className="p-6 space-y-3">
+                    <h3 className="font-bold text-gray-900 text-base leading-snug group-hover:text-[#D4336E] transition-colors" style={{ fontFamily: "Figtree, sans-serif" }}>
+                      {a.title}
+                    </h3>
+                    <p className="text-gray-500 text-sm leading-relaxed line-clamp-3">{a.excerpt}</p>
+                    <div className="flex items-center justify-between pt-2">
+                      <span className="text-xs text-gray-400">{a.date}</span>
+                      <div className="flex items-center gap-1.5 text-xs text-gray-400">
+                        <Clock size={12} />
+                        {a.readTime}
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              ) : (
+                <>
+                  <div className="h-36 flex items-center justify-center p-6" style={{ background: a.color }}>
+                    <span className="text-xs font-bold px-3 py-1.5 rounded-full" style={{ background: a.accent, color: "white" }}>
+                      {a.category}
+                    </span>
+                  </div>
+                  <div className="p-6 space-y-3">
+                    <h3 className="font-bold text-gray-900 text-base leading-snug group-hover:text-[#D4336E] transition-colors" style={{ fontFamily: "Figtree, sans-serif" }}>
+                      {a.title}
+                    </h3>
+                    <p className="text-gray-500 text-sm leading-relaxed line-clamp-3">{a.excerpt}</p>
+                    <div className="flex items-center justify-between pt-2">
+                      <span className="text-xs text-gray-400">{a.date}</span>
+                      <div className="flex items-center gap-1.5 text-xs text-gray-400">
+                        <Clock size={12} />
+                        {a.readTime}
+                      </div>
+                    </div>
+                  </div>
+                </>
+              )}
             </article>
           ))}
         </div>
