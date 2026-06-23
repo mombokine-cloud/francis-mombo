@@ -34,7 +34,19 @@ const articles = [
     date: "3 juin 2025",
     color: "#fdeef3",
     accent: "#8B2035",
-    href: null,
+    href: "/recuperation-sportive-osteopathie",
+    image: null,
+  },
+  {
+    category: "Équilibre féminin",
+    title: "Ostéopathie et grossesse : ce qu'il faut savoir",
+    excerpt:
+      "La grossesse entraîne de nombreuses transformations corporelles. L'ostéopathie accompagne les futures mamans de façon douce et sécurisée pour un meilleur confort.",
+    readTime: "6 min",
+    date: "25 mai 2025",
+    color: "#fdeef3",
+    accent: "#8B2035",
+    href: "/osteopathie-grossesse-equilibre-feminin",
     image: null,
   },
 ];
