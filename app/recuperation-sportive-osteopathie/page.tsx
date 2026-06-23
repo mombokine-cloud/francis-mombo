@@ -15,13 +15,13 @@ export const metadata: Metadata = {
     "soins sportifs Montpellier",
   ],
   alternates: {
-    canonical: "https://mombofrancis.com/recuperation-sportive-osteopathie",
+    canonical: "https://www.mombofrancis.com/recuperation-sportive-osteopathie",
   },
   openGraph: {
     title: "Récupération sportive et ostéopathie : optimisez vos performances",
     description:
       "L'ostéopathie du sport joue un rôle clé dans la récupération et la prévention des blessures. Découvrez comment elle peut améliorer vos performances sportives.",
-    url: "https://mombofrancis.com/recuperation-sportive-osteopathie",
+    url: "https://www.mombofrancis.com/recuperation-sportive-osteopathie",
     type: "article",
   },
 };

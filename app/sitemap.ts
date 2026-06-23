@@ -3,26 +3,26 @@ import { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: "https://mombofrancis.com",
+      url: "https://www.mombofrancis.com",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,
     },
     {
-      url: "https://mombofrancis.com/#about",
-      lastModified: new Date(),
+      url: "https://www.mombofrancis.com/mal-de-dos-comprendre-prevenir",
+      lastModified: new Date("2025-06-12"),
       changeFrequency: "yearly",
-      priority: 0.8,
+      priority: 0.7,
     },
     {
-      url: "https://mombofrancis.com/#services",
-      lastModified: new Date(),
+      url: "https://www.mombofrancis.com/recuperation-sportive-osteopathie",
+      lastModified: new Date("2025-06-03"),
       changeFrequency: "yearly",
-      priority: 0.8,
+      priority: 0.7,
     },
     {
-      url: "https://mombofrancis.com/#contact",
-      lastModified: new Date(),
+      url: "https://www.mombofrancis.com/osteopathie-grossesse-equilibre-feminin",
+      lastModified: new Date("2025-05-25"),
       changeFrequency: "yearly",
       priority: 0.7,
     },

@@ -15,13 +15,13 @@ export const metadata: Metadata = {
     "ostéopathie Castelnau-le-Lez",
   ],
   alternates: {
-    canonical: "https://mombofrancis.com/osteopathie-grossesse-equilibre-feminin",
+    canonical: "https://www.mombofrancis.com/osteopathie-grossesse-equilibre-feminin",
   },
   openGraph: {
     title: "Ostéopathie et grossesse : accompagnement féminin naturel",
     description:
       "L'ostéopathie accompagne les femmes à chaque étape : grossesse, post-partum, douleurs pelviennes, troubles hormonaux.",
-    url: "https://mombofrancis.com/osteopathie-grossesse-equilibre-feminin",
+    url: "https://www.mombofrancis.com/osteopathie-grossesse-equilibre-feminin",
     type: "article",
   },
 };

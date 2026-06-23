@@ -16,13 +16,13 @@ export const metadata: Metadata = {
     "soulager le mal de dos",
   ],
   alternates: {
-    canonical: "https://mombofrancis.com/mal-de-dos-comprendre-prevenir",
+    canonical: "https://www.mombofrancis.com/mal-de-dos-comprendre-prevenir",
   },
   openGraph: {
     title: "Le mal de dos : comprendre, prévenir et soulager durablement",
     description:
       "Comprenez les causes du mal de dos et adoptez les bons réflexes pour le prévenir et le soulager efficacement au quotidien.",
-    url: "https://mombofrancis.com/mal-de-dos-comprendre-prevenir",
+    url: "https://www.mombofrancis.com/mal-de-dos-comprendre-prevenir",
     type: "article",
   },
 };

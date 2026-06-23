@@ -1,38 +1,56 @@
 ﻿const testimonials = [
   {
-    name: "Marie L.",
-    role: "Patiente, Castelnau-le-Lez",
-    text: "Francis a résolu en deux séances des douleurs dorsales que je traînais depuis des mois. Son écoute et sa douceur m'ont immédiatement mis en confiance. Je recommande sans hésiter.",
+    name: "Isa H.",
+    role: "Patiente fidèle depuis 13 ans",
+    text: "Super ostéopathe, 13 ans que je suis suivie pour mon dos, et je ne changerais pour rien au monde. Un ostéopathe d'une grande compétence.",
     stars: 5,
   },
   {
-    name: "Thomas R.",
-    role: "Sportif amateur, Montpellier",
-    text: "Après une blessure à l'épaule, Francis m'a remis sur pied en un temps record. Sa maîtrise de l'ostéopathie du sport est impressionnante. Je le consulte maintenant régulièrement en prévention.",
+    name: "Andrey D.",
+    role: "Ancien joueur professionnel de volley-ball",
+    text: "En tant qu'ancien joueur professionnel de volley-ball, j'ai travaillé avec de nombreux spécialistes à travers le monde. Francis se distingue par une expertise rare, une écoute attentive et des résultats concrets.",
     stars: 5,
   },
   {
-    name: "Sophie M.",
-    role: "Maman, Saint-Mathieu-de-Tréviers",
-    text: "J'ai consulté Francis pendant ma grossesse pour des douleurs lombaires. Son approche de l'équilibre féminin est remarquable — bienveillante, précise et vraiment efficace.",
+    name: "julie m.",
+    role: "Patiente hypnose, Montpellier",
+    text: "J'ai consulté M. Mombo pour une sciatique chronique. Dès la première séance d'hypnose, les douleurs qui étaient présentes depuis des mois ont considérablement diminué. Incroyable.",
     stars: 5,
   },
   {
-    name: "Jean-Paul B.",
-    role: "Retraité, Castelnau-le-Lez",
-    text: "Grâce aux séances d'hypnose, j'ai enfin réussi à gérer mon anxiété chronique. Francis est un thérapeute complet et très professionnel. Merci du fond du cœur.",
+    name: "sonia f.",
+    role: "Patiente hypnose",
+    text: "En seulement 2 séances mon corps et mon esprit sont apaisés. Insomniaque depuis 5 ans, je dors maintenant paisiblement. Merci Francis.",
     stars: 5,
   },
   {
-    name: "Clara D.",
-    role: "Étudiante, Montpellier",
-    text: "Consultée pour des migraines à répétition, j'ai vu une amélioration dès la première séance. Francis explique très bien ce qu'il fait, on se sent vraiment entre de bonnes mains.",
+    name: "Maroussia B.",
+    role: "Post-grossesse, Saint-Mathieu-de-Tréviers",
+    text: "Dos bloqué, post grossesse, merci pour votre aide ! Au top ! Je reviendrai sans hésiter.",
     stars: 5,
   },
   {
-    name: "Michel T.",
-    role: "Coureur, Hérault",
-    text: "Un ostéopathe du sport de haut niveau. Il a su cibler exactement mes problèmes de genou liés à la course. Très professionnel, très efficace. Cabinet impeccable.",
+    name: "Ludivine DK",
+    role: "Patiente depuis 2019",
+    text: "Je suis suivie par Francis depuis 2019 et je n'ai jamais rencontré un praticien aussi compétent et efficace. Une expertise rare, une vraie bienveillance.",
+    stars: 5,
+  },
+  {
+    name: "M H.",
+    role: "Patient, Castelnau-le-Lez",
+    text: "Un vrai sorcier ! Francis est quelqu'un d'extrêmement compétent avec un panel de techniques très différentes qui lui permet de s'adapter parfaitement à chaque patient.",
+    stars: 5,
+  },
+  {
+    name: "Globe_adventure",
+    role: "Patient fidèle depuis 10 ans",
+    text: "Mon ostéo depuis plus de 10 ans… et toujours au top ! À l'écoute, efficace, et on repart toujours en meilleure forme. Je recommande les yeux fermés !",
+    stars: 5,
+  },
+  {
+    name: "Elodie P.",
+    role: "Nouvelle patiente, juin 2025",
+    text: "Expérience très positive, n'ayant jamais eu recours à l'ostéopathie, minutieux dans les mouvements et à l'écoute. Je recommande monsieur Mombo pour son professionnalisme.",
     stars: 5,
   },
 ];
@@ -68,6 +86,25 @@ export default function Testimonials() {
           <p className="section-subtitle mx-auto mt-4 text-center">
             La satisfaction de mes patients est ma plus belle récompense.
           </p>
+          {/* Bandeau Google */}
+          <div className="inline-flex items-center gap-3 mt-6 bg-white rounded-2xl px-6 py-3 shadow-sm border border-gray-100">
+            <svg width="20" height="20" viewBox="0 0 48 48">
+              <path fill="#FFC107" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.3 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.1 7.9 3l5.7-5.7C34.5 6.5 29.6 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.6-.4-3.9z"/>
+              <path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.5 16 19 12 24 12c3.1 0 5.8 1.1 7.9 3l5.7-5.7C34.5 6.5 29.6 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/>
+              <path fill="#4CAF50" d="M24 44c5.5 0 10.4-2.1 14.1-5.4l-6.5-5.5C29.8 35 27 36 24 36c-5.2 0-9.6-3.3-11.3-8H6.1C9.4 35.6 16.2 44 24 44z"/>
+              <path fill="#1976D2" d="M43.6 20.1H42V20H24v8h11.3c-.8 2.3-2.3 4.2-4.3 5.5l6.5 5.5C37 38.2 44 33 44 24c0-1.3-.1-2.6-.4-3.9z"/>
+            </svg>
+            <div className="flex gap-0.5">
+              {[1,2,3,4,5].map(i => (
+                <svg key={i} width="16" height="16" viewBox="0 0 14 14" fill="#E8A020">
+                  <path d="M7 1l1.6 3.3L12 4.8l-2.5 2.4.6 3.4L7 9l-3.1 1.6.6-3.4L2 4.8l3.4-.5L7 1z" />
+                </svg>
+              ))}
+            </div>
+            <span className="font-bold text-gray-900 text-sm">5,0</span>
+            <span className="text-gray-400 text-sm">·</span>
+            <span className="text-gray-500 text-sm">119 avis Google</span>
+          </div>
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
