@@ -11,6 +11,7 @@ const articles = [
     color: "#fff3e8",
     accent: "#E8A020",
     href: "https://www.midilibre.fr/2024/10/10/sur-pied-pour-preparer-le-prochain-match-les-volleyeurs-du-mhsc-profitent-des-installations-des-footballeurs-pour-les-soins-et-la-recuperation-12251773.php",
+    image: "/midi-libre.jpg",
   },
   {
     category: "Ostéopathie",
@@ -67,8 +68,13 @@ export default function Articles() {
             >
               {a.href ? (
                 <a href={a.href} target="_blank" rel="noopener noreferrer" className="block">
-                  <div className="h-36 flex items-center justify-center p-6" style={{ background: a.color }}>
-                    <span className="text-xs font-bold px-3 py-1.5 rounded-full" style={{ background: a.accent, color: "white" }}>
+                  <div className="h-36 relative overflow-hidden">
+                    {a.image ? (
+                      <img src={a.image} alt={a.title} className="w-full h-full object-cover" />
+                    ) : (
+                      <div className="h-full flex items-center justify-center p-6" style={{ background: a.color }} />
+                    )}
+                    <span className="absolute top-3 left-3 text-xs font-bold px-3 py-1.5 rounded-full" style={{ background: a.accent, color: "white" }}>
                       {a.category}
                     </span>
                   </div>
