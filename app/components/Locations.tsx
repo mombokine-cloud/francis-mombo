@@ -8,6 +8,7 @@ const cabinets = [
     phone: "06 50 14 91 92",
     hours: "Lun–Ven : 8h–19h",
     mapUrl: "https://maps.google.com/?q=1720+Avenue+de+l'Europe+34170+Castelnau-le-Lez",
+    embedUrl: "https://maps.google.com/maps?q=1720+Avenue+de+l%27Europe+34170+Castelnau-le-Lez&output=embed&hl=fr",
     primary: true,
   },
   {
@@ -17,6 +18,7 @@ const cabinets = [
     phone: "06 50 14 91 92",
     hours: "Sur rendez-vous",
     mapUrl: "https://maps.google.com/?q=5+Avenue+du+Grand+Chene+34270+Saint-Mathieu-de-Treviers",
+    embedUrl: "https://maps.google.com/maps?q=5+Avenue+du+Grand+Ch%C3%AAne+34270+Saint-Mathieu-de-Tr%C3%A9viers&output=embed&hl=fr",
     primary: false,
   },
 ];
@@ -45,19 +47,18 @@ export default function Locations() {
                 c.primary ? "border-pink-200" : "border-gray-100"
               }`}
             >
-              {/* Map placeholder */}
-              <div
-                className="h-44 flex items-center justify-center relative overflow-hidden"
-                style={{
-                  background: c.primary
-                    ? "linear-gradient(135deg, #fdeef3 0%, #fce8f0 100%)"
-                    : "linear-gradient(135deg, #fff3e8 0%, #fdf0e0 100%)",
-                }}
-              >
-                <MapPin
-                  size={40}
-                  style={{ color: c.primary ? "#D4336E" : "#E8A020" }}
-                  className="opacity-40"
+              {/* Map */}
+              <div className="relative h-52 overflow-hidden">
+                <iframe
+                  src={c.embedUrl}
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title={`Localisation ${c.name}`}
+                  className="absolute inset-0 w-full h-full"
                 />
                 <a
                   href={c.mapUrl}
