@@ -8,6 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: base, lastModified: serviceDate, changeFrequency: "monthly", priority: 1 },
     // Page de localisation (priorité maximale pour SEO local)
     { url: `${base}/osteopathe-castelnau-le-lez`, lastModified: serviceDate, changeFrequency: "monthly", priority: 1 },
+    { url: `${base}/osteopathe-saint-mathieu-de-treviers`, lastModified: serviceDate, changeFrequency: "monthly", priority: 1 },
     // Pages de services
     { url: `${base}/osteopathie-sport-montpellier`, lastModified: serviceDate, changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/urgences-osteopathie-montpellier`, lastModified: serviceDate, changeFrequency: "monthly", priority: 0.9 },
