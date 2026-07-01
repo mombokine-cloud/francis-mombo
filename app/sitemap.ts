@@ -14,6 +14,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/hypnose-sport-montpellier`, lastModified: d, changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/hypnose-therapeutique`, lastModified: d, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/hypnose-sport`, lastModified: d, changeFrequency: "monthly", priority: 0.8 },
+    // Tarifs
+    { url: `${base}/tarifs-osteopathe-montpellier`, lastModified: d, changeFrequency: "monthly", priority: 0.9 },
     // Pages de services
     { url: `${base}/osteopathie-sport-montpellier`, lastModified: d, changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/osteopathie-urgences`, lastModified: d, changeFrequency: "monthly", priority: 0.9 },
