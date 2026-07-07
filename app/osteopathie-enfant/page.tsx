@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -14,11 +14,11 @@ export const metadata: Metadata = {
     "ostéopathie adolescent sport",
     "scoliose enfant ostéopathie",
   ],
-  alternates: { canonical: "https://mombofrancis.com/osteopathie-enfant" },
+  alternates: { canonical: "https://www.mombofrancis.com/osteopathie-enfant" },
   openGraph: {
     title: "Ostéopathie pour enfant et nourrisson à Montpellier",
     description: "Prise en charge ostéopathique des nourrissons, enfants et adolescents à Castelnau-le-Lez et Saint-Mathieu-de-Tréviers.",
-    url: "https://mombofrancis.com/osteopathie-enfant",
+    url: "https://www.mombofrancis.com/osteopathie-enfant",
     type: "article",
   },
 };

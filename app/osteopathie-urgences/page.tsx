@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -13,11 +13,11 @@ export const metadata: Metadata = {
     "rendez-vous ostéopathe urgent",
     "déblocage dos Montpellier",
   ],
-  alternates: { canonical: "https://mombofrancis.com/osteopathie-urgences" },
+  alternates: { canonical: "https://www.mombofrancis.com/osteopathie-urgences" },
   openGraph: {
     title: "Ostéopathe en urgence à Montpellier : torticolis, blocage, lombalgie aiguë",
     description: "Dos bloqué, torticolis, douleur aiguë ? Consultation ostéopathique urgente à Castelnau-le-Lez et Saint-Mathieu-de-Tréviers.",
-    url: "https://mombofrancis.com/osteopathie-urgences",
+    url: "https://www.mombofrancis.com/osteopathie-urgences",
     type: "article",
   },
 };

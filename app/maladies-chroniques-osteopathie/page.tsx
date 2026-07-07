@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -13,11 +13,11 @@ export const metadata: Metadata = {
     "troubles du sommeil ostéopathie",
     "ostéopathe Castelnau-le-Lez douleur chronique",
   ],
-  alternates: { canonical: "https://mombofrancis.com/maladies-chroniques-osteopathie" },
+  alternates: { canonical: "https://www.mombofrancis.com/maladies-chroniques-osteopathie" },
   openGraph: {
     title: "Ostéopathie et maladies chroniques à Montpellier",
     description: "Accompagnement ostéopathique des douleurs chroniques, fibromyalgie, stress, troubles du sommeil à Montpellier.",
-    url: "https://mombofrancis.com/maladies-chroniques-osteopathie",
+    url: "https://www.mombofrancis.com/maladies-chroniques-osteopathie",
     type: "article",
   },
 };

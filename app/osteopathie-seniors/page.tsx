@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -13,11 +13,11 @@ export const metadata: Metadata = {
     "prévention chutes ostéopathe",
     "douleurs articulaires senior ostéopathie",
   ],
-  alternates: { canonical: "https://mombofrancis.com/osteopathie-seniors" },
+  alternates: { canonical: "https://www.mombofrancis.com/osteopathie-seniors" },
   openGraph: {
     title: "Ostéopathie pour seniors à Montpellier — arthrose, équilibre, mobilité",
     description: "Accompagnement ostéopathique des seniors : mobilité, douleurs articulaires, équilibre et prévention des chutes.",
-    url: "https://mombofrancis.com/osteopathie-seniors",
+    url: "https://www.mombofrancis.com/osteopathie-seniors",
     type: "article",
   },
 };

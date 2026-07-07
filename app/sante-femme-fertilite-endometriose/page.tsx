@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -14,11 +14,11 @@ export const metadata: Metadata = {
     "SOPK ostéopathie",
     "ostéopathe femme Montpellier",
   ],
-  alternates: { canonical: "https://mombofrancis.com/sante-femme-fertilite-endometriose" },
+  alternates: { canonical: "https://www.mombofrancis.com/sante-femme-fertilite-endometriose" },
   openGraph: {
     title: "Ostéopathie santé de la femme : fertilité, endométriose, cycles — Montpellier",
     description: "Accompagnement ostéopathique des femmes : endométriose, fertilité, douleurs menstruelles, SOPK, ménopause.",
-    url: "https://mombofrancis.com/sante-femme-fertilite-endometriose",
+    url: "https://www.mombofrancis.com/sante-femme-fertilite-endometriose",
     type: "article",
   },
 };
