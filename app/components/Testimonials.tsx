@@ -165,8 +165,8 @@ export default function Testimonials() {
                 <span className="text-sm font-semibold" style={{ color: "#D4336E" }}>Rejoignez-les !</span>
               </div>
             </div>
-            {/* Bouton */}
-            <div className="flex-shrink-0">
+            {/* Boutons */}
+            <div className="flex-shrink-0 flex flex-col items-center gap-3">
               <a
                 href="https://g.page/r/CSuZQhAb-49CEBM/review"
                 target="_blank"
@@ -179,6 +179,20 @@ export default function Testimonials() {
                   <path fill="white" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.3 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.1 7.9 3l5.7-5.7C34.5 6.5 29.6 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.6-.4-3.9z"/>
                 </svg>
                 Laisser un avis Google
+              </a>
+              <a
+                href="https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=https://g.page/r/CSuZQhAb-49CEBM/review&format=png&margin=10&color=8B2035"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-xs font-semibold transition-colors duration-150 hover:opacity-70"
+                style={{ color: "#8B2035" }}
+                aria-label="Télécharger le QR code avis Google (nouvelle fenêtre)"
+              >
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/>
+                  <rect x="14" y="14" width="3" height="3"/><rect x="18" y="18" width="3" height="3"/>
+                </svg>
+                QR code à imprimer
               </a>
             </div>
           </div>
