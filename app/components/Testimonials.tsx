@@ -133,7 +133,58 @@ export default function Testimonials() {
           ))}
         </div>
 
-        <div className="text-center mt-12">
+        {/* CTA laisser un avis Google */}
+        <div className="mt-12 rounded-2xl overflow-hidden" style={{ background: "linear-gradient(135deg, #fff 0%, #fdeef3 60%, #fff3e8 100%)", border: "1.5px solid #f3c6d6" }}>
+          <div className="flex flex-col sm:flex-row items-center gap-6 px-8 py-8 sm:py-7">
+            {/* Icône + texte */}
+            <div className="flex-1 text-center sm:text-left">
+              <div className="flex items-center justify-center sm:justify-start gap-2 mb-3">
+                <svg width="22" height="22" viewBox="0 0 14 14" fill="#E8A020" aria-hidden="true" style={{ flexShrink: 0 }}>
+                  <path d="M7 1l1.6 3.3L12 4.8l-2.5 2.4.6 3.4L7 9l-3.1 1.6.6-3.4L2 4.8l3.4-.5L7 1z"/>
+                </svg>
+                <p className="font-black text-gray-900 text-lg leading-tight" style={{ fontFamily: "Figtree, sans-serif" }}>
+                  Votre avis compte
+                </p>
+              </div>
+              <p className="text-gray-500 text-sm leading-relaxed max-w-sm mx-auto sm:mx-0">
+                Vous êtes venu en consultation&nbsp;? Partagez votre expérience sur Google.
+              </p>
+              {/* Étoiles + score */}
+              <div className="flex items-center justify-center sm:justify-start gap-2 mt-4">
+                <div className="flex gap-0.5">
+                  {[1,2,3,4,5].map(i => (
+                    <svg key={i} width="15" height="15" viewBox="0 0 14 14" fill="#E8A020" aria-hidden="true">
+                      <path d="M7 1l1.6 3.3L12 4.8l-2.5 2.4.6 3.4L7 9l-3.1 1.6.6-3.4L2 4.8l3.4-.5L7 1z"/>
+                    </svg>
+                  ))}
+                </div>
+                <span className="text-sm font-bold text-gray-800">5,0</span>
+                <span className="text-gray-300 text-sm">·</span>
+                <span className="text-sm text-gray-500">119 avis</span>
+                <span className="text-gray-300 text-sm">·</span>
+                <span className="text-sm font-semibold" style={{ color: "#D4336E" }}>Rejoignez-les !</span>
+              </div>
+            </div>
+            {/* Bouton */}
+            <div className="flex-shrink-0">
+              <a
+                href="https://g.page/r/CSuZQhAb-49CEBM/review"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2.5 font-bold text-sm px-7 py-3.5 rounded-full text-white transition-opacity duration-200 hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+                style={{ background: "linear-gradient(135deg, #E8A020 0%, #D4336E 60%, #8B2035 100%)", touchAction: "manipulation", minHeight: "48px" }}
+                aria-label="Laisser un avis Google pour Francis MOMBO (nouvelle fenêtre)"
+              >
+                <svg width="16" height="16" viewBox="0 0 48 48" aria-hidden="true" style={{ flexShrink: 0 }}>
+                  <path fill="white" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.3 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.1 7.9 3l5.7-5.7C34.5 6.5 29.6 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.6-.4-3.9z"/>
+                </svg>
+                Laisser un avis Google
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="text-center mt-8">
           <a
             href="https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo"
             target="_blank"
