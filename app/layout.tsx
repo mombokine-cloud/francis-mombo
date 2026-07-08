@@ -46,7 +46,7 @@ export const metadata: Metadata = {
       "Ostéopathe D.O. et kinésithérapeute à Castelnau-le-Lez et Saint-Mathieu-de-Tréviers. Spécialiste du sport de haut niveau, équilibre féminin et hypnose médicale.",
     images: [
       {
-        url: "/francis-champion-france-2022.jpg",
+        url: "/og-image.jpeg.png",
         width: 1200,
         height: 630,
         alt: "Francis MOMBO – Ostéopathe & Kinésithérapeute Montpellier",
