@@ -25,6 +25,7 @@ export const metadata: Metadata = {
     "MHSC volley-ball",
     "kiné ostéo Hérault",
   ],
+  icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
   authors: [{ name: "Francis MOMBO", url: siteUrl }],
   creator: "Francis MOMBO",
   robots: {

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Forme dorée (derrière) -->
+  <ellipse cx="13" cy="19" rx="8" ry="7" fill="#E8A020" opacity="0.95"/>
+  <!-- Forme rose (devant) -->
+  <ellipse cx="19" cy="14" rx="9" ry="8" fill="#D4336E" opacity="0.92"/>
+  <!-- Petit cercle rose (en haut) -->
+  <circle cx="13" cy="7" r="3" fill="#D4336E"/>
+  <!-- Initiales FM -->
+  <text x="16" y="22" font-family="Georgia, serif" font-size="9" font-weight="bold" fill="white" text-anchor="middle" letter-spacing="0.5">FM</text>
+</svg>
