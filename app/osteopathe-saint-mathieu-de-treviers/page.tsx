@@ -17,6 +17,10 @@ export const metadata: Metadata = {
     "ostéopathe nord Montpellier",
     "ostéopathe Valflaunès Lauret",
     "ostéopathe Les Matelles Claret",
+    "kiné ostéo Pic Saint-Loup",
+    "ostéopathe grossesse Pic Saint-Loup",
+    "ostéopathe sport trail Pic Saint-Loup",
+    "hypnose Saint-Mathieu-de-Tréviers",
   ],
   alternates: { canonical: `${siteUrl}/osteopathe-saint-mathieu-de-treviers` },
   openGraph: {
@@ -136,6 +140,18 @@ export default function Page() {
                   {s.label}
                 </Link>
               ))}
+            </div>
+          </section>
+
+          <section>
+            <h2 className="article-h2">Pages spécialisées disponibles depuis ce cabinet</h2>
+            <p>En tant que kinésithérapeute et ostéopathe D.O., Francis MOMBO prend en charge des problématiques spécifiques à Saint-Mathieu-de-Tréviers :</p>
+            <div className="flex flex-wrap gap-2 mt-3">
+              <Link href="/osteopathie-grossesse-montpellier" className="text-xs font-semibold px-3 py-2 rounded-full border border-gray-200 text-gray-600 hover:border-pink-300 hover:text-pink-600 transition-colors">Grossesse & post-partum</Link>
+              <Link href="/osteopathie-endometriose" className="text-xs font-semibold px-3 py-2 rounded-full border border-gray-200 text-gray-600 hover:border-pink-300 hover:text-pink-600 transition-colors">Endométriose</Link>
+              <Link href="/kine-osteo-montpellier" className="text-xs font-semibold px-3 py-2 rounded-full border border-gray-200 text-gray-600 hover:border-pink-300 hover:text-pink-600 transition-colors">Kiné & ostéo</Link>
+              <Link href="/osteopathie-sport-montpellier" className="text-xs font-semibold px-3 py-2 rounded-full border border-gray-200 text-gray-600 hover:border-pink-300 hover:text-pink-600 transition-colors">Sport & récupération</Link>
+              <Link href="/hypnose-therapeutique-montpellier" className="text-xs font-semibold px-3 py-2 rounded-full border border-gray-200 text-gray-600 hover:border-pink-300 hover:text-pink-600 transition-colors">Hypnose thérapeutique</Link>
             </div>
           </section>
 

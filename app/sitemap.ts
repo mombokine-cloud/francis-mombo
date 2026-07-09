@@ -22,6 +22,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/osteopathie-seniors-montpellier`, lastModified: d, changeFrequency: "monthly", priority: 0.9 },
     // Témoignages vidéo
     { url: `${base}/temoignages-video`, lastModified: d, changeFrequency: "monthly", priority: 0.8 },
+    // Pages SEO mots-clés
+    { url: `${base}/osteopathie-grossesse-montpellier`, lastModified: d, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/kine-osteo-montpellier`, lastModified: d, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/osteopathie-endometriose`, lastModified: d, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/osteopathe-saint-mathieu-de-treviers`, lastModified: d, changeFrequency: "monthly", priority: 0.9 },
     // Articles de blog
     { url: `${base}/mal-de-dos-comprendre-prevenir`, lastModified: new Date("2025-06-12"), changeFrequency: "yearly", priority: 0.7 },
     { url: `${base}/recuperation-sportive-osteopathie`, lastModified: new Date("2025-06-03"), changeFrequency: "yearly", priority: 0.7 },
