@@ -1,4 +1,6 @@
-﻿const testimonials = [
+﻿import VideoCarousel from "./VideoCarousel";
+
+const testimonials = [
   {
     name: "Isa H.",
     role: "Patiente fidèle depuis 13 ans",
@@ -103,9 +105,11 @@ export default function Testimonials() {
             </div>
             <span className="font-bold text-gray-900 text-sm">5,0</span>
             <span className="text-gray-400 text-sm">·</span>
-            <span className="text-gray-500 text-sm">119 avis Google</span>
+            <span className="text-gray-500 text-sm">120 avis Google</span>
           </div>
         </div>
+
+        <VideoCarousel />
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {testimonials.map((t) => (
@@ -160,7 +164,7 @@ export default function Testimonials() {
                 </div>
                 <span className="text-sm font-bold text-gray-800">5,0</span>
                 <span className="text-gray-300 text-sm">·</span>
-                <span className="text-sm text-gray-500">119 avis</span>
+                <span className="text-sm text-gray-500">120 avis</span>
                 <span className="text-gray-300 text-sm">·</span>
                 <span className="text-sm font-semibold" style={{ color: "#D4336E" }}>Rejoignez-les !</span>
               </div>

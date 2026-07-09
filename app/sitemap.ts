@@ -20,6 +20,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/osteopathie-enfant-nourrisson`, lastModified: d, changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/douleurs-chroniques-osteopathie`, lastModified: d, changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/osteopathie-seniors-montpellier`, lastModified: d, changeFrequency: "monthly", priority: 0.9 },
+    // Témoignages vidéo
+    { url: `${base}/temoignages-video`, lastModified: d, changeFrequency: "monthly", priority: 0.8 },
     // Articles de blog
     { url: `${base}/mal-de-dos-comprendre-prevenir`, lastModified: new Date("2025-06-12"), changeFrequency: "yearly", priority: 0.7 },
     { url: `${base}/recuperation-sportive-osteopathie`, lastModified: new Date("2025-06-03"), changeFrequency: "yearly", priority: 0.7 },
