@@ -10,13 +10,17 @@ export const metadata: Metadata = {
     "Ostéopathe du sport à Montpellier et Castelnau-le-Lez : prévention des blessures, récupération, préparation compétition et suivi saison sportive. Expérience MHSC VB et FFVB.",
   keywords: [
     "ostéopathe sport Montpellier",
+    "ostéopathe sportif de haut niveau",
     "ostéopathie sportive Montpellier",
+    "kinésithérapeute sportif haut niveau",
+    "ostéopathe sportif Montpellier",
     "prévention blessures sportives",
     "récupération sportive ostéopathie",
     "ostéopathe sportif Castelnau-le-Lez",
     "suivi saison sportive ostéopathe",
     "préparation compétition ostéopathie",
     "kinésithérapeute sport Montpellier",
+    "kiné sportif Montpellier",
   ],
   alternates: { canonical: `${siteUrl}/osteopathie-sport-montpellier` },
   openGraph: {
@@ -62,8 +66,8 @@ export default function OsteopathieSport() {
             <span className="text-xs font-bold px-3 py-1 rounded-full text-white" style={{ background: "#8B2035" }}>Sport</span>
             <span className="text-xs text-gray-400">Ostéopathie du sport · Montpellier</span>
           </div>
-          <h1 className="font-black text-gray-900 leading-tight mb-4" style={{ fontFamily: "Figtree, sans-serif", fontSize: "clamp(28px, 5vw, 42px)" }}>Ostéopathie du sport à Montpellier</h1>
-          <p className="text-gray-500 text-lg leading-relaxed">L'ostéopathie du sport s'adresse aux sportifs amateurs comme aux compétiteurs qui souhaitent prévenir les blessures, mieux récupérer après l'effort et optimiser leur confort de pratique. Elle accompagne les périodes de reprise, les charges d'entraînement importantes et le suivi au cours d'une saison sportive.</p>
+          <h1 className="font-black text-gray-900 leading-tight mb-4" style={{ fontFamily: "Figtree, sans-serif", fontSize: "clamp(28px, 5vw, 42px)" }}>Ostéopathe sportif de haut niveau à Montpellier</h1>
+          <p className="text-gray-500 text-lg leading-relaxed">Francis MOMBO est <strong>kinésithérapeute et ostéopathe sportif</strong>, fort de 9 saisons au plus haut niveau du sport professionnel. Il accompagne sportifs amateurs et de haut niveau pour prévenir les blessures, optimiser la récupération et préparer les compétitions — à Montpellier et Castelnau-le-Lez.</p>
         </div>
         <div className="h-px bg-gray-100 mb-10" />
 
@@ -139,7 +143,7 @@ export default function OsteopathieSport() {
           </section>
 
           <section>
-            <h2 className="article-h2">L'expertise du sport de haut niveau</h2>
+            <h2 className="article-h2">Kiné et ostéopathe sportif de haut niveau</h2>
             <p>Francis MOMBO a exercé pendant <strong>9 saisons comme kinésithérapeute et ostéopathe officiel du MHSC VB</strong> (Montpellier Hérault Sport Club Volley-Ball) — Champion de France 2022, Supercoupe 2022 et 2024. Il a également accompagné les équipes de la <strong>Fédération Française de Volley-Ball (FFVB)</strong> jusqu'aux Championnats du Monde et d'Europe, ainsi que l'équipe de France lors des <strong>Jeux Méditerranéens 2013</strong> (médaille de bronze) et en Afrobasket 2025 (Mali, finaliste).</p>
             <p>Cette expérience au plus haut niveau lui permet d'appliquer au cabinet des protocoles éprouvés avec des athlètes professionnels : préparation pré-match, récupération post-compétition, gestion des blessures en cours de saison.</p>
           </section>

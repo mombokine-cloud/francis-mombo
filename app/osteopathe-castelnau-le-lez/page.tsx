@@ -5,18 +5,22 @@ const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
 
 export const metadata: Metadata = {
-  title: "Ostéopathe à Castelnau-le-Lez — Francis MOMBO, kinésithérapeute D.O.",
+  title: "Ostéopathe Montpellier — Francis MOMBO, kinésithérapeute D.O. à Castelnau-le-Lez",
   description:
-    "Francis MOMBO, ostéopathe et kinésithérapeute D.O. à Castelnau-le-Lez (34170), reçoit adultes, sportifs, nourrissons et seniors. Cabinet au 1720 avenue de l'Europe. Prise de rendez-vous sur Doctolib.",
+    "Ostéopathe à Montpellier et Castelnau-le-Lez (34170) — Francis MOMBO, kinésithérapeute et ostéopathe D.O. Cabinet au 1720 avenue de l'Europe. Consultation sans ordonnance, prise de rendez-vous Doctolib.",
   keywords: [
+    "ostéopathe Montpellier",
+    "ostéopathe près de chez moi",
     "ostéopathe Castelnau-le-Lez",
     "ostéopathie Castelnau-le-Lez",
     "kinésithérapeute Castelnau-le-Lez",
+    "kiné ostéo Montpellier",
     "ostéopathe 34170",
     "cabinet ostéopathie Castelnau",
     "ostéopathe proche Montpellier",
     "Francis MOMBO ostéopathe",
     "ostéopathe Montpellier nord",
+    "ostéopathe sans ordonnance Montpellier",
   ],
   alternates: { canonical: `${siteUrl}/osteopathe-castelnau-le-lez` },
   openGraph: {
@@ -82,18 +86,18 @@ export default function Page() {
             <span className="text-xs text-gray-400">Cabinet principal · 34170</span>
           </div>
           <h1 className="font-black text-gray-900 leading-tight mb-4" style={{ fontFamily: "Figtree, sans-serif", fontSize: "clamp(28px, 5vw, 42px)" }}>
-            Ostéopathe à Castelnau-le-Lez
+            Ostéopathe à Montpellier — Cabinet Castelnau-le-Lez
           </h1>
           <p className="text-gray-500 text-lg leading-relaxed">
-            Francis MOMBO, kinésithérapeute et ostéopathe D.O., reçoit en consultation à Castelnau-le-Lez (34170). Son cabinet principal est situé au <strong>1720 avenue de l'Europe</strong>, à deux pas de Montpellier, facilement accessible depuis tout le nord de l'agglomération.
+            Francis MOMBO, kinésithérapeute et ostéopathe D.O., reçoit en consultation à Castelnau-le-Lez (34170), <strong>à 5 minutes de Montpellier</strong>. Son cabinet est situé au <strong>1720 avenue de l'Europe</strong>, facilement accessible depuis tout l'est de l'agglomération. Vous cherchez un <strong>ostéopathe près de chez vous</strong> dans le secteur Montpellier — Castelnau — Jacou — Le Crès ? Vous êtes au bon endroit.
           </p>
         </div>
         <div className="h-px bg-gray-100 mb-10" />
         <article className="space-y-10 text-gray-700 leading-relaxed">
 
           <section>
-            <h2 className="article-h2">Le cabinet de Castelnau-le-Lez</h2>
-            <p>Implanté à Castelnau-le-Lez depuis plusieurs années, le cabinet accueille des patients de tout l'est de l'agglomération montpelliéraine : Castelnau-le-Lez, Montpellier, Jacou, Le Crès, Vendargues, Clapiers, Prades-le-Lez et des communes alentour.</p>
+            <h2 className="article-h2">Ostéopathe à Montpellier et alentours — où consulter ?</h2>
+            <p>Le cabinet de Castelnau-le-Lez est l'adresse de référence pour tous ceux qui recherchent un <strong>ostéopathe proche de Montpellier</strong>. Idéalement situé à la frontière est de Montpellier, il accueille des patients de tout l'est de l'agglomération : Castelnau-le-Lez, Montpellier, Jacou, Le Crès, Vendargues, Clapiers, Prades-le-Lez et communes alentour.</p>
             <ul className="article-list">
               <li>adresse : 1720 avenue de l'Europe, 34170 Castelnau-le-Lez ;</li>
               <li>téléphone : 06 50 14 91 92 ;</li>

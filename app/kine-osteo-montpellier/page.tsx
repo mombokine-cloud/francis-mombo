@@ -5,15 +5,19 @@ const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
 
 export const metadata: Metadata = {
-  title: "Kiné et ostéo Montpellier — Francis MOMBO, masseur-kinésithérapeute D.O.",
+  title: "Kiné Montpellier — Francis MOMBO, kinésithérapeute & ostéopathe D.O.",
   description:
-    "Francis MOMBO cumule les titres de masseur-kinésithérapeute et ostéopathe D.O. à Montpellier (Castelnau-le-Lez). Double expertise unique pour traiter douleurs, blessures sportives et rééducation.",
+    "Kinésithérapeute et ostéopathe D.O. à Montpellier (Castelnau-le-Lez) — Francis MOMBO cumule kiné et ostéo pour traiter douleurs, blessures sportives et rééducation. Remboursé Sécu sur ordonnance.",
   keywords: [
+    "kiné Montpellier",
+    "kinésithérapeute Montpellier",
     "kiné ostéo Montpellier",
+    "kiné près de chez moi Montpellier",
     "kinésithérapeute ostéopathe Montpellier",
     "masseur kinésithérapeute Montpellier",
     "kiné et ostéopathe Castelnau-le-Lez",
     "kiné sport Montpellier",
+    "kiné sportif haut niveau Montpellier",
     "rééducation ostéopathie Montpellier",
     "kiné ostéo sport haut niveau",
     "Francis MOMBO kinésithérapeute",
@@ -67,10 +71,10 @@ export default function Page() {
             <span className="text-xs text-gray-400">Double expertise · Montpellier</span>
           </div>
           <h1 className="font-black text-gray-900 leading-tight mb-4" style={{ fontFamily: "Figtree, sans-serif", fontSize: "clamp(28px, 5vw, 42px)" }}>
-            Kinésithérapeute et ostéopathe à Montpellier
+            Kiné et ostéopathe à Montpellier
           </h1>
           <p className="text-gray-500 text-lg leading-relaxed">
-            Francis MOMBO est l'un des rares praticiens de la région à cumuler les diplômes de masseur-kinésithérapeute et d'ostéopathe D.O. Une double expertise qui offre une prise en charge globale, du soin aigu à la rééducation fonctionnelle.
+            Francis MOMBO est l'un des rares <strong>kinésithérapeutes</strong> de la région à cumuler les diplômes de masseur-kinésithérapeute et d'ostéopathe D.O. Vous cherchez un <strong>kiné à Montpellier</strong> qui peut aussi assurer un suivi ostéopathique global ? C'est exactement ce que propose le cabinet de Castelnau-le-Lez.
           </p>
         </div>
         <div className="h-px bg-gray-100 mb-10" />
