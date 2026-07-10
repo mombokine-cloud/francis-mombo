@@ -27,63 +27,63 @@ const videos = [
 
 export default function VideoCarousel() {
   const [current, setCurrent] = useState(0);
-  const [direction, setDirection] = useState<'left' | 'right'>('right');
   const videoRefs = useRef<(HTMLVideoElement | null)[]>([]);
 
   const pauseAll = useCallback(() => {
-    videoRefs.current.forEach((v) => { if (v) { v.pause(); } });
+    videoRefs.current.forEach((v) => { if (v) v.pause(); });
   }, []);
 
-  const goTo = useCallback((index: number, dir: 'left' | 'right') => {
+  const goTo = useCallback((index: number) => {
     pauseAll();
-    setDirection(dir);
     setCurrent(index);
   }, [pauseAll]);
 
-  const prev = () => goTo((current - 1 + videos.length) % videos.length, 'left');
-  const next = () => goTo((current + 1) % videos.length, 'right');
+  const prev = () => goTo((current - 1 + videos.length) % videos.length);
+  const next = () => goTo((current + 1) % videos.length);
 
   return (
     <div className="mb-14">
-      {/* Label */}
       <p className="text-sm font-semibold uppercase tracking-widest mb-5 text-center" style={{ color: "#E8A020" }}>
         Vidéos témoignages
       </p>
 
-      <div className="relative">
-        {/* Carte vidéo */}
-        <div className="overflow-hidden rounded-2xl shadow-sm bg-black" style={{ aspectRatio: "16/9", maxWidth: "760px", margin: "0 auto" }}>
+      <div className="relative" style={{ maxWidth: "760px", margin: "0 auto" }}>
+        {/* Conteneur vidéo */}
+        <div
+          className="rounded-2xl overflow-hidden bg-black"
+          style={{ position: "relative", width: "100%", paddingBottom: "56.25%" }}
+        >
           {videos.map((video, i) => (
-            <div
+            <video
               key={video.src}
-              className="absolute inset-0 transition-opacity duration-300"
-              style={{ opacity: i === current ? 1 : 0, pointerEvents: i === current ? 'auto' : 'none' }}
-              aria-hidden={i !== current}
-            >
-              <video
-                ref={(el) => { videoRefs.current[i] = el; }}
-                src={video.src}
-                controls
-                preload={i === 0 ? "metadata" : "none"}
-                playsInline
-                onPlay={pauseAll}
-                className="w-full h-full object-contain bg-black"
-                aria-label={`${video.title} — ${video.subtitle}`}
-              />
-            </div>
+              ref={(el) => { videoRefs.current[i] = el; }}
+              src={video.src}
+              controls
+              preload="metadata"
+              playsInline
+              aria-label={`${video.title} — ${video.subtitle}`}
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+                display: i === current ? "block" : "none",
+                objectFit: "contain",
+                background: "#000",
+              }}
+            />
           ))}
-          {/* Fallback height pour le positionnement absolu */}
-          <div style={{ paddingBottom: "56.25%" }} />
         </div>
 
         {/* Flèche gauche */}
         <button
           onClick={prev}
           aria-label="Vidéo précédente"
-          className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-3 sm:-translate-x-5 z-10 flex items-center justify-center rounded-full bg-white shadow-md border border-gray-100 transition-all duration-150 hover:scale-105 active:scale-95"
-          style={{ width: 44, height: 44, touchAction: "manipulation", flexShrink: 0 }}
+          className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 sm:-translate-x-6 z-10 flex items-center justify-center rounded-full bg-white shadow-md border border-gray-100 hover:scale-105 active:scale-95 transition-transform"
+          style={{ width: 44, height: 44, flexShrink: 0 }}
         >
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8B2035" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8B2035" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
             <path d="M15 18l-6-6 6-6"/>
           </svg>
         </button>
@@ -92,16 +92,16 @@ export default function VideoCarousel() {
         <button
           onClick={next}
           aria-label="Vidéo suivante"
-          className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-3 sm:translate-x-5 z-10 flex items-center justify-center rounded-full bg-white shadow-md border border-gray-100 transition-all duration-150 hover:scale-105 active:scale-95"
-          style={{ width: 44, height: 44, touchAction: "manipulation", flexShrink: 0 }}
+          className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 sm:translate-x-6 z-10 flex items-center justify-center rounded-full bg-white shadow-md border border-gray-100 hover:scale-105 active:scale-95 transition-transform"
+          style={{ width: 44, height: 44, flexShrink: 0 }}
         >
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8B2035" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8B2035" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
             <path d="M9 18l6-6-6-6"/>
           </svg>
         </button>
       </div>
 
-      {/* Titre & sous-titre de la vidéo active */}
+      {/* Titre & sous-titre */}
       <div className="text-center mt-4 min-h-[44px]">
         <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>
           {videos[current].title}
@@ -117,20 +117,18 @@ export default function VideoCarousel() {
             role="tab"
             aria-selected={i === current}
             aria-label={`Vidéo ${i + 1} : ${video.title}`}
-            onClick={() => goTo(i, i > current ? 'right' : 'left')}
+            onClick={() => goTo(i)}
             className="rounded-full transition-all duration-200"
             style={{
               width: i === current ? 24 : 8,
               height: 8,
               background: i === current ? "#D4336E" : "#e5e7eb",
-              touchAction: "manipulation",
               minWidth: 8,
             }}
           />
         ))}
       </div>
 
-      {/* Compteur */}
       <p className="text-center text-xs text-gray-400 mt-2">
         {current + 1} / {videos.length}
       </p>
