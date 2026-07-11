@@ -14,8 +14,8 @@ const videos: VideoItem[] = [
     subtitle: "Ancien joueur professionnel de volley-ball",
   },
   {
-    type: 'local',
-    src: "/videos/temoignage-viscerale.mp4",
+    type: 'youtube',
+    id: 'rmguXWrn1S8',
     title: "Ostéopathie viscérale",
     subtitle: "Patiente, Montpellier",
   },
