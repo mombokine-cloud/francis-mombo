@@ -20,8 +20,8 @@ const videos: VideoItem[] = [
     subtitle: "Patiente, Montpellier",
   },
   {
-    type: 'local',
-    src: "/videos/temoignage-patient.mp4",
+    type: 'youtube',
+    id: 'kKf8PbuJmHc',
     title: "Témoignage patient",
     subtitle: "Cabinet Castelnau-le-Lez",
   },
