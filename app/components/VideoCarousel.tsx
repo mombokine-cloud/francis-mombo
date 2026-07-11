@@ -26,8 +26,8 @@ const videos: VideoItem[] = [
     subtitle: "Cabinet Castelnau-le-Lez",
   },
   {
-    type: 'local',
-    src: "/videos/temoignage-endometriose.mp4",
+    type: 'youtube',
+    id: 'rgO3lnhlWOM',
     title: "Endométriose & ostéopathie",
     subtitle: "Patiente hypnose & ostéopathie",
   },
