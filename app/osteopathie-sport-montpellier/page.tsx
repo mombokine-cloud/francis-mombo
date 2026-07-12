@@ -56,6 +56,16 @@ const jsonLd = [
       "https://www.montpellier-volley.com/staff/francis-mombo/",
       "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo",
     ],
+    hasOccupation: {
+      "@type": "Occupation",
+      name: "Kinésithérapeute & Ostéopathe officiel",
+      occupationLocation: {
+        "@type": "SportsOrganization",
+        name: "Montpellier Castelnau Volley-Ball (MHSC VB)",
+        url: "https://www.montpellier-volley.com",
+      },
+      description: "Kinésithérapeute et ostéopathe officiel du MHSC VB pendant 9 saisons. Champion de France Pro A 2022, Supercoupe 2022 et 2024. Suivi des équipes nationales FFVB (Championnats du Monde, d'Europe). Jeux Méditerranéens 2013.",
+    },
     alumniOf: {
       "@type": "SportsOrganization",
       name: "Montpellier Castelnau Volley-Ball (MHSC VB)",
