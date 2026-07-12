@@ -40,11 +40,29 @@ const faqItems = [
   { q: "À quelle fréquence consulter en cours de saison ?", a: "Pour la plupart des sportifs amateurs, une séance tous les 2 à 3 mois suffit. Chez les sportifs de compétition, une séance mensuelle peut être pertinente selon le volume d'entraînement." },
 ];
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: faqItems.map((item) => ({ "@type": "Question", name: item.q, acceptedAnswer: { "@type": "Answer", text: item.a } })),
-};
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqItems.map((item) => ({ "@type": "Question", name: item.q, acceptedAnswer: { "@type": "Answer", text: item.a } })),
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Francis MOMBO",
+    jobTitle: "Kinésithérapeute — Ostéopathe D.O.",
+    url: siteUrl,
+    sameAs: [
+      "https://www.montpellier-volley.com/staff/francis-mombo/",
+      "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo",
+    ],
+    worksFor: {
+      "@type": "SportsOrganization",
+      name: "Montpellier Castelnau Volley-Ball (MHSC VB)",
+      url: "https://www.montpellier-volley.com",
+    },
+  },
+];
 
 export default function OsteopathieSport() {
   return (
@@ -146,6 +164,11 @@ export default function OsteopathieSport() {
             <h2 className="article-h2">Kiné et ostéopathe sportif de haut niveau</h2>
             <p>Francis MOMBO a exercé pendant <strong>9 saisons comme kinésithérapeute et ostéopathe officiel du MHSC VB</strong> (Montpellier Hérault Sport Club Volley-Ball) — Champion de France 2022, Supercoupe 2022 et 2024. Il a également accompagné les équipes de la <strong>Fédération Française de Volley-Ball (FFVB)</strong> jusqu'aux Championnats du Monde et d'Europe, ainsi que l'équipe de France lors des <strong>Jeux Méditerranéens 2013</strong> (médaille de bronze) et en Afrobasket 2025 (Mali, finaliste).</p>
             <p>Cette expérience au plus haut niveau lui permet d'appliquer au cabinet des protocoles éprouvés avec des athlètes professionnels : préparation pré-match, récupération post-compétition, gestion des blessures en cours de saison.</p>
+            <p className="mt-3 text-sm">
+              <a href="https://www.montpellier-volley.com/staff/francis-mombo/" target="_blank" rel="noopener noreferrer" className="font-semibold underline" style={{ color: "#D4336E" }}>
+                Voir la fiche officielle de Francis MOMBO sur montpellier-volley.com →
+              </a>
+            </p>
           </section>
 
           <section>
