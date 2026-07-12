@@ -56,7 +56,7 @@ const jsonLd = [
       "https://www.montpellier-volley.com/staff/francis-mombo/",
       "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo",
     ],
-    worksFor: {
+    alumniOf: {
       "@type": "SportsOrganization",
       name: "Montpellier Castelnau Volley-Ball (MHSC VB)",
       url: "https://www.montpellier-volley.com",
