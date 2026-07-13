@@ -29,6 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/osteopathe-saint-mathieu-de-treviers`, lastModified: d, changeFrequency: "monthly", priority: 0.9 },
     // Articles de blog
     { url: `${base}/9-saisons-mhsc-volley-osteopathe`, lastModified: new Date("2026-07-13"), changeFrequency: "yearly", priority: 0.8 },
+    { url: `${base}/recuperation-sport-haut-niveau-sommeil-alimentation`, lastModified: new Date("2026-07-13"), changeFrequency: "yearly", priority: 0.8 },
     { url: `${base}/mal-de-dos-comprendre-prevenir`, lastModified: new Date("2025-06-12"), changeFrequency: "yearly", priority: 0.7 },
     { url: `${base}/recuperation-sportive-osteopathie`, lastModified: new Date("2025-06-03"), changeFrequency: "yearly", priority: 0.7 },
     { url: `${base}/osteopathie-grossesse-equilibre-feminin`, lastModified: new Date("2025-05-25"), changeFrequency: "yearly", priority: 0.7 },
