@@ -42,9 +42,20 @@ const jsonLd = [
       publisher: { "@type": "SportsOrganization", name: "Fédération Française de Volley-Ball (FFVB)", url: "https://www.ffvb.org" },
     },
     about: {
-      "@type": "SportsEvent",
-      name: "Tournoi de Qualification Championnat d'Europe Juniors U20 — 2018 (Monténégro)",
+      "@type": "Event",
+      name: "Tournoi de Qualification Championnat d'Europe Juniors U20 — 2018",
       startDate: "2018-04-26",
+      endDate: "2018-04-29",
+      eventStatus: "https://schema.org/EventScheduled",
+      eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+      location: {
+        "@type": "Place",
+        name: "Tournoi de Qualification Europe Juniors",
+        address: { "@type": "PostalAddress", addressLocality: "Monténégro", addressCountry: "ME" },
+      },
+      image: "https://www.mombofrancis.com/og-image.jpeg.png",
+      performer: { "@type": "Person", name: "Francis MOMBO", url: "https://www.mombofrancis.com" },
+      organizer: { "@type": "SportsOrganization", name: "Fédération Française de Volley-Ball (FFVB)", url: "https://www.ffvb.org" },
     },
   },
 ];

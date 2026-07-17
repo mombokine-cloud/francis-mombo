@@ -43,9 +43,20 @@ const jsonLd = [
       publisher: { "@type": "SportsOrganization", name: "Fédération Française de Volley-Ball (FFVB)", url: "https://www.ffvb.org" },
     },
     about: {
-      "@type": "SportsEvent",
+      "@type": "Event",
       name: "Tournoi de Qualification Championnat du Monde U21 — 2017",
-      startDate: "2017-05-20",
+      startDate: "2017-05-18",
+      endDate: "2017-05-21",
+      eventStatus: "https://schema.org/EventScheduled",
+      eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+      location: {
+        "@type": "Place",
+        name: "Tournoi de Qualification Monde U21",
+        address: { "@type": "PostalAddress", addressCountry: "FR" },
+      },
+      image: "https://www.mombofrancis.com/og-image.jpeg.png",
+      performer: { "@type": "Person", name: "Francis MOMBO", url: "https://www.mombofrancis.com" },
+      organizer: { "@type": "SportsOrganization", name: "Fédération Française de Volley-Ball (FFVB)", url: "https://www.ffvb.org" },
     },
   },
 ];

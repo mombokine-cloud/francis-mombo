@@ -43,9 +43,20 @@ const jsonLd = [
       publisher: { "@type": "SportsOrganization", name: "Fédération Française de Volley-Ball (FFVB)", url: "https://www.ffvb.org" },
     },
     about: {
-      "@type": "SportsEvent",
+      "@type": "Event",
       name: "Tournoi de Qualification Championnat d'Europe U20 — 2016",
       startDate: "2016-03-31",
+      endDate: "2016-04-02",
+      eventStatus: "https://schema.org/EventScheduled",
+      eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+      location: {
+        "@type": "Place",
+        name: "Tournoi de Qualification Europe U20",
+        address: { "@type": "PostalAddress", addressCountry: "FR" },
+      },
+      image: "https://www.mombofrancis.com/og-image.jpeg.png",
+      performer: { "@type": "Person", name: "Francis MOMBO", url: "https://www.mombofrancis.com" },
+      organizer: { "@type": "SportsOrganization", name: "Fédération Française de Volley-Ball (FFVB)", url: "https://www.ffvb.org" },
     },
   },
 ];

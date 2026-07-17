@@ -75,10 +75,32 @@ const jsonLd = [
       },
     },
     about: {
-      "@type": "SportsEvent",
+      "@type": "Event",
       name: "Jeux Méditerranéens 2013 — Volley-ball masculin",
-      startDate: "2013-06-25",
-      location: { "@type": "Place", name: "Mersin, Turquie" },
+      startDate: "2013-06-20",
+      endDate: "2013-07-06",
+      eventStatus: "https://schema.org/EventScheduled",
+      eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+      location: {
+        "@type": "Place",
+        name: "Yenişehir Arena",
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: "Mersin",
+          addressCountry: "TR",
+        },
+      },
+      image: "https://www.mombofrancis.com/og-image.jpeg.png",
+      performer: {
+        "@type": "Person",
+        name: "Francis MOMBO",
+        url: "https://www.mombofrancis.com",
+      },
+      organizer: {
+        "@type": "SportsOrganization",
+        name: "Fédération Française de Volley-Ball (FFVB)",
+        url: "https://www.ffvb.org",
+      },
     },
   },
   {

@@ -43,10 +43,16 @@ const jsonLd = [
       publisher: { "@type": "SportsOrganization", name: "Fédération Française de Volley-Ball (FFVB)", url: "https://www.ffvb.org" },
     },
     about: {
-      "@type": "SportsEvent",
+      "@type": "Event",
       name: "Championnat d'Europe U20 de Volley-Ball — 2018",
       startDate: "2018-07-11",
-      location: { "@type": "Place", name: "Belgique & Pays-Bas" },
+      endDate: "2018-07-22",
+      eventStatus: "https://schema.org/EventScheduled",
+      eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+      image: "https://www.mombofrancis.com/og-image.jpeg.png",
+      performer: { "@type": "Person", name: "Francis MOMBO", url: "https://www.mombofrancis.com" },
+      organizer: { "@type": "SportsOrganization", name: "Fédération Française de Volley-Ball (FFVB)", url: "https://www.ffvb.org" },
+      location: { "@type": "Place", name: "Championnat d'Europe U20", address: { "@type": "PostalAddress", addressLocality: "Belgique & Pays-Bas", addressCountry: "BE" } },
     },
   },
 ];
