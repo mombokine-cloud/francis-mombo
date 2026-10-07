@@ -55,6 +55,7 @@ const jsonLd = [
     sameAs: [
       "https://www.montpellier-volley.com/staff/francis-mombo/",
       "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo",
+      "https://lesmedecinesdouces.fr/etiopathe/castelnaulelez/1720-av-de-l-europe-1er-etage-bureau-b2/francis-mombo-osteopathe-sport-hypnose/therapeute/avis/",
     ],
     hasOccupation: {
       "@type": "Occupation",
