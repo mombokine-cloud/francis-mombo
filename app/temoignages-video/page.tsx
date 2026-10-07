@@ -70,16 +70,6 @@ const youtubeEducatif = [
 
 const videos = [
   {
-    id: "andy",
-    src: "/videos/temoignage-andy.mp4",
-    title: "Témoignage Andy — Ancien joueur professionnel de volley-ball",
-    description:
-      "Andy, ancien joueur professionnel de volley-ball, témoigne de son suivi ostéopathique avec Francis MOMBO sur les terrains internationaux.",
-    duration: "PT0M39S",
-    uploadDate: "2025-06-01",
-    thumbnail: "/og-image.jpeg.png",
-  },
-  {
     id: "viscerale",
     src: "/videos/temoignage-viscerale.mp4",
     title: "Témoignage — Ostéopathie viscérale",
