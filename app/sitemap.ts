@@ -40,5 +40,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/mal-de-dos-comprendre-prevenir`, lastModified: new Date("2025-06-12"), changeFrequency: "yearly", priority: 0.7 },
     { url: `${base}/recuperation-sportive-osteopathie`, lastModified: new Date("2025-06-03"), changeFrequency: "yearly", priority: 0.7 },
     { url: `${base}/osteopathie-grossesse-equilibre-feminin`, lastModified: new Date("2025-05-25"), changeFrequency: "yearly", priority: 0.7 },
+    { url: `${base}/politique-confidentialite`, lastModified: new Date("2026-10-08"), changeFrequency: "yearly", priority: 0.2 },
+    { url: `${base}/politique-cookies`, lastModified: new Date("2026-10-08"), changeFrequency: "yearly", priority: 0.2 },
   ];
 }

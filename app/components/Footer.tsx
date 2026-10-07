@@ -1,4 +1,5 @@
-﻿import { Phone, MapPin } from "lucide-react";
+﻿import Link from "next/link";
+import { Phone, MapPin } from "lucide-react";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -117,9 +118,14 @@ export default function Footer() {
           <p className="text-gray-500 text-xs">
             © {year} Francis MOMBO — Ostéopathe &amp; Kinésithérapeute. Tous droits réservés.
           </p>
-          <p className="text-gray-600 text-xs">
-            Site réalisé avec ❤️ — Mentions légales
-          </p>
+          <div className="flex items-center gap-4">
+            <Link href="/politique-confidentialite" className="text-gray-600 text-xs hover:text-gray-400 transition-colors">
+              Confidentialité
+            </Link>
+            <Link href="/politique-cookies" className="text-gray-600 text-xs hover:text-gray-400 transition-colors">
+              Cookies
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
