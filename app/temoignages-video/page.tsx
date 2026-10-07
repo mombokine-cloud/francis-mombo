@@ -41,14 +41,14 @@ const youtubeShorts = [
   },
   {
     id: "DtxCcbXcwEE",
-    title: "Témoignage patient — Cabinet Francis MOMBO",
-    description: "Un patient témoigne de son expérience après une consultation d'ostéopathie avec Francis MOMBO à Montpellier.",
+    title: "Témoignage Julie — Hypnose & sciatique",
+    description: "Julie témoigne de sa prise en charge par Francis MOMBO pour une sciatique, combinant ostéopathie et hypnose thérapeutique. Une approche globale pour soulager durablement la douleur.",
     uploadDate: "2026-10-07",
   },
   {
     id: "0uRQszTv0bU",
-    title: "Témoignage patient — Cabinet Francis MOMBO",
-    description: "Un patient partage son ressenti après une séance d'ostéopathie avec Francis MOMBO à Castelnau-le-Lez.",
+    title: "Témoignage Hatika — Douleurs chroniques",
+    description: "Hatika partage son expérience après des séances d'ostéopathie avec Francis MOMBO pour des douleurs chroniques au cabinet de Castelnau-le-Lez.",
     uploadDate: "2026-10-07",
   },
 ];
