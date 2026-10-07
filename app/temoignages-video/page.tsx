@@ -26,6 +26,27 @@ export const metadata: Metadata = {
   },
 };
 
+const youtubeShorts = [
+  {
+    id: "Ijid8zUrLkw",
+    title: "Témoignage volleyeuse — Blessure sportive & ostéopathie",
+    description: "Une volleyeuse témoigne de sa prise en charge ostéopathique à Montpellier après une blessure sportive.",
+    uploadDate: "2026-10-07",
+  },
+  {
+    id: "RysAXR-0uz0",
+    title: "Témoignage d'un sportif professionnel après une séance d'ostéopathie",
+    description: "Un sportif professionnel partage son ressenti après une séance d'ostéopathie avec Francis MOMBO à Castelnau-le-Lez.",
+    uploadDate: "2026-10-07",
+  },
+  {
+    id: "R1uBB6ynk0g",
+    title: "FAQ — Questions fréquentes sur l'ostéopathie sportive",
+    description: "Francis MOMBO répond aux questions fréquentes des sportifs sur l'ostéopathie, la récupération et la prévention des blessures.",
+    uploadDate: "2026-10-07",
+  },
+];
+
 const videos = [
   {
     id: "andy",
@@ -74,11 +95,29 @@ const jsonLd = {
   "@type": "ItemList",
   name: "Témoignages vidéo — Francis MOMBO Ostéopathe",
   url: `${siteUrl}/temoignages-video`,
-  numberOfItems: videos.length,
-  itemListElement: videos.map((v, i) => ({
-    "@type": "ListItem",
-    position: i + 1,
-    item: {
+  numberOfItems: videos.length + youtubeShorts.length,
+  itemListElement: [
+    ...youtubeShorts.map((v, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      item: {
+        "@type": "VideoObject",
+        name: v.title,
+        description: v.description,
+        url: `https://www.youtube.com/shorts/${v.id}`,
+        thumbnailUrl: `https://img.youtube.com/vi/${v.id}/hqdefault.jpg`,
+        uploadDate: v.uploadDate,
+        publisher: {
+          "@type": "Organization",
+          name: "Francis MOMBO — Ostéopathe & Kinésithérapeute",
+          url: siteUrl,
+        },
+      },
+    })),
+    ...videos.map((v, i) => ({
+      "@type": "ListItem",
+      position: youtubeShorts.length + i + 1,
+      item: {
       "@type": "VideoObject",
       name: v.title,
       description: v.description,
@@ -139,6 +178,42 @@ export default function Page() {
             Ostéopathie viscérale, endométriose, sport de haut niveau, hypnose — des patients racontent leur expérience avec Francis MOMBO en toute authenticité.
           </p>
         </div>
+
+        {/* YouTube Shorts */}
+        <div className="mb-12">
+          <div className="flex items-center gap-2 mb-6">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#D4336E"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1C24 15.9 24 12 24 12s0-3.9-.5-5.8z"/><polygon fill="white" points="9.6,15.6 15.8,12 9.6,8.4"/></svg>
+            <p className="text-sm font-bold text-gray-700" style={{ fontFamily: "Figtree, sans-serif" }}>Nouvelles vidéos YouTube</p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            {youtubeShorts.map((short) => (
+              <article key={short.id} className="rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
+                <div style={{ position: "relative", paddingBottom: "177.78%", height: 0, overflow: "hidden" }}>
+                  <iframe
+                    src={`https://www.youtube.com/embed/${short.id}`}
+                    title={short.title}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0 }}
+                    loading="lazy"
+                  />
+                </div>
+                <div className="p-4 bg-white">
+                  <h2 className="font-black text-gray-900 text-sm mb-1" style={{ fontFamily: "Figtree, sans-serif" }}>{short.title}</h2>
+                  <p className="text-gray-500 text-xs leading-relaxed">{short.description}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+          <div className="mt-4 text-center">
+            <a href="https://www.youtube.com/@momboosteo" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-xs font-semibold hover:underline" style={{ color: "#D4336E" }}>
+              Voir toutes les vidéos sur YouTube
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div className="h-px bg-gray-100 mb-10" />
 
         <div className="space-y-10">
           {videos.map((video) => (
