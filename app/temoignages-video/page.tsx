@@ -48,6 +48,12 @@ const youtubeEducatif = [
     description: "Francis MOMBO explique le phénomène de craquement articulaire lors des manipulations ostéopathiques — ce que c'est, pourquoi ça se produit, et si c'est utile.",
     uploadDate: "2026-10-07",
   },
+  {
+    id: "OjRbKbrRlPY",
+    title: "Manipulations cervicales : non, ce n'est pas comme dans les films",
+    description: "Francis MOMBO démystifie les manipulations cervicales en ostéopathie — une technique précise, douce et contrôlée, très éloignée des représentations que l'on voit au cinéma.",
+    uploadDate: "2026-10-07",
+  },
 ];
 
 const videos = [
