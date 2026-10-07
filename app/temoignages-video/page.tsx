@@ -146,20 +146,21 @@ const jsonLd = {
       "@type": "ListItem",
       position: youtubeShorts.length + youtubeEducatif.length + i + 1,
       item: {
-      "@type": "VideoObject",
-      name: v.title,
-      description: v.description,
-      contentUrl: `${siteUrl}${v.src}`,
-      thumbnailUrl: `${siteUrl}${v.thumbnail}`,
-      uploadDate: v.uploadDate,
-      duration: v.duration,
-      publisher: {
-        "@type": "Organization",
-        name: "Francis MOMBO — Ostéopathe & Kinésithérapeute",
-        url: siteUrl,
+        "@type": "VideoObject",
+        name: v.title,
+        description: v.description,
+        contentUrl: `${siteUrl}${v.src}`,
+        thumbnailUrl: `${siteUrl}${v.thumbnail}`,
+        uploadDate: v.uploadDate,
+        duration: v.duration,
+        publisher: {
+          "@type": "Organization",
+          name: "Francis MOMBO — Ostéopathe & Kinésithérapeute",
+          url: siteUrl,
+        },
       },
-    },
-  })),
+    })),
+  ],
 };
 
 export default function Page() {
