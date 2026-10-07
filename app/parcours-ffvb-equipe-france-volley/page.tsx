@@ -107,6 +107,7 @@ const jsonLd = {
     "https://www.montpellier-volley.com/staff/francis-mombo/",
     "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo",
     "https://lesmedecinesdouces.fr/etiopathe/castelnaulelez/1720-av-de-l-europe-1er-etage-bureau-b2/francis-mombo-osteopathe-sport-hypnose/therapeute/avis/",
+    "https://www.resalib.fr/praticien/132639-francis-mombo-osteopathe-saint-mathieu-de-treviers",
   ],
 };
 
