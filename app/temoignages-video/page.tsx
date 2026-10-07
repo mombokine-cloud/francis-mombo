@@ -39,10 +39,13 @@ const youtubeShorts = [
     description: "Un sportif professionnel partage son ressenti après une séance d'ostéopathie avec Francis MOMBO à Castelnau-le-Lez.",
     uploadDate: "2026-10-07",
   },
+];
+
+const youtubeEducatif = [
   {
     id: "R1uBB6ynk0g",
-    title: "FAQ — Questions fréquentes sur l'ostéopathie sportive",
-    description: "Francis MOMBO répond aux questions fréquentes des sportifs sur l'ostéopathie, la récupération et la prévention des blessures.",
+    title: "Pourquoi ça craque en ostéopathie ?",
+    description: "Francis MOMBO explique le phénomène de craquement articulaire lors des manipulations ostéopathiques — ce que c'est, pourquoi ça se produit, et si c'est utile.",
     uploadDate: "2026-10-07",
   },
 ];
@@ -95,7 +98,7 @@ const jsonLd = {
   "@type": "ItemList",
   name: "Témoignages vidéo — Francis MOMBO Ostéopathe",
   url: `${siteUrl}/temoignages-video`,
-  numberOfItems: videos.length + youtubeShorts.length,
+  numberOfItems: videos.length + youtubeShorts.length + youtubeEducatif.length,
   itemListElement: [
     ...youtubeShorts.map((v, i) => ({
       "@type": "ListItem",
@@ -114,9 +117,26 @@ const jsonLd = {
         },
       },
     })),
-    ...videos.map((v, i) => ({
+    ...youtubeEducatif.map((v, i) => ({
       "@type": "ListItem",
       position: youtubeShorts.length + i + 1,
+      item: {
+        "@type": "VideoObject",
+        name: v.title,
+        description: v.description,
+        url: `https://www.youtube.com/shorts/${v.id}`,
+        thumbnailUrl: `https://img.youtube.com/vi/${v.id}/hqdefault.jpg`,
+        uploadDate: v.uploadDate,
+        publisher: {
+          "@type": "Organization",
+          name: "Francis MOMBO — Ostéopathe & Kinésithérapeute",
+          url: siteUrl,
+        },
+      },
+    })),
+    ...videos.map((v, i) => ({
+      "@type": "ListItem",
+      position: youtubeShorts.length + youtubeEducatif.length + i + 1,
       item: {
       "@type": "VideoObject",
       name: v.title,
@@ -210,6 +230,35 @@ export default function Page() {
               Voir toutes les vidéos sur YouTube
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
             </a>
+          </div>
+        </div>
+
+        {/* Vidéos éducatives */}
+        <div className="mb-12">
+          <div className="flex items-center gap-2 mb-6">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#E8A020" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            <p className="text-sm font-bold text-gray-700" style={{ fontFamily: "Figtree, sans-serif" }}>Comprendre l'ostéopathie</p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {youtubeEducatif.map((short) => (
+              <article key={short.id} className="rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
+                <div style={{ position: "relative", paddingBottom: "177.78%", height: 0, overflow: "hidden" }}>
+                  <iframe
+                    src={`https://www.youtube.com/embed/${short.id}`}
+                    title={short.title}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0 }}
+                    loading="lazy"
+                  />
+                </div>
+                <div className="p-4 bg-white">
+                  <span className="text-xs font-bold px-2 py-1 rounded-full text-white mb-2 inline-block" style={{ background: "#E8A020" }}>Explication</span>
+                  <h2 className="font-black text-gray-900 text-sm mb-1 mt-1" style={{ fontFamily: "Figtree, sans-serif" }}>{short.title}</h2>
+                  <p className="text-gray-500 text-xs leading-relaxed">{short.description}</p>
+                </div>
+              </article>
+            ))}
           </div>
         </div>
 
