@@ -32,6 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/recuperation-sport-haut-niveau-sommeil-alimentation`, lastModified: new Date("2026-07-13"), changeFrequency: "yearly", priority: 0.8 },
     { url: `${base}/jeux-mediterraneens-2013-kine-equipe-france-volley`, lastModified: new Date("2026-07-13"), changeFrequency: "yearly", priority: 0.8 },
     { url: `${base}/parcours-ffvb-equipe-france-volley`, lastModified: new Date("2026-07-13"), changeFrequency: "yearly", priority: 0.9 },
+    { url: `${base}/collaboratrices-osteopathie-castelnau`, lastModified: new Date("2026-10-07"), changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/tqce-u20-2016-kine-equipe-france-volley`, lastModified: new Date("2026-07-13"), changeFrequency: "yearly", priority: 0.8 },
     { url: `${base}/tqcm-u21-2017-kine-equipe-france-volley`, lastModified: new Date("2026-07-13"), changeFrequency: "yearly", priority: 0.8 },
     { url: `${base}/tqce-juniors-2018-kine-equipe-france-volley`, lastModified: new Date("2026-07-13"), changeFrequency: "yearly", priority: 0.8 },
