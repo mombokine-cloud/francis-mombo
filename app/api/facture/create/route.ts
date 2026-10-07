@@ -99,7 +99,7 @@ export async function POST(req: NextRequest) {
 
   // Stocker le PDF dans Vercel Blob
   const { url: pdfUrl } = await put(`factures/pdf-${token}.pdf`, Buffer.from(pdfBytes), {
-    access: "public",
+    access: "private",
     contentType: "application/pdf",
   });
 
@@ -112,7 +112,7 @@ export async function POST(req: NextRequest) {
     downloadedAt: null as string | null,
   };
   await put(`factures/meta-${token}.json`, JSON.stringify(meta), {
-    access: "public",
+    access: "private",
     contentType: "application/json",
   });
 
