@@ -105,9 +105,12 @@ const jsonLd = {
   ],
   sameAs: [
     "https://www.montpellier-volley.com/staff/francis-mombo/",
+    "https://www.montpellier-volley.com/role/kine-osteopathe/",
     "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo",
     "https://lesmedecinesdouces.fr/etiopathe/castelnaulelez/1720-av-de-l-europe-1er-etage-bureau-b2/francis-mombo-osteopathe-sport-hypnose/therapeute/avis/",
     "https://www.resalib.fr/praticien/132639-francis-mombo-osteopathe-saint-mathieu-de-treviers",
+    "https://www.mablouseblanche.fr/pro/A10005524185/docteur-mombo-lutete-francis-masseur-kinesitherapeute-castelnau-le-lez",
+    "https://lemedecin.fr/castelnau-le-lez/scm-kine-elysee/osteopathe/mombo-francis/46e18d97712ea5c7d054e1f66a3a7d0c/pro/",
   ],
 };
 

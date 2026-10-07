@@ -3,6 +3,7 @@ import Link from "next/link";
 
 const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
+const mhscPdf = "https://www.montpellier-volley.com/wp-content/uploads/2021/03/Presentation-Team-Montpellier-20-21.pdf";
 
 export const metadata: Metadata = {
   title: "9 saisons au MHSC VB : ce que le sport de haut niveau m'a appris sur le corps",
@@ -70,6 +71,27 @@ const jsonLd = [
       name: "Montpellier Castelnau Volley-Ball (MHSC VB)",
       url: "https://www.montpellier-volley.com",
     },
+    citation: [
+      {
+        "@type": "WebPage",
+        name: "Présentation de l'équipe MHSC VB — Saison 2020-21",
+        url: mhscPdf,
+        publisher: { "@type": "SportsOrganization", name: "Montpellier Castelnau Volley-Ball (MHSC VB)", url: "https://www.montpellier-volley.com" },
+      },
+      {
+        "@type": "WebPage",
+        name: "Kiné-Ostéopathe MHSC VB — Francis MOMBO",
+        url: "https://www.montpellier-volley.com/role/kine-osteopathe/",
+        publisher: { "@type": "SportsOrganization", name: "Montpellier Castelnau Volley-Ball (MHSC VB)", url: "https://www.montpellier-volley.com" },
+      },
+      {
+        "@type": "ImageObject",
+        name: "Francis MOMBO et Loïc Le Marrec (MHSC VB) — Marmara SpikeLigue, Stade Charléty, 10 février 2024",
+        url: "https://www.gettyimages.fr/detail/photo-d%27actualit%C3%A9/francis-mombo-and-loic-le-marrec-head-coach-of-photo-dactualit%C3%A9/1996268477",
+        creditText: "Thomas Proissy / Icon Sport via Getty Images",
+        acquireLicensePage: "https://www.gettyimages.fr/detail/photo-d%27actualit%C3%A9/francis-mombo-and-loic-le-marrec-head-coach-of-photo-dactualit%C3%A9/1996268477",
+      },
+    ],
   },
   {
     "@context": "https://schema.org",
@@ -137,12 +159,27 @@ export default function Page() {
               <p className="text-xs text-gray-500 mt-1">Équipes nationales FFVB & JM 2013</p>
             </div>
           </div>
-          <p className="text-xs text-gray-400 mt-4">
-            Voir le profil officiel :{" "}
+          <div className="flex flex-wrap gap-4 mt-4 text-xs text-gray-400">
             <a href="https://www.montpellier-volley.com/staff/francis-mombo/" target="_blank" rel="noopener noreferrer" className="underline hover:text-pink-600">
-              montpellier-volley.com
+              Profil officiel MHSC VB
             </a>
-          </p>
+            <a href={mhscPdf} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 underline hover:text-pink-600">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+              Document officiel saison 2020-21 (PDF)
+            </a>
+          </div>
+        </div>
+
+        {/* Presse */}
+        <div className="rounded-2xl p-6 mb-10 border border-gray-200" style={{ background: "#f9f9f9" }}>
+          <p className="text-xs font-bold uppercase tracking-widest mb-3 text-gray-400">Vu dans la presse</p>
+          <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>Getty Images / Icon Sport — 10 février 2024</p>
+          <p className="text-gray-500 text-sm mt-1">Francis MOMBO et Loïc Le Marrec (entraîneur principal) photographiés lors du match <em>Paris Volley Club vs MHSC VB</em> — Marmara SpikeLigue, Stade Charléty, Paris.</p>
+          <p className="text-gray-400 text-xs mt-1">Photo : Thomas Proissy / Icon Sport via Getty Images</p>
+          <a href="https://www.gettyimages.fr/detail/photo-d%27actualit%C3%A9/francis-mombo-and-loic-le-marrec-head-coach-of-photo-dactualit%C3%A9/1996268477" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-xs mt-2 font-semibold hover:underline" style={{ color: "#D4336E" }}>
+            Voir sur Getty Images
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          </a>
         </div>
 
         <article className="space-y-10 text-gray-700 leading-relaxed">
