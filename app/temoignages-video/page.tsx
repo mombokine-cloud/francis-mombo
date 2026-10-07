@@ -39,6 +39,18 @@ const youtubeShorts = [
     description: "Un sportif professionnel partage son ressenti après une séance d'ostéopathie avec Francis MOMBO à Castelnau-le-Lez.",
     uploadDate: "2026-10-07",
   },
+  {
+    id: "DtxCcbXcwEE",
+    title: "Témoignage patient — Cabinet Francis MOMBO",
+    description: "Un patient témoigne de son expérience après une consultation d'ostéopathie avec Francis MOMBO à Montpellier.",
+    uploadDate: "2026-10-07",
+  },
+  {
+    id: "0uRQszTv0bU",
+    title: "Témoignage patient — Cabinet Francis MOMBO",
+    description: "Un patient partage son ressenti après une séance d'ostéopathie avec Francis MOMBO à Castelnau-le-Lez.",
+    uploadDate: "2026-10-07",
+  },
 ];
 
 const youtubeEducatif = [
