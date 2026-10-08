@@ -13,12 +13,38 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/osteopathe-castelnau-le-lez`, lastModified: now, changeFrequency: "monthly", priority: 1 },
     { url: `${base}/osteopathe-saint-mathieu-de-treviers`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
 
-    // Pages locales métropole Montpellier
+    // Pages locales — Montpellier ville
     { url: `${base}/osteopathe-montpellier`, lastModified: now, changeFrequency: "monthly", priority: 1 },
+
+    // Pages locales — Est Montpellier (Castelnau cabinet)
     { url: `${base}/osteopathe-jacou`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/osteopathe-le-cres`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/osteopathe-clapiers`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/osteopathe-vendargues`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+
+    // Pages locales — Sud/Ouest Montpellier
+    { url: `${base}/osteopathe-juvignac`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/osteopathe-lattes`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/osteopathe-perols`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/osteopathe-saint-jean-de-vedas`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/osteopathe-pignan`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/osteopathe-fabreges`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/osteopathe-laverune`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+
+    // Pages locales — Nord Montpellier
+    { url: `${base}/osteopathe-grabels`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/osteopathe-prades-le-lez`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/osteopathe-saint-gely-du-fesc`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/osteopathe-montferrier-sur-lez`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/osteopathe-teyran`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/osteopathe-assas`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+
+    // Pages locales — Pic Saint-Loup / vers Quissac (Saint-Mathieu cabinet)
+    { url: `${base}/osteopathe-les-matelles`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/osteopathe-saint-bauzille-de-montmel`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/osteopathe-claret`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/osteopathe-sauve`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/osteopathe-quissac`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/collaboratrices-osteopathie-castelnau`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/tarifs-osteopathe-montpellier`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/faq-osteopathe-montpellier`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
