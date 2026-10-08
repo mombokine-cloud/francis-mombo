@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import RelatedArticles from "../../components/RelatedArticles";
 
 const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
@@ -136,6 +137,8 @@ export default function Page() {
             <Link href="/tqce-juniors-2018-kine-equipe-france-volley" className="text-xs font-semibold px-3 py-2 rounded-full border border-gray-200 text-gray-600 hover:border-pink-300 hover:text-pink-600 transition-colors">TQCE Juniors 2018</Link>
           </div>
         </div>
+
+        <RelatedArticles current="/euro-u20-2018-kine-equipe-france-volley" />
 
         <div className="mt-10 rounded-2xl p-8 text-center" style={{ background: "linear-gradient(135deg, #fdeef3, #fff3e8)" }}>
           <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#E8A020" }}>Francis MOMBO</p>
