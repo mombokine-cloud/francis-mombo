@@ -27,7 +27,7 @@ export default function Team() {
               <div className="absolute inset-0 rounded-t-3xl" style={{ boxShadow: "inset 0 0 40px rgba(0,0,0,0.2)" }} />
             </div>
             <div className="p-6">
-              <p className="text-xs font-bold uppercase tracking-widest mb-1" style={{ color: "#D4336E" }}>Fondateur</p>
+              <p className="text-xs font-bold uppercase tracking-widest mb-1" style={{ color: "#D4336E" }}>Kinésithérapeute · Ostéopathe D.O.</p>
               <h3 className="font-black text-gray-900 text-xl mb-1" style={{ fontFamily: "Figtree, sans-serif" }}>Francis MOMBO</h3>
               <p className="text-sm text-gray-500 mb-3">Kinésithérapeute · Ostéopathe D.O. · Hypnose</p>
               <p className="text-sm text-gray-600 leading-relaxed">
