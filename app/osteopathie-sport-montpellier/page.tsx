@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     description: "Ostéopathe du sport à Montpellier : prévention blessures, récupération, préparation compétition, suivi saison. Expérience MHSC VB et FFVB.",
     url: `${siteUrl}/osteopathie-sport-montpellier`,
     type: "article",
-    images: [{ url: `${siteUrl}/francis-sport-bw.jpg`, width: 1200, height: 630, alt: "Francis MOMBO ostéopathe du sport Montpellier" }],
+    images: [{ url: `${siteUrl}/francis-sport-bw.webp`, width: 1200, height: 630, alt: "Francis MOMBO ostéopathe du sport Montpellier" }],
   },
 };
 

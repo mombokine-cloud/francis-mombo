@@ -95,6 +95,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/euro-u20-2018-kine-equipe-france-volley`, lastModified: jul, changeFrequency: "yearly", priority: 0.8 },
     { url: `${base}/recuperation-sport-haut-niveau-sommeil-alimentation`, lastModified: now, changeFrequency: "yearly", priority: 0.8 },
 
+    // Populations artistiques & spécialités
+    { url: `${base}/osteopathe-danseur-danse-montpellier`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/kinesitherapeute-castelnau-le-lez`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/osteopathe-hyrox-crossfit-montpellier`, lastModified: now, changeFrequency: "monthly", priority: 0.95 },
+    { url: `${base}/sports-individuels-osteopathie-montpellier`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/kinesitherapeute-saint-mathieu-de-treviers`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+
     // Légal
     { url: `${base}/politique-confidentialite`, lastModified: now, changeFrequency: "yearly", priority: 0.2 },
     { url: `${base}/politique-cookies`, lastModified: now, changeFrequency: "yearly", priority: 0.2 },

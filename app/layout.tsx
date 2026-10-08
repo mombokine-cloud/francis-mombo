@@ -76,7 +76,7 @@ export const metadata: Metadata = {
     title: "Francis MOMBO – Ostéopathe & Kinésithérapeute | Montpellier",
     description:
       "Ostéopathe D.O. et kinésithérapeute à Castelnau-le-Lez et Saint-Mathieu-de-Tréviers. Spécialiste sport haut niveau, équilibre féminin, hypnose.",
-    images: ["/francis-champion-france-2022.jpg"],
+    images: ["/francis-champion-france-2022.webp"],
   },
 };
 
@@ -90,7 +90,7 @@ const jsonLd = {
       url: siteUrl,
       telephone: "+33650149192",
       email: "contact@mombofrancis.com",
-      image: `${siteUrl}/francis-champion-france-2022.jpg`,
+      image: `${siteUrl}/francis-champion-france-2022.webp`,
       description:
         "Ostéopathe D.O. et kinésithérapeute spécialisé dans le sport de haut niveau, l'équilibre féminin et l'hypnose médicale.",
       medicalSpecialty: ["Osteopathic", "PhysicalTherapy"],

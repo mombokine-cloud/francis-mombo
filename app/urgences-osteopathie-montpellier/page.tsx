@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description: "Dos bloqué, torticolis, lombalgie aiguë à Montpellier et Castelnau-le-Lez. RDV disponible sur Doctolib.",
     url: `${siteUrl}/urgences-osteopathie-montpellier`,
     type: "article",
-    images: [{ url: `${siteUrl}/francis-hero.png`, width: 1200, height: 630, alt: "Urgence ostéopathe Montpellier Francis MOMBO" }],
+    images: [{ url: `${siteUrl}/francis-hero.webp`, width: 1200, height: 630, alt: "Urgence ostéopathe Montpellier Francis MOMBO" }],
   },
 };
 

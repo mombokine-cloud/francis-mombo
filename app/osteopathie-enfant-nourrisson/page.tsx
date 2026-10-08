@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description: "Ostéopathe pour enfants et nourrissons à Montpellier. Coliques, reflux, troubles du sommeil, scoliose, posture. Approche douce et adaptée à chaque âge.",
     url: `${siteUrl}/osteopathie-enfant-nourrisson`,
     type: "article",
-    images: [{ url: `${siteUrl}/francis-hero.png`, width: 1200, height: 630, alt: "Ostéopathie enfant nourrisson Montpellier" }],
+    images: [{ url: `${siteUrl}/francis-hero.webp`, width: 1200, height: 630, alt: "Ostéopathie enfant nourrisson Montpellier" }],
   },
 };
 

@@ -113,7 +113,7 @@ export default function Page() {
         {/* Photo de compétition — remplacer src par votre photo AfroBasket */}
         {/* Pour ajouter vos photos : déposez-les dans /public/ et remplacez l'URL ci-dessous */}
         <div className="absolute inset-0 opacity-20" style={{
-          backgroundImage: "url('/equipe-france-b.jpg')",
+          backgroundImage: "url('/equipe-france-b.webp')",
           backgroundSize: "cover",
           backgroundPosition: "center top",
         }} />

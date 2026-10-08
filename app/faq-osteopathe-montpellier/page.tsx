@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     description: "Toutes vos questions sur l'ostéopathie à Montpellier : tarifs, remboursement, séance, sport, nourrisson, hypnose. Réponses claires par Francis MOMBO.",
     url: `${siteUrl}/faq-osteopathe-montpellier`,
     type: "website",
-    images: [{ url: `${siteUrl}/francis-hero.png`, width: 1200, height: 630, alt: "FAQ ostéopathe Montpellier Francis MOMBO" }],
+    images: [{ url: `${siteUrl}/francis-hero.webp`, width: 1200, height: 630, alt: "FAQ ostéopathe Montpellier Francis MOMBO" }],
   },
 };
 

@@ -202,7 +202,7 @@ export default function Page() {
           <div className="p-5 flex items-center gap-4">
             <div className="w-14 h-14 rounded-xl overflow-hidden flex-shrink-0 bg-gray-100">
               <img
-                src="/Pauline_BROUSSARD_Osteopathe_Castelnau_Montpellier.jpeg"
+                src="/Pauline_BROUSSARD_Osteopathe_Castelnau_Montpellier.webp"
                 alt="Pauline BROUSSARD ostéopathe"
                 style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top" }}
               />

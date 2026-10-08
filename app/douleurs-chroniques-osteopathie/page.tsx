@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description: "Prise en charge des douleurs chroniques à Montpellier : lombalgies, fibromyalgie, migraines de tension. Ostéopathie et hypnose thérapeutique.",
     url: `${siteUrl}/douleurs-chroniques-osteopathie`,
     type: "article",
-    images: [{ url: `${siteUrl}/francis-hero.png`, width: 1200, height: 630, alt: "Ostéopathie douleurs chroniques Montpellier" }],
+    images: [{ url: `${siteUrl}/francis-hero.webp`, width: 1200, height: 630, alt: "Ostéopathie douleurs chroniques Montpellier" }],
   },
 };
 

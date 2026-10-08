@@ -22,7 +22,7 @@ export default function About() {
                 style={{ height: "480px", position: "relative" }}
               >
                 <img
-                  src="/francis-sport-bw.jpg"
+                  src="/francis-sport-bw.webp"
                   alt="Francis MOMBO ostéopathe du sport Montpellier"
                   style={{
                     width: "100%",

@@ -40,7 +40,7 @@ export default function Team() {
           <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="relative" style={{ height: 280 }}>
               <img
-                src="/Pauline_BROUSSARD_Osteopathe_Castelnau_Montpellier.jpeg"
+                src="/Pauline_BROUSSARD_Osteopathe_Castelnau_Montpellier.webp"
                 alt="Pauline BROUSSARD ostéopathe Castelnau-le-Lez Montpellier"
                 style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 15%" }}
               />

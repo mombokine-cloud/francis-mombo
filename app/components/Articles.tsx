@@ -11,7 +11,7 @@ const featured = [
     accent: "#E8A020",
     href: "https://www.midilibre.fr/2024/10/10/sur-pied-pour-preparer-le-prochain-match-les-volleyeurs-du-mhsc-profitent-des-installations-des-footballeurs-pour-les-soins-et-la-recuperation-12251773.php",
     external: true,
-    image: "/midi-libre.jpg",
+    image: "/midi-libre.webp",
   },
   {
     category: "Ostéopathie",
@@ -40,6 +40,9 @@ const featured = [
 ];
 
 const mhscArticles = [
+  { href: "/osteopathe-hyrox-crossfit-montpellier", label: "HYROX & CrossFit Montpellier", tag: "HYROX", color: "#0a0a14" },
+  { href: "/sports-individuels-osteopathie-montpellier", label: "Tennis · Padel · Course · Escalade", tag: "Sports indiv.", color: "#D4336E" },
+  { href: "/osteopathe-danseur-danse-montpellier", label: "Accompagnement des Danseurs", tag: "Danse", color: "#D4336E" },
   { href: "/afrobasket-2025-consultant-kine-mali", label: "AfroBasket 2025 — Mali Finaliste", tag: "2025", color: "#E8A020" },
   { href: "/coupe-de-france-2022-kine-rc-strasbourg", label: "Coupe de France 2022 — RC Strasbourg", tag: "Football", color: "#0a1628" },
   { href: "/9-saisons-mhsc-volley-osteopathe", label: "9 saisons au MHSC VB", tag: "MHSC VB", color: "#8B2035" },

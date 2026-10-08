@@ -117,7 +117,7 @@ export default function Page() {
             <div className="flex-shrink-0 mb-6 sm:mb-0">
               <div className="relative w-32 h-32 sm:w-40 sm:h-40 rounded-2xl overflow-hidden mx-auto sm:mx-0" style={{ background: "#f3f3f3" }}>
                 <Image
-                  src="/Pauline_BROUSSARD_Osteopathe_Castelnau_Montpellier.jpeg"
+                  src="/Pauline_BROUSSARD_Osteopathe_Castelnau_Montpellier.webp"
                   alt="Pauline BROUSSARD, ostéopathe D.O. à Castelnau-le-Lez"
                   fill
                   style={{ objectFit: "cover", objectPosition: "top" }}

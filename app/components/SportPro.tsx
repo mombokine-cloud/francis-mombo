@@ -34,7 +34,7 @@ export default function SportPro() {
           {/* Photo principale — Champion de France */}
           <a href="/9-saisons-mhsc-volley-osteopathe" className="lg:col-span-2 relative rounded-2xl overflow-hidden group block" style={{ minHeight: "380px" }}>
             <img
-              src="/francis-champion-france-2022.jpg"
+              src="/francis-champion-france-2022.webp"
               alt="Francis Mombo — Champion de France 2022 avec le MHSC VB"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               style={{ minHeight: "380px" }}
@@ -59,7 +59,7 @@ export default function SportPro() {
             {/* Parcours FFVB */}
             <a href="/parcours-ffvb-equipe-france-volley" className="relative rounded-2xl overflow-hidden flex-1 group block" style={{ minHeight: "180px" }}>
               <img
-                src="/equipe-france-b.jpg"
+                src="/equipe-france-b.webp"
                 alt="Francis Mombo avec l'Équipe de France de volley-ball"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 style={{ minHeight: "180px" }}
@@ -82,7 +82,7 @@ export default function SportPro() {
             {/* Jeux Méditerranéens 2013 */}
             <a href="/jeux-mediterraneens-2013-kine-equipe-france-volley" className="relative rounded-2xl overflow-hidden flex-1 group block" style={{ minHeight: "180px" }}>
               <img
-                src="/Jeux-med-2013.JPG"
+                src="/Jeux-med-2013.webp"
                 alt="Francis Mombo — Jeux Méditerranéens 2013, Mersin"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 style={{ minHeight: "180px" }}
@@ -114,6 +114,9 @@ export default function SportPro() {
             { icon: "🥇", label: "Champion de France 2022", sub: "Supercoupe 2022 & 2024", href: "/9-saisons-mhsc-volley-osteopathe" },
             { icon: "🌍", label: "FFVB — Équipe de France", sub: "Championnats du Monde & Europe", href: "/parcours-ffvb-equipe-france-volley" },
             { icon: "🏅", label: "Jeux Méditerranéens 2013", sub: "Médaille de bronze — Mersin", href: "/jeux-mediterraneens-2013-kine-equipe-france-volley" },
+            { icon: "🏋️", label: "HYROX & CrossFit", sub: "Préparation compétition · Prévention", href: "/osteopathe-hyrox-crossfit-montpellier" },
+            { icon: "🏓", label: "Padel · Champion de France 2026", sub: "Vice-champion Europe 2026 jeune", href: "/sports-individuels-osteopathie-montpellier" },
+            { icon: "🩰", label: "Accompagnement Danseurs", sub: "Kiné & ostéo · Art du mouvement", href: "/osteopathe-danseur-danse-montpellier" },
             { icon: "🏀", label: "AfroBasket 2025 — Mali", sub: "Consultant kiné · Finaliste Abidjan", href: "/afrobasket-2025-consultant-kine-mali" },
             { icon: "⚽", label: "Coupe de France 2022", sub: "Kiné RC Strasbourg · MHSC", href: "/coupe-de-france-2022-kine-rc-strasbourg" },
           ].map((r) => (

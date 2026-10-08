@@ -2,6 +2,22 @@ import Link from "next/link";
 
 export const MHSC_ARTICLES = [
   {
+    href: "/osteopathe-hyrox-crossfit-montpellier",
+    label: "HYROX & CrossFit Montpellier",
+    desc: "Kiné & ostéo · Préparation compétition",
+    tag: "HYROX",
+    color: "#0a0a14",
+    emoji: "🏋️",
+  },
+  {
+    href: "/osteopathe-danseur-danse-montpellier",
+    label: "Ostéopathe pour Danseurs",
+    desc: "Kiné & ostéo · Art du mouvement · Montpellier",
+    tag: "Danse",
+    color: "#D4336E",
+    emoji: "🩰",
+  },
+  {
     href: "/coupe-de-france-2022-kine-rc-strasbourg",
     label: "Coupe de France 2022 — RC Strasbourg",
     desc: "Kiné du club alsacien · MHSC vs RCS",

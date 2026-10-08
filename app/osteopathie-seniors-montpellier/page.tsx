@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description: "Ostéopathie pour séniors à Montpellier. Maintien de la mobilité, arthrose, équilibre, prévention des chutes. Techniques douces et adaptées.",
     url: `${siteUrl}/osteopathie-seniors-montpellier`,
     type: "article",
-    images: [{ url: `${siteUrl}/francis-hero.png`, width: 1200, height: 630, alt: "Ostéopathie séniors Montpellier Francis MOMBO" }],
+    images: [{ url: `${siteUrl}/francis-hero.webp`, width: 1200, height: 630, alt: "Ostéopathie séniors Montpellier Francis MOMBO" }],
   },
 };
 

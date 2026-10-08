@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description: "Ostéopathie pour la santé féminine à Montpellier : fertilité, endométriose, grossesse, post-partum, ménopause. Approche douce et individualisée.",
     url: `${siteUrl}/osteopathie-sante-femme`,
     type: "article",
-    images: [{ url: `${siteUrl}/francis-hero.png`, width: 1200, height: 630, alt: "Ostéopathie santé femme Montpellier" }],
+    images: [{ url: `${siteUrl}/francis-hero.webp`, width: 1200, height: 630, alt: "Ostéopathie santé femme Montpellier" }],
   },
 };
 
