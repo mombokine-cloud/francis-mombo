@@ -214,22 +214,31 @@ export default function Page() {
             <svg width="20" height="20" viewBox="0 0 24 24" fill="#D4336E"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1C24 15.9 24 12 24 12s0-3.9-.5-5.8z"/><polygon fill="white" points="9.6,15.6 15.8,12 9.6,8.4"/></svg>
             <p className="text-sm font-bold text-gray-700" style={{ fontFamily: "Figtree, sans-serif" }}>Nouvelles vidéos YouTube</p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {youtubeShorts.map((short) => (
               <article key={short.id} className="rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
-                <div style={{ position: "relative", paddingBottom: "177.78%", height: 0, overflow: "hidden" }}>
-                  <iframe
-                    src={`https://www.youtube.com/embed/${short.id}`}
-                    title={short.title}
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0 }}
-                    loading="lazy"
-                  />
-                </div>
-                <div className="p-4 bg-white">
-                  <h2 className="font-black text-gray-900 text-sm mb-1" style={{ fontFamily: "Figtree, sans-serif" }}>{short.title}</h2>
-                  <p className="text-gray-500 text-xs leading-relaxed">{short.description}</p>
+                <a
+                  href={`https://www.youtube.com/shorts/${short.id}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={short.title}
+                >
+                  <div style={{ position: "relative", paddingBottom: "177.78%", background: "#000" }}>
+                    <img
+                      src={`https://img.youtube.com/vi/${short.id}/hqdefault.jpg`}
+                      alt={short.title}
+                      loading="lazy"
+                      style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
+                    />
+                    <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", background: "rgba(0,0,0,0.25)" }}>
+                      <div style={{ width: 48, height: 48, borderRadius: "50%", background: "rgba(255,255,255,0.92)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#D4336E"><polygon points="5,3 19,12 5,21"/></svg>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <div className="p-3 bg-white">
+                  <h2 className="font-black text-gray-900 text-xs mb-1" style={{ fontFamily: "Figtree, sans-serif" }}>{short.title}</h2>
                 </div>
               </article>
             ))}
@@ -248,19 +257,29 @@ export default function Page() {
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#E8A020" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
             <p className="text-sm font-bold text-gray-700" style={{ fontFamily: "Figtree, sans-serif" }}>Comprendre l'ostéopathie</p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-2 gap-4">
             {youtubeEducatif.map((short) => (
               <article key={short.id} className="rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
-                <div style={{ position: "relative", paddingBottom: "177.78%", height: 0, overflow: "hidden" }}>
-                  <iframe
-                    src={`https://www.youtube.com/embed/${short.id}`}
-                    title={short.title}
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0 }}
-                    loading="lazy"
-                  />
-                </div>
+                <a
+                  href={`https://www.youtube.com/shorts/${short.id}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={short.title}
+                >
+                  <div style={{ position: "relative", paddingBottom: "177.78%", background: "#000" }}>
+                    <img
+                      src={`https://img.youtube.com/vi/${short.id}/hqdefault.jpg`}
+                      alt={short.title}
+                      loading="lazy"
+                      style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
+                    />
+                    <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", background: "rgba(0,0,0,0.25)" }}>
+                      <div style={{ width: 48, height: 48, borderRadius: "50%", background: "rgba(255,255,255,0.92)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#E8A020"><polygon points="5,3 19,12 5,21"/></svg>
+                      </div>
+                    </div>
+                  </div>
+                </a>
                 <div className="p-4 bg-white">
                   <span className="text-xs font-bold px-2 py-1 rounded-full text-white mb-2 inline-block" style={{ background: "#E8A020" }}>Explication</span>
                   <h2 className="font-black text-gray-900 text-sm mb-1 mt-1" style={{ fontFamily: "Figtree, sans-serif" }}>{short.title}</h2>
