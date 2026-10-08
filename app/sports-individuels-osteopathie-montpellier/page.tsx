@@ -152,10 +152,6 @@ export default function Page() {
             Retour au site
           </Link>
           <div className="flex items-center gap-3">
-            <a href="/sports-individuels-osteopathie-montpellier/sports-individuels-magazine.pdf" target="_blank" rel="noopener noreferrer" className="text-xs font-semibold px-3 py-2 rounded-full border border-gray-200 text-gray-600 hover:border-pink-200 transition-colors hidden sm:flex items-center gap-1.5">
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
-              Télécharger la fiche PDF
-            </a>
             <a href={doctolib} target="_blank" rel="noopener noreferrer" className="text-xs font-bold px-4 py-2 rounded-full text-white" style={{ background: "linear-gradient(135deg, #D4336E, #8B2035)" }}>
               Prendre rendez-vous
             </a>
@@ -323,25 +319,6 @@ export default function Page() {
             ))}
           </div>
         </section>
-
-        {/* Télécharger PDF */}
-        <div className="mb-12 flex items-center justify-center">
-          <a
-            href="/sports-individuels-magazine.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            download
-            className="inline-flex items-center gap-3 px-6 py-4 rounded-2xl border-2 border-gray-200 hover:border-pink-200 hover:bg-pink-50 transition-all group"
-          >
-            <div className="w-10 h-10 rounded-xl flex items-center justify-center" style={{ background: "#fdeef3" }}>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D4336E" strokeWidth="2.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
-            </div>
-            <div>
-              <p className="font-bold text-gray-900 text-sm group-hover:text-[#D4336E] transition-colors" style={{ fontFamily: "Figtree, sans-serif" }}>Télécharger la fiche PDF</p>
-              <p className="text-gray-400 text-xs">Prise en charge des sports individuels</p>
-            </div>
-          </a>
-        </div>
 
         {/* CTA */}
         <div className="rounded-2xl p-8 text-center" style={{ background: "linear-gradient(135deg, #fdeef3, #fff3e8)" }}>
