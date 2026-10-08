@@ -20,9 +20,9 @@ export default function Team() {
           <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="relative" style={{ height: 280 }}>
               <img
-                src="/francis-sport-bw.jpg"
+                src="/Francis Mombo Ostéopathe kinésithérapeute hypnose Castelnau le Lez Saint Mathieu de Treviers.png"
                 alt="Francis MOMBO ostéopathe kinésithérapeute Castelnau-le-Lez"
-                style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 15%", filter: "grayscale(100%) contrast(1.08) brightness(0.95)" }}
+                style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 15%" }}
               />
               <div className="absolute inset-0 rounded-t-3xl" style={{ boxShadow: "inset 0 0 40px rgba(0,0,0,0.2)" }} />
             </div>
