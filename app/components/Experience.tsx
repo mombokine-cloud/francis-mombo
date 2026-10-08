@@ -68,15 +68,15 @@ export default function Experience() {
         {/* Highlight cards */}
         <div className="grid sm:grid-cols-3 gap-5 mb-14">
           {[
-            { icon: "🏆", label: "Champion de France 2022", sub: "MHSC VB" },
-            { icon: "🌍", label: "Expérience internationale", sub: "FFVB · AfroBasket · Jeux Méditerranéens" },
-            { icon: "🤝", label: "9 saisons au haut niveau", sub: "Montpellier HSC Volley-Ball" },
+            { icon: "🏆", label: "Champion de France 2022", sub: "MHSC VB", href: "/9-saisons-mhsc-volley-osteopathe" },
+            { icon: "🌍", label: "Expérience internationale", sub: "FFVB · AfroBasket · Jeux Méditerranéens", href: "/9-saisons-mhsc-volley-osteopathe" },
+            { icon: "🤝", label: "9 saisons au haut niveau", sub: "Montpellier HSC Volley-Ball", href: "/9-saisons-mhsc-volley-osteopathe" },
           ].map((h) => (
-            <div key={h.label} className="rounded-2xl p-5 text-center shadow-sm border border-gray-100" style={{ background: "linear-gradient(135deg, #fdeef3 0%, #fff3e8 100%)" }}>
+            <a key={h.label} href={h.href} className="rounded-2xl p-5 text-center shadow-sm border border-gray-100 block hover:shadow-md transition-shadow" style={{ background: "linear-gradient(135deg, #fdeef3 0%, #fff3e8 100%)" }}>
               <div className="text-3xl mb-2">{h.icon}</div>
               <p className="font-bold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>{h.label}</p>
               <p className="text-xs text-gray-500 mt-1">{h.sub}</p>
-            </div>
+            </a>
           ))}
         </div>
 

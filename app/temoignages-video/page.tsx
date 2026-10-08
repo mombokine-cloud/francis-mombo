@@ -163,6 +163,24 @@ const jsonLd = {
   ],
 };
 
+function YoutubeThumbnail({ id, title, color = "#D4336E" }: { id: string; title: string; color?: string }) {
+  return (
+    <div style={{ position: "relative", paddingBottom: "177.78%", background: "#111" }}>
+      <img
+        src={`https://img.youtube.com/vi/${id}/hqdefault.jpg`}
+        alt={title}
+        loading="lazy"
+        style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
+      />
+      <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", background: "rgba(0,0,0,0.2)" }}>
+        <div style={{ width: 52, height: 52, borderRadius: "50%", background: "rgba(255,255,255,0.93)", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 2px 12px rgba(0,0,0,0.25)" }}>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill={color}><polygon points="5,3 19,12 5,21"/></svg>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function Page() {
   return (
     <>
@@ -217,25 +235,8 @@ export default function Page() {
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {youtubeShorts.map((short) => (
               <article key={short.id} className="rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
-                <a
-                  href={`https://www.youtube.com/shorts/${short.id}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={short.title}
-                >
-                  <div style={{ position: "relative", paddingBottom: "177.78%", background: "#000" }}>
-                    <img
-                      src={`https://img.youtube.com/vi/${short.id}/hqdefault.jpg`}
-                      alt={short.title}
-                      loading="lazy"
-                      style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
-                    />
-                    <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", background: "rgba(0,0,0,0.25)" }}>
-                      <div style={{ width: 48, height: 48, borderRadius: "50%", background: "rgba(255,255,255,0.92)", display: "flex", alignItems: "center", justifyContent: "center" }}>
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#D4336E"><polygon points="5,3 19,12 5,21"/></svg>
-                      </div>
-                    </div>
-                  </div>
+                <a href={`https://www.youtube.com/shorts/${short.id}`} target="_blank" rel="noopener noreferrer" aria-label={short.title}>
+                  <YoutubeThumbnail id={short.id} title={short.title} color="#D4336E" />
                 </a>
                 <div className="p-3 bg-white">
                   <h2 className="font-black text-gray-900 text-xs mb-1" style={{ fontFamily: "Figtree, sans-serif" }}>{short.title}</h2>
@@ -260,25 +261,8 @@ export default function Page() {
           <div className="grid grid-cols-2 sm:grid-cols-2 gap-4">
             {youtubeEducatif.map((short) => (
               <article key={short.id} className="rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
-                <a
-                  href={`https://www.youtube.com/shorts/${short.id}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={short.title}
-                >
-                  <div style={{ position: "relative", paddingBottom: "177.78%", background: "#000" }}>
-                    <img
-                      src={`https://img.youtube.com/vi/${short.id}/hqdefault.jpg`}
-                      alt={short.title}
-                      loading="lazy"
-                      style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
-                    />
-                    <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", background: "rgba(0,0,0,0.25)" }}>
-                      <div style={{ width: 48, height: 48, borderRadius: "50%", background: "rgba(255,255,255,0.92)", display: "flex", alignItems: "center", justifyContent: "center" }}>
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#E8A020"><polygon points="5,3 19,12 5,21"/></svg>
-                      </div>
-                    </div>
-                  </div>
+                <a href={`https://www.youtube.com/shorts/${short.id}`} target="_blank" rel="noopener noreferrer" aria-label={short.title}>
+                  <YoutubeThumbnail id={short.id} title={short.title} color="#E8A020" />
                 </a>
                 <div className="p-4 bg-white">
                   <span className="text-xs font-bold px-2 py-1 rounded-full text-white mb-2 inline-block" style={{ background: "#E8A020" }}>Explication</span>
