@@ -15,14 +15,14 @@ export default function Team() {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 gap-8 max-w-3xl mx-auto">
+        <div className="grid sm:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {/* Francis */}
           <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
             <div className="relative" style={{ height: 280 }}>
               <img
                 src="/Francis Mombo Ostéopathe kinésithérapeute hypnose Castelnau le Lez Saint Mathieu de Treviers.webp"
                 alt="Francis MOMBO ostéopathe kinésithérapeute Castelnau-le-Lez"
-                style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 0%", filter: "grayscale(100%) contrast(1.08) brightness(0.95)" }}
+                style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 8%", filter: "grayscale(100%) contrast(1.08) brightness(0.95)" }}
               />
               <div className="absolute inset-0 rounded-t-3xl" style={{ boxShadow: "inset 0 0 40px rgba(0,0,0,0.2)" }} />
             </div>
@@ -32,6 +32,29 @@ export default function Team() {
               <p className="text-sm text-gray-600 leading-relaxed">
                 20 ans d'expérience, dont 9 saisons comme kiné-ostéopathe officiel du MHSC VB. Spécialisé dans le sport de haut niveau, les douleurs chroniques et l'hypnose thérapeutique.
               </p>
+            </div>
+          </div>
+
+          {/* Manon */}
+          <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+            <div className="relative flex items-center justify-center" style={{ height: 280, background: "linear-gradient(135deg, #fdeef3 0%, #fff3e8 100%)" }}>
+              <div className="flex flex-col items-center gap-3">
+                <div className="w-24 h-24 rounded-full flex items-center justify-center text-3xl font-black text-white" style={{ background: "linear-gradient(135deg, #D4336E, #8B2035)", fontFamily: "Figtree, sans-serif" }}>
+                  MD
+                </div>
+                <p className="text-sm text-gray-400 italic">Photo à venir</p>
+              </div>
+            </div>
+            <div className="p-6">
+              <h3 className="font-black text-gray-900 text-xl mb-1" style={{ fontFamily: "Figtree, sans-serif" }}>Manon DE RUL</h3>
+              <p className="text-sm text-gray-500 mb-3">Ostéopathe D.O. — Castelnau-le-Lez</p>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                Ostéopathe diplômée D.O., Manon rejoint l&apos;équipe au cabinet de Castelnau-le-Lez pour vous accompagner avec précision et douceur dans toutes vos problématiques ostéopathiques.
+              </p>
+              <a href="https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo" target="_blank" rel="noopener noreferrer" className="mt-4 inline-flex items-center gap-1.5 text-xs font-bold" style={{ color: "#D4336E" }}>
+                Prendre rendez-vous avec Manon
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
             </div>
           </div>
 

@@ -24,6 +24,8 @@ const featured = [
     href: "/mal-de-dos-comprendre-prevenir",
     external: false,
     image: "/sante-femme-thumbnail.webp",
+    hideBadge: true,
+    imagePosition: "50% 50%",
   },
   {
     category: "Équilibre féminin",
@@ -36,6 +38,8 @@ const featured = [
     href: "/osteopathie-grossesse-equilibre-feminin",
     external: false,
     image: "/grossesse-thumbnail.webp",
+    hideBadge: false,
+    imagePosition: "50% 15%",
   },
 ];
 
@@ -60,13 +64,15 @@ function ArticleCard({ a }: { a: typeof featured[0] }) {
     <>
       <div className="h-36 relative overflow-hidden">
         {a.image ? (
-          <img src={a.image} alt={a.title} className="w-full h-full object-cover" />
+          <img src={a.image} alt={a.title} className="w-full h-full object-cover" style={{ objectPosition: (a as { imagePosition?: string }).imagePosition ?? "50% 50%" }} />
         ) : (
           <div className="h-full" style={{ background: a.color }} />
         )}
-        <span className="absolute top-3 left-3 text-xs font-bold px-3 py-1.5 rounded-full" style={{ background: a.accent, color: "white" }}>
-          {a.category}
-        </span>
+        {!(a as { hideBadge?: boolean }).hideBadge && (
+          <span className="absolute top-3 left-3 text-xs font-bold px-3 py-1.5 rounded-full" style={{ background: a.accent, color: "white" }}>
+            {a.category}
+          </span>
+        )}
       </div>
       <div className="p-6 space-y-3">
         <h3 className="font-bold text-gray-900 text-base leading-snug group-hover:text-[#D4336E] transition-colors" style={{ fontFamily: "Figtree, sans-serif" }}>
