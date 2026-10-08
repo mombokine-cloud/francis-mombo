@@ -2,6 +2,14 @@ import Link from "next/link";
 
 export const MHSC_ARTICLES = [
   {
+    href: "/coupe-de-france-2022-kine-rc-strasbourg",
+    label: "Coupe de France 2022 — RC Strasbourg",
+    desc: "Kiné du club alsacien · MHSC vs RCS",
+    tag: "Football",
+    color: "#0a1628",
+    emoji: "⚽",
+  },
+  {
     href: "/afrobasket-2025-consultant-kine-mali",
     label: "AfroBasket 2025 — Mali",
     desc: "Consultant kiné · Finaliste · Abidjan",

@@ -86,6 +86,7 @@ const sections = [
     color: "#8B2035",
     pages: [
       { label: "AfroBasket 2025 — Consultant Kiné Mali", href: "/afrobasket-2025-consultant-kine-mali" },
+      { label: "Coupe de France 2022 — Kiné RC Strasbourg", href: "/coupe-de-france-2022-kine-rc-strasbourg" },
       { label: "9 saisons au MHSC VB", href: "/9-saisons-mhsc-volley-osteopathe" },
       { label: "Parcours FFVB — 5 missions (2013–2018)", href: "/parcours-ffvb-equipe-france-volley" },
       { label: "Jeux Méditerranéens 2013 — Médaille de bronze", href: "/jeux-mediterraneens-2013-kine-equipe-france-volley" },

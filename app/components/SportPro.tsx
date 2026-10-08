@@ -115,6 +115,7 @@ export default function SportPro() {
             { icon: "🌍", label: "FFVB — Équipe de France", sub: "Championnats du Monde & Europe", href: "/parcours-ffvb-equipe-france-volley" },
             { icon: "🏅", label: "Jeux Méditerranéens 2013", sub: "Médaille de bronze — Mersin", href: "/jeux-mediterraneens-2013-kine-equipe-france-volley" },
             { icon: "🏀", label: "AfroBasket 2025 — Mali", sub: "Consultant kiné · Finaliste Abidjan", href: "/afrobasket-2025-consultant-kine-mali" },
+            { icon: "⚽", label: "Coupe de France 2022", sub: "Kiné RC Strasbourg · MHSC", href: "/coupe-de-france-2022-kine-rc-strasbourg" },
           ].map((r) => (
             <a key={r.label} href={r.href} className="flex items-start gap-3 hover:opacity-80 transition-opacity group">
               <span className="text-2xl">{r.icon}</span>

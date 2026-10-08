@@ -85,6 +85,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // Articles MHSC / FFVB / Sport haut niveau
     { url: `${base}/afrobasket-2025-consultant-kine-mali`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/coupe-de-france-2022-kine-rc-strasbourg`, lastModified: now, changeFrequency: "yearly", priority: 0.8 },
     { url: `${base}/9-saisons-mhsc-volley-osteopathe`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/parcours-ffvb-equipe-france-volley`, lastModified: now, changeFrequency: "yearly", priority: 0.9 },
     { url: `${base}/jeux-mediterraneens-2013-kine-equipe-france-volley`, lastModified: now, changeFrequency: "yearly", priority: 0.8 },
