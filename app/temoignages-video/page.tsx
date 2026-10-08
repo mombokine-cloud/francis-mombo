@@ -28,15 +28,9 @@ export const metadata: Metadata = {
 
 const youtubeShorts = [
   {
-    id: "Ijid8zUrLkw",
-    title: "Témoignage volleyeuse — Blessure sportive & ostéopathie",
-    description: "Une volleyeuse témoigne de sa prise en charge ostéopathique à Montpellier après une blessure sportive.",
-    uploadDate: "2026-10-07",
-  },
-  {
-    id: "RysAXR-0uz0",
-    title: "Témoignage d'un sportif professionnel après une séance d'ostéopathie",
-    description: "Un sportif professionnel partage son ressenti après une séance d'ostéopathie avec Francis MOMBO à Castelnau-le-Lez.",
+    id: "0uRQszTv0bU",
+    title: "Témoignage Hatika — Douleurs chroniques",
+    description: "Hatika partage son expérience après des séances d'ostéopathie avec Francis MOMBO pour des douleurs chroniques au cabinet de Castelnau-le-Lez.",
     uploadDate: "2026-10-07",
   },
   {
@@ -46,17 +40,23 @@ const youtubeShorts = [
     uploadDate: "2026-10-07",
   },
   {
-    id: "0uRQszTv0bU",
-    title: "Témoignage Hatika — Douleurs chroniques",
-    description: "Hatika partage son expérience après des séances d'ostéopathie avec Francis MOMBO pour des douleurs chroniques au cabinet de Castelnau-le-Lez.",
+    id: "Ijid8zUrLkw",
+    title: "Témoignage volleyeuse — Blessure sportive & ostéopathie",
+    description: "Une volleyeuse témoigne de sa prise en charge ostéopathique à Montpellier après une blessure sportive.",
+    uploadDate: "2026-10-07",
+  },
+  {
+    id: "R1uBB6ynk0g",
+    title: "Témoignage sportif — Suivi ostéopathique",
+    description: "Un sportif partage son ressenti après une séance d'ostéopathie avec Francis MOMBO à Castelnau-le-Lez.",
     uploadDate: "2026-10-07",
   },
 ];
 
 const youtubeEducatif = [
   {
-    id: "R1uBB6ynk0g",
-    title: "Pourquoi ça craque en ostéopathie ?",
+    id: "RysAXR-0uz0",
+    title: "Pourquoi ça craque chez l'ostéopathe ?",
     description: "Francis MOMBO explique le phénomène de craquement articulaire lors des manipulations ostéopathiques — ce que c'est, pourquoi ça se produit, et si c'est utile.",
     uploadDate: "2026-10-07",
   },
