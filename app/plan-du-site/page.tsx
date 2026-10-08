@@ -17,6 +17,11 @@ const sections = [
     pages: [
       { label: "Cabinet de Castelnau-le-Lez", href: "/osteopathe-castelnau-le-lez" },
       { label: "Cabinet de Saint-Mathieu-de-Tréviers", href: "/osteopathe-saint-mathieu-de-treviers" },
+      { label: "Ostéopathe Montpellier", href: "/osteopathe-montpellier" },
+      { label: "Ostéopathe Jacou", href: "/osteopathe-jacou" },
+      { label: "Ostéopathe Le Crès", href: "/osteopathe-le-cres" },
+      { label: "Ostéopathe Clapiers", href: "/osteopathe-clapiers" },
+      { label: "Ostéopathe Vendargues", href: "/osteopathe-vendargues" },
       { label: "Mon équipe — Pauline Broussard", href: "/collaboratrices-osteopathie-castelnau" },
       { label: "Tarifs et remboursement", href: "/tarifs-osteopathe-montpellier" },
       { label: "FAQ ostéopathe Montpellier", href: "/faq-osteopathe-montpellier" },

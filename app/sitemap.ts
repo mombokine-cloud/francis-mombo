@@ -12,6 +12,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Cabinets
     { url: `${base}/osteopathe-castelnau-le-lez`, lastModified: now, changeFrequency: "monthly", priority: 1 },
     { url: `${base}/osteopathe-saint-mathieu-de-treviers`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+
+    // Pages locales métropole Montpellier
+    { url: `${base}/osteopathe-montpellier`, lastModified: now, changeFrequency: "monthly", priority: 1 },
+    { url: `${base}/osteopathe-jacou`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/osteopathe-le-cres`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/osteopathe-clapiers`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/osteopathe-vendargues`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/collaboratrices-osteopathie-castelnau`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/tarifs-osteopathe-montpellier`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/faq-osteopathe-montpellier`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
