@@ -23,7 +23,7 @@ const featured = [
     accent: "#D4336E",
     href: "/mal-de-dos-comprendre-prevenir",
     external: false,
-    image: null,
+    image: "/sante-femme-thumbnail.webp",
   },
   {
     category: "Équilibre féminin",
@@ -35,7 +35,7 @@ const featured = [
     accent: "#8B2035",
     href: "/osteopathie-grossesse-equilibre-feminin",
     external: false,
-    image: null,
+    image: "/grossesse-thumbnail.webp",
   },
 ];
 
