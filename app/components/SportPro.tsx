@@ -29,14 +29,14 @@ export default function SportPro() {
           </div>
         </div>
 
-        {/* Photo grid */}
+        {/* Photo grid — chaque photo est un CTA vers l'article correspondant */}
         <div className="grid lg:grid-cols-3 gap-4">
           {/* Photo principale — Champion de France */}
-          <div className="lg:col-span-2 relative rounded-2xl overflow-hidden" style={{ minHeight: "380px" }}>
+          <a href="/9-saisons-mhsc-volley-osteopathe" className="lg:col-span-2 relative rounded-2xl overflow-hidden group block" style={{ minHeight: "380px" }}>
             <img
               src="/francis-champion-france-2022.jpg"
               alt="Francis Mombo — Champion de France 2022 avec le MHSC VB"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               style={{ minHeight: "380px" }}
             />
             <div
@@ -47,17 +47,21 @@ export default function SportPro() {
               <p className="font-bold text-white text-base" style={{ fontFamily: "Figtree, sans-serif" }}>
                 Champion de France 2022
               </p>
+              <p className="text-xs text-gray-400 mt-1 flex items-center gap-1 group-hover:text-white transition-colors">
+                Lire l'article
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </p>
             </div>
-          </div>
+          </a>
 
           {/* Colonne droite : 2 photos */}
           <div className="flex flex-col gap-4">
-            {/* Équipe de France B */}
-            <div className="relative rounded-2xl overflow-hidden flex-1" style={{ minHeight: "180px" }}>
+            {/* Parcours FFVB */}
+            <a href="/parcours-ffvb-equipe-france-volley" className="relative rounded-2xl overflow-hidden flex-1 group block" style={{ minHeight: "180px" }}>
               <img
                 src="/equipe-france-b.jpg"
                 alt="Francis Mombo avec l'Équipe de France de volley-ball"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 style={{ minHeight: "180px" }}
               />
               <div
@@ -66,17 +70,21 @@ export default function SportPro() {
               >
                 <p className="text-xs uppercase tracking-widest text-gray-400 mb-0.5">FFVB</p>
                 <p className="font-bold text-white text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>
-                  Équipe de France B
+                  Parcours équipe de France
+                </p>
+                <p className="text-xs text-gray-400 mt-0.5 flex items-center gap-1 group-hover:text-white transition-colors">
+                  5 missions 2013–2018
+                  <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                 </p>
               </div>
-            </div>
+            </a>
 
             {/* Jeux Méditerranéens 2013 */}
-            <div className="relative rounded-2xl overflow-hidden flex-1" style={{ minHeight: "180px" }}>
+            <a href="/jeux-mediterraneens-2013-kine-equipe-france-volley" className="relative rounded-2xl overflow-hidden flex-1 group block" style={{ minHeight: "180px" }}>
               <img
                 src="/Jeux-med-2013.JPG"
                 alt="Francis Mombo — Jeux Méditerranéens 2013, Mersin"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 style={{ minHeight: "180px" }}
               />
               <div
@@ -87,29 +95,33 @@ export default function SportPro() {
                 <p className="font-bold text-white text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>
                   Jeux Méditerranéens · Médaille de bronze
                 </p>
+                <p className="text-xs text-gray-400 mt-0.5 flex items-center gap-1 group-hover:text-white transition-colors">
+                  Lire l'article
+                  <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </p>
               </div>
-            </div>
+            </a>
           </div>
         </div>
 
-        {/* Repères */}
+        {/* Repères — cliquables */}
         <div
           className="mt-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-4"
           style={{ borderTop: "1px solid rgba(255,255,255,0.08)", paddingTop: "32px" }}
         >
           {[
-            { icon: "🏆", label: "MHSC VB (2016–2025)", sub: "Kiné & ostéopathe officiel, 9 saisons" },
-            { icon: "🥇", label: "Champion de France 2022", sub: "Supercoupe 2022 & 2024" },
-            { icon: "🌍", label: "FFVB — Équipe de France", sub: "Championnats du Monde & Europe" },
-            { icon: "🏅", label: "Jeux Méditerranéens 2013", sub: "Médaille de bronze — Mersin" },
+            { icon: "🏆", label: "MHSC VB (2016–2025)", sub: "Kiné & ostéopathe officiel, 9 saisons", href: "/9-saisons-mhsc-volley-osteopathe" },
+            { icon: "🥇", label: "Champion de France 2022", sub: "Supercoupe 2022 & 2024", href: "/9-saisons-mhsc-volley-osteopathe" },
+            { icon: "🌍", label: "FFVB — Équipe de France", sub: "Championnats du Monde & Europe", href: "/parcours-ffvb-equipe-france-volley" },
+            { icon: "🏅", label: "Jeux Méditerranéens 2013", sub: "Médaille de bronze — Mersin", href: "/jeux-mediterraneens-2013-kine-equipe-france-volley" },
           ].map((r) => (
-            <div key={r.label} className="flex items-start gap-3">
+            <a key={r.label} href={r.href} className="flex items-start gap-3 hover:opacity-80 transition-opacity group">
               <span className="text-2xl">{r.icon}</span>
               <div>
-                <p className="text-sm font-bold text-white" style={{ fontFamily: "Figtree, sans-serif" }}>{r.label}</p>
+                <p className="text-sm font-bold text-white group-hover:text-[#D4336E] transition-colors" style={{ fontFamily: "Figtree, sans-serif" }}>{r.label}</p>
                 <p className="text-xs text-gray-500 mt-0.5">{r.sub}</p>
               </div>
-            </div>
+            </a>
           ))}
         </div>
 
