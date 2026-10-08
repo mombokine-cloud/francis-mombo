@@ -40,18 +40,12 @@ export default function About() {
               </div>
 
               {/* Sport pro badge */}
-              <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 bg-white rounded-2xl shadow-xl px-5 py-3 flex items-center gap-3 whitespace-nowrap">
-                <div className="w-9 h-9 rounded-xl flex items-center justify-center" style={{ background: "#fdeef3" }}>
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D4336E" strokeWidth="2">
-                    <path d="M8 21l4-4 4 4M12 3v14"/>
-                    <circle cx="12" cy="3" r="2"/>
-                  </svg>
-                </div>
+              <a href="/9-saisons-mhsc-volley-osteopathe" className="absolute -bottom-5 left-1/2 -translate-x-1/2 bg-white rounded-2xl shadow-xl px-5 py-3 flex items-center gap-3 whitespace-nowrap hover:shadow-2xl transition-shadow">
                 <div>
                   <p className="text-xs text-gray-400">Sport professionnel</p>
                   <p className="font-bold text-sm text-gray-900">MHSC VB · FFVB · International</p>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
 

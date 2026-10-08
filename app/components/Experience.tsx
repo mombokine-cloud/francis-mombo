@@ -110,13 +110,21 @@ export default function Experience() {
         {/* MHSC photo reference */}
         <div className="mt-14 rounded-2xl overflow-hidden shadow-sm border border-gray-100">
           <div className="p-6" style={{ background: "linear-gradient(135deg, #1a1a2e 0%, #2d1a2e 100%)" }}>
-            <p className="text-white/60 text-xs uppercase tracking-widest font-semibold mb-1">Presse</p>
-            <p className="text-white font-bold text-base" style={{ fontFamily: "Figtree, sans-serif" }}>
-              &ldquo;Sur pied pour préparer le prochain match&rdquo;
-            </p>
-            <p className="text-white/70 text-sm mt-1">
-              Midi Libre — Les volleyeurs du MHSC profitent des soins de Francis Mombo pour la récupération.
-            </p>
+            <p className="text-white/60 text-xs uppercase tracking-widest font-semibold mb-3">Presse</p>
+            <div className="space-y-3">
+              <a href="https://www.midilibre.fr/2024/10/10/montpellier-volley-les-coulisses-de-la-preparation-physique-12340567.php" target="_blank" rel="noopener noreferrer" className="block hover:opacity-80 transition-opacity">
+                <p className="text-white font-bold text-base" style={{ fontFamily: "Figtree, sans-serif" }}>
+                  &ldquo;Sur pied pour préparer le prochain match&rdquo;
+                </p>
+                <p className="text-white/70 text-sm mt-0.5">Midi Libre — Les volleyeurs du MHSC profitent des soins de Francis Mombo pour la récupération.</p>
+              </a>
+              <a href="https://www.lanouvellerepublique.fr/tours/msl-avant-le-match-3-de-leur-demi-finale-tours-et-montpellier-face-au-defi-de-la-recuperation-1746298896" target="_blank" rel="noopener noreferrer" className="block hover:opacity-80 transition-opacity border-t border-white/10 pt-3">
+                <p className="text-white font-bold text-base" style={{ fontFamily: "Figtree, sans-serif" }}>
+                  &ldquo;Face au défi de la récupération&rdquo;
+                </p>
+                <p className="text-white/70 text-sm mt-0.5">La Nouvelle République — Avant le match 3 de la demi-finale, Tours et Montpellier face à la récupération.</p>
+              </a>
+            </div>
           </div>
         </div>
       </div>

@@ -61,13 +61,6 @@ const services = [
 
 const CardContent = ({ s }: { s: typeof services[0] }) => (
   <>
-    <div
-      className="w-14 h-14 rounded-xl flex items-center justify-center mb-5 transition-colors duration-200"
-      style={{ background: "#fdeef3" }}
-    >
-      {s.icon}
-    </div>
-
     <h3
       className="text-lg font-bold text-gray-900 mb-3 group-hover:text-[#D4336E] transition-colors"
       style={{ fontFamily: "Figtree, sans-serif" }}
