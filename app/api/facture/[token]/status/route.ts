@@ -12,10 +12,7 @@ export async function GET(
   const { blobs } = await list({ prefix: `factures/meta-${token}.json` });
   if (!blobs.length) return NextResponse.json({ valid: false });
 
-  const res = await fetch(blobs[0].url, {
-    headers: { Authorization: `Bearer ${process.env.BLOB_READ_WRITE_TOKEN}` },
-    cache: "no-store",
-  });
+  const res = await fetch(blobs[0].url, { cache: "no-store" });
   if (!res.ok) return NextResponse.json({ valid: false });
 
   const meta = await res.json();

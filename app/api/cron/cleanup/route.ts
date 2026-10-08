@@ -15,7 +15,7 @@ export async function GET(req: NextRequest) {
 
   for (const blob of blobs) {
     try {
-      const res  = await fetch(blob.url, { headers: { Authorization: `Bearer ${process.env.BLOB_READ_WRITE_TOKEN}` }, cache: "no-store" });
+      const res  = await fetch(blob.url, { cache: "no-store" });
       if (!res.ok) { toDelete.push(blob.url); continue; }
       const meta = await res.json();
       const age  = Date.now() - new Date(meta.createdAt).getTime();

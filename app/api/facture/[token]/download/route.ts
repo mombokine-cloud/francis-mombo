@@ -4,10 +4,7 @@ import { list, put } from "@vercel/blob";
 const TWO_DAYS_MS = 2 * 24 * 60 * 60 * 1000;
 
 function blobFetch(url: string) {
-  return fetch(url, {
-    headers: { Authorization: `Bearer ${process.env.BLOB_READ_WRITE_TOKEN}` },
-    cache: "no-store",
-  });
+  return fetch(url, { cache: "no-store" });
 }
 
 async function getMeta(token: string) {
