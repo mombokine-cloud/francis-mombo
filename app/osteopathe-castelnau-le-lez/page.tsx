@@ -193,6 +193,38 @@ export default function Page() {
           </div>
         </div>
 
+        {/* Notre équipe */}
+        <div className="mt-6 rounded-2xl overflow-hidden border border-gray-100 mb-6" style={{ boxShadow: "0 2px 16px rgba(0,0,0,0.05)" }}>
+          <div className="px-6 py-5 border-b border-gray-100">
+            <p className="text-xs font-bold uppercase tracking-widest text-gray-400 mb-1">Notre équipe</p>
+            <h2 className="text-lg font-black text-gray-900" style={{ fontFamily: "Figtree, sans-serif" }}>Ostéopathes au cabinet de Castelnau-le-Lez</h2>
+          </div>
+          <div className="p-5 flex items-center gap-4">
+            <div className="w-14 h-14 rounded-xl overflow-hidden flex-shrink-0 bg-gray-100">
+              <img
+                src="/Pauline_BROUSSARD_Osteopathe_Castelnau_Montpellier.jpeg"
+                alt="Pauline BROUSSARD ostéopathe"
+                style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top" }}
+              />
+            </div>
+            <div className="flex-1 min-w-0">
+              <p className="font-black text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>Pauline BROUSSARD</p>
+              <p className="text-xs text-gray-400 mb-2">Ostéopathe D.O. — Castelnau-le-Lez</p>
+              <p className="text-xs text-gray-500 leading-relaxed">Approche douce et personnalisée — nourrissons, femmes enceintes, sportifs, adultes.</p>
+            </div>
+          </div>
+          <div className="px-5 pb-5">
+            <Link
+              href="/collaboratrices-osteopathie-castelnau"
+              className="inline-flex items-center gap-2 text-xs font-bold px-4 py-2 rounded-full border-2 transition-colors"
+              style={{ borderColor: "#D4336E", color: "#D4336E" }}
+            >
+              Voir le profil complet de Pauline
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </Link>
+          </div>
+        </div>
+
         <div className="mt-6 rounded-2xl p-8 text-center" style={{ background: "linear-gradient(135deg, #fdeef3, #fff3e8)" }}>
           <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#E8A020" }}>Francis MOMBO</p>
           <h3 className="text-xl font-black text-gray-900 mb-3" style={{ fontFamily: "Figtree, sans-serif" }}>Cabinet de Castelnau-le-Lez</h3>

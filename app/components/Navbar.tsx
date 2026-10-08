@@ -1,11 +1,13 @@
 ﻿"use client";
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import { Menu, X, Phone } from "lucide-react";
 
 const navLinks = [
   { label: "À propos", href: "#about" },
   { label: "Services", href: "#services" },
   { label: "Expérience", href: "#experience" },
+  { label: "Notre équipe", href: "/collaboratrices-osteopathie-castelnau" },
   { label: "Localisations", href: "#locations" },
   { label: "FAQ", href: "#faq" },
   { label: "Articles", href: "#articles" },
@@ -51,12 +53,12 @@ export default function Navbar() {
         <ul className="hidden lg:flex items-center gap-6">
           {navLinks.map((l) => (
             <li key={l.href}>
-              <a
+              <Link
                 href={l.href}
                 className="text-sm font-medium text-gray-700 hover:text-[#D4336E] transition-colors duration-200"
               >
                 {l.label}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
@@ -93,13 +95,13 @@ export default function Navbar() {
           <ul className="px-4 py-4 space-y-1">
             {navLinks.map((l) => (
               <li key={l.href}>
-                <a
+                <Link
                   href={l.href}
                   onClick={() => setOpen(false)}
                   className="block py-2.5 px-3 rounded-lg text-gray-700 font-medium hover:bg-pink-50 hover:text-[#D4336E] transition-colors"
                 >
                   {l.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
