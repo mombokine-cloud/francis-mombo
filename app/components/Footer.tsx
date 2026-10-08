@@ -114,7 +114,31 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
+        {/* Annuaires */}
+        <div className="border-t border-gray-800 mt-10 pt-8 mb-6">
+          <p className="text-xs font-bold uppercase tracking-widest text-gray-600 mb-4">Présent sur</p>
+          <div className="flex flex-wrap gap-3">
+            {[
+              { label: "Doctolib", href: "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo" },
+              { label: "Resalib", href: "https://www.resalib.fr/praticien/132639-francis-mombo-osteopathe-saint-mathieu-de-treviers" },
+              { label: "Ma Blouse Blanche", href: "https://www.mablouseblanche.fr/pro/A10005524185/docteur-mombo-lutete-francis-masseur-kinesitherapeute-castelnau-le-lez" },
+              { label: "Le Médecin", href: "https://lemedecin.fr/castelnau-le-lez/scm-kine-elysee/osteopathe/mombo-francis/46e18d97712ea5c7d054e1f66a3a7d0c/pro/" },
+              { label: "Les Médecines Douces", href: "https://lesmedecinesdouces.fr/etiopathe/castelnaulelez/1720-av-de-l-europe-1er-etage-bureau-b2/francis-mombo-osteopathe-sport-hypnose/therapeute/avis/" },
+            ].map((a) => (
+              <a
+                key={a.label}
+                href={a.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs font-medium px-3 py-1.5 rounded-full border border-gray-700 text-gray-400 hover:text-white hover:border-gray-500 transition-colors"
+              >
+                {a.label}
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <div className="border-t border-gray-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-gray-500 text-xs">
             © {year} Francis MOMBO — Ostéopathe &amp; Kinésithérapeute. Tous droits réservés.
           </p>

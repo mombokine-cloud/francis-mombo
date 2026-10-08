@@ -143,6 +143,30 @@ export default function Page() {
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-gray-300 group-hover:text-gray-500 transition-colors" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
               </a>
             </li>
+            <li>
+              <a href="https://www.resalib.fr/praticien/132639-francis-mombo-osteopathe-saint-mathieu-de-treviers" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between px-5 py-3.5 bg-white hover:bg-gray-50 transition-colors duration-150 group">
+                <span className="text-sm font-medium text-gray-800">Resalib — Saint-Mathieu-de-Tréviers</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-gray-300 group-hover:text-gray-500 transition-colors" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.mablouseblanche.fr/pro/A10005524185/docteur-mombo-lutete-francis-masseur-kinesitherapeute-castelnau-le-lez" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between px-5 py-3.5 bg-white hover:bg-gray-50 transition-colors duration-150 group">
+                <span className="text-sm font-medium text-gray-800">Ma Blouse Blanche</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-gray-300 group-hover:text-gray-500 transition-colors" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://lemedecin.fr/castelnau-le-lez/scm-kine-elysee/osteopathe/mombo-francis/46e18d97712ea5c7d054e1f66a3a7d0c/pro/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between px-5 py-3.5 bg-white hover:bg-gray-50 transition-colors duration-150 group">
+                <span className="text-sm font-medium text-gray-800">Le Médecin</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-gray-300 group-hover:text-gray-500 transition-colors" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://lesmedecinesdouces.fr/etiopathe/castelnaulelez/1720-av-de-l-europe-1er-etage-bureau-b2/francis-mombo-osteopathe-sport-hypnose/therapeute/avis/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between px-5 py-3.5 bg-white hover:bg-gray-50 transition-colors duration-150 group">
+                <span className="text-sm font-medium text-gray-800">Les Médecines Douces</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-gray-300 group-hover:text-gray-500 transition-colors" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </li>
           </ul>
         </div>
       </main>
