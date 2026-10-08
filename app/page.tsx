@@ -7,6 +7,7 @@ import Experience from "./components/Experience";
 import Testimonials from "./components/Testimonials";
 import Locations from "./components/Locations";
 import Contact from "./components/Contact";
+import Team from "./components/Team";
 import FAQ from "./components/FAQ";
 import Articles from "./components/Articles";
 import Footer from "./components/Footer";
@@ -23,6 +24,7 @@ export default function Home() {
         <Experience />
         <Testimonials />
         <Locations />
+        <Team />
         <FAQ />
         <Articles />
         <Contact />

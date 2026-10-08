@@ -7,7 +7,7 @@ const navLinks = [
   { label: "À propos", href: "#about" },
   { label: "Services", href: "#services" },
   { label: "Expérience", href: "#experience" },
-  { label: "Notre équipe", href: "/collaboratrices-osteopathie-castelnau" },
+  { label: "Mon équipe", href: "/collaboratrices-osteopathie-castelnau" },
   { label: "Localisations", href: "#locations" },
   { label: "FAQ", href: "#faq" },
   { label: "Articles", href: "#articles" },

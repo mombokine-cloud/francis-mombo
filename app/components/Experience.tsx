@@ -112,7 +112,7 @@ export default function Experience() {
           <div className="p-6" style={{ background: "linear-gradient(135deg, #1a1a2e 0%, #2d1a2e 100%)" }}>
             <p className="text-white/60 text-xs uppercase tracking-widest font-semibold mb-3">Presse</p>
             <div className="space-y-3">
-              <a href="https://www.midilibre.fr/2024/10/10/montpellier-volley-les-coulisses-de-la-preparation-physique-12340567.php" target="_blank" rel="noopener noreferrer" className="block hover:opacity-80 transition-opacity">
+              <a href="https://www.midilibre.fr/2024/10/10/sur-pied-pour-preparer-le-prochain-match-les-volleyeurs-du-mhsc-profitent-des-installations-des-footballeurs-pour-les-soins-et-la-recuperation-12251773.php" target="_blank" rel="noopener noreferrer" className="block hover:opacity-80 transition-opacity">
                 <p className="text-white font-bold text-base" style={{ fontFamily: "Figtree, sans-serif" }}>
                   &ldquo;Sur pied pour préparer le prochain match&rdquo;
                 </p>
