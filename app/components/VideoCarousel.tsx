@@ -6,36 +6,34 @@ type VideoItem =
   | { type: 'youtube'; id: string; title: string; subtitle: string }
   | { type: 'local'; src: string; title: string; subtitle: string };
 
-const videos: VideoItem[] = [
-  {
-    type: 'youtube',
-    id: '3xyeSDZ4z0E',
-    title: "Témoignage Andy",
-    subtitle: "Ancien joueur professionnel de volley-ball",
-  },
-  {
-    type: 'youtube',
-    id: 'rmguXWrn1S8',
-    title: "Ostéopathie viscérale",
-    subtitle: "Patiente, Montpellier",
-  },
-  {
-    type: 'youtube',
-    id: 'kKf8PbuJmHc',
-    title: "Témoignage patient",
-    subtitle: "Cabinet Castelnau-le-Lez",
-  },
-  {
-    type: 'youtube',
-    id: 'rgO3lnhlWOM',
-    title: "Endométriose & ostéopathie",
-    subtitle: "Patiente hypnose & ostéopathie",
-  },
+const ALL_VIDEOS: VideoItem[] = [
+  { type: 'youtube', id: '3xyeSDZ4z0E', title: "Témoignage Andy", subtitle: "Ancien joueur professionnel de volley-ball" },
+  { type: 'youtube', id: 'rmguXWrn1S8', title: "Ostéopathie viscérale", subtitle: "Patiente, Montpellier" },
+  { type: 'youtube', id: 'kKf8PbuJmHc', title: "Témoignage patient", subtitle: "Cabinet Castelnau-le-Lez" },
+  { type: 'youtube', id: 'rgO3lnhlWOM', title: "Endométriose & ostéopathie", subtitle: "Patiente hypnose & ostéopathie" },
+  { type: 'youtube', id: '0uRQszTv0bU', title: "Témoignage Hatika", subtitle: "Douleurs chroniques" },
+  { type: 'youtube', id: 'DtxCcbXcwEE', title: "Témoignage Julie", subtitle: "Hypnose & sciatique" },
+  { type: 'youtube', id: 'Ijid8zUrLkw', title: "Témoignage volleyeuse", subtitle: "Blessure sportive & ostéopathie" },
+  { type: 'youtube', id: 'R1uBB6ynk0g', title: "Témoignage sportif", subtitle: "Suivi ostéopathique" },
 ];
 
+function shuffle<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 export default function VideoCarousel() {
+  const [videos, setVideos] = useState<VideoItem[]>(ALL_VIDEOS);
   const [current, setCurrent] = useState(0);
   const [muted, setMuted] = useState(true);
+
+  useEffect(() => {
+    setVideos(shuffle(ALL_VIDEOS));
+  }, []);
   const videoRefs = useRef<(HTMLVideoElement | null)[]>([]);
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -221,6 +219,19 @@ export default function VideoCarousel() {
         </div>
 
         <p className="text-center text-xs text-gray-400 mt-2">{current + 1} / {videos.length}</p>
+
+        <div className="text-center mt-6">
+          <a
+            href="/temoignages-video"
+            className="inline-flex items-center gap-2 font-bold text-sm px-6 py-3 rounded-full border-2 transition-colors hover:text-white"
+            style={{ borderColor: "#D4336E", color: "#D4336E" }}
+            onMouseEnter={e => { (e.currentTarget as HTMLAnchorElement).style.background = "#D4336E"; (e.currentTarget as HTMLAnchorElement).style.color = "#fff"; }}
+            onMouseLeave={e => { (e.currentTarget as HTMLAnchorElement).style.background = "transparent"; (e.currentTarget as HTMLAnchorElement).style.color = "#D4336E"; }}
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1C24 15.9 24 12 24 12s0-3.9-.5-5.8z"/><polygon fill="white" points="9.6,15.6 15.8,12 9.6,8.4"/></svg>
+            Voir tous les témoignages vidéo
+          </a>
+        </div>
       </div>
     </>
   );

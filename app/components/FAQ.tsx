@@ -48,6 +48,33 @@ export default function FAQ() {
           </h2>
         </div>
 
+        {/* Vidéos éducatives */}
+        <div className="grid grid-cols-2 gap-4 mb-10">
+          {[
+            { id: "RysAXR-0uz0", title: "Pourquoi ça craque chez l'ostéopathe ?" },
+            { id: "OjRbKbrRlPY", title: "Manipulations cervicales : mythe vs réalité" },
+          ].map((v) => (
+            <a key={v.id} href={`https://www.youtube.com/shorts/${v.id}`} target="_blank" rel="noopener noreferrer" className="rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-md transition-shadow block">
+              <div style={{ position: "relative", paddingBottom: "177.78%", background: "#111" }}>
+                <img
+                  src={`https://img.youtube.com/vi/${v.id}/hqdefault.jpg`}
+                  alt={v.title}
+                  loading="lazy"
+                  style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }}
+                />
+                <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", background: "rgba(0,0,0,0.2)" }}>
+                  <div style={{ width: 44, height: 44, borderRadius: "50%", background: "rgba(255,255,255,0.93)", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 2px 12px rgba(0,0,0,0.25)" }}>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="#E8A020"><polygon points="5,3 19,12 5,21"/></svg>
+                  </div>
+                </div>
+              </div>
+              <div className="p-3 bg-white">
+                <p className="font-bold text-gray-900 text-xs" style={{ fontFamily: "Figtree, sans-serif" }}>{v.title}</p>
+              </div>
+            </a>
+          ))}
+        </div>
+
         <div className="space-y-3">
           {faqs.map((faq, i) => (
             <div
