@@ -22,7 +22,7 @@ export default function Team() {
               <img
                 src="/Francis Mombo Ostéopathe kinésithérapeute hypnose Castelnau le Lez Saint Mathieu de Treviers.webp"
                 alt="Francis MOMBO ostéopathe kinésithérapeute Castelnau-le-Lez"
-                style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 8%" }}
+                style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 25%" }}
               />
               <div className="absolute inset-0 rounded-t-3xl" style={{ boxShadow: "inset 0 0 40px rgba(0,0,0,0.2)" }} />
             </div>
