@@ -74,7 +74,7 @@ export async function POST(req: NextRequest) {
 
         <div style="padding: 24px; text-align: center; border-top: 1px solid #f0f0f0;">
           <a href="https://www.mombofrancis.com"
-             style="display: inline-block; border: 2px solid #D4336E; color: #D4336E; text-decoration: none; padding: 10px 24px; border-radius: 50px; font-weight: 700; font-size: 13px; margin-bottom: 16px;">
+             style="display: inline-block; border: 2px solid #D4336E; color: #D4336E; text-decoration: none; padding: 12px 28px; border-radius: 50px; font-weight: 700; font-size: 14px; margin-bottom: 16px;">
             🌐 mombofrancis.com
           </a>
           <p style="color: #bbb; font-size: 11px; margin: 0;">
