@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import RelatedPages from "../../components/RelatedPages";
+import RelatedPages from "../components/RelatedPages";
 
 export const metadata: Metadata = {
   title: "Récupération sportive et ostéopathie : optimisez vos performances",

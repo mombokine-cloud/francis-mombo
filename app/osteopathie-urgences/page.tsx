@@ -1,6 +1,6 @@
 ﻿import type { Metadata } from "next";
 import Link from "next/link";
-import RelatedPages from "../../components/RelatedPages";
+import RelatedPages from "../components/RelatedPages";
 
 export const metadata: Metadata = {
   title: "Ostéopathe en urgence à Montpellier : torticolis, blocage, lombalgie aiguë",
