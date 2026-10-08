@@ -89,14 +89,6 @@ const jsonLd = [
   },
 ];
 
-function PhotoSlot({ label }: { label: string }) {
-  return (
-    <div className="rounded-2xl overflow-hidden flex items-center justify-center p-4 text-center" style={{ background: "linear-gradient(135deg, #1a0a10, #8B2035)", aspectRatio: "4/3" }}>
-      <p className="text-white/60 text-xs font-semibold leading-snug" style={{ fontFamily: "Figtree, sans-serif" }}>{label}</p>
-    </div>
-  );
-}
-
 export default function Page() {
   return (
     <>
@@ -149,15 +141,25 @@ export default function Page() {
 
       <main className="max-w-3xl mx-auto px-4 sm:px-6 py-12 lg:py-16">
 
-        {/* Galerie photos
-             → Pour ajouter vos photos : déposez-les dans /public/ avec ces noms :
-               - afrobasket-mali-competition.jpg  (photo de la compétition)
-               - afrobasket-mali-equipe.jpg        (photo de l'équipe du Mali)
-             → Décommentez ensuite le bloc img ci-dessous en remplaçant les divs placeholder */}
-        <div className="grid grid-cols-2 gap-3 mb-10">
-          <PhotoSlot label="Photo compétition — AfroBasket 2025" />
-          <PhotoSlot label="Équipe féminine du Mali — Abidjan 2025" />
+        <div className="grid grid-cols-2 gap-3 mb-2">
+          <div className="relative rounded-2xl overflow-hidden bg-gray-100" style={{ aspectRatio: "4/3" }}>
+            <img
+              src="/afrobasket-mali-competition.webp"
+              alt="FIBA Women's AfroBasket 2025 — Abidjan, Côte d'Ivoire"
+              style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            />
+          </div>
+          <div className="relative rounded-2xl overflow-hidden bg-gray-100" style={{ aspectRatio: "4/3" }}>
+            <img
+              src="/afrobasket-mali-equipe.webp"
+              alt="Équipe féminine du Mali — FIBA Women's AfroBasket 2025"
+              style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            />
+          </div>
         </div>
+        <p className="text-right text-xs text-gray-400 mb-8">
+          © <a href="https://ouaga24.com" target="_blank" rel="noopener noreferrer" className="hover:underline">ouaga24.com</a>
+        </p>
 
         <article className="space-y-10 text-gray-700 leading-relaxed">
 
