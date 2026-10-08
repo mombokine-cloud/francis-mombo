@@ -22,12 +22,11 @@ export default function Team() {
               <img
                 src="/Francis Mombo Ostéopathe kinésithérapeute hypnose Castelnau le Lez Saint Mathieu de Treviers.webp"
                 alt="Francis MOMBO ostéopathe kinésithérapeute Castelnau-le-Lez"
-                style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 15%", filter: "grayscale(100%) contrast(1.08) brightness(0.95)" }}
+                style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 0%", filter: "grayscale(100%) contrast(1.08) brightness(0.95)" }}
               />
               <div className="absolute inset-0 rounded-t-3xl" style={{ boxShadow: "inset 0 0 40px rgba(0,0,0,0.2)" }} />
             </div>
             <div className="p-6">
-              <p className="text-xs font-bold uppercase tracking-widest mb-1" style={{ color: "#D4336E" }}>Kinésithérapeute · Ostéopathe D.O.</p>
               <h3 className="font-black text-gray-900 text-xl mb-1" style={{ fontFamily: "Figtree, sans-serif" }}>Francis MOMBO</h3>
               <p className="text-sm text-gray-500 mb-3">Kinésithérapeute · Ostéopathe D.O. · Hypnose</p>
               <p className="text-sm text-gray-600 leading-relaxed">
