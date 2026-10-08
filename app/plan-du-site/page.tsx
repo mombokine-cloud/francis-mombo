@@ -12,25 +12,40 @@ export const metadata: Metadata = {
 
 const sections = [
   {
-    title: "Localisation & infos pratiques",
+    title: "Cabinets & équipe",
     color: "#8B2035",
     pages: [
       { label: "Cabinet de Castelnau-le-Lez", href: "/osteopathe-castelnau-le-lez" },
       { label: "Cabinet de Saint-Mathieu-de-Tréviers", href: "/osteopathe-saint-mathieu-de-treviers" },
+      { label: "Mon équipe — Pauline Broussard", href: "/collaboratrices-osteopathie-castelnau" },
       { label: "Tarifs et remboursement", href: "/tarifs-osteopathe-montpellier" },
       { label: "FAQ ostéopathe Montpellier", href: "/faq-osteopathe-montpellier" },
     ],
   },
   {
-    title: "Services ostéopathiques",
+    title: "Ostéopathie",
     color: "#D4336E",
     pages: [
-      { label: "Ostéopathie du sport Montpellier", href: "/osteopathie-sport-montpellier" },
-      { label: "Urgences ostéopathiques Montpellier", href: "/urgences-osteopathie-montpellier" },
-      { label: "Santé femme & fertilité", href: "/osteopathie-sante-femme" },
-      { label: "Enfant & nourrisson", href: "/osteopathie-enfant-nourrisson" },
+      { label: "Maladies chroniques & ostéopathie", href: "/maladies-chroniques-osteopathie" },
       { label: "Douleurs chroniques", href: "/douleurs-chroniques-osteopathie" },
+      { label: "Mal de dos : comprendre et prévenir", href: "/mal-de-dos-comprendre-prevenir" },
+      { label: "Urgences ostéopathiques Montpellier", href: "/urgences-osteopathie-montpellier" },
+      { label: "Ostéopathie du sport Montpellier", href: "/osteopathie-sport-montpellier" },
+      { label: "Récupération sportive", href: "/recuperation-sportive-osteopathie" },
+      { label: "Kiné & ostéo Montpellier", href: "/kine-osteo-montpellier" },
+      { label: "Enfant & nourrisson", href: "/osteopathie-enfant-nourrisson" },
       { label: "Ostéopathie seniors Montpellier", href: "/osteopathie-seniors-montpellier" },
+    ],
+  },
+  {
+    title: "Santé féminine",
+    color: "#D4336E",
+    pages: [
+      { label: "Santé féminine & fertilité & endométriose", href: "/sante-femme-fertilite-endometriose" },
+      { label: "Ostéopathie santé de la femme", href: "/osteopathie-sante-femme" },
+      { label: "Endométriose & ostéopathie", href: "/osteopathie-endometriose" },
+      { label: "Grossesse & ostéopathie Montpellier", href: "/osteopathie-grossesse-montpellier" },
+      { label: "Grossesse & équilibre féminin", href: "/osteopathie-grossesse-equilibre-feminin" },
     ],
   },
   {
@@ -44,12 +59,24 @@ const sections = [
     ],
   },
   {
-    title: "Articles & conseils",
+    title: "MHSC · FFVB · Sport de haut niveau",
     color: "#8B2035",
     pages: [
-      { label: "Mal de dos : comprendre et prévenir", href: "/mal-de-dos-comprendre-prevenir" },
-      { label: "Récupération sportive et ostéopathie", href: "/recuperation-sportive-osteopathie" },
-      { label: "Ostéopathie, grossesse & équilibre féminin", href: "/osteopathie-grossesse-equilibre-feminin" },
+      { label: "9 saisons au MHSC VB", href: "/9-saisons-mhsc-volley-osteopathe" },
+      { label: "Parcours FFVB — 5 missions (2013–2018)", href: "/parcours-ffvb-equipe-france-volley" },
+      { label: "Jeux Méditerranéens 2013 — Médaille de bronze", href: "/jeux-mediterraneens-2013-kine-equipe-france-volley" },
+      { label: "TQCE U20 — 2016", href: "/tqce-u20-2016-kine-equipe-france-volley" },
+      { label: "TQCM U21 — 2017", href: "/tqcm-u21-2017-kine-equipe-france-volley" },
+      { label: "TQCE Juniors — 2018", href: "/tqce-juniors-2018-kine-equipe-france-volley" },
+      { label: "Euro U20 — 2018", href: "/euro-u20-2018-kine-equipe-france-volley" },
+      { label: "Récupération sport haut niveau", href: "/recuperation-sport-haut-niveau-sommeil-alimentation" },
+    ],
+  },
+  {
+    title: "Témoignages & médias",
+    color: "#E8A020",
+    pages: [
+      { label: "Témoignages vidéo patients", href: "/temoignages-video" },
     ],
   },
 ];

@@ -31,6 +31,26 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: "CCBot",
         allow: "/",
       },
+      {
+        userAgent: "Meta-ExternalAgent",
+        allow: "/",
+      },
+      {
+        userAgent: "cohere-ai",
+        allow: "/",
+      },
+      {
+        userAgent: "OAI-SearchBot",
+        allow: "/",
+      },
+      {
+        userAgent: "Amazonbot",
+        allow: "/",
+      },
+      {
+        userAgent: "YouBot",
+        allow: "/",
+      },
     ],
     sitemap: "https://www.mombofrancis.com/sitemap.xml",
   };
