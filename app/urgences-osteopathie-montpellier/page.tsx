@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import RelatedPages from "../../components/RelatedPages";
 
 const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
@@ -162,6 +163,8 @@ export default function UrgencesOsteopathie() {
             ))}
           </div>
         </div>
+
+        <RelatedPages category="osteo" current="/urgences-osteopathie-montpellier" />
 
         <div className="mt-10 rounded-2xl p-8 text-center" style={{ background: "linear-gradient(135deg, #fdeef3, #fff3e8)" }}>
           <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#E8A020" }}>Francis MOMBO</p>

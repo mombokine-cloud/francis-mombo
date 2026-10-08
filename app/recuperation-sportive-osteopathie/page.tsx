@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import RelatedPages from "../../components/RelatedPages";
 
 export const metadata: Metadata = {
   title: "Récupération sportive et ostéopathie : optimisez vos performances",
@@ -197,6 +198,8 @@ export default function ArticleRecuperationSportive() {
             </p>
           </section>
         </article>
+
+        <RelatedPages category="osteo" current="/recuperation-sportive-osteopathie" />
 
         <div
           className="mt-14 rounded-2xl p-8 text-center"

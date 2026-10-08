@@ -1,5 +1,6 @@
 ﻿import type { Metadata } from "next";
 import Link from "next/link";
+import RelatedPages from "../../components/RelatedPages";
 
 export const metadata: Metadata = {
   title: "Ostéopathe en urgence à Montpellier : torticolis, blocage, lombalgie aiguë",
@@ -118,6 +119,8 @@ export default function Page() {
             </div>
           </section>
         </article>
+
+        <RelatedPages category="osteo" current="/osteopathie-urgences" />
 
         <div className="mt-14 rounded-2xl p-8 text-center" style={{ background: "linear-gradient(135deg, #fdeef3, #fff3e8)" }}>
           <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#E8A020" }}>Francis MOMBO</p>

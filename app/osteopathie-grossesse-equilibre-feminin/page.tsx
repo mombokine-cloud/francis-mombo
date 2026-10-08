@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import RelatedPages from "../../components/RelatedPages";
 
 export const metadata: Metadata = {
   title: "Ostéopathie et grossesse : accompagnement féminin naturel",
@@ -200,6 +201,8 @@ export default function ArticleOsteopathieGrossesse() {
             </p>
           </section>
         </article>
+
+        <RelatedPages category="feminin" current="/osteopathie-grossesse-equilibre-feminin" />
 
         <div
           className="mt-14 rounded-2xl p-8 text-center"
