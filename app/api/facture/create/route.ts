@@ -57,6 +57,21 @@ export async function POST(req: NextRequest) {
             Lien direct : <a href="${lienTelechargement}" style="color: #D4336E;">${lienTelechargement}</a>
           </p>
         </div>
+
+        <!-- Avis Google -->
+        <div style="padding: 28px 24px; background: #fff8f0; border-left: 4px solid #E8A020; margin: 0 0 0 0;">
+          <p style="color: #333; font-size: 15px; font-weight: 700; margin: 0 0 8px;">Votre avis nous aide énormément 🙏</p>
+          <p style="color: #666; font-size: 13px; line-height: 1.6; margin: 0 0 16px;">
+            Si votre séance vous a aidé, 30 secondes suffisent pour laisser un avis Google — cela aide d'autres personnes à trouver les bons soins.
+          </p>
+          <div style="text-align: center;">
+            <a href="https://g.page/r/CSuZQhAb-49CEBM/review"
+               style="display: inline-block; background: #E8A020; color: white; text-decoration: none; padding: 12px 28px; border-radius: 50px; font-weight: 700; font-size: 14px;">
+              ⭐ Laisser un avis Google
+            </a>
+          </div>
+        </div>
+
         <div style="padding: 16px 24px; text-align: center; border-top: 1px solid #f0f0f0;">
           <p style="color: #bbb; font-size: 11px; margin: 0;">
             Cabinet Castelnau-le-Lez · 1720 av. de l'Europe · Cabinet Saint-Mathieu-de-Tréviers · 5 av. du Grand Chêne<br/>
