@@ -172,14 +172,42 @@ export default function Page() {
 
         {/* Presse */}
         <div className="rounded-2xl p-6 mb-10 border border-gray-200" style={{ background: "#f9f9f9" }}>
-          <p className="text-xs font-bold uppercase tracking-widest mb-3 text-gray-400">Vu dans la presse</p>
-          <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>Getty Images / Icon Sport — 10 février 2024</p>
-          <p className="text-gray-500 text-sm mt-1">Francis MOMBO et Loïc Le Marrec (entraîneur principal) photographiés lors du match <em>Paris Volley Club vs MHSC VB</em> — Marmara SpikeLigue, Stade Charléty, Paris.</p>
-          <p className="text-gray-400 text-xs mt-1">Photo : Thomas Proissy / Icon Sport via Getty Images</p>
-          <a href="https://www.gettyimages.fr/detail/photo-d%27actualit%C3%A9/francis-mombo-and-loic-le-marrec-head-coach-of-photo-dactualit%C3%A9/1996268477" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-xs mt-2 font-semibold hover:underline" style={{ color: "#D4336E" }}>
-            Voir sur Getty Images
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          </a>
+          <p className="text-xs font-bold uppercase tracking-widest mb-5 text-gray-400">Vu dans la presse & références officielles</p>
+          <div className="space-y-5">
+            <div className="border-b border-gray-200 pb-5">
+              <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>Getty Images / Icon Sport — 10 février 2024</p>
+              <p className="text-gray-500 text-sm mt-1">Francis MOMBO et Loïc Le Marrec photographiés lors de <em>Paris Volley Club vs MHSC VB</em> — Marmara SpikeLigue, Stade Charléty.</p>
+              <p className="text-gray-400 text-xs mt-1">Photo : Thomas Proissy / Icon Sport via Getty Images</p>
+              <a href="https://www.gettyimages.fr/detail/photo-d%27actualit%C3%A9/francis-mombo-and-loic-le-marrec-head-coach-of-photo-dactualit%C3%A9/1996268477" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-xs mt-2 font-semibold hover:underline" style={{ color: "#D4336E" }}>
+                Voir sur Getty Images
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+            <div className="border-b border-gray-200 pb-5">
+              <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>Midi Libre — 10 octobre 2024</p>
+              <p className="text-gray-500 text-sm mt-1">« Sur pied pour préparer le prochain match — les volleyeurs du MHSC profitent des installations des footballeurs pour les soins et la récupération. »</p>
+              <a href="https://www.midilibre.fr/2024/10/10/sur-pied-pour-preparer-le-prochain-match-les-volleyeurs-du-mhsc-profitent-des-installations-des-footballeurs-pour-les-soins-et-la-recuperation-12251773.php" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-xs mt-2 font-semibold hover:underline" style={{ color: "#D4336E" }}>
+                Lire l'article
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+            <div className="border-b border-gray-200 pb-5">
+              <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>La Nouvelle République — Demi-finale Tours vs Montpellier</p>
+              <p className="text-gray-500 text-sm mt-1">Avant le match 3 de la demi-finale, Tours et Montpellier face au défi de la récupération.</p>
+              <a href="https://www.lanouvellerepublique.fr/tours/msl-avant-le-match-3-de-leur-demi-finale-tours-et-montpellier-face-au-defi-de-la-recuperation-1746298896" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-xs mt-2 font-semibold hover:underline" style={{ color: "#D4336E" }}>
+                Lire l'article
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+            <div>
+              <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>FFVB — Fédération Française de Volley-Ball</p>
+              <p className="text-gray-500 text-sm mt-1">Profil officiel Francis MOMBO sur le site de la fédération nationale.</p>
+              <a href="https://www.ffvb.org/index.php?mduuseid=MTY%3D&dsgtypid=36&page=result&search=francis+mombo&search.x=0&search.y=0" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-xs mt-2 font-semibold hover:underline" style={{ color: "#D4336E" }}>
+                Voir sur ffvb.org
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
         </div>
 
         <article className="space-y-10 text-gray-700 leading-relaxed">
