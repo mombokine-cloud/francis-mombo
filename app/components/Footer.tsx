@@ -124,6 +124,7 @@ export default function Footer() {
               { label: "Ma Blouse Blanche", href: "https://www.mablouseblanche.fr/pro/A10005524185/docteur-mombo-lutete-francis-masseur-kinesitherapeute-castelnau-le-lez" },
               { label: "Le Médecin", href: "https://lemedecin.fr/castelnau-le-lez/scm-kine-elysee/osteopathe/mombo-francis/46e18d97712ea5c7d054e1f66a3a7d0c/pro/" },
               { label: "Les Médecines Douces", href: "https://lesmedecinesdouces.fr/etiopathe/castelnaulelez/1720-av-de-l-europe-1er-etage-bureau-b2/francis-mombo-osteopathe-sport-hypnose/therapeute/avis/" },
+              { label: "Pages Jaunes", href: "https://www.pagesjaunes.fr/pros/54237040" },
             ].map((a) => (
               <a
                 key={a.label}

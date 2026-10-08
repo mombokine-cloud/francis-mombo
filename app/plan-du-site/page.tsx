@@ -167,6 +167,12 @@ export default function Page() {
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-gray-300 group-hover:text-gray-500 transition-colors" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
               </a>
             </li>
+            <li>
+              <a href="https://www.pagesjaunes.fr/pros/54237040" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between px-5 py-3.5 bg-white hover:bg-gray-50 transition-colors duration-150 group">
+                <span className="text-sm font-medium text-gray-800">Pages Jaunes</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-gray-300 group-hover:text-gray-500 transition-colors" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </li>
           </ul>
         </div>
       </main>
