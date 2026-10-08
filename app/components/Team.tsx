@@ -87,7 +87,7 @@ export default function Team() {
 
         <div className="text-center mt-10">
           <a
-            href="/collaboratrices-osteopathie-castelnau"
+            href="/osteopathe-pauline-broussard-castelnau"
             className="inline-flex items-center gap-2 font-bold text-sm px-7 py-3.5 rounded-full text-white"
             style={{ background: "linear-gradient(135deg, #D4336E, #8B2035)" }}
           >

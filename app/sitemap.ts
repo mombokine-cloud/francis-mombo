@@ -47,6 +47,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/osteopathe-quissac`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/collaboratrices-osteopathie-castelnau`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/osteopathe-manon-de-rul-castelnau`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${base}/osteopathe-pauline-broussard-castelnau`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     { url: `${base}/tarifs-osteopathe-montpellier`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/faq-osteopathe-montpellier`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
 
