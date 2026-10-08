@@ -3,6 +3,15 @@ import "./globals.css";
 
 const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
+const directories = [
+  doctolib,
+  "https://www.resalib.fr/praticien/132639-francis-mombo-osteopathe-saint-mathieu-de-treviers",
+  "https://www.pagesjaunes.fr/pros/54237040",
+  "https://www.mablouseblanche.fr/pro/A10005524185/docteur-mombo-lutete-francis-masseur-kinesitherapeute-castelnau-le-lez",
+  "https://lemedecin.fr/castelnau-le-lez/scm-kine-elysee/osteopathe/mombo-francis/46e18d97712ea5c7d054e1f66a3a7d0c/pro/",
+  "https://lesmedecinesdouces.fr/etiopathe/castelnaulelez/1720-av-de-l-europe-1er-etage-bureau-b2/francis-mombo-osteopathe-sport-hypnose/therapeute/avis/",
+  "https://www.ffvb.org/index.php?mduuseid=MTY%3D&dsgtypid=36&page=result&search=francis+mombo",
+];
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -113,9 +122,30 @@ const jsonLd = {
             postalCode: "34270",
             addressCountry: "FR",
           },
+          geo: {
+            "@type": "GeoCoordinates",
+            latitude: 43.7534,
+            longitude: 3.8536,
+          },
         },
       ],
-      sameAs: [doctolib],
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "5.0",
+        reviewCount: "120",
+        bestRating: "5",
+        worstRating: "1",
+      },
+      openingHoursSpecification: [
+        {
+          "@type": "OpeningHoursSpecification",
+          dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          opens: "08:00",
+          closes: "20:00",
+        },
+      ],
+      hasMap: "https://www.google.com/maps/place/Francis+MOMBO+Ost%C3%A9opathe/@43.629,3.9,17z",
+      sameAs: directories,
     },
     {
       "@type": "FAQPage",
@@ -189,6 +219,12 @@ const jsonLd = {
       alumniOf: [
         "Haute-École Lier de Bruxelles",
         "International Academy of Osteopathy",
+      ],
+      award: [
+        "Champion de France Pro A Volley-Ball 2022 — MHSC VB",
+        "Supercoupe de France Volley-Ball 2022 & 2024 — MHSC VB",
+        "Médaille de Bronze Jeux Méditerranéens 2013 — Kinésithérapeute Équipe de France Volley-Ball",
+        "Consultant Kiné Plus — Finaliste FIBA Women's AfroBasket 2025 — Équipe du Mali",
       ],
     },
   ],

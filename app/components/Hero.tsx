@@ -97,7 +97,7 @@ export default function Hero() {
           {/* Photo */}
           <div className="absolute inset-0 flex items-end justify-center">
             <img
-              src="/francis-hero.png"
+              src="/francis-hero.webp"
               alt="Francis MOMBO, ostéopathe"
               className="h-full object-contain object-bottom"
               style={{ maxHeight: "520px", filter: "grayscale(15%)" }}
