@@ -72,7 +72,11 @@ export async function POST(req: NextRequest) {
           </div>
         </div>
 
-        <div style="padding: 16px 24px; text-align: center; border-top: 1px solid #f0f0f0;">
+        <div style="padding: 24px; text-align: center; border-top: 1px solid #f0f0f0;">
+          <a href="https://www.mombofrancis.com"
+             style="display: inline-block; border: 2px solid #D4336E; color: #D4336E; text-decoration: none; padding: 10px 24px; border-radius: 50px; font-weight: 700; font-size: 13px; margin-bottom: 16px;">
+            🌐 mombofrancis.com
+          </a>
           <p style="color: #bbb; font-size: 11px; margin: 0;">
             Cabinet Castelnau-le-Lez · 1720 av. de l'Europe · Cabinet Saint-Mathieu-de-Tréviers · 5 av. du Grand Chêne<br/>
             06 50 14 91 92 · contact@mombofrancis.com
