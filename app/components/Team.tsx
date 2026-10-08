@@ -51,10 +51,16 @@ export default function Team() {
               <p className="text-sm text-gray-600 leading-relaxed">
                 Ostéopathe diplômée D.O., Manon rejoint l&apos;équipe au cabinet de Castelnau-le-Lez pour vous accompagner avec précision et douceur dans toutes vos problématiques ostéopathiques.
               </p>
-              <a href="https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo" target="_blank" rel="noopener noreferrer" className="mt-4 inline-flex items-center gap-1.5 text-xs font-bold" style={{ color: "#D4336E" }}>
-                Prendre rendez-vous avec Manon
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-              </a>
+              <div className="mt-4 flex flex-col gap-2">
+                <a href="/osteopathe-manon-de-rul-castelnau" className="inline-flex items-center gap-1.5 text-xs font-bold" style={{ color: "#D4336E" }}>
+                  Voir sa présentation
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-xs font-semibold text-gray-500">
+                  Prendre rendez-vous
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+              </div>
             </div>
           </div>
 
