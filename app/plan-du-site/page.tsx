@@ -85,6 +85,7 @@ const sections = [
     title: "MHSC · FFVB · Sport de haut niveau",
     color: "#8B2035",
     pages: [
+      { label: "AfroBasket 2025 — Consultant Kiné Mali", href: "/afrobasket-2025-consultant-kine-mali" },
       { label: "9 saisons au MHSC VB", href: "/9-saisons-mhsc-volley-osteopathe" },
       { label: "Parcours FFVB — 5 missions (2013–2018)", href: "/parcours-ffvb-equipe-france-volley" },
       { label: "Jeux Méditerranéens 2013 — Médaille de bronze", href: "/jeux-mediterraneens-2013-kine-equipe-france-volley" },

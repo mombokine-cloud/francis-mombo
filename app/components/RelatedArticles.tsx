@@ -2,6 +2,14 @@ import Link from "next/link";
 
 export const MHSC_ARTICLES = [
   {
+    href: "/afrobasket-2025-consultant-kine-mali",
+    label: "AfroBasket 2025 — Mali",
+    desc: "Consultant kiné · Finaliste · Abidjan",
+    tag: "2025",
+    color: "#E8A020",
+    emoji: "🏀",
+  },
+  {
     href: "/9-saisons-mhsc-volley-osteopathe",
     label: "9 saisons au MHSC VB",
     desc: "Ce que le sport de haut niveau m'a appris",

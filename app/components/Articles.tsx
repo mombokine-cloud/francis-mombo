@@ -40,6 +40,7 @@ const featured = [
 ];
 
 const mhscArticles = [
+  { href: "/afrobasket-2025-consultant-kine-mali", label: "AfroBasket 2025 — Mali Finaliste", tag: "2025", color: "#E8A020" },
   { href: "/9-saisons-mhsc-volley-osteopathe", label: "9 saisons au MHSC VB", tag: "MHSC VB", color: "#8B2035" },
   { href: "/parcours-ffvb-equipe-france-volley", label: "Parcours FFVB (2013–2018)", tag: "FFVB", color: "#D4336E" },
   { href: "/jeux-mediterraneens-2013-kine-equipe-france-volley", label: "Jeux Méditerranéens 2013", tag: "2013", color: "#E8A020" },
