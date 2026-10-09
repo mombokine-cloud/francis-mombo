@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Hypnose thérapeutique à Montpellier — stress, douleur, phobies, sommeil",
+  title: "Hypnose thérapeutique Montpellier — Douleur, stress, phobies | Francis MOMBO",
   description:
-    "Francis MOMBO, hypnothérapeute à Castelnau-le-Lez, accompagne les patients pour gérer le stress, les douleurs chroniques, les phobies, les troubles du sommeil et les blocages émotionnels.",
+    "Douleurs chroniques, stress, phobies, troubles du sommeil ? Francis MOMBO, kiné-ostéopathe & hypnothérapeute, vous accompagne à Castelnau-le-Lez. Sans médicament. RDV Doctolib.",
   keywords: [
     "hypnose thérapeutique Montpellier",
     "hypnothérapeute Castelnau-le-Lez",
