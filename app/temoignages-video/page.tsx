@@ -68,8 +68,8 @@ const youtubeEducatif = [
   },
   {
     id: "o7OCQLIk2Lg",
-    title: "Santé mentale des footballeurs",
-    description: "La santé mentale dans le football de haut niveau — un sujet trop souvent tabou. Francis MOMBO aborde l'importance du soutien psychologique et ostéopathique pour les sportifs professionnels.",
+    title: "L'hypnose thérapeutique expliquée",
+    description: "Francis MOMBO explique l'hypnose thérapeutique : comment ça fonctionne, à quoi s'attendre lors d'une séance, et dans quels cas elle peut aider.",
     uploadDate: "2026-10-09",
   },
 ];
