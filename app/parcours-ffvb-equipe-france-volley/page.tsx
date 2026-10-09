@@ -237,6 +237,19 @@ export default function Page() {
 
         <RelatedArticles current="/parcours-ffvb-equipe-france-volley" />
 
+        {/* Lien TQCE U20 2016 */}
+        <div className="mt-8 rounded-2xl border border-gray-100 p-5 flex items-center justify-between gap-4">
+          <div>
+            <p className="text-xs font-bold uppercase tracking-widest mb-1" style={{ color: "#D4336E" }}>À lire aussi</p>
+            <p className="font-black text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>TQCE U20 2016 — Kiné Équipe de France Volley</p>
+            <p className="text-gray-500 text-xs mt-1">Tournoi de qualification européen U20 avec l'équipe de France.</p>
+          </div>
+          <Link href="/tqce-u20-2016-kine-equipe-france-volley" className="flex-shrink-0 inline-flex items-center gap-1.5 text-xs font-bold px-4 py-2 rounded-full text-white" style={{ background: "linear-gradient(135deg, #D4336E, #8B2035)" }}>
+            Lire
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </Link>
+        </div>
+
         {/* Lien Euro U20 2018 */}
         <div className="mt-8 rounded-2xl border border-gray-100 p-5 flex items-center justify-between gap-4">
           <div>
