@@ -68,8 +68,8 @@ const youtubeEducatif = [
   },
   {
     id: "o7OCQLIk2Lg",
-    title: "L'hypnose thérapeutique expliquée",
-    description: "Francis MOMBO explique l'hypnose thérapeutique : comment ça fonctionne, à quoi s'attendre lors d'une séance, et dans quels cas elle peut aider.",
+    title: "L'hypnose du sport expliquée",
+    description: "Francis MOMBO explique l'hypnose du sport : préparation mentale, gestion du stress, confiance en soi et récupération — comment l'hypnose accompagne les sportifs dans la performance.",
     uploadDate: "2026-10-09",
   },
 ];
