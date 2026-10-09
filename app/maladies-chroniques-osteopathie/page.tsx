@@ -3,9 +3,9 @@ import Link from "next/link";
 import RelatedPages from "../components/RelatedPages";
 
 export const metadata: Metadata = {
-  title: "Ostéopathie et maladies chroniques à Montpellier — douleur, fibromyalgie, stress",
+  title: "Maladies chroniques & ostéopathie Montpellier | Francis MOMBO",
   description:
-    "L'ostéopathie accompagne les personnes souffrant de maladies chroniques : fibromyalgie, douleurs chroniques, troubles du sommeil, stress, anxiété. Cabinet à Castelnau-le-Lez.",
+    "Fibromyalgie, douleurs chroniques, stress, troubles du sommeil ? L'ostéopathie soulage sans médicament. Francis MOMBO vous reçoit à Castelnau-le-Lez. RDV sur Doctolib.",
   keywords: [
     "ostéopathie maladies chroniques Montpellier",
     "fibromyalgie ostéopathe",
