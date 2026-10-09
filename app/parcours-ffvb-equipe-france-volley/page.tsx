@@ -237,6 +237,19 @@ export default function Page() {
 
         <RelatedArticles current="/parcours-ffvb-equipe-france-volley" />
 
+        {/* Lien Jeux Méditerranéens */}
+        <div className="mt-8 rounded-2xl border border-gray-100 p-5 flex items-center justify-between gap-4">
+          <div>
+            <p className="text-xs font-bold uppercase tracking-widest mb-1" style={{ color: "#E8A020" }}>À lire aussi</p>
+            <p className="font-black text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>Jeux Méditerranéens 2013 — Kiné Équipe de France Volley</p>
+            <p className="text-gray-500 text-xs mt-1">Première mission internationale avec l'équipe de France de volley-ball.</p>
+          </div>
+          <Link href="/jeux-mediterraneens-2013-kine-equipe-france-volley" className="flex-shrink-0 inline-flex items-center gap-1.5 text-xs font-bold px-4 py-2 rounded-full text-white" style={{ background: "linear-gradient(135deg, #E8A020, #D4336E)" }}>
+            Lire
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </Link>
+        </div>
+
         <div className="mt-10 rounded-2xl p-8 text-center" style={{ background: "linear-gradient(135deg, #fdeef3, #fff3e8)" }}>
           <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#E8A020" }}>Francis MOMBO</p>
           <h3 className="text-xl font-black text-gray-900 mb-3" style={{ fontFamily: "Figtree, sans-serif" }}>Kinésithérapeute & ostéopathe D.O.</h3>
