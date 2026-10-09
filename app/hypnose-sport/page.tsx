@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Hypnose et performance sportive à Montpellier — préparation mentale",
+  title: "Hypnose du sport Montpellier — Performance & mental | Francis MOMBO",
   description:
-    "Hypnose pour sportifs à Montpellier : préparation mentale, gestion du stress de compétition, confiance en soi, récupération psychologique. Francis MOMBO, kinésithérapeute et ostéopathe du sport.",
+    "Blocage mental, stress de compétition, confiance en soi ? Francis MOMBO, kiné-ostéopathe officiel MHSC VB, associe hypnose et sport de haut niveau. Castelnau-le-Lez, RDV Doctolib.",
   keywords: [
     "hypnose sport Montpellier",
     "préparation mentale sportif Montpellier",
