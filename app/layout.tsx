@@ -16,11 +16,11 @@ const directories = [
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Francis MOMBO – Ostéopathe & Kinésithérapeute | Montpellier",
+    default: "Francis MOMBO — Ostéopathe & Kiné Montpellier | 123 avis 5★",
     template: "%s | Francis MOMBO Ostéopathe",
   },
   description:
-    "Francis MOMBO, ostéopathe D.O. et kinésithérapeute à Castelnau-le-Lez et Saint-Mathieu-de-Tréviers (Montpellier). Ostéopathie, sport de haut niveau, équilibre féminin, hypnose. Prise de rendez-vous sur Doctolib.",
+    "123 avis 5★ · 20 ans d'expérience · Kiné officiel du MHSC VB. Ostéopathie, sport, hypnose, équilibre féminin. Castelnau-le-Lez & Saint-Mathieu. RDV sur Doctolib.",
   keywords: [
     "ostéopathe Montpellier",
     "ostéopathe Castelnau-le-Lez",
