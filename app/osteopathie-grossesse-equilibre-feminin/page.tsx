@@ -3,9 +3,9 @@ import Link from "next/link";
 import RelatedPages from "../components/RelatedPages";
 
 export const metadata: Metadata = {
-  title: "Ostéopathie et grossesse : accompagnement féminin naturel",
+  title: "Ostéopathie grossesse Montpellier — Équilibre féminin | Francis MOMBO",
   description:
-    "L'ostéopathie accompagne les femmes à chaque étape : grossesse, post-partum, douleurs pelviennes, troubles hormonaux. Un soin doux et adapté pour l'équilibre féminin.",
+    "Grossesse, post-partum, douleurs pelviennes, SPP ? Soins doux et adaptés à Castelnau-le-Lez. Francis MOMBO accompagne les femmes à chaque étape. RDV sur Doctolib.",
   keywords: [
     "ostéopathie grossesse",
     "équilibre féminin ostéopathie",
