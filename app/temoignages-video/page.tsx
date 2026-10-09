@@ -66,6 +66,12 @@ const youtubeEducatif = [
     description: "Francis MOMBO démystifie les manipulations cervicales en ostéopathie — une technique précise, douce et contrôlée, très éloignée des représentations que l'on voit au cinéma.",
     uploadDate: "2026-10-07",
   },
+  {
+    id: "o7OCQLIk2Lg",
+    title: "Santé mentale des footballeurs",
+    description: "La santé mentale dans le football de haut niveau — un sujet trop souvent tabou. Francis MOMBO aborde l'importance du soutien psychologique et ostéopathique pour les sportifs professionnels.",
+    uploadDate: "2026-10-09",
+  },
 ];
 
 const videos = [
@@ -106,7 +112,7 @@ const jsonLd = {
   "@type": "ItemList",
   name: "Témoignages vidéo — Francis MOMBO Ostéopathe",
   url: `${siteUrl}/temoignages-video`,
-  numberOfItems: videos.length + youtubeShorts.length + youtubeEducatif.length,
+  numberOfItems: videos.length + youtubeShorts.length + youtubeEducatif.length, // auto-calculé
   itemListElement: [
     ...youtubeShorts.map((v, i) => ({
       "@type": "ListItem",
