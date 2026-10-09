@@ -3,9 +3,9 @@ import Link from "next/link";
 import RelatedPages from "../components/RelatedPages";
 
 export const metadata: Metadata = {
-  title: "Ostéopathie santé de la femme : fertilité, endométriose, cycles — Montpellier",
+  title: "Endométriose & fertilité — Ostéopathie Montpellier | Francis MOMBO",
   description:
-    "L'ostéopathie accompagne les femmes face à l'endométriose, les troubles de la fertilité, les douleurs de règles et les déséquilibres hormonaux. Cabinet à Castelnau-le-Lez.",
+    "Endométriose, douleurs de règles, troubles de la fertilité ? L'ostéopathie viscérale soulage sans médicament. Francis MOMBO reçoit les femmes à Castelnau-le-Lez. RDV Doctolib.",
   keywords: [
     "ostéopathie endométriose Montpellier",
     "ostéopathe fertilité",
