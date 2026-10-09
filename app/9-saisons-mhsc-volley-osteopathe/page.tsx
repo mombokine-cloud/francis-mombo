@@ -292,6 +292,19 @@ export default function Page() {
 
         <RelatedArticles current="/9-saisons-mhsc-volley-osteopathe" />
 
+        {/* Lien parcours FFVB */}
+        <div className="mt-8 rounded-2xl border border-gray-100 p-5 flex items-center justify-between gap-4">
+          <div>
+            <p className="text-xs font-bold uppercase tracking-widest mb-1" style={{ color: "#D4336E" }}>À lire aussi</p>
+            <p className="font-black text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>Parcours FFVB — Équipe de France de Volley (2013–2018)</p>
+            <p className="text-gray-500 text-xs mt-1">5 missions avec les équipes nationales françaises de volley-ball.</p>
+          </div>
+          <Link href="/parcours-ffvb-equipe-france-volley" className="flex-shrink-0 inline-flex items-center gap-1.5 text-xs font-bold px-4 py-2 rounded-full text-white" style={{ background: "linear-gradient(135deg, #D4336E, #8B2035)" }}>
+            Lire
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </Link>
+        </div>
+
         {/* CTA */}
         <div className="mt-10 rounded-2xl p-8 text-center" style={{ background: "linear-gradient(135deg, #fdeef3, #fff3e8)" }}>
           <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#E8A020" }}>Francis MOMBO</p>
