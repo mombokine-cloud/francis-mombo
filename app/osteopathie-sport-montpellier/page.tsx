@@ -6,9 +6,9 @@ const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
 
 export const metadata: Metadata = {
-  title: "Ostéopathie du sport à Montpellier | Prévention, récupération, compétition",
+  title: "Ostéopathe du sport Montpellier — 9 saisons MHSC VB | Francis MOMBO",
   description:
-    "Ostéopathe du sport à Montpellier et Castelnau-le-Lez : prévention des blessures, récupération, préparation compétition et suivi saison sportive. Expérience MHSC VB et FFVB.",
+    "Douleur, blessure ou préparation compétition ? Francis MOMBO, kiné-ostéopathe officiel du MHSC VB pendant 9 saisons, vous reçoit à Castelnau-le-Lez et Saint-Mathieu. Disponible sur Doctolib.",
   keywords: [
     "ostéopathe sport Montpellier",
     "ostéopathe sportif de haut niveau",
