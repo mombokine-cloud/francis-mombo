@@ -33,6 +33,18 @@ export default function Footer() {
             <p className="text-gray-400 text-sm leading-relaxed">
               Des soins ostéopathiques de qualité, au service de votre santé et de votre bien-être.
             </p>
+            <div className="mt-4 flex items-center gap-3">
+              <a
+                href="https://www.youtube.com/@momboosteo"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-xs font-semibold px-3 py-1.5 rounded-full border border-gray-700 text-gray-400 hover:text-white hover:border-red-600 hover:bg-red-600 transition-colors"
+                aria-label="Chaîne YouTube @momboosteo"
+              >
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1C24 15.9 24 12 24 12s0-3.9-.5-5.8z"/><polygon fill="white" points="9.6,15.6 15.8,12 9.6,8.4"/></svg>
+                @momboosteo
+              </a>
+            </div>
           </div>
 
           {/* Services */}
@@ -125,6 +137,7 @@ export default function Footer() {
               { label: "Le Médecin", href: "https://lemedecin.fr/castelnau-le-lez/scm-kine-elysee/osteopathe/mombo-francis/46e18d97712ea5c7d054e1f66a3a7d0c/pro/" },
               { label: "Les Médecines Douces", href: "https://lesmedecinesdouces.fr/etiopathe/castelnaulelez/1720-av-de-l-europe-1er-etage-bureau-b2/francis-mombo-osteopathe-sport-hypnose/therapeute/avis/" },
               { label: "Pages Jaunes", href: "https://www.pagesjaunes.fr/pros/54237040" },
+              { label: "YouTube @momboosteo", href: "https://www.youtube.com/@momboosteo" },
             ].map((a) => (
               <a
                 key={a.label}
