@@ -236,7 +236,7 @@ export default function FacturePage() {
                 </h2>
                 <p className="text-gray-500 text-sm mb-6 leading-relaxed">
                   {stars >= 4
-                    ? "Votre avis Google a été ouvert. Quelques secondes suffisent — ça compte énormément."
+                    ? "Votre avis Google a été ouvert. Quelques secondes suffisent - ça compte énormément."
                     : "Votre retour est précieux. Pour toute question, le cabinet est joignable au 06 50 14 91 92."}
                 </p>
                 {stars >= 4 && (

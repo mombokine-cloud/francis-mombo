@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
 
 export const metadata: Metadata = {
-  title: "Ostéopathe à Saint-Mathieu-de-Tréviers — Francis MOMBO, kinésithérapeute D.O.",
+  title: "Ostéopathe à Saint-Mathieu-de-Tréviers - Francis MOMBO, kinésithérapeute D.O.",
   description:
     "Francis MOMBO, ostéopathe et kinésithérapeute D.O., reçoit à Saint-Mathieu-de-Tréviers (34270) au 5 avenue du Grand Chêne. Cabinet proche du Pic Saint-Loup. Prise de rendez-vous sur Doctolib.",
   keywords: [
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteUrl}/osteopathe-saint-mathieu-de-treviers` },
   openGraph: {
-    title: "Ostéopathe à Saint-Mathieu-de-Tréviers — Francis MOMBO",
+    title: "Ostéopathe à Saint-Mathieu-de-Tréviers - Francis MOMBO",
     description: "Cabinet d'ostéopathie à Saint-Mathieu-de-Tréviers (34270) : adultes, sportifs, nourrissons, seniors. Francis MOMBO, kinésithérapeute et ostéopathe D.O.",
     url: `${siteUrl}/osteopathe-saint-mathieu-de-treviers`,
     type: "article",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "MedicalBusiness",
-  name: "Francis MOMBO — Ostéopathe & Kinésithérapeute",
+  name: "Francis MOMBO - Ostéopathe & Kinésithérapeute",
   url: siteUrl,
   telephone: "+33650149192",
   address: {
@@ -110,20 +110,20 @@ export default function Page() {
             <h2 className="article-h2">Un double profil unique : kiné et ostéopathe</h2>
             <p>Francis MOMBO cumule deux expertises complémentaires :</p>
             <ul className="article-list">
-              <li><strong>Kinésithérapeute</strong> — rééducation fonctionnelle, traitement des blessures, renforcement musculaire, rééducation post-opératoire ;</li>
-              <li><strong>Ostéopathe D.O.</strong> — prise en charge globale du corps, traitement des douleurs chroniques et aiguës, équilibre structurel et viscéral ;</li>
-              <li><strong>Hypnothérapeute</strong> — gestion de la douleur, stress, phobies, préparation mentale sportive.</li>
+              <li><strong>Kinésithérapeute</strong> - rééducation fonctionnelle, traitement des blessures, renforcement musculaire, rééducation post-opératoire ;</li>
+              <li><strong>Ostéopathe D.O.</strong> - prise en charge globale du corps, traitement des douleurs chroniques et aiguës, équilibre structurel et viscéral ;</li>
+              <li><strong>Hypnothérapeute</strong> - gestion de la douleur, stress, phobies, préparation mentale sportive.</li>
             </ul>
           </section>
 
           <section>
             <h2 className="article-h2">Qui peut consulter ?</h2>
             <ul className="article-list">
-              <li><strong>Nourrissons et enfants</strong> — coliques, plagiocéphalie, torticolis, troubles du sommeil, scoliose ;</li>
-              <li><strong>Adultes</strong> — douleurs de dos, cervicalgies, migraines, stress, troubles digestifs ;</li>
-              <li><strong>Sportifs</strong> — trail, randonnée, vélo, sports collectifs — prévention et récupération ;</li>
-              <li><strong>Femmes</strong> — grossesse, post-partum, endométriose, cycles douloureux ;</li>
-              <li><strong>Séniors</strong> — arthrose, équilibre, mobilité, prévention des chutes.</li>
+              <li><strong>Nourrissons et enfants</strong> - coliques, plagiocéphalie, torticolis, troubles du sommeil, scoliose ;</li>
+              <li><strong>Adultes</strong> - douleurs de dos, cervicalgies, migraines, stress, troubles digestifs ;</li>
+              <li><strong>Sportifs</strong> - trail, randonnée, vélo, sports collectifs - prévention et récupération ;</li>
+              <li><strong>Femmes</strong> - grossesse, post-partum, endométriose, cycles douloureux ;</li>
+              <li><strong>Séniors</strong> - arthrose, équilibre, mobilité, prévention des chutes.</li>
             </ul>
           </section>
 
@@ -182,7 +182,7 @@ export default function Page() {
         <div className="mt-10 rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
           <iframe
             src="https://maps.google.com/maps?q=5+avenue+du+Grand+Ch%C3%AAne+34270+Saint-Mathieu-de-Tr%C3%A9viers&output=embed"
-            title="Cabinet Francis MOMBO — 5 avenue du Grand Chêne, Saint-Mathieu-de-Tréviers"
+            title="Cabinet Francis MOMBO - 5 avenue du Grand Chêne, Saint-Mathieu-de-Tréviers"
             width="100%"
             height="300"
             style={{ border: 0, display: "block" }}
@@ -211,7 +211,7 @@ export default function Page() {
         <div className="mt-6 rounded-2xl p-8 text-center" style={{ background: "linear-gradient(135deg, #fdeef3, #fff3e8)" }}>
           <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#E8A020" }}>Francis MOMBO</p>
           <h3 className="text-xl font-black text-gray-900 mb-3" style={{ fontFamily: "Figtree, sans-serif" }}>Cabinet de Saint-Mathieu-de-Tréviers</h3>
-          <p className="text-gray-500 text-sm mb-1 max-w-md mx-auto">5 avenue du Grand Chêne — 34270 Saint-Mathieu-de-Tréviers</p>
+          <p className="text-gray-500 text-sm mb-1 max-w-md mx-auto">5 avenue du Grand Chêne - 34270 Saint-Mathieu-de-Tréviers</p>
           <p className="text-gray-500 text-sm mb-6 max-w-md mx-auto">06 50 14 91 92</p>
           <a href={doctolib} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-full text-white text-sm" style={{ background: "linear-gradient(135deg, #D4336E, #8B2035)" }}>
             Prendre rendez-vous sur Doctolib

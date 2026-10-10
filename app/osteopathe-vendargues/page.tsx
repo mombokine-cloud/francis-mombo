@@ -1,13 +1,13 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
 
 export const metadata: Metadata = {
-  title: "Ostéopathe à Vendargues — Francis MOMBO, Kinésithérapeute D.O.",
+  title: "Ostéopathe à Vendargues - Francis MOMBO, Kinésithérapeute D.O.",
   description:
-    "Ostéopathe à Vendargues (34740) — Francis MOMBO, kinésithérapeute et ostéopathe D.O. Cabinet à 5 km de Vendargues, à Castelnau-le-Lez. Est de Montpellier. Consultation sans ordonnance, prise de rendez-vous Doctolib.",
+    "Ostéopathe à Vendargues (34740) - Francis MOMBO, kinésithérapeute et ostéopathe D.O. Cabinet à 5 km de Vendargues, à Castelnau-le-Lez. Est de Montpellier. Consultation sans ordonnance, prise de rendez-vous Doctolib.",
   keywords: [
     "ostéopathe Vendargues",
     "ostéopathe Vendargues 34740",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteUrl}/osteopathe-vendargues` },
   openGraph: {
-    title: "Ostéopathe à Vendargues — Francis MOMBO, Castelnau-le-Lez",
+    title: "Ostéopathe à Vendargues - Francis MOMBO, Castelnau-le-Lez",
     description: "Cabinet d'ostéopathie proche de Vendargues : adultes, sportifs, nourrissons, seniors. Francis MOMBO, kinésithérapeute et ostéopathe D.O.",
     url: `${siteUrl}/osteopathe-vendargues`,
     type: "article",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "MedicalBusiness",
-  name: "Francis MOMBO — Ostéopathe & Kinésithérapeute",
+  name: "Francis MOMBO - Ostéopathe & Kinésithérapeute",
   url: siteUrl,
   telephone: "+33650149192",
   address: {
@@ -45,7 +45,7 @@ const jsonLd = {
 };
 
 const faq = [
-  { q: "Où se situe le cabinet par rapport à Vendargues ?", a: "Le cabinet est situé au 1720 avenue de l'Europe à Castelnau-le-Lez, à environ 5 km de Vendargues — soit 7 à 10 minutes en voiture via la N113. C'est l'adresse la plus proche pour les habitants de Vendargues." },
+  { q: "Où se situe le cabinet par rapport à Vendargues ?", a: "Le cabinet est situé au 1720 avenue de l'Europe à Castelnau-le-Lez, à environ 5 km de Vendargues - soit 7 à 10 minutes en voiture via la N113. C'est l'adresse la plus proche pour les habitants de Vendargues." },
   { q: "Faut-il une ordonnance pour consulter un ostéopathe ?", a: "Non, l'ostéopathie est accessible en accès direct, sans prescription médicale. Vous pouvez prendre rendez-vous directement sur Doctolib." },
   { q: "Prenez-vous en charge les sportifs de Vendargues ?", a: "Oui, Francis MOMBO a une solide expérience du sport de haut niveau (9 saisons avec le MHSC VB, Champion de France 2022). Il accueille les sportifs amateurs comme les compétiteurs pour la prévention, la récupération et le traitement des blessures." },
   { q: "Quelles pathologies traitez-vous à l'est de Montpellier ?", a: "Douleurs de dos, lumbago, sciatique, cervicalgies, migraines, tendinites, entorses, douleurs de grossesse, troubles digestifs, endométriose, plagiocéphalie du nourrisson, et bien d'autres." },
@@ -83,7 +83,7 @@ export default function Page() {
             <span className="text-xs text-gray-400">34740 · est de Montpellier</span>
           </div>
           <h1 className="font-black text-gray-900 leading-tight mb-4" style={{ fontFamily: "Figtree, sans-serif", fontSize: "clamp(28px, 5vw, 42px)" }}>
-            Ostéopathe à Vendargues — Francis MOMBO, Castelnau-le-Lez
+            Ostéopathe à Vendargues - Francis MOMBO, Castelnau-le-Lez
           </h1>
           <p className="text-gray-500 text-lg leading-relaxed">
             Vous habitez <strong>Vendargues (34740)</strong>, à l'est de Montpellier ? Francis MOMBO, kinésithérapeute et ostéopathe D.O., vous reçoit à <strong>5 km de Vendargues</strong>, au 1720 avenue de l'Europe à Castelnau-le-Lez. Son cabinet est facilement accessible depuis toute la zone est de l'agglomération montpelliéraine.
@@ -93,7 +93,7 @@ export default function Page() {
         <article className="space-y-10 text-gray-700 leading-relaxed">
 
           <section>
-            <h2 className="article-h2">Ostéopathe proche de Vendargues — accès et contact</h2>
+            <h2 className="article-h2">Ostéopathe proche de Vendargues - accès et contact</h2>
             <p>Vendargues (~6 000 habitants) est une commune de l'est de Montpellier, bien reliée à Castelnau-le-Lez par la N113. Le cabinet Francis MOMBO est l'adresse la plus proche :</p>
             <ul className="article-list">
               <li>adresse : 1720 avenue de l'Europe, 34170 Castelnau-le-Lez ;</li>
@@ -108,9 +108,9 @@ export default function Page() {
             <h2 className="article-h2">Un double profil unique : kiné et ostéopathe</h2>
             <p>Francis MOMBO cumule deux expertises complémentaires :</p>
             <ul className="article-list">
-              <li><strong>Kinésithérapeute</strong> — rééducation fonctionnelle, traitement des blessures, renforcement musculaire, rééducation post-opératoire ;</li>
-              <li><strong>Ostéopathe D.O.</strong> — prise en charge globale du corps, traitement des douleurs chroniques et aiguës, équilibre structurel et viscéral ;</li>
-              <li><strong>Hypnothérapeute</strong> — gestion de la douleur, stress, phobies, préparation mentale sportive.</li>
+              <li><strong>Kinésithérapeute</strong> - rééducation fonctionnelle, traitement des blessures, renforcement musculaire, rééducation post-opératoire ;</li>
+              <li><strong>Ostéopathe D.O.</strong> - prise en charge globale du corps, traitement des douleurs chroniques et aiguës, équilibre structurel et viscéral ;</li>
+              <li><strong>Hypnothérapeute</strong> - gestion de la douleur, stress, phobies, préparation mentale sportive.</li>
             </ul>
             <p>Cette double compétence lui permet d'assurer une prise en charge complète, sans multiplier les intervenants.</p>
           </section>
@@ -118,11 +118,11 @@ export default function Page() {
           <section>
             <h2 className="article-h2">Qui peut consulter depuis Vendargues ?</h2>
             <ul className="article-list">
-              <li><strong>Nourrissons et enfants</strong> — coliques, plagiocéphalie, torticolis, troubles du sommeil, scoliose ;</li>
-              <li><strong>Adultes</strong> — douleurs de dos, cervicalgies, migraines, stress, troubles digestifs ;</li>
-              <li><strong>Sportifs</strong> — prévention, récupération, préparation compétition ;</li>
-              <li><strong>Femmes</strong> — grossesse, post-partum, endométriose, cycles douloureux ;</li>
-              <li><strong>Séniors</strong> — arthrose, équilibre, mobilité, prévention des chutes.</li>
+              <li><strong>Nourrissons et enfants</strong> - coliques, plagiocéphalie, torticolis, troubles du sommeil, scoliose ;</li>
+              <li><strong>Adultes</strong> - douleurs de dos, cervicalgies, migraines, stress, troubles digestifs ;</li>
+              <li><strong>Sportifs</strong> - prévention, récupération, préparation compétition ;</li>
+              <li><strong>Femmes</strong> - grossesse, post-partum, endométriose, cycles douloureux ;</li>
+              <li><strong>Séniors</strong> - arthrose, équilibre, mobilité, prévention des chutes.</li>
             </ul>
           </section>
 
@@ -148,7 +148,7 @@ export default function Page() {
           </section>
 
           <section>
-            <h2 className="article-h2">FAQ — Ostéopathe à Vendargues</h2>
+            <h2 className="article-h2">FAQ - Ostéopathe à Vendargues</h2>
             <div className="space-y-4">
               {faq.map(item => (
                 <div key={item.q} className="bg-gray-50 rounded-xl p-5">
@@ -163,7 +163,7 @@ export default function Page() {
         <div className="mt-10 rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
           <iframe
             src="https://maps.google.com/maps?q=1720+avenue+de+l%27Europe+34170+Castelnau-le-Lez&output=embed"
-            title="Cabinet Francis MOMBO — 1720 avenue de l'Europe, Castelnau-le-Lez"
+            title="Cabinet Francis MOMBO - 1720 avenue de l'Europe, Castelnau-le-Lez"
             width="100%"
             height="300"
             style={{ border: 0, display: "block" }}
@@ -173,7 +173,7 @@ export default function Page() {
           />
           <div className="px-6 py-4 bg-white flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
             <div>
-              <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>1720 avenue de l'Europe — 1er étage bureau B2</p>
+              <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>1720 avenue de l'Europe - 1er étage bureau B2</p>
               <p className="text-gray-500 text-xs mt-0.5">34170 Castelnau-le-Lez · Parking gratuit · Accès transports en commun</p>
             </div>
             <a
@@ -191,8 +191,8 @@ export default function Page() {
 
         <div className="mt-6 rounded-2xl p-8 text-center" style={{ background: "linear-gradient(135deg, #fdeef3, #fff3e8)" }}>
           <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#E8A020" }}>Francis MOMBO</p>
-          <h3 className="text-xl font-black text-gray-900 mb-3" style={{ fontFamily: "Figtree, sans-serif" }}>Cabinet de Castelnau-le-Lez — proche de Vendargues</h3>
-          <p className="text-gray-500 text-sm mb-1 max-w-md mx-auto">1720 avenue de l'Europe — 34170 Castelnau-le-Lez</p>
+          <h3 className="text-xl font-black text-gray-900 mb-3" style={{ fontFamily: "Figtree, sans-serif" }}>Cabinet de Castelnau-le-Lez - proche de Vendargues</h3>
+          <p className="text-gray-500 text-sm mb-1 max-w-md mx-auto">1720 avenue de l'Europe - 34170 Castelnau-le-Lez</p>
           <p className="text-gray-500 text-sm mb-6 max-w-md mx-auto">06 50 14 91 92</p>
           <a href={doctolib} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-full text-white text-sm" style={{ background: "linear-gradient(135deg, #D4336E, #8B2035)" }}>
             Prendre rendez-vous sur Doctolib

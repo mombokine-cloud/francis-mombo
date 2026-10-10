@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Hypnose thérapeutique Montpellier — Douleur, stress, phobies | Francis MOMBO",
+  title: "Hypnose thérapeutique Montpellier - Douleur, stress, phobies | Francis MOMBO",
   description:
     "Douleurs chroniques, stress, phobies, troubles du sommeil ? Francis MOMBO, kiné-ostéopathe & hypnothérapeute, vous accompagne à Castelnau-le-Lez. Sans médicament. RDV Doctolib.",
   keywords: [
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://www.mombofrancis.com/hypnose-therapeutique" },
   openGraph: {
-    title: "Hypnose thérapeutique à Montpellier — Francis MOMBO",
+    title: "Hypnose thérapeutique à Montpellier - Francis MOMBO",
     description: "Hypnose médicale à Castelnau-le-Lez : stress, douleurs chroniques, phobies, troubles du sommeil, blocages émotionnels.",
     url: "https://www.mombofrancis.com/hypnose-therapeutique",
     type: "article",
@@ -75,7 +75,7 @@ export default function Page() {
 
           <section>
             <h2 className="article-h2">Qu'est-ce que l'hypnose thérapeutique ?</h2>
-            <p>L'hypnose est un état de conscience modifié naturel — proche de la rêverie ou de la concentration profonde — dans lequel le patient reste conscient et garde le contrôle. Cet état favorise l'accès à l'inconscient, permettant de :</p>
+            <p>L'hypnose est un état de conscience modifié naturel - proche de la rêverie ou de la concentration profonde - dans lequel le patient reste conscient et garde le contrôle. Cet état favorise l'accès à l'inconscient, permettant de :</p>
             <ul className="article-list">
               <li>modifier des perceptions douloureuses ;</li>
               <li>désamorcer des réponses émotionnelles automatiques ;</li>

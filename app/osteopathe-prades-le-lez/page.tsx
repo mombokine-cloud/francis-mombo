@@ -1,13 +1,13 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
 
 export const metadata: Metadata = {
-  title: "Ostéopathe à Prades-le-Lez — Francis MOMBO, Kinésithérapeute D.O.",
+  title: "Ostéopathe à Prades-le-Lez - Francis MOMBO, Kinésithérapeute D.O.",
   description:
-    "Ostéopathe à Prades-le-Lez (34730) — Francis MOMBO, kinésithérapeute et ostéopathe D.O. Cabinet à 5 min à Castelnau-le-Lez, 20 min à Saint-Mathieu-de-Tréviers. Consultation sans ordonnance, Doctolib.",
+    "Ostéopathe à Prades-le-Lez (34730) - Francis MOMBO, kinésithérapeute et ostéopathe D.O. Cabinet à 5 min à Castelnau-le-Lez, 20 min à Saint-Mathieu-de-Tréviers. Consultation sans ordonnance, Doctolib.",
   keywords: [
     "ostéopathe Prades-le-Lez",
     "ostéopathe Prades-le-Lez 34730",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteUrl}/osteopathe-prades-le-lez` },
   openGraph: {
-    title: "Ostéopathe à Prades-le-Lez — Francis MOMBO, Cabinet à 5 min",
+    title: "Ostéopathe à Prades-le-Lez - Francis MOMBO, Cabinet à 5 min",
     description: "Cabinet d'ostéopathie à 5 minutes de Prades-le-Lez : adultes, sportifs, nourrissons, seniors. Francis MOMBO, kinésithérapeute et ostéopathe D.O.",
     url: `${siteUrl}/osteopathe-prades-le-lez`,
     type: "article",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "MedicalBusiness",
-  name: "Francis MOMBO — Ostéopathe & Kinésithérapeute",
+  name: "Francis MOMBO - Ostéopathe & Kinésithérapeute",
   url: siteUrl,
   telephone: "+33650149192",
   address: {
@@ -83,7 +83,7 @@ export default function Page() {
             <span className="text-xs text-gray-400">34730 · à 5 min de Castelnau-le-Lez</span>
           </div>
           <h1 className="font-black text-gray-900 leading-tight mb-4" style={{ fontFamily: "Figtree, sans-serif", fontSize: "clamp(28px, 5vw, 42px)" }}>
-            Ostéopathe à Prades-le-Lez — Cabinet à 5 min de Prades
+            Ostéopathe à Prades-le-Lez - Cabinet à 5 min de Prades
           </h1>
           <p className="text-gray-500 text-lg leading-relaxed">
             Vous habitez <strong>Prades-le-Lez (34730)</strong> et cherchez un ostéopathe ? Francis MOMBO, kinésithérapeute et ostéopathe D.O., vous reçoit à <strong>5 minutes de Prades-le-Lez</strong> à Castelnau-le-Lez, ou à <strong>Saint-Mathieu-de-Tréviers</strong> pour les consultations au nord. Prades-le-Lez est l'une des communes les mieux desservies.
@@ -96,8 +96,8 @@ export default function Page() {
             <h2 className="article-h2">Deux cabinets accessibles depuis Prades-le-Lez</h2>
             <p>Prades-le-Lez (~6 500 habitants) est directement au nord de Castelnau-le-Lez. Francis MOMBO exerce dans deux cabinets :</p>
             <ul className="article-list">
-              <li><strong>Cabinet Castelnau-le-Lez</strong> — 1720 avenue de l'Europe, 34170 · à 5 min de Prades-le-Lez ;</li>
-              <li><strong>Cabinet Saint-Mathieu-de-Tréviers</strong> — 5 avenue du Grand Chêne, 34270 · à 20 min, vers le Pic Saint-Loup ;</li>
+              <li><strong>Cabinet Castelnau-le-Lez</strong> - 1720 avenue de l'Europe, 34170 · à 5 min de Prades-le-Lez ;</li>
+              <li><strong>Cabinet Saint-Mathieu-de-Tréviers</strong> - 5 avenue du Grand Chêne, 34270 · à 20 min, vers le Pic Saint-Loup ;</li>
               <li>téléphone : 06 50 14 91 92 ;</li>
               <li>prise de rendez-vous en ligne sur Doctolib (24h/24) ;</li>
               <li>parking disponible dans les deux cabinets.</li>
@@ -108,20 +108,20 @@ export default function Page() {
             <h2 className="article-h2">Un triple profil unique : kiné, ostéopathe et hypnothérapeute</h2>
             <p>Francis MOMBO cumule trois expertises complémentaires :</p>
             <ul className="article-list">
-              <li><strong>Kinésithérapeute</strong> — rééducation fonctionnelle, traitement des blessures, renforcement musculaire, rééducation post-opératoire ;</li>
-              <li><strong>Ostéopathe D.O.</strong> — prise en charge globale du corps, traitement des douleurs chroniques et aiguës, équilibre structurel et viscéral ;</li>
-              <li><strong>Hypnothérapeute</strong> — gestion de la douleur, stress, phobies, préparation mentale sportive.</li>
+              <li><strong>Kinésithérapeute</strong> - rééducation fonctionnelle, traitement des blessures, renforcement musculaire, rééducation post-opératoire ;</li>
+              <li><strong>Ostéopathe D.O.</strong> - prise en charge globale du corps, traitement des douleurs chroniques et aiguës, équilibre structurel et viscéral ;</li>
+              <li><strong>Hypnothérapeute</strong> - gestion de la douleur, stress, phobies, préparation mentale sportive.</li>
             </ul>
           </section>
 
           <section>
             <h2 className="article-h2">Qui peut consulter depuis Prades-le-Lez ?</h2>
             <ul className="article-list">
-              <li><strong>Nourrissons et enfants</strong> — coliques, plagiocéphalie, torticolis, troubles du sommeil, scoliose ;</li>
-              <li><strong>Adultes</strong> — douleurs de dos, cervicalgies, migraines, stress, troubles digestifs ;</li>
-              <li><strong>Sportifs</strong> — prévention, récupération, préparation compétition ;</li>
-              <li><strong>Femmes</strong> — grossesse, post-partum, endométriose, cycles douloureux ;</li>
-              <li><strong>Séniors</strong> — arthrose, équilibre, mobilité, prévention des chutes.</li>
+              <li><strong>Nourrissons et enfants</strong> - coliques, plagiocéphalie, torticolis, troubles du sommeil, scoliose ;</li>
+              <li><strong>Adultes</strong> - douleurs de dos, cervicalgies, migraines, stress, troubles digestifs ;</li>
+              <li><strong>Sportifs</strong> - prévention, récupération, préparation compétition ;</li>
+              <li><strong>Femmes</strong> - grossesse, post-partum, endométriose, cycles douloureux ;</li>
+              <li><strong>Séniors</strong> - arthrose, équilibre, mobilité, prévention des chutes.</li>
             </ul>
           </section>
 
@@ -142,7 +142,7 @@ export default function Page() {
           </section>
 
           <section>
-            <h2 className="article-h2">FAQ — Ostéopathe à Prades-le-Lez</h2>
+            <h2 className="article-h2">FAQ - Ostéopathe à Prades-le-Lez</h2>
             <div className="space-y-4">
               {faq.map(item => (
                 <div key={item.q} className="bg-gray-50 rounded-xl p-5">
@@ -157,7 +157,7 @@ export default function Page() {
         <div className="mt-10 rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
           <iframe
             src="https://maps.google.com/maps?q=1720+avenue+de+l%27Europe+34170+Castelnau-le-Lez&output=embed"
-            title="Cabinet Francis MOMBO — 1720 avenue de l'Europe, Castelnau-le-Lez"
+            title="Cabinet Francis MOMBO - 1720 avenue de l'Europe, Castelnau-le-Lez"
             width="100%"
             height="300"
             style={{ border: 0, display: "block" }}
@@ -167,7 +167,7 @@ export default function Page() {
           />
           <div className="px-6 py-4 bg-white flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
             <div>
-              <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>1720 avenue de l'Europe — 1er étage bureau B2</p>
+              <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>1720 avenue de l'Europe - 1er étage bureau B2</p>
               <p className="text-gray-500 text-xs mt-0.5">34170 Castelnau-le-Lez · Parking gratuit · à 5 min de Prades-le-Lez</p>
             </div>
             <a
@@ -185,8 +185,8 @@ export default function Page() {
 
         <div className="mt-6 rounded-2xl p-8 text-center" style={{ background: "linear-gradient(135deg, #fdeef3, #fff3e8)" }}>
           <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#E8A020" }}>Francis MOMBO</p>
-          <h3 className="text-xl font-black text-gray-900 mb-3" style={{ fontFamily: "Figtree, sans-serif" }}>Cabinet de Castelnau-le-Lez — à 5 min de Prades-le-Lez</h3>
-          <p className="text-gray-500 text-sm mb-1 max-w-md mx-auto">1720 avenue de l'Europe — 34170 Castelnau-le-Lez</p>
+          <h3 className="text-xl font-black text-gray-900 mb-3" style={{ fontFamily: "Figtree, sans-serif" }}>Cabinet de Castelnau-le-Lez - à 5 min de Prades-le-Lez</h3>
+          <p className="text-gray-500 text-sm mb-1 max-w-md mx-auto">1720 avenue de l'Europe - 34170 Castelnau-le-Lez</p>
           <p className="text-gray-500 text-sm mb-6 max-w-md mx-auto">06 50 14 91 92</p>
           <a href={doctolib} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-full text-white text-sm" style={{ background: "linear-gradient(135deg, #D4336E, #8B2035)" }}>
             Prendre rendez-vous sur Doctolib

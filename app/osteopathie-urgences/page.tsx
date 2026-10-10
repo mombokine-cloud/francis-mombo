@@ -125,7 +125,7 @@ export default function Page() {
         <div className="mt-14 rounded-2xl p-8 text-center" style={{ background: "linear-gradient(135deg, #fdeef3, #fff3e8)" }}>
           <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#E8A020" }}>Francis MOMBO</p>
           <h3 className="text-xl font-black text-gray-900 mb-3" style={{ fontFamily: "Figtree, sans-serif" }}>Douleur aiguë ? Appelez ou réservez en ligne</h3>
-          <p className="text-gray-500 text-sm mb-6 max-w-md mx-auto">06 50 14 91 92 — Castelnau-le-Lez & Saint-Mathieu-de-Tréviers</p>
+          <p className="text-gray-500 text-sm mb-6 max-w-md mx-auto">06 50 14 91 92 - Castelnau-le-Lez & Saint-Mathieu-de-Tréviers</p>
           <a href="https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-full text-white text-sm" style={{ background: "linear-gradient(135deg, #D4336E, #8B2035)" }}>
             Prendre rendez-vous sur Doctolib
           </a>

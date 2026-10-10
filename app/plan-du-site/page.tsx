@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 const siteUrl = "https://www.mombofrancis.com";
 
 export const metadata: Metadata = {
-  title: "Plan du site — Francis MOMBO Ostéopathe Montpellier",
+  title: "Plan du site - Francis MOMBO Ostéopathe Montpellier",
   description: "Plan du site de Francis MOMBO, ostéopathe D.O. et kinésithérapeute à Castelnau-le-Lez et Saint-Mathieu-de-Tréviers.",
   alternates: { canonical: `${siteUrl}/plan-du-site` },
   robots: { index: false, follow: true },
@@ -40,7 +40,7 @@ const sections = [
       { label: "Ostéopathe Claret", href: "/osteopathe-claret" },
       { label: "Ostéopathe Sauve", href: "/osteopathe-sauve" },
       { label: "Ostéopathe Quissac", href: "/osteopathe-quissac" },
-      { label: "Mon équipe — Pauline Broussard", href: "/collaboratrices-osteopathie-castelnau" },
+      { label: "Mon équipe - Pauline Broussard", href: "/collaboratrices-osteopathie-castelnau" },
       { label: "Tarifs et remboursement", href: "/tarifs-osteopathe-montpellier" },
       { label: "FAQ ostéopathe Montpellier", href: "/faq-osteopathe-montpellier" },
     ],
@@ -54,10 +54,10 @@ const sections = [
       { label: "Mal de dos : comprendre et prévenir", href: "/mal-de-dos-comprendre-prevenir" },
       { label: "Urgences ostéopathiques Montpellier", href: "/urgences-osteopathie-montpellier" },
       { label: "Ostéopathe HYROX & CrossFit Montpellier", href: "/osteopathe-hyrox-crossfit-montpellier" },
-      { label: "Sports individuels — Tennis, Padel, Course, Escalade", href: "/sports-individuels-osteopathie-montpellier" },
+      { label: "Sports individuels - Tennis, Padel, Course, Escalade", href: "/sports-individuels-osteopathie-montpellier" },
       { label: "Kinésithérapeute Castelnau-le-Lez", href: "/kinesitherapeute-castelnau-le-lez" },
       { label: "Kinésithérapeute Saint-Mathieu-de-Tréviers", href: "/kinesitherapeute-saint-mathieu-de-treviers" },
-      { label: "Ostéopathe pour Danseurs — Montpellier", href: "/osteopathe-danseur-danse-montpellier" },
+      { label: "Ostéopathe pour Danseurs - Montpellier", href: "/osteopathe-danseur-danse-montpellier" },
       { label: "Ostéopathie du sport Montpellier", href: "/osteopathie-sport-montpellier" },
       { label: "Récupération sportive", href: "/recuperation-sportive-osteopathie" },
       { label: "Kiné & ostéo Montpellier", href: "/kine-osteo-montpellier" },
@@ -90,15 +90,15 @@ const sections = [
     title: "MHSC · FFVB · Sport de haut niveau",
     color: "#8B2035",
     pages: [
-      { label: "AfroBasket 2025 — Consultant Kiné Mali", href: "/afrobasket-2025-consultant-kine-mali" },
-      { label: "Coupe de France 2022 — Kiné RC Strasbourg", href: "/coupe-de-france-2022-kine-rc-strasbourg" },
+      { label: "AfroBasket 2025 - Consultant Kiné Mali", href: "/afrobasket-2025-consultant-kine-mali" },
+      { label: "Coupe de France 2022 - Kiné RC Strasbourg", href: "/coupe-de-france-2022-kine-rc-strasbourg" },
       { label: "9 saisons au MHSC VB", href: "/9-saisons-mhsc-volley-osteopathe" },
-      { label: "Parcours FFVB — 5 missions (2013–2018)", href: "/parcours-ffvb-equipe-france-volley" },
-      { label: "Jeux Méditerranéens 2013 — Médaille de bronze", href: "/jeux-mediterraneens-2013-kine-equipe-france-volley" },
-      { label: "TQCE U20 — 2016", href: "/tqce-u20-2016-kine-equipe-france-volley" },
-      { label: "TQCM U21 — 2017", href: "/tqcm-u21-2017-kine-equipe-france-volley" },
-      { label: "TQCE Juniors — 2018", href: "/tqce-juniors-2018-kine-equipe-france-volley" },
-      { label: "Euro U20 — 2018", href: "/euro-u20-2018-kine-equipe-france-volley" },
+      { label: "Parcours FFVB - 5 missions (2013–2018)", href: "/parcours-ffvb-equipe-france-volley" },
+      { label: "Jeux Méditerranéens 2013 - Médaille de bronze", href: "/jeux-mediterraneens-2013-kine-equipe-france-volley" },
+      { label: "TQCE U20 - 2016", href: "/tqce-u20-2016-kine-equipe-france-volley" },
+      { label: "TQCM U21 - 2017", href: "/tqcm-u21-2017-kine-equipe-france-volley" },
+      { label: "TQCE Juniors - 2018", href: "/tqce-juniors-2018-kine-equipe-france-volley" },
+      { label: "Euro U20 - 2018", href: "/euro-u20-2018-kine-equipe-france-volley" },
       { label: "Récupération sport haut niveau", href: "/recuperation-sport-haut-niveau-sommeil-alimentation" },
     ],
   },
@@ -130,7 +130,7 @@ export default function Page() {
             Plan du site
           </h1>
           <p className="text-gray-500 text-base leading-relaxed">
-            Toutes les pages de <strong>mombofrancis.com</strong> — ostéopathe D.O. &amp; kinésithérapeute à Castelnau-le-Lez et Saint-Mathieu-de-Tréviers.
+            Toutes les pages de <strong>mombofrancis.com</strong> - ostéopathe D.O. &amp; kinésithérapeute à Castelnau-le-Lez et Saint-Mathieu-de-Tréviers.
           </p>
         </div>
 
@@ -142,7 +142,7 @@ export default function Page() {
             style={{ background: "linear-gradient(135deg, #D4336E, #8B2035)" }}
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-            Accueil — mombofrancis.com
+            Accueil - mombofrancis.com
           </Link>
         </div>
 
@@ -185,7 +185,7 @@ export default function Page() {
                 rel="noopener noreferrer"
                 className="flex items-center justify-between px-5 py-3.5 bg-white hover:bg-gray-50 transition-colors duration-150 group"
               >
-                <span className="text-sm font-medium text-gray-800">Prise de rendez-vous — Doctolib</span>
+                <span className="text-sm font-medium text-gray-800">Prise de rendez-vous - Doctolib</span>
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-gray-300 group-hover:text-gray-500 transition-colors" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
               </a>
             </li>
@@ -202,7 +202,7 @@ export default function Page() {
             </li>
             <li>
               <a href="https://www.resalib.fr/praticien/132639-francis-mombo-osteopathe-saint-mathieu-de-treviers" target="_blank" rel="noopener noreferrer" className="flex items-center justify-between px-5 py-3.5 bg-white hover:bg-gray-50 transition-colors duration-150 group">
-                <span className="text-sm font-medium text-gray-800">Resalib — Saint-Mathieu-de-Tréviers</span>
+                <span className="text-sm font-medium text-gray-800">Resalib - Saint-Mathieu-de-Tréviers</span>
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-gray-300 group-hover:text-gray-500 transition-colors" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
               </a>
             </li>

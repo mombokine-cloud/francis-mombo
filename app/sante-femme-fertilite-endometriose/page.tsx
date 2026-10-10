@@ -3,7 +3,7 @@ import Link from "next/link";
 import RelatedPages from "../components/RelatedPages";
 
 export const metadata: Metadata = {
-  title: "Endométriose & fertilité — Ostéopathie Montpellier | Francis MOMBO",
+  title: "Endométriose & fertilité - Ostéopathie Montpellier | Francis MOMBO",
   description:
     "Endométriose, douleurs de règles, troubles de la fertilité ? L'ostéopathie viscérale soulage sans médicament. Francis MOMBO reçoit les femmes à Castelnau-le-Lez. RDV Doctolib.",
   keywords: [
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://www.mombofrancis.com/sante-femme-fertilite-endometriose" },
   openGraph: {
-    title: "Ostéopathie santé de la femme : fertilité, endométriose, cycles — Montpellier",
+    title: "Ostéopathie santé de la femme : fertilité, endométriose, cycles - Montpellier",
     description: "Accompagnement ostéopathique des femmes : endométriose, fertilité, douleurs menstruelles, SOPK, ménopause.",
     url: "https://www.mombofrancis.com/sante-femme-fertilite-endometriose",
     type: "article",
@@ -62,7 +62,7 @@ export default function Page() {
 
           <section>
             <h2 className="article-h2">L'ostéopathie et les douleurs menstruelles</h2>
-            <p>Les douleurs de règles (dysménorrhée) touchent une grande partie des femmes. Elles peuvent être primaires — liées aux contractions utérines — ou secondaires, associées à une pathologie comme l'endométriose ou les fibromes.</p>
+            <p>Les douleurs de règles (dysménorrhée) touchent une grande partie des femmes. Elles peuvent être primaires - liées aux contractions utérines - ou secondaires, associées à une pathologie comme l'endométriose ou les fibromes.</p>
             <p>L'ostéopathie travaille sur les structures mécaniques qui peuvent amplifier ces douleurs :</p>
             <ul className="article-list">
               <li>tensions du sacrum et du bassin ;</li>

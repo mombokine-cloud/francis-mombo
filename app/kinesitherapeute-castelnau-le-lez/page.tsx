@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
 
 export const metadata: Metadata = {
-  title: "Kinésithérapeute Castelnau-le-Lez — Francis MOMBO, Kiné D.O.",
+  title: "Kinésithérapeute Castelnau-le-Lez - Francis MOMBO, Kiné D.O.",
   description:
     "Francis MOMBO, masseur-kinésithérapeute et ostéopathe D.O. à Castelnau-le-Lez. Rééducation, sport de haut niveau, récupération, douleurs chroniques. Cabinet au 1720 avenue de l'Europe.",
   keywords: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteUrl}/kinesitherapeute-castelnau-le-lez` },
   openGraph: {
-    title: "Kinésithérapeute Castelnau-le-Lez — Francis MOMBO",
+    title: "Kinésithérapeute Castelnau-le-Lez - Francis MOMBO",
     description: "Masseur-kinésithérapeute et ostéopathe D.O. à Castelnau-le-Lez. Sport de haut niveau, rééducation, douleurs chroniques.",
     url: `${siteUrl}/kinesitherapeute-castelnau-le-lez`,
     type: "article",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "MedicalBusiness",
-  name: "Francis MOMBO — Kinésithérapeute & Ostéopathe",
+  name: "Francis MOMBO - Kinésithérapeute & Ostéopathe",
   url: siteUrl,
   telephone: "+33650149192",
   medicalSpecialty: ["PhysicalTherapy", "Osteopathic"],
@@ -100,7 +100,7 @@ export default function Page() {
             <span style={{ color: "#E8A020" }}>à Castelnau-le-Lez</span>
           </h1>
           <p className="text-white/80 text-base leading-relaxed max-w-xl">
-            Francis MOMBO — Masseur-kinésithérapeute · Ostéopathe D.O. · Hypnose médicale
+            Francis MOMBO - Masseur-kinésithérapeute · Ostéopathe D.O. · Hypnose médicale
           </p>
         </div>
       </div>
@@ -110,7 +110,7 @@ export default function Page() {
         <div className="grid sm:grid-cols-3 gap-4 mb-12">
           {[
             { icon: "📍", label: "1720 avenue de l'Europe", sub: "Castelnau-le-Lez 34170" },
-            { icon: "🕐", label: "Lundi — Samedi", sub: "08h00 → 20h00" },
+            { icon: "🕐", label: "Lundi - Samedi", sub: "08h00 → 20h00" },
             { icon: "📞", label: "06 50 14 91 92", sub: "ou Doctolib en ligne" },
           ].map((i) => (
             <div key={i.label} className="bg-gray-50 rounded-xl p-4 flex items-start gap-3">
@@ -134,12 +134,12 @@ export default function Page() {
           <section>
             <h2 className="article-h2">Prestations en kinésithérapie</h2>
             <ul className="article-list">
-              <li><strong>Rééducation musculo-squelettique</strong> — entorses, fractures, opérations chirurgicales ;</li>
-              <li><strong>Rééducation du dos</strong> — lombalgies, cervicalgies, hernie discale, sciatique ;</li>
-              <li><strong>Kinésithérapie du sport</strong> — traumatismes sportifs, tendinites, blessures ligamentaires ;</li>
-              <li><strong>Récupération après blessure</strong> — retour à l'entraînement progressif et sécurisé ;</li>
-              <li><strong>Massages thérapeutiques</strong> — décontracturants, drainage lymphatique, cicatrices ;</li>
-              <li><strong>Rééducation respiratoire</strong> — techniques de désencombrement bronchique.</li>
+              <li><strong>Rééducation musculo-squelettique</strong> - entorses, fractures, opérations chirurgicales ;</li>
+              <li><strong>Rééducation du dos</strong> - lombalgies, cervicalgies, hernie discale, sciatique ;</li>
+              <li><strong>Kinésithérapie du sport</strong> - traumatismes sportifs, tendinites, blessures ligamentaires ;</li>
+              <li><strong>Récupération après blessure</strong> - retour à l'entraînement progressif et sécurisé ;</li>
+              <li><strong>Massages thérapeutiques</strong> - décontracturants, drainage lymphatique, cicatrices ;</li>
+              <li><strong>Rééducation respiratoire</strong> - techniques de désencombrement bronchique.</li>
             </ul>
           </section>
 
@@ -149,7 +149,7 @@ export default function Page() {
           </section>
 
           <section>
-            <h2 className="article-h2">Zone de desserte — communes proches</h2>
+            <h2 className="article-h2">Zone de desserte - communes proches</h2>
             <p>Le cabinet accueille des patients de toute la métropole montpelliéraine :</p>
             <div className="flex flex-wrap gap-2 mt-3">
               {["Montpellier","Jacou","Le Crès","Clapiers","Vendargues","Montferrier-sur-Lez","Teyran","Grabels","Prades-le-Lez","Saint-Gély-du-Fesc"].map((c) => (
@@ -172,7 +172,7 @@ export default function Page() {
         </article>
 
         <div className="mt-10 rounded-2xl p-8 text-center" style={{ background: "linear-gradient(135deg, #fdeef3, #fff3e8)" }}>
-          <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#E8A020" }}>Castelnau-le-Lez — Sans ordonnance</p>
+          <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#E8A020" }}>Castelnau-le-Lez - Sans ordonnance</p>
           <h3 className="text-xl font-black text-gray-900 mb-3" style={{ fontFamily: "Figtree, sans-serif" }}>
             Prendre rendez-vous
           </h3>

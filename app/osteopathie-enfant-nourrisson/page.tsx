@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedPages from "../components/RelatedPages";
 
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 
 const faqItems = [
   { q: "À quel âge peut-on emmener son bébé chez l'ostéopathe ?", a: "L'ostéopathie est possible dès les premiers jours de vie. Une première consultation est souvent recommandée dans les semaines suivant la naissance, notamment après un accouchement difficile, une extraction instrumentale ou une naissance par césarienne." },
-  { q: "Les manipulations sont-elles douloureuses pour un bébé ?", a: "Non. Les techniques utilisées chez le nourrisson sont extrêmement douces — sans aucune manipulation brusque. Il s'agit principalement de légères pressions et mobilisations adaptées à la fragilité du nourrisson." },
+  { q: "Les manipulations sont-elles douloureuses pour un bébé ?", a: "Non. Les techniques utilisées chez le nourrisson sont extrêmement douces - sans aucune manipulation brusque. Il s'agit principalement de légères pressions et mobilisations adaptées à la fragilité du nourrisson." },
   { q: "L'ostéopathie peut-elle aider contre les coliques du nourrisson ?", a: "L'ostéopathie peut contribuer à réduire certaines tensions mécaniques qui aggravent l'inconfort digestif. Elle ne remplace pas un avis pédiatrique, mais peut compléter la prise en charge des coliques fonctionnelles." },
   { q: "À partir de quel âge peut-on traiter une scoliose par ostéopathie ?", a: "L'ostéopathie peut accompagner dès l'adolescence les scolioses légères à modérées, en complément du suivi médical et orthopédique. Elle n'est pas un traitement de la scoliose structurelle sévère." },
   { q: "Mon enfant doit-il se déshabiller pour la séance ?", a: "Pas nécessairement. L'ostéopathe adapte la consultation selon l'âge et le confort de l'enfant. Le nourrisson peut rester en body, l'enfant en vêtements légers." },
@@ -64,7 +64,7 @@ export default function OsteopathieEnfant() {
             <span className="text-xs text-gray-400">Nourrisson · Enfant · Adolescent · Montpellier</span>
           </div>
           <h1 className="font-black text-gray-900 leading-tight mb-4" style={{ fontFamily: "Figtree, sans-serif", fontSize: "clamp(28px, 5vw, 42px)" }}>Ostéopathie enfant et nourrisson à Montpellier</h1>
-          <p className="text-gray-500 text-lg leading-relaxed">Du nourrisson à l'adolescent, l'ostéopathie accompagne chaque étape de la croissance. Coliques, reflux, troubles du sommeil, déformation du crâne, posture scolaire, scoliose — chaque consultation est adaptée à l'âge et aux besoins de l'enfant, avec des techniques douces et sans douleur.</p>
+          <p className="text-gray-500 text-lg leading-relaxed">Du nourrisson à l'adolescent, l'ostéopathie accompagne chaque étape de la croissance. Coliques, reflux, troubles du sommeil, déformation du crâne, posture scolaire, scoliose - chaque consultation est adaptée à l'âge et aux besoins de l'enfant, avec des techniques douces et sans douleur.</p>
         </div>
         <div className="h-px bg-gray-100 mb-10" />
 
@@ -82,7 +82,7 @@ export default function OsteopathieEnfant() {
               <li>les torticolis congénitaux ou positionnels ;</li>
               <li>après un accouchement difficile, avec forceps, ventouse ou césarienne.</li>
             </ul>
-            <p>Les techniques utilisées sont extrêmement douces — légères pressions, mobilisations crâniennes — sans aucune manipulation brusque. La séance se déroule dans le calme, avec le bébé dans les bras d'un parent si nécessaire.</p>
+            <p>Les techniques utilisées sont extrêmement douces - légères pressions, mobilisations crâniennes - sans aucune manipulation brusque. La séance se déroule dans le calme, avec le bébé dans les bras d'un parent si nécessaire.</p>
           </section>
 
           <section>
@@ -114,7 +114,7 @@ export default function OsteopathieEnfant() {
           <section>
             <h2 className="article-h2">Comment se déroule une consultation pédiatrique ?</h2>
             <p>La séance débute par un échange avec les parents pour comprendre le contexte, les antécédents de naissance, les comportements et les motifs de consultation. Pour les nourrissons, l'examen se fait en position allongée, dans les bras d'un parent ou sur la table selon l'âge et le confort.</p>
-            <p>Les techniques sont toujours adaptées à l'âge et à l'état de l'enfant — légères et progressives. L'objectif est de rétablir la mobilité et le confort sans générer de douleur ni de stress.</p>
+            <p>Les techniques sont toujours adaptées à l'âge et à l'état de l'enfant - légères et progressives. L'objectif est de rétablir la mobilité et le confort sans générer de douleur ni de stress.</p>
           </section>
 
           <section>

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "../components/RelatedArticles";
 
@@ -6,7 +6,7 @@ const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
 
 export const metadata: Metadata = {
-  title: "Récupération sportive : sommeil, alimentation, hydratation — Francis MOMBO, kiné Montpellier",
+  title: "Récupération sportive : sommeil, alimentation, hydratation - Francis MOMBO, kiné Montpellier",
   description:
     "Francis MOMBO, kinésithérapeute officiel du MHSC VB, détaille les trois piliers incontournables de la récupération sportive de haut niveau : sommeil, alimentation et hydratation.",
   keywords: [
@@ -45,7 +45,7 @@ const faq = [
   },
   {
     q: "L'ostéopathie aide-t-elle à récupérer plus vite ?",
-    a: "Oui. L'ostéopathie améliore la récupération en levant les tensions articulaires et musculaires, en facilitant la circulation lymphatique et en régulant le système nerveux autonome — ce qui favorise le passage en mode parasympathique (repos et réparation). En club professionnel, les séances préventives post-match font partie intégrante du protocole de récupération.",
+    a: "Oui. L'ostéopathie améliore la récupération en levant les tensions articulaires et musculaires, en facilitant la circulation lymphatique et en régulant le système nerveux autonome - ce qui favorise le passage en mode parasympathique (repos et réparation). En club professionnel, les séances préventives post-match font partie intégrante du protocole de récupération.",
   },
 ];
 
@@ -60,11 +60,11 @@ const jsonLd = [
       "@type": "Person",
       name: "Francis MOMBO",
       url: siteUrl,
-      jobTitle: "Kinésithérapeute — Ostéopathe D.O.",
+      jobTitle: "Kinésithérapeute - Ostéopathe D.O.",
     },
     publisher: {
       "@type": "MedicalBusiness",
-      name: "Francis MOMBO — Cabinet d'ostéopathie & kinésithérapie",
+      name: "Francis MOMBO - Cabinet d'ostéopathie & kinésithérapie",
       url: siteUrl,
     },
     url: `${siteUrl}/recuperation-sport-haut-niveau-sommeil-alimentation`,
@@ -124,10 +124,10 @@ export default function Page() {
         {/* Citation presse */}
         <blockquote className="mb-10 rounded-2xl p-6 border-l-4" style={{ background: "#fdeef3", borderLeftColor: "#D4336E" }}>
           <p className="text-gray-700 italic leading-relaxed">
-            « Le sommeil, l'alimentation, l'hydratation — ce sont les clés de la récupération. »
+            « Le sommeil, l'alimentation, l'hydratation - ce sont les clés de la récupération. »
           </p>
           <p className="text-xs text-gray-400 mt-3">
-            — Francis MOMBO, kinésithérapeute du MHSC VB · <span className="italic">La Nouvelle République</span>, 3 mai 2025
+            - Francis MOMBO, kinésithérapeute du MHSC VB · <span className="italic">La Nouvelle République</span>, 3 mai 2025
           </p>
         </blockquote>
 
@@ -137,12 +137,12 @@ export default function Page() {
 
           <section>
             <h2 className="article-h2">Pourquoi la récupération est la variable la plus sous-estimée</h2>
-            <p>Dans le sport de haut niveau, les marges de progression physique s'amenuisent à mesure que le niveau monte. Ce qui distingue les équipes au sommet, ce n'est pas seulement l'entraînement — c'est la capacité à enchainer les efforts sans s'effondrer.</p>
+            <p>Dans le sport de haut niveau, les marges de progression physique s'amenuisent à mesure que le niveau monte. Ce qui distingue les équipes au sommet, ce n'est pas seulement l'entraînement - c'est la capacité à enchainer les efforts sans s'effondrer.</p>
             <p className="mt-3">En demi-finale de Ligue A de volley-ball, Tours et Montpellier ont parfois disputé trois matchs en cinq jours. Dans ce contexte, la récupération entre les rencontres devient aussi stratégique que la tactique de jeu. Un joueur qui dort mal et mange à la va-vite ne sera pas le même athlète sur le terrain le surlendemain.</p>
           </section>
 
           <section>
-            <h2 className="article-h2">Pilier 1 — Le sommeil : la réparation s'opère la nuit</h2>
+            <h2 className="article-h2">Pilier 1 - Le sommeil : la réparation s'opère la nuit</h2>
             <p>Le sommeil est la récupération la plus puissante et la moins chère qui soit. C'est durant les phases de sommeil profond que l'organisme :</p>
             <ul className="article-list">
               <li>libère l'hormone de croissance (GH), indispensable à la réparation musculaire ;</li>
@@ -154,19 +154,19 @@ export default function Page() {
           </section>
 
           <section>
-            <h2 className="article-h2">Pilier 2 — L'alimentation : reconstruire le muscle dans la bonne fenêtre</h2>
-            <p>Après un effort intense, le muscle est en état catabolique — il se dégrade. L'alimentation post-effort doit inverser ce processus le plus vite possible. La clé est la <strong>fenêtre métabolique</strong> : les 30 à 45 minutes suivant la fin du match.</p>
+            <h2 className="article-h2">Pilier 2 - L'alimentation : reconstruire le muscle dans la bonne fenêtre</h2>
+            <p>Après un effort intense, le muscle est en état catabolique - il se dégrade. L'alimentation post-effort doit inverser ce processus le plus vite possible. La clé est la <strong>fenêtre métabolique</strong> : les 30 à 45 minutes suivant la fin du match.</p>
             <ul className="article-list">
               <li><strong>Protéines</strong> (20 à 30 g) pour stopper le catabolisme et initier la synthèse protéique ;</li>
               <li><strong>Glucides</strong> pour resynthétiser le glycogène musculaire vidé par l'effort ;</li>
               <li><strong>Antioxydants</strong> (fruits, légumes colorés) pour limiter le stress oxydatif ;</li>
               <li><strong>Oméga-3</strong> (poisson gras, noix) pour leur effet anti-inflammatoire naturel.</li>
             </ul>
-            <p className="mt-3">À l'inverse, l'alcool — même en faible quantité — retarde significativement la récupération en perturbant la synthèse protéique et la qualité du sommeil. Un verre après la victoire a un coût physiologique réel le lendemain matin.</p>
+            <p className="mt-3">À l'inverse, l'alcool - même en faible quantité - retarde significativement la récupération en perturbant la synthèse protéique et la qualité du sommeil. Un verre après la victoire a un coût physiologique réel le lendemain matin.</p>
           </section>
 
           <section>
-            <h2 className="article-h2">Pilier 3 — L'hydratation : plus qu'une question de soif</h2>
+            <h2 className="article-h2">Pilier 3 - L'hydratation : plus qu'une question de soif</h2>
             <p>Un athlète de haut niveau peut perdre entre 1,5 et 3 litres de sueur par heure d'effort intense. Une déshydratation de seulement 2 % du poids corporel réduit les performances cognitives et physiques de façon mesurable.</p>
             <p className="mt-3">Mais la réhydratation post-effort ne s'improvise pas :</p>
             <ul className="article-list">
@@ -180,12 +180,12 @@ export default function Page() {
 
           <section>
             <h2 className="article-h2">Le rôle de l'ostéopathie et de la kinésithérapie dans la récupération</h2>
-            <p>Ces trois piliers constituent le socle. Mais la récupération active — thérapeutique — accélère encore le processus :</p>
+            <p>Ces trois piliers constituent le socle. Mais la récupération active - thérapeutique - accélère encore le processus :</p>
             <ul className="article-list">
-              <li><strong>Ostéopathie</strong> — levée des tensions articulaires et fasciales, régulation du système nerveux autonome, amélioration de la circulation lymphatique ;</li>
-              <li><strong>Kinésithérapie</strong> — techniques de drainage, massages de récupération, étirements passifs, électrothérapie anti-inflammatoire ;</li>
-              <li><strong>Cryothérapie localisée</strong> — application de froid sur les zones inflammatoires dans les premières heures post-match ;</li>
-              <li><strong>Hypnose</strong> — gestion du stress et du système nerveux pour faciliter le passage en mode parasympathique (repos et réparation).</li>
+              <li><strong>Ostéopathie</strong> - levée des tensions articulaires et fasciales, régulation du système nerveux autonome, amélioration de la circulation lymphatique ;</li>
+              <li><strong>Kinésithérapie</strong> - techniques de drainage, massages de récupération, étirements passifs, électrothérapie anti-inflammatoire ;</li>
+              <li><strong>Cryothérapie localisée</strong> - application de froid sur les zones inflammatoires dans les premières heures post-match ;</li>
+              <li><strong>Hypnose</strong> - gestion du stress et du système nerveux pour faciliter le passage en mode parasympathique (repos et réparation).</li>
             </ul>
             <p className="mt-3">En demi-finale comme en consultation de cabinet, les principes sont identiques. L'entraîneur amateur qui joue le week-end, le senior qui reprend le sport ou le patient post-opératoire bénéficient des mêmes leviers de récupération que les professionnels.</p>
           </section>

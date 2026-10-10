@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from "next/server";
+﻿import { NextRequest, NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 import { createFactureToken } from "@/lib/facture-token";
 
@@ -33,14 +33,14 @@ export async function POST(req: NextRequest) {
   });
 
   await transporter.sendMail({
-    from:    `"Francis MOMBO — Ostéopathe" <${process.env.SMTP_USER}>`,
+    from:    `"Francis MOMBO - Ostéopathe" <${process.env.SMTP_USER}>`,
     to:      emailPatient,
-    subject: `Votre facture d'ostéopathie — ${date}`,
+    subject: `Votre facture d'ostéopathie - ${date}`,
     html: `
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
         <div style="background: linear-gradient(135deg, #D4336E, #8B2035); padding: 32px 24px; border-radius: 12px 12px 0 0; text-align: center;">
           <h1 style="color: white; margin: 0; font-size: 22px; font-weight: 800;">Votre facture est disponible</h1>
-          <p style="color: rgba(255,255,255,0.85); margin: 8px 0 0; font-size: 14px;">Francis MOMBO — Ostéopathe &amp; Kinésithérapeute</p>
+          <p style="color: rgba(255,255,255,0.85); margin: 8px 0 0; font-size: 14px;">Francis MOMBO - Ostéopathe &amp; Kinésithérapeute</p>
         </div>
         <div style="padding: 32px 24px; background: #fafafa; border: 1px solid #f0f0f0;">
           <p style="color: #333; font-size: 15px; margin: 0 0 16px;">Bonjour ${civilite} ${prenom} ${nom.toUpperCase()},</p>
@@ -62,7 +62,7 @@ export async function POST(req: NextRequest) {
         <div style="padding: 28px 24px; background: #fff8f0; border-left: 4px solid #E8A020; margin: 0 0 0 0;">
           <p style="color: #333; font-size: 15px; font-weight: 700; margin: 0 0 8px;">Votre avis nous aide énormément 🙏</p>
           <p style="color: #666; font-size: 13px; line-height: 1.6; margin: 0 0 16px;">
-            Si votre séance vous a aidé, 30 secondes suffisent pour laisser un avis Google — cela aide d'autres personnes à trouver les bons soins.
+            Si votre séance vous a aidé, 30 secondes suffisent pour laisser un avis Google - cela aide d'autres personnes à trouver les bons soins.
           </p>
           <div style="text-align: center;">
             <a href="https://g.page/r/CSuZQhAb-49CEBM/review"

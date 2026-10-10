@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "../components/RelatedArticles";
 
@@ -6,7 +6,7 @@ const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
 
 export const metadata: Metadata = {
-  title: "Coupe de France 2022 — Kiné RC Strasbourg · MHSC | Francis MOMBO",
+  title: "Coupe de France 2022 - Kiné RC Strasbourg · MHSC | Francis MOMBO",
   description:
     "Francis MOMBO, kinésithérapeute et ostéopathe D.O., assure le suivi kiné du RC Strasbourg lors du match de Coupe de France contre le MHSC le 2 janvier 2022. Une expérience unique au carrefour du football professionnel.",
   keywords: [
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteUrl}/coupe-de-france-2022-kine-rc-strasbourg` },
   openGraph: {
-    title: "Coupe de France 2022 — Francis MOMBO, kiné du RC Strasbourg",
+    title: "Coupe de France 2022 - Francis MOMBO, kiné du RC Strasbourg",
     description:
-      "Match MHSC / RC Strasbourg — Coupe de France, 2 janvier 2022. Francis MOMBO assure le suivi kinésithérapeute de l'équipe alsacienne lors de ce déplacement.",
+      "Match MHSC / RC Strasbourg - Coupe de France, 2 janvier 2022. Francis MOMBO assure le suivi kinésithérapeute de l'équipe alsacienne lors de ce déplacement.",
     url: `${siteUrl}/coupe-de-france-2022-kine-rc-strasbourg`,
     type: "article",
     images: [{ url: "/og-image.jpeg.png", width: 1200, height: 630 }],
@@ -40,11 +40,11 @@ const faq = [
   },
   {
     q: "Le RC Strasbourg a-t-il gagné ce match ?",
-    a: "La Coupe de France est une compétition à élimination directe où chaque match est décisif. Ce qui compte pour le staff kiné : que les joueurs soient en capacité optimale de performance et qu'ils rentrent sans blessure supplémentaire — quel que soit le résultat final.",
+    a: "La Coupe de France est une compétition à élimination directe où chaque match est décisif. Ce qui compte pour le staff kiné : que les joueurs soient en capacité optimale de performance et qu'ils rentrent sans blessure supplémentaire - quel que soit le résultat final.",
   },
   {
     q: "Francis MOMBO suit-il d'autres sports que le volley-ball ?",
-    a: "Oui. Au-delà de ses 9 saisons avec le MHSC VB et ses 5 missions avec la FFVB, Francis MOMBO a étendu son expertise à d'autres disciplines : basketball africain (consultant kiné équipe du Mali — AfroBasket 2025), football professionnel (RC Strasbourg, Coupe de France 2022). Une polyvalence qui enrichit sa pratique quotidienne au cabinet.",
+    a: "Oui. Au-delà de ses 9 saisons avec le MHSC VB et ses 5 missions avec la FFVB, Francis MOMBO a étendu son expertise à d'autres disciplines : basketball africain (consultant kiné équipe du Mali - AfroBasket 2025), football professionnel (RC Strasbourg, Coupe de France 2022). Une polyvalence qui enrichit sa pratique quotidienne au cabinet.",
   },
 ];
 
@@ -52,24 +52,24 @@ const jsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "Coupe de France 2022 — MHSC / RC Strasbourg : Francis MOMBO, kinésithérapeute de l'équipe alsacienne",
+    headline: "Coupe de France 2022 - MHSC / RC Strasbourg : Francis MOMBO, kinésithérapeute de l'équipe alsacienne",
     datePublished: "2022-01-02",
     dateModified: "2026-10-08",
     author: {
       "@type": "Person",
       name: "Francis MOMBO",
       url: siteUrl,
-      jobTitle: "Kinésithérapeute — Ostéopathe D.O.",
+      jobTitle: "Kinésithérapeute - Ostéopathe D.O.",
     },
     publisher: {
       "@type": "MedicalBusiness",
-      name: "Francis MOMBO — Cabinet d'ostéopathie & kinésithérapie",
+      name: "Francis MOMBO - Cabinet d'ostéopathie & kinésithérapie",
       url: siteUrl,
     },
     url: `${siteUrl}/coupe-de-france-2022-kine-rc-strasbourg`,
     about: {
       "@type": "Event",
-      name: "Coupe de France 2022 — MHSC / RC Strasbourg",
+      name: "Coupe de France 2022 - MHSC / RC Strasbourg",
       description: "Match de Coupe de France opposant le Montpellier Hérault SC au RC Strasbourg le 2 janvier 2022. Francis MOMBO assure le suivi kinésithérapeute de l'équipe alsacienne en déplacement.",
       startDate: "2022-01-02",
       endDate: "2022-01-02",
@@ -137,7 +137,7 @@ export default function Page() {
           </div>
           <h1 className="font-black text-white leading-tight mb-4" style={{ fontFamily: "Figtree, sans-serif", fontSize: "clamp(24px, 5vw, 38px)" }}>
             MHSC / RC Strasbourg<br />
-            <span style={{ color: "#E8A020" }}>Kinésithérapeute RC Strasbourg — Coupe de France</span>
+            <span style={{ color: "#E8A020" }}>Kinésithérapeute RC Strasbourg - Coupe de France</span>
           </h1>
           <p className="text-white/80 text-base leading-relaxed max-w-2xl">
             Suivi kiné de l'équipe alsacienne · Football Ligue 1 · Montpellier
@@ -152,14 +152,14 @@ export default function Page() {
           <div className="relative rounded-2xl overflow-hidden bg-gray-100" style={{ aspectRatio: "4/3" }}>
             <img
               src="/coupe_de_france_2022_MHSC_RCSTRASBOURG.webp"
-              alt="Match MHSC / RC Strasbourg — Coupe de France 2022"
+              alt="Match MHSC / RC Strasbourg - Coupe de France 2022"
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
           </div>
           <div className="relative rounded-2xl overflow-hidden bg-gray-100" style={{ aspectRatio: "4/3" }}>
             <img
               src="/mhsc_strasbourg.webp"
-              alt="Francis MOMBO avec le staff du RC Strasbourg — Coupe de France 2022"
+              alt="Francis MOMBO avec le staff du RC Strasbourg - Coupe de France 2022"
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
           </div>
@@ -175,7 +175,7 @@ export default function Page() {
 
           <section>
             <h2 className="article-h2">Un environnement familier : les installations du MHSC</h2>
-            <p>En tant que kinésithérapeute et ostéopathe officiel du <strong>MHSC VB</strong>, Francis MOMBO évolue au quotidien dans les infrastructures du club montpelliérain — infrastructures partagées entre les sections football et volley-ball. C'est dans ce contexte qu'il est naturellement intégré au dispositif médical pour ce match de Coupe de France.</p>
+            <p>En tant que kinésithérapeute et ostéopathe officiel du <strong>MHSC VB</strong>, Francis MOMBO évolue au quotidien dans les infrastructures du club montpelliérain - infrastructures partagées entre les sections football et volley-ball. C'est dans ce contexte qu'il est naturellement intégré au dispositif médical pour ce match de Coupe de France.</p>
             <ul className="article-list">
               <li>accès aux salles de soin et de récupération du stade ;</li>
               <li>connaissance des protocoles de prise en charge en match ;</li>
@@ -188,16 +188,16 @@ export default function Page() {
             <h2 className="article-h2">La kinésithérapie lors d'un match professionnel</h2>
             <p>Dans un club de Ligue 1, le kiné de match joue un rôle central :</p>
             <ul className="article-list">
-              <li><strong>Avant le match</strong> — préparation musculaire, activation, strapping préventif ;</li>
-              <li><strong>À la mi-temps</strong> — gestion des douleurs, ajustements ostéopathiques rapides, décision médicale sur la poursuite du jeu ;</li>
-              <li><strong>Après le match</strong> — bilan des chocs et traumatismes, premiers soins, protocole de récupération pour le trajet retour.</li>
+              <li><strong>Avant le match</strong> - préparation musculaire, activation, strapping préventif ;</li>
+              <li><strong>À la mi-temps</strong> - gestion des douleurs, ajustements ostéopathiques rapides, décision médicale sur la poursuite du jeu ;</li>
+              <li><strong>Après le match</strong> - bilan des chocs et traumatismes, premiers soins, protocole de récupération pour le trajet retour.</li>
             </ul>
             <p>Dans les compétitions à enjeu, chaque minute compte. Le kiné doit être rapide, précis et capable d'évaluer sous pression.</p>
           </section>
 
           <section>
             <h2 className="article-h2">Une expertise multi-sports</h2>
-            <p>Cette intervention confirme la polyvalence de Francis MOMBO dans le sport de haut niveau : <strong>volley-ball</strong> (MHSC VB, FFVB), <strong>football</strong> (RC Strasbourg, Coupe de France 2022), <strong>basketball</strong> (équipe du Mali, AfroBasket 2025). Chaque discipline apporte ses propres spécificités biomécaniques — des apprentissages qui enrichissent directement la prise en charge au cabinet.</p>
+            <p>Cette intervention confirme la polyvalence de Francis MOMBO dans le sport de haut niveau : <strong>volley-ball</strong> (MHSC VB, FFVB), <strong>football</strong> (RC Strasbourg, Coupe de France 2022), <strong>basketball</strong> (équipe du Mali, AfroBasket 2025). Chaque discipline apporte ses propres spécificités biomécaniques - des apprentissages qui enrichissent directement la prise en charge au cabinet.</p>
           </section>
 
           <section>
@@ -220,7 +220,7 @@ export default function Page() {
             Votre corps mérite une prise en charge de niveau pro
           </h3>
           <p className="text-white/70 text-sm mb-6 max-w-md mx-auto">
-            Cabinet à Castelnau-le-Lez et Saint-Mathieu-de-Tréviers — consultation sans ordonnance.
+            Cabinet à Castelnau-le-Lez et Saint-Mathieu-de-Tréviers - consultation sans ordonnance.
           </p>
           <a href={doctolib} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-full text-sm" style={{ background: "#E8A020", color: "#0a1628" }}>
             Prendre rendez-vous sur Doctolib

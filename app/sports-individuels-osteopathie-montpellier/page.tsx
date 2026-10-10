@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
 
 export const metadata: Metadata = {
-  title: "Ostéopathe Sports Individuels Montpellier — Tennis, Padel, Course, Escalade",
+  title: "Ostéopathe Sports Individuels Montpellier - Tennis, Padel, Course, Escalade",
   description:
     "Francis MOMBO accompagne les sportifs individuels à Montpellier : tennis, padel (Champion de France 2026 jeune), course à pied, escalade. Prévention, préparation compétition, récupération. Cabinet Castelnau-le-Lez.",
   keywords: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteUrl}/sports-individuels-osteopathie-montpellier` },
   openGraph: {
-    title: "Ostéopathe Sports Individuels — Tennis, Padel, Course, Escalade · Montpellier",
+    title: "Ostéopathe Sports Individuels - Tennis, Padel, Course, Escalade · Montpellier",
     description: "Du loisir à l'international français. Francis MOMBO accompagne les sportifs individuels à Montpellier.",
     url: `${siteUrl}/sports-individuels-osteopathie-montpellier`,
     type: "article",
@@ -35,7 +35,7 @@ const jsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "Prise en charge des sports individuels — Du loisir à l'international français",
+    headline: "Prise en charge des sports individuels - Du loisir à l'international français",
     description: "Accompagnement ostéopathique et kinésithérapique des sportifs individuels : tennis, padel, course à pied, escalade.",
     url: `${siteUrl}/sports-individuels-osteopathie-montpellier`,
     author: { "@type": "Person", name: "Francis MOMBO", url: siteUrl },
@@ -115,7 +115,7 @@ const sports = [
     caption: "Course à pied · endurance • foulée • économie",
     accent: "#8B2035",
     palmares: false,
-    desc: "La course à pied répète le même geste des milliers de fois — chaque déséquilibre postural se traduit en blessure de surmenage. L'ostéopathie analyse la foulée, libère les restrictions de hanche et d'iliosacré, et optimise l'économie de course.",
+    desc: "La course à pied répète le même geste des milliers de fois - chaque déséquilibre postural se traduit en blessure de surmenage. L'ostéopathie analyse la foulée, libère les restrictions de hanche et d'iliosacré, et optimise l'économie de course.",
     blessures: ["Syndrome de la bandelette IT", "Périostite tibiale (tibial stress)", "Fasciite plantaire", "Tendinite achilléenne"],
   },
   {
@@ -159,7 +159,7 @@ export default function Page() {
         </div>
       </nav>
 
-      {/* Hero — style magazine */}
+      {/* Hero - style magazine */}
       <div className="relative" style={{ background: "#f7f4ef" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10 sm:py-14">
           {/* Label */}
@@ -182,7 +182,7 @@ export default function Page() {
               </p>
               {/* Encadré palmarès padel */}
               <div className="rounded-xl p-5 mb-6" style={{ background: "linear-gradient(135deg, #1a0a10, #8B2035)", border: "1px solid rgba(212,51,110,0.4)" }}>
-                <p className="text-xs font-bold uppercase tracking-widest mb-2" style={{ color: "#E8A020" }}>🏆 Palmarès — Padel jeune</p>
+                <p className="text-xs font-bold uppercase tracking-widest mb-2" style={{ color: "#E8A020" }}>🏆 Palmarès - Padel jeune</p>
                 <p className="text-white font-black text-base leading-snug" style={{ fontFamily: "Figtree, sans-serif" }}>
                   Champion de France 2026
                 </p>
@@ -202,7 +202,7 @@ export default function Page() {
             {/* Photo tennis */}
             <div className="relative">
               <div className="rounded-2xl overflow-hidden" style={{ aspectRatio: "3/4" }}>
-                <img src="/francis-sport-bw.webp" alt="Ostéopathe sports individuels Montpellier — Francis MOMBO" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                <img src="/francis-sport-bw.webp" alt="Ostéopathe sports individuels Montpellier - Francis MOMBO" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
               </div>
               <div className="mt-2">
                 <p className="text-xs text-gray-400 italic">Sports individuels</p>
@@ -249,7 +249,7 @@ export default function Page() {
               <div key={s.id} className={`grid sm:grid-cols-2 gap-8 items-start ${i % 2 === 1 ? "sm:[direction:rtl]" : ""}`}>
                 <div className={i % 2 === 1 ? "sm:[direction:ltr]" : ""}>
                   <div className="rounded-2xl overflow-hidden mb-3" style={{ aspectRatio: "4/3" }}>
-                    <img src={s.img} alt={`Ostéopathe ${s.label} Montpellier — Francis MOMBO`} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                    <img src={s.img} alt={`Ostéopathe ${s.label} Montpellier - Francis MOMBO`} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
                   </div>
                   <p className="text-xs text-gray-400 italic">{s.caption}</p>
                 </div>

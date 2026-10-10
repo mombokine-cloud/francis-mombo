@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedPages from "../components/RelatedPages";
 
 export const metadata: Metadata = {
-  title: "Ostéopathie grossesse Montpellier — Équilibre féminin | Francis MOMBO",
+  title: "Ostéopathie grossesse Montpellier - Équilibre féminin | Francis MOMBO",
   description:
     "Grossesse, post-partum, douleurs pelviennes, SPP ? Soins doux et adaptés à Castelnau-le-Lez. Francis MOMBO accompagne les femmes à chaque étape. RDV sur Doctolib.",
   keywords: [
@@ -85,7 +85,7 @@ export default function ArticleOsteopathieGrossesse() {
           </h1>
           <p className="text-gray-500 text-lg leading-relaxed">
             La grossesse entraîne de nombreuses transformations corporelles. L'ostéopathie accompagne les futures
-            mamans de façon douce et sécurisée pour un meilleur confort à chaque trimestre — et au-delà, dans
+            mamans de façon douce et sécurisée pour un meilleur confort à chaque trimestre - et au-delà, dans
             la période post-partum et tout au long de la vie féminine.
           </p>
         </div>

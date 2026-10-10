@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
 
 export const metadata: Metadata = {
-  title: "Ostéopathe pour Danseurs — Francis MOMBO, Kiné D.O. Montpellier",
+  title: "Ostéopathe pour Danseurs - Francis MOMBO, Kiné D.O. Montpellier",
   description:
     "Francis MOMBO, kinésithérapeute et ostéopathe D.O. à Montpellier, accompagne les danseurs et danseuses professionnels : blessures, prévention, récupération, performance. Cabinet à Castelnau-le-Lez.",
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteUrl}/osteopathe-danseur-danse-montpellier` },
   openGraph: {
-    title: "Ostéopathe pour Danseurs — Francis MOMBO, Montpellier",
+    title: "Ostéopathe pour Danseurs - Francis MOMBO, Montpellier",
     description: "Accompagnement kiné & ostéopathique des danseurs professionnels à Montpellier. Prévention, blessures, récupération, performance.",
     url: `${siteUrl}/osteopathe-danseur-danse-montpellier`,
     type: "article",
@@ -32,7 +32,7 @@ const jsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
-    name: "Francis MOMBO — Ostéopathe & Kinésithérapeute",
+    name: "Francis MOMBO - Ostéopathe & Kinésithérapeute",
     url: siteUrl,
     telephone: "+33650149192",
     address: {
@@ -77,7 +77,7 @@ const jsonLd = [
         name: "Quelle est la différence entre un kiné et un ostéopathe pour un danseur ?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Le kiné traite la blessure : rééducation fonctionnelle, renforcement musculaire, récupération après traumatisme. L'ostéopathe travaille sur les restrictions de mobilité globale du corps, les compensations posturales et les causes profondes de la blessure. Francis MOMBO cumule les deux diplômes — une prise en charge complète en une seule consultation.",
+          text: "Le kiné traite la blessure : rééducation fonctionnelle, renforcement musculaire, récupération après traumatisme. L'ostéopathe travaille sur les restrictions de mobilité globale du corps, les compensations posturales et les causes profondes de la blessure. Francis MOMBO cumule les deux diplômes - une prise en charge complète en une seule consultation.",
         },
       },
     ],
@@ -145,7 +145,7 @@ export default function Page() {
           <div className="rounded-2xl overflow-hidden" style={{ aspectRatio: "3/4" }}>
             <img
               src="/danseur.webp"
-              alt="Accompagnement ostéopathique d'une danseuse — Francis MOMBO, Montpellier"
+              alt="Accompagnement ostéopathique d'une danseuse - Francis MOMBO, Montpellier"
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
           </div>
@@ -168,13 +168,13 @@ export default function Page() {
 
           <section>
             <h2 className="article-h2">Les spécificités du corps du danseur</h2>
-            <p>Le danseur professionnel — classique, contemporain, hip-hop, flamenco — expose son corps à des contraintes que la plupart des sportifs ne connaissent pas :</p>
+            <p>Le danseur professionnel - classique, contemporain, hip-hop, flamenco - expose son corps à des contraintes que la plupart des sportifs ne connaissent pas :</p>
             <ul className="article-list">
-              <li><strong>Hypermobilité articulaire</strong> — les articulations sont poussées au-delà de leur amplitude physiologique normale, créant des instabilités ;</li>
-              <li><strong>Charge asymétrique</strong> — la répétition de figures d'un seul côté génère des déséquilibres posturaux progressifs ;</li>
-              <li><strong>Port de charge</strong> — les portés en danse classique ou contemporaine sollicitent les épaules, les lombaires et les genoux de façon intense ;</li>
-              <li><strong>Chaussures contraignantes</strong> — les pointes en danse classique concentrent les forces sur les orteils et l'avant-pied ;</li>
-              <li><strong>Dissimulation de la douleur</strong> — la culture de la danse pousse souvent à continuer malgré la douleur, retardant la prise en charge.</li>
+              <li><strong>Hypermobilité articulaire</strong> - les articulations sont poussées au-delà de leur amplitude physiologique normale, créant des instabilités ;</li>
+              <li><strong>Charge asymétrique</strong> - la répétition de figures d'un seul côté génère des déséquilibres posturaux progressifs ;</li>
+              <li><strong>Port de charge</strong> - les portés en danse classique ou contemporaine sollicitent les épaules, les lombaires et les genoux de façon intense ;</li>
+              <li><strong>Chaussures contraignantes</strong> - les pointes en danse classique concentrent les forces sur les orteils et l'avant-pied ;</li>
+              <li><strong>Dissimulation de la douleur</strong> - la culture de la danse pousse souvent à continuer malgré la douleur, retardant la prise en charge.</li>
             </ul>
           </section>
 
@@ -182,18 +182,18 @@ export default function Page() {
             <h2 className="article-h2">Blessures fréquentes et prise en charge ostéopathique</h2>
             <p>Francis MOMBO intervient sur l'ensemble des pathologies spécifiques aux danseurs :</p>
             <ul className="article-list">
-              <li><strong>Tendinites</strong> — tendon d'Achille, rotulien, tibial postérieur, coiffe des rotateurs ;</li>
-              <li><strong>Entorses de cheville</strong> — très fréquentes aux réceptions, traitées en ostéopathie pour restaurer la mobilité et la proprioception ;</li>
-              <li><strong>Douleurs lombaires</strong> — liées aux cambrés répétés et aux déséquilibres pelvi-lombaires ;</li>
-              <li><strong>Syndrome de l'os naviculaire</strong> — fréquent chez les danseuses classiques en pointes ;</li>
-              <li><strong>Conflits de hanche</strong> — liés à l'ouverture en rotation externe forcée ("en dehors") ;</li>
-              <li><strong>Fractures de stress</strong> — métatarses, tibia, stress répétitif sur un os fragilisé.</li>
+              <li><strong>Tendinites</strong> - tendon d'Achille, rotulien, tibial postérieur, coiffe des rotateurs ;</li>
+              <li><strong>Entorses de cheville</strong> - très fréquentes aux réceptions, traitées en ostéopathie pour restaurer la mobilité et la proprioception ;</li>
+              <li><strong>Douleurs lombaires</strong> - liées aux cambrés répétés et aux déséquilibres pelvi-lombaires ;</li>
+              <li><strong>Syndrome de l'os naviculaire</strong> - fréquent chez les danseuses classiques en pointes ;</li>
+              <li><strong>Conflits de hanche</strong> - liés à l'ouverture en rotation externe forcée ("en dehors") ;</li>
+              <li><strong>Fractures de stress</strong> - métatarses, tibia, stress répétitif sur un os fragilisé.</li>
             </ul>
           </section>
 
           <section>
             <h2 className="article-h2">La double expertise kiné-ostéopathe : un avantage décisif</h2>
-            <p>Francis MOMBO est l'un des rares praticiens à cumuler les deux titres — <strong>masseur-kinésithérapeute</strong> et <strong>ostéopathe D.O.</strong> — enrichis d'une formation en hypnose médicale. Pour un danseur, c'est un avantage concret :</p>
+            <p>Francis MOMBO est l'un des rares praticiens à cumuler les deux titres - <strong>masseur-kinésithérapeute</strong> et <strong>ostéopathe D.O.</strong> - enrichis d'une formation en hypnose médicale. Pour un danseur, c'est un avantage concret :</p>
             <ul className="article-list">
               <li>diagnostic global intégrant posture, mobilité et douleur ;</li>
               <li>traitement de la blessure aiguë ET des causes profondes ;</li>
@@ -205,7 +205,7 @@ export default function Page() {
 
           <section>
             <h2 className="article-h2">Montpellier, ville de danse</h2>
-            <p>Montpellier est l'une des capitales françaises de la danse contemporaine — siège du <strong>Centre Chorégraphique National de Montpellier</strong>, de nombreuses compagnies professionnelles et d'une formation académique dense. Le cabinet de Castelnau-le-Lez, à quelques minutes du centre-ville, accueille les danseurs et danseuses professionnels et amateurs de toute l'agglomération.</p>
+            <p>Montpellier est l'une des capitales françaises de la danse contemporaine - siège du <strong>Centre Chorégraphique National de Montpellier</strong>, de nombreuses compagnies professionnelles et d'une formation académique dense. Le cabinet de Castelnau-le-Lez, à quelques minutes du centre-ville, accueille les danseurs et danseuses professionnels et amateurs de toute l'agglomération.</p>
           </section>
 
           <section>
@@ -239,7 +239,7 @@ export default function Page() {
             Prenez soin de votre corps de danseur
           </h3>
           <p className="text-gray-500 text-sm mb-6 max-w-md mx-auto">
-            Consultation sans ordonnance — 1720 avenue de l'Europe, Castelnau-le-Lez · 06 50 14 91 92
+            Consultation sans ordonnance - 1720 avenue de l'Europe, Castelnau-le-Lez · 06 50 14 91 92
           </p>
           <a href={doctolib} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-full text-white text-sm" style={{ background: "linear-gradient(135deg, #D4336E, #8B2035)" }}>
             Prendre rendez-vous sur Doctolib

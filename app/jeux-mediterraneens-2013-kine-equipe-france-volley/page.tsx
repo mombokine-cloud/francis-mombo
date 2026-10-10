@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "../components/RelatedArticles";
 
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   alternates: { canonical: `${siteUrl}/jeux-mediterraneens-2013-kine-equipe-france-volley` },
   openGraph: {
     title: "Francis MOMBO, kiné de l'équipe de France aux Jeux Méditerranéens 2013",
-    description: "Kinésithérapeute officiel de l'équipe de France masculine de volley-ball (FFVB) aux Jeux Méditerranéens 2013 — une étape clé du parcours international de Francis MOMBO.",
+    description: "Kinésithérapeute officiel de l'équipe de France masculine de volley-ball (FFVB) aux Jeux Méditerranéens 2013 - une étape clé du parcours international de Francis MOMBO.",
     url: `${siteUrl}/jeux-mediterraneens-2013-kine-equipe-france-volley`,
     type: "article",
   },
@@ -57,17 +57,17 @@ const jsonLd = [
       "@type": "Person",
       name: "Francis MOMBO",
       url: siteUrl,
-      jobTitle: "Kinésithérapeute — Ostéopathe D.O.",
+      jobTitle: "Kinésithérapeute - Ostéopathe D.O.",
     },
     publisher: {
       "@type": "MedicalBusiness",
-      name: "Francis MOMBO — Cabinet d'ostéopathie & kinésithérapie",
+      name: "Francis MOMBO - Cabinet d'ostéopathie & kinésithérapie",
       url: siteUrl,
     },
     url: `${siteUrl}/jeux-mediterraneens-2013-kine-equipe-france-volley`,
     citation: {
       "@type": "WebPage",
-      name: "JEUX MED - VOLLEY MASCULIN — FFVB",
+      name: "JEUX MED - VOLLEY MASCULIN - FFVB",
       url: ffvbSource,
       publisher: {
         "@type": "SportsOrganization",
@@ -77,7 +77,7 @@ const jsonLd = [
     },
     about: {
       "@type": "Event",
-      name: "Jeux Méditerranéens 2013 — Volley-ball masculin",
+      name: "Jeux Méditerranéens 2013 - Volley-ball masculin",
       startDate: "2013-06-20",
       endDate: "2013-07-06",
       eventStatus: "https://schema.org/EventScheduled",
@@ -159,7 +159,7 @@ export default function Page() {
           <div className="flex items-start gap-4">
             <div className="flex-1">
               <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>
-                Staff officiel — Jeux Méditerranéens 2013, Volley-ball masculin
+                Staff officiel - Jeux Méditerranéens 2013, Volley-ball masculin
               </p>
               <p className="text-gray-500 text-sm mt-1">
                 Kinésithérapeute : <strong>Francis Mombo</strong> · Médecin : Francis Genson · Entraîneur : Marc Francastel
@@ -184,7 +184,7 @@ export default function Page() {
 
           <section>
             <h2 className="article-h2">Le contexte : les Jeux Méditerranéens 2013</h2>
-            <p>Les Jeux Méditerranéens 2013 se déroulent à Mersin, en Turquie. L'équipe de France masculine de volley-ball y dispute une compétition relevée, face à des nations méditerranéennes historiquement fortes dans cette discipline — dont l'Égypte et la Turquie.</p>
+            <p>Les Jeux Méditerranéens 2013 se déroulent à Mersin, en Turquie. L'équipe de France masculine de volley-ball y dispute une compétition relevée, face à des nations méditerranéennes historiquement fortes dans cette discipline - dont l'Égypte et la Turquie.</p>
             <p className="mt-3">Le 25 juin 2013, les Bleus affrontent l'Égypte dans un match épique : deux heures trente de jeu, cinq sets, une défaite arrachée 3-2 (26/24, 23/25, 25/23, 18/25, 13/15). La suite du programme incluait France-Turquie pour les qualifications en demi-finale. Un calendrier intensif qui illustre précisément les défis que doit gérer le kinésithérapeute de l'équipe nationale.</p>
           </section>
 
@@ -192,18 +192,18 @@ export default function Page() {
             <h2 className="article-h2">Le rôle du kiné dans un staff national</h2>
             <p>Dans un staff de sélection nationale, le kinésithérapeute n'est pas un prestataire extérieur qu'on appelle en cas de blessure. Il est un pilier permanent du dispositif médical, présent avant, pendant et après chaque match :</p>
             <ul className="article-list">
-              <li><strong>avant</strong> — préparation physique, activation musculaire, strapping préventif, gestion des douleurs chroniques ;</li>
-              <li><strong>pendant</strong> — interventions rapides sur les blessures de match, conseils en temps réel ;</li>
-              <li><strong>après</strong> — protocoles de récupération (drainage, étirements, cryothérapie), évaluation des joueurs pour le match suivant.</li>
+              <li><strong>avant</strong> - préparation physique, activation musculaire, strapping préventif, gestion des douleurs chroniques ;</li>
+              <li><strong>pendant</strong> - interventions rapides sur les blessures de match, conseils en temps réel ;</li>
+              <li><strong>après</strong> - protocoles de récupération (drainage, étirements, cryothérapie), évaluation des joueurs pour le match suivant.</li>
             </ul>
             <p className="mt-3">Avec des matchs parfois séparés de 24 à 48 heures seulement, la récupération active devient aussi déterminante que la préparation tactique.</p>
           </section>
 
           <section>
             <h2 className="article-h2">Ce que l'international apporte que le club ne peut pas donner</h2>
-            <p>Travailler avec l'équipe de France, c'est intervenir sur des profils physiques extrêmement variés — des joueurs issus de clubs différents, avec des antécédents médicaux distincts, des schémas de blessures propres à leur poste (libéro, passeur, central, pointu, réceptionneur-attaquant).</p>
+            <p>Travailler avec l'équipe de France, c'est intervenir sur des profils physiques extrêmement variés - des joueurs issus de clubs différents, avec des antécédents médicaux distincts, des schémas de blessures propres à leur poste (libéro, passeur, central, pointu, réceptionneur-attaquant).</p>
             <p className="mt-3">Cette diversité oblige à une lecture diagnostique immédiate et précise, sans filet de sécurité. Il n'y a pas de dossier médical complet disponible, pas toujours de temps pour des explorations complémentaires. Le kinésithérapeute national doit évaluer vite et décider juste.</p>
-            <p className="mt-3">C'est cette exigence qui forge une compétence rare — et qui, transposée au cabinet de Castelnau-le-Lez, bénéficie à chaque patient, sportif ou non.</p>
+            <p className="mt-3">C'est cette exigence qui forge une compétence rare - et qui, transposée au cabinet de Castelnau-le-Lez, bénéficie à chaque patient, sportif ou non.</p>
           </section>
 
           <section>
@@ -212,7 +212,7 @@ export default function Page() {
             <ul className="article-list">
               <li>Kinésithérapeute de l'équipe de France aux <strong>Jeux Méditerranéens 2013</strong> (FFVB) ;</li>
               <li>Kinésithérapeute et ostéopathe de l'équipe nationale lors des <strong>Championnats du Monde et d'Europe</strong> (FFVB) ;</li>
-              <li><strong>9 saisons</strong> comme kiné et ostéopathe officiel du <strong>MHSC VB</strong> — Champion de France Pro A 2022, Supercoupe 2022 et 2024 ;</li>
+              <li><strong>9 saisons</strong> comme kiné et ostéopathe officiel du <strong>MHSC VB</strong> - Champion de France Pro A 2022, Supercoupe 2022 et 2024 ;</li>
               <li>Praticien en cabinet à Castelnau-le-Lez et Saint-Mathieu-de-Tréviers depuis plus de 20 ans.</li>
             </ul>
             <p className="mt-3">Chaque étape a enrichi la suivante. Les techniques apprises sur les terrains internationaux alimentent chaque séance au cabinet.</p>

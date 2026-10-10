@@ -1,4 +1,4 @@
-export default function SportPro() {
+﻿export default function SportPro() {
   return (
     <section
       id="sport-pro"
@@ -21,7 +21,7 @@ export default function SportPro() {
           </h2>
           <div className="mt-4 max-w-2xl">
             <p className="text-gray-400 text-sm leading-relaxed">
-              <strong className="text-white">Francis Mombo</strong> — Masseur-kinésithérapeute, ostéopathe et
+              <strong className="text-white">Francis Mombo</strong> - Masseur-kinésithérapeute, ostéopathe et
               praticien en hypnose. Depuis de nombreuses années, il accompagne les sportifs professionnels
               et les athlètes de haut niveau. En combinant kinésithérapie, ostéopathie et hypnose, il place
               la performance, la récupération et l&apos;équilibre au cœur d&apos;un accompagnement global et sur mesure.
@@ -29,13 +29,13 @@ export default function SportPro() {
           </div>
         </div>
 
-        {/* Photo grid — chaque photo est un CTA vers l'article correspondant */}
+        {/* Photo grid - chaque photo est un CTA vers l'article correspondant */}
         <div className="grid lg:grid-cols-3 gap-4">
-          {/* Photo principale — Champion de France */}
+          {/* Photo principale - Champion de France */}
           <a href="/9-saisons-mhsc-volley-osteopathe" className="lg:col-span-2 relative rounded-2xl overflow-hidden group block" style={{ minHeight: "380px" }}>
             <img
               src="/francis-champion-france-2022.webp"
-              alt="Francis Mombo — Champion de France 2022 avec le MHSC VB"
+              alt="Francis Mombo - Champion de France 2022 avec le MHSC VB"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               style={{ minHeight: "380px" }}
             />
@@ -83,7 +83,7 @@ export default function SportPro() {
             <a href="/jeux-mediterraneens-2013-kine-equipe-france-volley" className="relative rounded-2xl overflow-hidden flex-1 group block" style={{ minHeight: "180px" }}>
               <img
                 src="/Jeux-med-2013.webp"
-                alt="Francis Mombo — Jeux Méditerranéens 2013, Mersin"
+                alt="Francis Mombo - Jeux Méditerranéens 2013, Mersin"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 style={{ minHeight: "180px" }}
               />
@@ -104,7 +104,7 @@ export default function SportPro() {
           </div>
         </div>
 
-        {/* Repères — cliquables */}
+        {/* Repères - cliquables */}
         <div
           className="mt-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-4"
           style={{ borderTop: "1px solid rgba(255,255,255,0.08)", paddingTop: "32px" }}
@@ -112,12 +112,12 @@ export default function SportPro() {
           {[
             { icon: "🏆", label: "MHSC VB (2016–2025)", sub: "Kiné & ostéopathe officiel, 9 saisons", href: "/9-saisons-mhsc-volley-osteopathe" },
             { icon: "🥇", label: "Champion de France 2022", sub: "Supercoupe 2022 & 2024", href: "/9-saisons-mhsc-volley-osteopathe" },
-            { icon: "🌍", label: "FFVB — Équipe de France", sub: "Championnats du Monde & Europe", href: "/parcours-ffvb-equipe-france-volley" },
-            { icon: "🏅", label: "Jeux Méditerranéens 2013", sub: "Médaille de bronze — Mersin", href: "/jeux-mediterraneens-2013-kine-equipe-france-volley" },
+            { icon: "🌍", label: "FFVB - Équipe de France", sub: "Championnats du Monde & Europe", href: "/parcours-ffvb-equipe-france-volley" },
+            { icon: "🏅", label: "Jeux Méditerranéens 2013", sub: "Médaille de bronze - Mersin", href: "/jeux-mediterraneens-2013-kine-equipe-france-volley" },
             { icon: "🏋️", label: "HYROX & CrossFit", sub: "Préparation compétition · Prévention", href: "/osteopathe-hyrox-crossfit-montpellier" },
             { icon: "🏓", label: "Padel · Champion de France 2026", sub: "Vice-champion Europe 2026 jeune", href: "/sports-individuels-osteopathie-montpellier" },
             { icon: "🩰", label: "Accompagnement Danseurs", sub: "Kiné & ostéo · Art du mouvement", href: "/osteopathe-danseur-danse-montpellier" },
-            { icon: "🏀", label: "AfroBasket 2025 — Mali", sub: "Consultant kiné · Finaliste Abidjan", href: "/afrobasket-2025-consultant-kine-mali" },
+            { icon: "🏀", label: "AfroBasket 2025 - Mali", sub: "Consultant kiné · Finaliste Abidjan", href: "/afrobasket-2025-consultant-kine-mali" },
             { icon: "⚽", label: "Coupe de France 2022", sub: "Kiné RC Strasbourg · MHSC", href: "/coupe-de-france-2022-kine-rc-strasbourg" },
           ].map((r) => (
             <a key={r.label} href={r.href} className="flex items-start gap-3 hover:opacity-80 transition-opacity group">

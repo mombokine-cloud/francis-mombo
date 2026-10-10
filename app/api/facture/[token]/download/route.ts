@@ -31,8 +31,8 @@ async function generatePDF(payload: { civ: string; pre: string; nom: string; dat
   page.drawText("Adeli: 347016610", { x: 72, y: toBottom(Y_ADELI), size: 9, font: fontR, color: black });
 
   const lieuTexte = payload.lie === "Saint-Mathieu"
-    ? "Cabinet Saint-Mathieu-de-Tréviers — 5 avenue du Grand Chêne, 34270"
-    : "Cabinet Castelnau-le-Lez — 1720 avenue de l'Europe, 34170";
+    ? "Cabinet Saint-Mathieu-de-Tréviers - 5 avenue du Grand Chêne, 34270"
+    : "Cabinet Castelnau-le-Lez - 1720 avenue de l'Europe, 34170";
   page.drawText(lieuTexte, { x: 72, y: toBottom(Y_ADELI) - 14, size: 8, font: fontR, color: rgb(0.5,0.5,0.5) });
 
   const fullName = `${payload.pre} ${payload.nom.toUpperCase()}`.trim();

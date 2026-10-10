@@ -1,12 +1,12 @@
 ﻿import { CheckCircle } from "lucide-react";
 
 const credentials = [
-  "Master en kinésithérapie — Haute-École Lier de Bruxelles (2005–2008)",
-  "Diplôme d'Ostéopathie D.O. — International Academy of Osteopathy (2009–2013)",
+  "Master en kinésithérapie - Haute-École Lier de Bruxelles (2005–2008)",
+  "Diplôme d'Ostéopathie D.O. - International Academy of Osteopathy (2009–2013)",
   "Hypnose médicale, thérapie brève & hypnose du sport (2015–2019)",
-  "Kiné & ostéopathe officiel — MHSC VB pendant 9 saisons (2016–2025)",
+  "Kiné & ostéopathe officiel - MHSC VB pendant 9 saisons (2016–2025)",
   "Kiné de la Fédération Française de Volley-Ball (FFVB)",
-  "Médaille de bronze — Jeux Méditerranéens 2013 (Mersin)",
+  "Médaille de bronze - Jeux Méditerranéens 2013 (Mersin)",
 ];
 
 export default function About() {
@@ -64,7 +64,7 @@ export default function About() {
             <p className="text-gray-600 leading-relaxed">
               Francis MOMBO est masseur-kinésithérapeute, ostéopathe et praticien en hypnose.
               Depuis plus de 20 ans, il met son expertise au service de la performance, de la
-              récupération et de l&apos;équilibre — du patient en cabinet jusqu&apos;aux sportifs
+              récupération et de l&apos;équilibre - du patient en cabinet jusqu&apos;aux sportifs
               professionnels de haut niveau.
             </p>
 

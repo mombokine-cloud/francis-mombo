@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/pauline-broussard-castelnau-le-lez";
 
 export const metadata: Metadata = {
-  title: "Pauline BROUSSARD — Ostéopathe D.O. Nourrisson, Santé Féminine & Sport | Castelnau-le-Lez",
+  title: "Pauline BROUSSARD - Ostéopathe D.O. Nourrisson, Santé Féminine & Sport | Castelnau-le-Lez",
   description:
     "Pauline BROUSSARD, ostéopathe D.O. au cabinet de Castelnau-le-Lez (34170). Approche douce et myofasciale, spécialisée nourrisson, santé féminine, sportifs et troubles musculo-squelettiques.",
   keywords: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteUrl}/osteopathe-pauline-broussard-castelnau` },
   openGraph: {
-    title: "Pauline BROUSSARD — Ostéopathe D.O. | Castelnau-le-Lez",
+    title: "Pauline BROUSSARD - Ostéopathe D.O. | Castelnau-le-Lez",
     description: "Ostéopathe D.O. approche douce et myofasciale, spécialisée nourrisson, santé féminine et sportifs. Cabinet de Castelnau-le-Lez.",
     url: `${siteUrl}/osteopathe-pauline-broussard-castelnau`,
     type: "profile",
@@ -35,7 +35,7 @@ const jsonLd = [
     jobTitle: "Ostéopathe D.O.",
     worksFor: {
       "@type": "MedicalBusiness",
-      name: "Cabinet Francis MOMBO — Ostéopathie & Kinésithérapie",
+      name: "Cabinet Francis MOMBO - Ostéopathie & Kinésithérapie",
       url: siteUrl,
       address: {
         "@type": "PostalAddress",
@@ -51,7 +51,7 @@ const jsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
-    name: "Pauline BROUSSARD — Ostéopathe D.O. Castelnau-le-Lez",
+    name: "Pauline BROUSSARD - Ostéopathe D.O. Castelnau-le-Lez",
     url: `${siteUrl}/osteopathe-pauline-broussard-castelnau`,
     telephone: "+33650149192",
     medicalSpecialty: ["Osteopathic"],
@@ -201,7 +201,7 @@ export default function Page() {
             Pauline BROUSSARD
           </h1>
           <p className="font-semibold mb-4" style={{ color: "#E8A020", fontSize: "1.1rem" }}>
-            Ostéopathe D.O. — Castelnau-le-Lez
+            Ostéopathe D.O. - Castelnau-le-Lez
           </p>
           <p className="text-white/70 text-base leading-relaxed max-w-xl">
             Approche douce, myofasciale et personnalisée. Spécialisée en nourrisson, santé féminine, sportifs et troubles musculo-squelettiques. Cabinet au 1720 avenue de l&apos;Europe, Castelnau-le-Lez (34170).
@@ -215,7 +215,7 @@ export default function Page() {
         <div className="grid sm:grid-cols-3 gap-4 mb-14">
           {[
             { icon: "📍", label: "1720 avenue de l'Europe", sub: "Castelnau-le-Lez 34170" },
-            { icon: "🕐", label: "Lundi — Samedi", sub: "08h00 → 20h00" },
+            { icon: "🕐", label: "Lundi - Samedi", sub: "08h00 → 20h00" },
             { icon: "🎓", label: "Ostéopathe D.O.", sub: "Diplôme d'ostéopathie" },
           ].map((i) => (
             <div key={i.label} className="bg-gray-50 rounded-xl p-4 flex items-start gap-3">
@@ -236,7 +236,7 @@ export default function Page() {
               Pauline BROUSSARD, ostéopathe D.O., exerce au cabinet Francis MOMBO de Castelnau-le-Lez avec une approche centrée sur l&apos;<strong>écoute du corps</strong> et la <strong>douceur du geste</strong>. Chaque consultation débute par un bilan complet permettant d&apos;identifier les tensions, les compensations et les dysfonctions à l&apos;origine des symptômes.
             </p>
             <p className="mt-3">
-              Sa formation lui permet de combiner techniques <strong>musculo-squelettiques</strong>, <strong>myofasciales</strong> et <strong>fonctionnelles</strong> pour une prise en charge globale — du nourrisson au sportif confirmé, en passant par les femmes à toutes les étapes de leur vie.
+              Sa formation lui permet de combiner techniques <strong>musculo-squelettiques</strong>, <strong>myofasciales</strong> et <strong>fonctionnelles</strong> pour une prise en charge globale - du nourrisson au sportif confirmé, en passant par les femmes à toutes les étapes de leur vie.
             </p>
           </section>
 

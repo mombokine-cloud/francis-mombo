@@ -1,4 +1,4 @@
-import { ArrowRight, Clock } from "lucide-react";
+﻿import { ArrowRight, Clock } from "lucide-react";
 
 const featured = [
   {
@@ -47,15 +47,15 @@ const mhscArticles = [
   { href: "/osteopathe-hyrox-crossfit-montpellier", label: "HYROX & CrossFit Montpellier", tag: "HYROX", color: "#0a0a14" },
   { href: "/sports-individuels-osteopathie-montpellier", label: "Tennis · Padel · Course · Escalade", tag: "Sports indiv.", color: "#D4336E" },
   { href: "/osteopathe-danseur-danse-montpellier", label: "Accompagnement des Danseurs", tag: "Danse", color: "#D4336E" },
-  { href: "/afrobasket-2025-consultant-kine-mali", label: "AfroBasket 2025 — Mali Finaliste", tag: "2025", color: "#E8A020" },
-  { href: "/coupe-de-france-2022-kine-rc-strasbourg", label: "Coupe de France 2022 — RC Strasbourg", tag: "Football", color: "#0a1628" },
+  { href: "/afrobasket-2025-consultant-kine-mali", label: "AfroBasket 2025 - Mali Finaliste", tag: "2025", color: "#E8A020" },
+  { href: "/coupe-de-france-2022-kine-rc-strasbourg", label: "Coupe de France 2022 - RC Strasbourg", tag: "Football", color: "#0a1628" },
   { href: "/9-saisons-mhsc-volley-osteopathe", label: "9 saisons au MHSC VB", tag: "MHSC VB", color: "#8B2035" },
   { href: "/parcours-ffvb-equipe-france-volley", label: "Parcours FFVB (2013–2018)", tag: "FFVB", color: "#D4336E" },
   { href: "/jeux-mediterraneens-2013-kine-equipe-france-volley", label: "Jeux Méditerranéens 2013", tag: "2013", color: "#E8A020" },
-  { href: "/tqce-u20-2016-kine-equipe-france-volley", label: "TQCE U20 — 2016", tag: "FFVB", color: "#D4336E" },
-  { href: "/tqcm-u21-2017-kine-equipe-france-volley", label: "TQCM U21 — 2017", tag: "FFVB", color: "#D4336E" },
-  { href: "/tqce-juniors-2018-kine-equipe-france-volley", label: "TQCE Juniors — 2018", tag: "FFVB", color: "#D4336E" },
-  { href: "/euro-u20-2018-kine-equipe-france-volley", label: "Euro U20 — 2018", tag: "FFVB", color: "#D4336E" },
+  { href: "/tqce-u20-2016-kine-equipe-france-volley", label: "TQCE U20 - 2016", tag: "FFVB", color: "#D4336E" },
+  { href: "/tqcm-u21-2017-kine-equipe-france-volley", label: "TQCM U21 - 2017", tag: "FFVB", color: "#D4336E" },
+  { href: "/tqce-juniors-2018-kine-equipe-france-volley", label: "TQCE Juniors - 2018", tag: "FFVB", color: "#D4336E" },
+  { href: "/euro-u20-2018-kine-equipe-france-volley", label: "Euro U20 - 2018", tag: "FFVB", color: "#D4336E" },
   { href: "/recuperation-sport-haut-niveau-sommeil-alimentation", label: "Récupération haut niveau", tag: "Méthode", color: "#8B2035" },
 ];
 
@@ -125,7 +125,7 @@ export default function Articles() {
             <span className="text-2xl">🏐</span>
             <div>
               <p className="text-white font-black text-base" style={{ fontFamily: "Figtree, sans-serif" }}>
-                Sport de haut niveau — MHSC · FFVB
+                Sport de haut niveau - MHSC · FFVB
               </p>
               <p className="text-white/60 text-xs mt-0.5">9 saisons au MHSC VB · 5 missions équipe de France</p>
             </div>

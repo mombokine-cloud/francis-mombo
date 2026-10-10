@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "../components/RelatedArticles";
 
@@ -6,7 +6,7 @@ const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
 
 export const metadata: Metadata = {
-  title: "Francis MOMBO, kiné de l'équipe de France de volley-ball — 5 missions FFVB (2013–2018)",
+  title: "Francis MOMBO, kiné de l'équipe de France de volley-ball - 5 missions FFVB (2013–2018)",
   description:
     "Francis MOMBO, kinésithérapeute officiel de l'équipe de France de volley-ball lors de 5 compétitions internationales (2013–2018) : Jeux Méditerranéens, TQCE U20, TQCM U21, Euro U20. Sources FFVB officielles.",
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteUrl}/parcours-ffvb-equipe-france-volley` },
   openGraph: {
-    title: "Francis MOMBO — 5 missions officielles comme kiné de l'équipe de France (FFVB)",
+    title: "Francis MOMBO - 5 missions officielles comme kiné de l'équipe de France (FFVB)",
     description: "De 2013 à 2018, Francis MOMBO accompagne les équipes nationales de volley-ball françaises sur 5 compétitions internationales. Toutes sources FFVB vérifiables.",
     url: `${siteUrl}/parcours-ffvb-equipe-france-volley`,
     type: "article",
@@ -76,7 +76,7 @@ const jsonLd = {
   "@type": "Person",
   name: "Francis MOMBO",
   url: siteUrl,
-  jobTitle: "Kinésithérapeute — Ostéopathe D.O. — Hypnothérapeute",
+  jobTitle: "Kinésithérapeute - Ostéopathe D.O. - Hypnothérapeute",
   worksFor: {
     "@type": "MedicalBusiness",
     name: "Cabinet Francis MOMBO",
@@ -85,7 +85,7 @@ const jsonLd = {
   hasOccupation: [
     {
       "@type": "Occupation",
-      name: "Kinésithérapeute officiel — Équipe de France de Volley-Ball",
+      name: "Kinésithérapeute officiel - Équipe de France de Volley-Ball",
       occupationLocation: {
         "@type": "SportsOrganization",
         name: "Fédération Française de Volley-Ball (FFVB)",
@@ -95,7 +95,7 @@ const jsonLd = {
     },
     {
       "@type": "Occupation",
-      name: "Kinésithérapeute & Ostéopathe officiel — MHSC VB",
+      name: "Kinésithérapeute & Ostéopathe officiel - MHSC VB",
       occupationLocation: {
         "@type": "SportsOrganization",
         name: "Montpellier Castelnau Volley-Ball (MHSC VB)",
@@ -140,7 +140,7 @@ export default function Page() {
             <span className="text-xs font-bold px-3 py-1 rounded-full text-white" style={{ background: "#E8A020" }}>FFVB · 2013–2018</span>
           </div>
           <h1 className="font-black text-gray-900 leading-tight mb-5" style={{ fontFamily: "Figtree, sans-serif", fontSize: "clamp(26px, 5vw, 40px)" }}>
-            Francis MOMBO, kinésithérapeute de l'équipe de France de volley-ball — 5 missions FFVB
+            Francis MOMBO, kinésithérapeute de l'équipe de France de volley-ball - 5 missions FFVB
           </h1>
           <p className="text-gray-500 text-lg leading-relaxed">
             De 2013 à 2018, Francis MOMBO a été sélectionné à <strong>5 reprises</strong> comme kinésithérapeute officiel des équipes de France de volley-ball (FFVB) : des Jeux Méditerranéens en équipe senior jusqu'au Championnat d'Europe U20. Chaque mission est documentée et vérifiable sur le site officiel de la Fédération.
@@ -165,7 +165,7 @@ export default function Page() {
 
         {/* Timeline des missions */}
         <div className="mb-12">
-          <h2 className="article-h2">Les 5 missions — sources FFVB vérifiables</h2>
+          <h2 className="article-h2">Les 5 missions - sources FFVB vérifiables</h2>
           <div className="space-y-4 mt-6">
             {missions.map((m, i) => (
               <div key={i} className="rounded-2xl border border-gray-100 p-5 hover:border-pink-200 transition-colors">
@@ -201,12 +201,12 @@ export default function Page() {
         <article className="space-y-10 text-gray-700 leading-relaxed">
           <section>
             <h2 className="article-h2">Qu'est-ce que cela représente concrètement ?</h2>
-            <p>Être sélectionné dans le staff médical de l'équipe de France, c'est passer par un processus de validation par la DTN (Direction Technique Nationale) de la FFVB. Ce n'est pas une candidature spontanée — c'est une désignation basée sur la réputation, les résultats et la confiance du sélectionneur.</p>
+            <p>Être sélectionné dans le staff médical de l'équipe de France, c'est passer par un processus de validation par la DTN (Direction Technique Nationale) de la FFVB. Ce n'est pas une candidature spontanée - c'est une désignation basée sur la réputation, les résultats et la confiance du sélectionneur.</p>
             <p className="mt-3">Francis MOMBO a été reconduit <strong>cinq fois</strong> par le même staff, autour du coach Jocelyn Trillon. Cette fidélité sur six ans est la preuve la plus tangible de la qualité de son travail médical au plus haut niveau national.</p>
           </section>
           <section>
             <h2 className="article-h2">En parallèle : 9 saisons au MHSC VB</h2>
-            <p>Ces missions FFVB s'inscrivent en parallèle de son poste de kinésithérapeute et ostéopathe officiel au MHSC VB — neuf saisons en club professionnel de Ligue A, avec à la clé le titre de <strong>Champion de France Pro A 2022</strong> et deux Supercoupes (2022, 2024).</p>
+            <p>Ces missions FFVB s'inscrivent en parallèle de son poste de kinésithérapeute et ostéopathe officiel au MHSC VB - neuf saisons en club professionnel de Ligue A, avec à la clé le titre de <strong>Champion de France Pro A 2022</strong> et deux Supercoupes (2022, 2024).</p>
             <p className="mt-3">Club + sélection nationale + cabinet libéral : une triple expérience que peu de praticiens dans l'Hérault peuvent revendiquer.</p>
             <div className="mt-4">
               <Link href="/9-saisons-mhsc-volley-osteopathe" className="inline-flex items-center gap-1 text-sm font-semibold hover:underline" style={{ color: "#D4336E" }}>
@@ -241,7 +241,7 @@ export default function Page() {
         <div className="mt-8 rounded-2xl border border-gray-100 p-5 flex items-center justify-between gap-4">
           <div>
             <p className="text-xs font-bold uppercase tracking-widest mb-1" style={{ color: "#D4336E" }}>À lire aussi</p>
-            <p className="font-black text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>TQCE Juniors 2018 — Kiné Équipe de France Volley</p>
+            <p className="font-black text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>TQCE Juniors 2018 - Kiné Équipe de France Volley</p>
             <p className="text-gray-500 text-xs mt-1">Tournoi de qualification européen Juniors 2018 avec l'équipe de France.</p>
           </div>
           <Link href="/tqce-juniors-2018-kine-equipe-france-volley" className="flex-shrink-0 inline-flex items-center gap-1.5 text-xs font-bold px-4 py-2 rounded-full text-white" style={{ background: "linear-gradient(135deg, #D4336E, #8B2035)" }}>
@@ -254,7 +254,7 @@ export default function Page() {
         <div className="mt-8 rounded-2xl border border-gray-100 p-5 flex items-center justify-between gap-4">
           <div>
             <p className="text-xs font-bold uppercase tracking-widest mb-1" style={{ color: "#D4336E" }}>À lire aussi</p>
-            <p className="font-black text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>TQCE U20 2016 — Kiné Équipe de France Volley</p>
+            <p className="font-black text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>TQCE U20 2016 - Kiné Équipe de France Volley</p>
             <p className="text-gray-500 text-xs mt-1">Tournoi de qualification européen U20 avec l'équipe de France.</p>
           </div>
           <Link href="/tqce-u20-2016-kine-equipe-france-volley" className="flex-shrink-0 inline-flex items-center gap-1.5 text-xs font-bold px-4 py-2 rounded-full text-white" style={{ background: "linear-gradient(135deg, #D4336E, #8B2035)" }}>
@@ -267,7 +267,7 @@ export default function Page() {
         <div className="mt-8 rounded-2xl border border-gray-100 p-5 flex items-center justify-between gap-4">
           <div>
             <p className="text-xs font-bold uppercase tracking-widest mb-1" style={{ color: "#D4336E" }}>À lire aussi</p>
-            <p className="font-black text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>Euro U20 2018 — Kiné Équipe de France Volley</p>
+            <p className="font-black text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>Euro U20 2018 - Kiné Équipe de France Volley</p>
             <p className="text-gray-500 text-xs mt-1">Championnat d'Europe des moins de 20 ans avec l'équipe de France.</p>
           </div>
           <Link href="/euro-u20-2018-kine-equipe-france-volley" className="flex-shrink-0 inline-flex items-center gap-1.5 text-xs font-bold px-4 py-2 rounded-full text-white" style={{ background: "linear-gradient(135deg, #D4336E, #8B2035)" }}>
@@ -280,7 +280,7 @@ export default function Page() {
         <div className="mt-8 rounded-2xl border border-gray-100 p-5 flex items-center justify-between gap-4">
           <div>
             <p className="text-xs font-bold uppercase tracking-widest mb-1" style={{ color: "#E8A020" }}>À lire aussi</p>
-            <p className="font-black text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>Jeux Méditerranéens 2013 — Kiné Équipe de France Volley</p>
+            <p className="font-black text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>Jeux Méditerranéens 2013 - Kiné Équipe de France Volley</p>
             <p className="text-gray-500 text-xs mt-1">Première mission internationale avec l'équipe de France de volley-ball.</p>
           </div>
           <Link href="/jeux-mediterraneens-2013-kine-equipe-france-volley" className="flex-shrink-0 inline-flex items-center gap-1.5 text-xs font-bold px-4 py-2 rounded-full text-white" style={{ background: "linear-gradient(135deg, #E8A020, #D4336E)" }}>

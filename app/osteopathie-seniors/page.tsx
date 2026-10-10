@@ -3,7 +3,7 @@ import Link from "next/link";
 import RelatedPages from "../components/RelatedPages";
 
 export const metadata: Metadata = {
-  title: "Ostéopathie pour seniors à Montpellier — arthrose, équilibre, mobilité",
+  title: "Ostéopathie pour seniors à Montpellier - arthrose, équilibre, mobilité",
   description:
     "L'ostéopathie accompagne les seniors pour maintenir la mobilité, soulager les douleurs articulaires, améliorer l'équilibre et prévenir les chutes. Cabinet à Castelnau-le-Lez.",
   keywords: [
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://www.mombofrancis.com/osteopathie-seniors" },
   openGraph: {
-    title: "Ostéopathie pour seniors à Montpellier — arthrose, équilibre, mobilité",
+    title: "Ostéopathie pour seniors à Montpellier - arthrose, équilibre, mobilité",
     description: "Accompagnement ostéopathique des seniors : mobilité, douleurs articulaires, équilibre et prévention des chutes.",
     url: "https://www.mombofrancis.com/osteopathie-seniors",
     type: "article",

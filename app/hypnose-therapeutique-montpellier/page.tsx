@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
 
 export const metadata: Metadata = {
-  title: "Hypnose thérapeutique à Montpellier — stress, douleur, phobies, sommeil",
+  title: "Hypnose thérapeutique à Montpellier - stress, douleur, phobies, sommeil",
   description:
     "Francis MOMBO, hypnothérapeute à Montpellier et Castelnau-le-Lez, accompagne les patients pour gérer le stress, les douleurs chroniques, les phobies et les troubles du sommeil grâce à l'hypnose médicale.",
   keywords: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteUrl}/hypnose-therapeutique-montpellier` },
   openGraph: {
-    title: "Hypnose thérapeutique à Montpellier — Francis MOMBO",
+    title: "Hypnose thérapeutique à Montpellier - Francis MOMBO",
     description: "Hypnose médicale à Montpellier et Castelnau-le-Lez : stress, douleurs chroniques, phobies, troubles du sommeil, blocages émotionnels.",
     url: `${siteUrl}/hypnose-therapeutique-montpellier`,
     type: "article",
@@ -78,7 +78,7 @@ export default function Page() {
 
           <section>
             <h2 className="article-h2">Qu'est-ce que l'hypnose thérapeutique ?</h2>
-            <p>L'hypnose est un état de conscience modifié naturel — proche de la rêverie ou de la concentration profonde — dans lequel le patient reste conscient et garde le contrôle. Cet état favorise l'accès à l'inconscient, permettant de :</p>
+            <p>L'hypnose est un état de conscience modifié naturel - proche de la rêverie ou de la concentration profonde - dans lequel le patient reste conscient et garde le contrôle. Cet état favorise l'accès à l'inconscient, permettant de :</p>
             <ul className="article-list">
               <li>modifier des perceptions douloureuses ;</li>
               <li>désamorcer des réponses émotionnelles automatiques ;</li>
@@ -171,7 +171,7 @@ export default function Page() {
         <div className="mt-10 rounded-2xl p-8 text-center" style={{ background: "linear-gradient(135deg, #fdeef3, #fff3e8)" }}>
           <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#E8A020" }}>Francis MOMBO</p>
           <h3 className="text-xl font-black text-gray-900 mb-3" style={{ fontFamily: "Figtree, sans-serif" }}>Libérez votre potentiel intérieur</h3>
-          <p className="text-gray-500 text-sm mb-6 max-w-md mx-auto">Séances d'hypnose thérapeutique à Montpellier — cabinet de Castelnau-le-Lez et Saint-Mathieu-de-Tréviers.</p>
+          <p className="text-gray-500 text-sm mb-6 max-w-md mx-auto">Séances d'hypnose thérapeutique à Montpellier - cabinet de Castelnau-le-Lez et Saint-Mathieu-de-Tréviers.</p>
           <a href={doctolib} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-full text-white text-sm" style={{ background: "linear-gradient(135deg, #D4336E, #8B2035)" }}>
             Prendre rendez-vous sur Doctolib
           </a>

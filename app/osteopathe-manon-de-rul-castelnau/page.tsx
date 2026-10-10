@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
 
 export const metadata: Metadata = {
-  title: "Manon DE RUL — Ostéopathe D.O. Nourrisson, Pédiatrie & Femme Enceinte | Castelnau-le-Lez",
+  title: "Manon DE RUL - Ostéopathe D.O. Nourrisson, Pédiatrie & Femme Enceinte | Castelnau-le-Lez",
   description:
     "Manon DE RUL, ostéopathe D.O. au cabinet de Castelnau-le-Lez (34170). Spécialisée nourrisson, pédiatrie, femme enceinte et techniques structurelles HVLA. Prise en charge douce et précise.",
   keywords: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteUrl}/osteopathe-manon-de-rul-castelnau` },
   openGraph: {
-    title: "Manon DE RUL — Ostéopathe D.O. Nourrisson & Pédiatrie | Castelnau-le-Lez",
+    title: "Manon DE RUL - Ostéopathe D.O. Nourrisson & Pédiatrie | Castelnau-le-Lez",
     description: "Ostéopathe D.O. spécialisée nourrisson, pédiatrie, femme enceinte et techniques structurelles HVLA. Cabinet de Castelnau-le-Lez.",
     url: `${siteUrl}/osteopathe-manon-de-rul-castelnau`,
     type: "profile",
@@ -35,7 +35,7 @@ const jsonLd = [
     jobTitle: "Ostéopathe D.O.",
     worksFor: {
       "@type": "MedicalBusiness",
-      name: "Cabinet Francis MOMBO — Ostéopathie & Kinésithérapie",
+      name: "Cabinet Francis MOMBO - Ostéopathie & Kinésithérapie",
       url: siteUrl,
       address: {
         "@type": "PostalAddress",
@@ -51,7 +51,7 @@ const jsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
-    name: "Manon DE RUL — Ostéopathe D.O. Castelnau-le-Lez",
+    name: "Manon DE RUL - Ostéopathe D.O. Castelnau-le-Lez",
     url: siteUrl,
     telephone: "+33650149192",
     medicalSpecialty: ["Osteopathic"],
@@ -124,7 +124,7 @@ const specialites = [
   },
   {
     icon: "🧒",
-    titre: "Pédiatrie — enfant & adolescent",
+    titre: "Pédiatrie - enfant & adolescent",
     color: "#fff3e8",
     accent: "#E8A020",
     texte: "De la petite enfance à l'adolescence, le corps en croissance subit des contraintes posturales, sportives et scolaires. L'ostéopathie pédiatrique de Manon DE RUL accompagne chaque étape du développement avec des techniques adaptées à l'âge et à la morphologie de l'enfant.",
@@ -202,7 +202,7 @@ export default function Page() {
             Manon DE RUL
           </h1>
           <p className="font-semibold mb-4" style={{ color: "#E8A020", fontSize: "1.1rem" }}>
-            Ostéopathe D.O. — Castelnau-le-Lez
+            Ostéopathe D.O. - Castelnau-le-Lez
           </p>
           <p className="text-white/70 text-base leading-relaxed max-w-xl">
             Spécialisée en ostéopathie du nourrisson, pédiatrique, de la femme enceinte et en techniques structurelles HVLA. Cabinet au 1720 avenue de l&apos;Europe, Castelnau-le-Lez (34170).
@@ -216,7 +216,7 @@ export default function Page() {
         <div className="grid sm:grid-cols-3 gap-4 mb-14">
           {[
             { icon: "📍", label: "1720 avenue de l'Europe", sub: "Castelnau-le-Lez 34170" },
-            { icon: "🕐", label: "Lundi — Samedi", sub: "08h00 → 20h00" },
+            { icon: "🕐", label: "Lundi - Samedi", sub: "08h00 → 20h00" },
             { icon: "🎓", label: "Ostéopathe D.O.", sub: "Diplôme d'ostéopathie" },
           ].map((i) => (
             <div key={i.label} className="bg-gray-50 rounded-xl p-4 flex items-start gap-3">
@@ -235,7 +235,7 @@ export default function Page() {
           <section>
             <h2 className="article-h2">Une approche précise, douce et adaptée à chaque patient</h2>
             <p>
-              Manon DE RUL, ostéopathe D.O., rejoint l&apos;équipe du cabinet Francis MOMBO à Castelnau-le-Lez avec une spécialisation marquée pour les <strong>populations vulnérables</strong> — nourrissons, enfants, femmes enceintes — et une maîtrise des <strong>techniques structurelles HVLA</strong> pour les patients adultes.
+              Manon DE RUL, ostéopathe D.O., rejoint l&apos;équipe du cabinet Francis MOMBO à Castelnau-le-Lez avec une spécialisation marquée pour les <strong>populations vulnérables</strong> - nourrissons, enfants, femmes enceintes - et une maîtrise des <strong>techniques structurelles HVLA</strong> pour les patients adultes.
             </p>
             <p className="mt-3">
               Sa formation lui permet d&apos;alterner selon les besoins entre approche crânio-sacrée douce, techniques myotensives, travail fascial et manipulations structurelles, pour une prise en charge toujours adaptée au profil du patient.

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "../components/RelatedArticles";
 
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   alternates: { canonical: `${siteUrl}/euro-u20-2018-kine-equipe-france-volley` },
   openGraph: {
     title: "Euro U20 2018 : Francis MOMBO, kiné de l'équipe de France",
-    description: "Kinésithérapeute officiel des Bleuets U20 lors de l'Euro U20 2018 — 5e mission FFVB pour Francis MOMBO.",
+    description: "Kinésithérapeute officiel des Bleuets U20 lors de l'Euro U20 2018 - 5e mission FFVB pour Francis MOMBO.",
     url: `${siteUrl}/euro-u20-2018-kine-equipe-france-volley`,
     type: "article",
   },
@@ -34,18 +34,18 @@ const jsonLd = [
     headline: "Euro U20 2018 : Francis MOMBO, kinésithérapeute de l'équipe de France de volley-ball",
     datePublished: "2026-07-13",
     dateModified: "2026-07-13",
-    author: { "@type": "Person", name: "Francis MOMBO", url: siteUrl, jobTitle: "Kinésithérapeute — Ostéopathe D.O." },
-    publisher: { "@type": "MedicalBusiness", name: "Francis MOMBO — Cabinet d'ostéopathie & kinésithérapie", url: siteUrl },
+    author: { "@type": "Person", name: "Francis MOMBO", url: siteUrl, jobTitle: "Kinésithérapeute - Ostéopathe D.O." },
+    publisher: { "@type": "MedicalBusiness", name: "Francis MOMBO - Cabinet d'ostéopathie & kinésithérapie", url: siteUrl },
     url: `${siteUrl}/euro-u20-2018-kine-equipe-france-volley`,
     citation: {
       "@type": "WebPage",
-      name: "Euro U20 - Jocelyn Trillon : « Chercher la médaille » — FFVB",
+      name: "Euro U20 - Jocelyn Trillon : « Chercher la médaille » - FFVB",
       url: ffvbSource,
       publisher: { "@type": "SportsOrganization", name: "Fédération Française de Volley-Ball (FFVB)", url: "https://www.ffvb.org" },
     },
     about: {
       "@type": "Event",
-      name: "Championnat d'Europe U20 de Volley-Ball — 2018",
+      name: "Championnat d'Europe U20 de Volley-Ball - 2018",
       startDate: "2018-07-11",
       endDate: "2018-07-22",
       eventStatus: "https://schema.org/EventScheduled",
@@ -86,13 +86,13 @@ export default function Page() {
             Euro U20 2018 : Francis MOMBO, kinésithérapeute des Bleuets au Championnat d'Europe
           </h1>
           <p className="text-gray-500 text-lg leading-relaxed">
-            En juillet 2018, Francis MOMBO est kinésithérapeute officiel de <strong>l'équipe de France U20</strong> lors du Championnat d'Europe organisé en Belgique et aux Pays-Bas. C'est sa <strong>5e mission internationale avec la FFVB</strong>, au terme d'un cycle de trois ans au sein du même staff — un gage de confiance exceptionnel.
+            En juillet 2018, Francis MOMBO est kinésithérapeute officiel de <strong>l'équipe de France U20</strong> lors du Championnat d'Europe organisé en Belgique et aux Pays-Bas. C'est sa <strong>5e mission internationale avec la FFVB</strong>, au terme d'un cycle de trois ans au sein du même staff - un gage de confiance exceptionnel.
           </p>
         </div>
 
         <div className="rounded-2xl p-6 mb-10 border border-gray-200" style={{ background: "#f9f9f9" }}>
           <p className="text-xs font-bold uppercase tracking-widest mb-3 text-gray-400">Source officielle FFVB</p>
-          <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>Staff — Euro U20 2018 · Belgique & Pays-Bas</p>
+          <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>Staff - Euro U20 2018 · Belgique & Pays-Bas</p>
           <p className="text-gray-500 text-sm mt-1">Entraîneur : Jocelyn Trillon · Adjoints : David Vaseux, Benoît Ognier · Médecin : Aurélie Ribaut · <strong>Kinésithérapeute : Francis Mombo</strong> · Statisticien : Valentin Routeau</p>
           <a href={ffvbSource} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-xs mt-2 font-semibold hover:underline" style={{ color: "#D4336E" }}>
             Voir la fiche FFVB
@@ -105,25 +105,25 @@ export default function Page() {
         <article className="space-y-10 text-gray-700 leading-relaxed">
           <section>
             <h2 className="article-h2">Un objectif affiché : « Chercher la médaille »</h2>
-            <p>C'est en ces termes que Jocelyn Trillon a résumé l'ambition du groupe avant le tournoi. Les deux premiers du classement obtiendraient une qualification directe pour le Championnat du Monde U21 de 2019 — l'enjeu était donc double : performer et se qualifier.</p>
+            <p>C'est en ces termes que Jocelyn Trillon a résumé l'ambition du groupe avant le tournoi. Les deux premiers du classement obtiendraient une qualification directe pour le Championnat du Monde U21 de 2019 - l'enjeu était donc double : performer et se qualifier.</p>
             <p className="mt-3">Avec un groupe difficile incluant l'Italie, la Belgique, la Pologne, la Russie et la Turquie, seuls deux qualifiés en demi-finale. La préparation physique et la gestion médicale du staff étaient des variables critiques.</p>
           </section>
           <section>
             <h2 className="article-h2">La préparation : bac + CNVB + matchs amicaux</h2>
-            <p>La particularité de ce groupe U20 : six joueurs ont passé leur baccalauréat en même temps que la préparation internationale — et tous l'ont réussi, certains avec mention. Une anecdote qui illustre la qualité humaine d'un groupe capable de gérer pression scolaire et pression sportive simultanément.</p>
-            <p className="mt-3">La préparation s'est déroulée au CNVB de Montpellier et au CREPS de Wattignies, avec cinq matchs amicaux contre l'Allemagne et la Belgique. Francis MOMBO a donc travaillé à Montpellier — sa ville de cabinet — dans les mêmes installations qui forment l'élite du volley français.</p>
+            <p>La particularité de ce groupe U20 : six joueurs ont passé leur baccalauréat en même temps que la préparation internationale - et tous l'ont réussi, certains avec mention. Une anecdote qui illustre la qualité humaine d'un groupe capable de gérer pression scolaire et pression sportive simultanément.</p>
+            <p className="mt-3">La préparation s'est déroulée au CNVB de Montpellier et au CREPS de Wattignies, avec cinq matchs amicaux contre l'Allemagne et la Belgique. Francis MOMBO a donc travaillé à Montpellier - sa ville de cabinet - dans les mêmes installations qui forment l'élite du volley français.</p>
           </section>
           <section>
             <h2 className="article-h2">5 missions FFVB : un bilan d'exception</h2>
             <p>L'Euro U20 2018 clôt un cycle de cinq années au service des équipes nationales :</p>
             <ul className="article-list">
-              <li>2013 — Jeux Méditerranéens (équipe senior) ;</li>
-              <li>2016 — TQCE U20 (qualification Europe) ;</li>
-              <li>2017 — TQCM U21 (qualification Monde) ;</li>
-              <li>2018 — TQCE Juniors U20 (Monténégro) ;</li>
-              <li>2018 — Euro U20 (Belgique / Pays-Bas).</li>
+              <li>2013 - Jeux Méditerranéens (équipe senior) ;</li>
+              <li>2016 - TQCE U20 (qualification Europe) ;</li>
+              <li>2017 - TQCM U21 (qualification Monde) ;</li>
+              <li>2018 - TQCE Juniors U20 (Monténégro) ;</li>
+              <li>2018 - Euro U20 (Belgique / Pays-Bas).</li>
             </ul>
-            <p className="mt-3">Cinq compétitions officielles. Cinq fois dans le staff médical de l'équipe de France. Une reconnaissance institutionnelle de la FFVB qui ne s'improvise pas — elle se mérite par la qualité du travail au quotidien.</p>
+            <p className="mt-3">Cinq compétitions officielles. Cinq fois dans le staff médical de l'équipe de France. Une reconnaissance institutionnelle de la FFVB qui ne s'improvise pas - elle se mérite par la qualité du travail au quotidien.</p>
           </section>
         </article>
 

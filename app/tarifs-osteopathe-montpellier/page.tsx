@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
 
 export const metadata: Metadata = {
-  title: "Tarifs ostéopathe Montpellier — 60–70 € | Remboursement mutuelle",
+  title: "Tarifs ostéopathe Montpellier - 60–70 € | Remboursement mutuelle",
   description:
     "Tarifs de consultation ostéopathique à Montpellier et Castelnau-le-Lez : 60 à 70 € pour adultes, enfants et nourrissons. Informations sur le remboursement mutuelle et les moyens de paiement.",
   keywords: [
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteUrl}/tarifs-osteopathe-montpellier` },
   openGraph: {
-    title: "Tarifs ostéopathe Montpellier — Francis MOMBO",
+    title: "Tarifs ostéopathe Montpellier - Francis MOMBO",
     description: "60 à 70 € la consultation d'ostéopathie à Montpellier. Remboursement mutuelle, moyens de paiement et FAQ.",
     url: `${siteUrl}/tarifs-osteopathe-montpellier`,
     type: "article",
@@ -67,7 +67,7 @@ export default function Page() {
             <span className="text-xs text-gray-400">Cabinet · Montpellier</span>
           </div>
           <h1 className="font-black text-gray-900 leading-tight mb-4" style={{ fontFamily: "Figtree, sans-serif", fontSize: "clamp(28px, 5vw, 42px)" }}>
-            Tarifs et remboursement — ostéopathe à Montpellier
+            Tarifs et remboursement - ostéopathe à Montpellier
           </h1>
           <p className="text-gray-500 text-lg leading-relaxed">
             Des tarifs clairs et transparents pour tous les profils. La consultation comprend le bilan clinique et le traitement ostéopathique, sans supplément.
@@ -142,7 +142,7 @@ export default function Page() {
           </section>
 
           <section>
-            <h2 className="article-h2">FAQ — Tarifs et remboursements</h2>
+            <h2 className="article-h2">FAQ - Tarifs et remboursements</h2>
             <div className="space-y-4">
               {faq.map(item => (
                 <div key={item.q} className="bg-gray-50 rounded-xl p-5">
@@ -158,7 +158,7 @@ export default function Page() {
         <div className="mt-12 rounded-2xl p-8 text-center" style={{ background: "linear-gradient(135deg, #fdeef3, #fff3e8)" }}>
           <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#E8A020" }}>Francis MOMBO</p>
           <h3 className="text-xl font-black text-gray-900 mb-3" style={{ fontFamily: "Figtree, sans-serif" }}>Prendre rendez-vous</h3>
-          <p className="text-gray-500 text-sm mb-6 max-w-md mx-auto">Castelnau-le-Lez et Saint-Mathieu-de-Tréviers — paiement à l'issue de la consultation.</p>
+          <p className="text-gray-500 text-sm mb-6 max-w-md mx-auto">Castelnau-le-Lez et Saint-Mathieu-de-Tréviers - paiement à l'issue de la consultation.</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a href={doctolib} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 font-bold px-6 py-3 rounded-full text-white text-sm" style={{ background: "linear-gradient(135deg, #D4336E, #8B2035)" }}>
               Réserver sur Doctolib

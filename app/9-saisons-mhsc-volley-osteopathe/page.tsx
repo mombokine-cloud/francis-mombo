@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "../components/RelatedArticles";
 
@@ -40,7 +40,7 @@ const faq = [
   },
   {
     q: "En quoi l'expérience du haut niveau bénéficie-t-elle aux patients non sportifs ?",
-    a: "Le haut niveau enseigne la précision du geste, la rapidité de diagnostic et la capacité à traiter sous contrainte de temps. Ces compétences — lire le corps vite, prioriser, adapter — se transfèrent directement au cabinet pour tout type de patient, sportif ou non.",
+    a: "Le haut niveau enseigne la précision du geste, la rapidité de diagnostic et la capacité à traiter sous contrainte de temps. Ces compétences - lire le corps vite, prioriser, adapter - se transfèrent directement au cabinet pour tout type de patient, sportif ou non.",
   },
   {
     q: "Peut-on bénéficier d'une prise en charge similaire à celle des sportifs professionnels ?",
@@ -59,11 +59,11 @@ const jsonLd = [
       "@type": "Person",
       name: "Francis MOMBO",
       url: siteUrl,
-      jobTitle: "Kinésithérapeute — Ostéopathe D.O.",
+      jobTitle: "Kinésithérapeute - Ostéopathe D.O.",
     },
     publisher: {
       "@type": "MedicalBusiness",
-      name: "Francis MOMBO — Cabinet d'ostéopathie & kinésithérapie",
+      name: "Francis MOMBO - Cabinet d'ostéopathie & kinésithérapie",
       url: siteUrl,
     },
     url: `${siteUrl}/9-saisons-mhsc-volley-osteopathe`,
@@ -75,19 +75,19 @@ const jsonLd = [
     citation: [
       {
         "@type": "WebPage",
-        name: "Présentation de l'équipe MHSC VB — Saison 2020-21",
+        name: "Présentation de l'équipe MHSC VB - Saison 2020-21",
         url: mhscPdf,
         publisher: { "@type": "SportsOrganization", name: "Montpellier Castelnau Volley-Ball (MHSC VB)", url: "https://www.montpellier-volley.com" },
       },
       {
         "@type": "WebPage",
-        name: "Kiné-Ostéopathe MHSC VB — Francis MOMBO",
+        name: "Kiné-Ostéopathe MHSC VB - Francis MOMBO",
         url: "https://www.montpellier-volley.com/role/kine-osteopathe/",
         publisher: { "@type": "SportsOrganization", name: "Montpellier Castelnau Volley-Ball (MHSC VB)", url: "https://www.montpellier-volley.com" },
       },
       {
         "@type": "ImageObject",
-        name: "Francis MOMBO et Loïc Le Marrec (MHSC VB) — Marmara SpikeLigue, Stade Charléty, 10 février 2024",
+        name: "Francis MOMBO et Loïc Le Marrec (MHSC VB) - Marmara SpikeLigue, Stade Charléty, 10 février 2024",
         url: "https://www.gettyimages.fr/detail/photo-d%27actualit%C3%A9/francis-mombo-and-loic-le-marrec-head-coach-of-photo-dactualit%C3%A9/1996268477",
         creditText: "Thomas Proissy / Icon Sport via Getty Images",
         acquireLicensePage: "https://www.gettyimages.fr/detail/photo-d%27actualit%C3%A9/francis-mombo-and-loic-le-marrec-head-coach-of-photo-dactualit%C3%A9/1996268477",
@@ -137,7 +137,7 @@ export default function Page() {
             9 saisons au MHSC VB : ce que le sport de haut niveau m'a appris sur le corps humain
           </h1>
           <p className="text-gray-500 text-lg leading-relaxed">
-            Champion de France 2022, Supercoupe 2022 et 2024, Championnats du Monde et d'Europe avec la FFVB, Jeux Méditerranéens 2013. Pendant neuf saisons, j'ai accompagné les meilleurs volleyeurs professionnels de France. Voici les leçons que ces années m'ont transmises — et que j'apporte aujourd'hui à chaque consultation au cabinet.
+            Champion de France 2022, Supercoupe 2022 et 2024, Championnats du Monde et d'Europe avec la FFVB, Jeux Méditerranéens 2013. Pendant neuf saisons, j'ai accompagné les meilleurs volleyeurs professionnels de France. Voici les leçons que ces années m'ont transmises - et que j'apporte aujourd'hui à chaque consultation au cabinet.
           </p>
         </div>
 
@@ -176,8 +176,8 @@ export default function Page() {
           <p className="text-xs font-bold uppercase tracking-widest mb-5 text-gray-400">Vu dans la presse & références officielles</p>
           <div className="space-y-5">
             <div className="border-b border-gray-200 pb-5">
-              <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>Getty Images / Icon Sport — 10 février 2024</p>
-              <p className="text-gray-500 text-sm mt-1">Francis MOMBO et Loïc Le Marrec photographiés lors de <em>Paris Volley Club vs MHSC VB</em> — Marmara SpikeLigue, Stade Charléty.</p>
+              <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>Getty Images / Icon Sport - 10 février 2024</p>
+              <p className="text-gray-500 text-sm mt-1">Francis MOMBO et Loïc Le Marrec photographiés lors de <em>Paris Volley Club vs MHSC VB</em> - Marmara SpikeLigue, Stade Charléty.</p>
               <p className="text-gray-400 text-xs mt-1">Photo : Thomas Proissy / Icon Sport via Getty Images</p>
               <a href="https://www.gettyimages.fr/detail/photo-d%27actualit%C3%A9/francis-mombo-and-loic-le-marrec-head-coach-of-photo-dactualit%C3%A9/1996268477" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-xs mt-2 font-semibold hover:underline" style={{ color: "#D4336E" }}>
                 Voir sur Getty Images
@@ -185,15 +185,15 @@ export default function Page() {
               </a>
             </div>
             <div className="border-b border-gray-200 pb-5">
-              <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>Midi Libre — 10 octobre 2024</p>
-              <p className="text-gray-500 text-sm mt-1">« Sur pied pour préparer le prochain match — les volleyeurs du MHSC profitent des installations des footballeurs pour les soins et la récupération. »</p>
+              <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>Midi Libre - 10 octobre 2024</p>
+              <p className="text-gray-500 text-sm mt-1">« Sur pied pour préparer le prochain match - les volleyeurs du MHSC profitent des installations des footballeurs pour les soins et la récupération. »</p>
               <a href="https://www.midilibre.fr/2024/10/10/sur-pied-pour-preparer-le-prochain-match-les-volleyeurs-du-mhsc-profitent-des-installations-des-footballeurs-pour-les-soins-et-la-recuperation-12251773.php" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-xs mt-2 font-semibold hover:underline" style={{ color: "#D4336E" }}>
                 Lire l'article
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
               </a>
             </div>
             <div className="border-b border-gray-200 pb-5">
-              <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>La Nouvelle République — Demi-finale Tours vs Montpellier</p>
+              <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>La Nouvelle République - Demi-finale Tours vs Montpellier</p>
               <p className="text-gray-500 text-sm mt-1">Avant le match 3 de la demi-finale, Tours et Montpellier face au défi de la récupération.</p>
               <a href="https://www.lanouvellerepublique.fr/tours/msl-avant-le-match-3-de-leur-demi-finale-tours-et-montpellier-face-au-defi-de-la-recuperation-1746298896" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-xs mt-2 font-semibold hover:underline" style={{ color: "#D4336E" }}>
                 Lire l'article
@@ -201,7 +201,7 @@ export default function Page() {
               </a>
             </div>
             <div>
-              <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>FFVB — Fédération Française de Volley-Ball</p>
+              <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>FFVB - Fédération Française de Volley-Ball</p>
               <p className="text-gray-500 text-sm mt-1">Profil officiel Francis MOMBO sur le site de la fédération nationale.</p>
               <a href="https://www.ffvb.org/index.php?mduuseid=MTY%3D&dsgtypid=36&page=result&search=francis+mombo&search.x=0&search.y=0" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-xs mt-2 font-semibold hover:underline" style={{ color: "#D4336E" }}>
                 Voir sur ffvb.org
@@ -220,7 +220,7 @@ export default function Page() {
           </section>
 
           <section>
-            <h2 className="article-h2">Leçon 1 — Le corps s'adapte toujours, jusqu'à ce qu'il ne puisse plus</h2>
+            <h2 className="article-h2">Leçon 1 - Le corps s'adapte toujours, jusqu'à ce qu'il ne puisse plus</h2>
             <p>Les athlètes de haut niveau sont des experts de la compensation. Ils continuent à performer malgré une épaule douloureuse, une cheville instable, une lombalgie chronique. Le corps crée des stratégies motrices alternatives pour maintenir la performance.</p>
             <p className="mt-3">Le problème : ces compensations engendrent de nouvelles tensions ailleurs. L'entorse de cheville négligée devient tendinite rotulienne ; la raideur lombaire se transforme en conflit d'épaule. Au cabinet, cette logique s'applique à tous les patients. La douleur que vous consultez n'est presque jamais là où se trouve la cause réelle.</p>
             <ul className="article-list mt-3">
@@ -231,26 +231,26 @@ export default function Page() {
           </section>
 
           <section>
-            <h2 className="article-h2">Leçon 2 — La récupération est un entraînement à part entière</h2>
-            <p>En club professionnel, on intègre rapidement que ce n'est pas la séance d'entraînement qui fait progresser — c'est le temps entre les séances. La qualité de récupération détermine la qualité de la séance suivante.</p>
-            <p className="mt-3">Cette conviction change radicalement l'approche thérapeutique. Avec mes patients — sportifs ou non —, j'insiste autant sur ce qui se passe <em>après</em> la séance que pendant. Sommeil, hydratation, gestion du stress, mobilité quotidienne : ces éléments ne sont pas des bonus. Ce sont des variables thérapeutiques à part entière.</p>
+            <h2 className="article-h2">Leçon 2 - La récupération est un entraînement à part entière</h2>
+            <p>En club professionnel, on intègre rapidement que ce n'est pas la séance d'entraînement qui fait progresser - c'est le temps entre les séances. La qualité de récupération détermine la qualité de la séance suivante.</p>
+            <p className="mt-3">Cette conviction change radicalement l'approche thérapeutique. Avec mes patients - sportifs ou non -, j'insiste autant sur ce qui se passe <em>après</em> la séance que pendant. Sommeil, hydratation, gestion du stress, mobilité quotidienne : ces éléments ne sont pas des bonus. Ce sont des variables thérapeutiques à part entière.</p>
           </section>
 
           <section>
-            <h2 className="article-h2">Leçon 3 — La prévention rapporte plus que le traitement</h2>
-            <p>Dans un club comme le MHSC VB, chaque semaine sans blessure est une semaine gagnée. J'ai appris à construire des protocoles de prévention individualisés — bilan postural, testing musculaire, repérage des zones de fragilité — bien avant l'apparition du premier symptôme.</p>
+            <h2 className="article-h2">Leçon 3 - La prévention rapporte plus que le traitement</h2>
+            <p>Dans un club comme le MHSC VB, chaque semaine sans blessure est une semaine gagnée. J'ai appris à construire des protocoles de prévention individualisés - bilan postural, testing musculaire, repérage des zones de fragilité - bien avant l'apparition du premier symptôme.</p>
             <p className="mt-3">Résultat : des joueurs disponibles sur la durée, des carrières prolongées et une cohésion d'équipe préservée. Cette philosophie préventive est aujourd'hui au cœur de ma pratique en cabinet. Venir consulter quand tout va bien est souvent le choix le plus rentable pour la santé sur le long terme.</p>
           </section>
 
           <section>
-            <h2 className="article-h2">Leçon 4 — Le mental influence le physique, toujours</h2>
-            <p>En nine saisons, j'ai vu des joueurs physiquement aptes rechuter parce qu'ils n'avaient pas confiance en leur genou opéré. Et des joueurs blessés tenir un match entier par pure force mentale. Cette réalité m'a conduit vers l'hypnothérapie — pour accompagner la dimension psychologique de la douleur et du rétablissement.</p>
+            <h2 className="article-h2">Leçon 4 - Le mental influence le physique, toujours</h2>
+            <p>En nine saisons, j'ai vu des joueurs physiquement aptes rechuter parce qu'ils n'avaient pas confiance en leur genou opéré. Et des joueurs blessés tenir un match entier par pure force mentale. Cette réalité m'a conduit vers l'hypnothérapie - pour accompagner la dimension psychologique de la douleur et du rétablissement.</p>
             <p className="mt-3">La kinésithérapie et l'ostéopathie traitent le corps. L'hypnose thérapeutique travaille sur les représentations, la peur de la douleur, la récupération du sentiment de compétence corporelle. Au cabinet, les trois approches forment un continuum de soins complet.</p>
           </section>
 
           <section>
-            <h2 className="article-h2">Leçon 5 — Chaque corps est unique, même entre professionnels</h2>
-            <p>À niveau équivalent, deux joueurs avec la même blessure peuvent nécessiter des approches radicalement différentes. L'un répond mieux aux techniques structurelles, l'autre aux techniques myofasciales ou viscérales. Les antécédents, la morphologie, le niveau de stress — tout compte.</p>
+            <h2 className="article-h2">Leçon 5 - Chaque corps est unique, même entre professionnels</h2>
+            <p>À niveau équivalent, deux joueurs avec la même blessure peuvent nécessiter des approches radicalement différentes. L'un répond mieux aux techniques structurelles, l'autre aux techniques myofasciales ou viscérales. Les antécédents, la morphologie, le niveau de stress - tout compte.</p>
             <p className="mt-3">Cette humilité face à la singularité de chaque patient est sans doute la leçon la plus précieuse du haut niveau. Elle m'a appris à ne jamais appliquer de protocole unique, mais toujours à adapter, tester, affiner.</p>
           </section>
 
@@ -296,7 +296,7 @@ export default function Page() {
         <div className="mt-8 rounded-2xl border border-gray-100 p-5 flex items-center justify-between gap-4">
           <div>
             <p className="text-xs font-bold uppercase tracking-widest mb-1" style={{ color: "#D4336E" }}>À lire aussi</p>
-            <p className="font-black text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>Parcours FFVB — Équipe de France de Volley (2013–2018)</p>
+            <p className="font-black text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>Parcours FFVB - Équipe de France de Volley (2013–2018)</p>
             <p className="text-gray-500 text-xs mt-1">5 missions avec les équipes nationales françaises de volley-ball.</p>
           </div>
           <Link href="/parcours-ffvb-equipe-france-volley" className="flex-shrink-0 inline-flex items-center gap-1.5 text-xs font-bold px-4 py-2 rounded-full text-white" style={{ background: "linear-gradient(135deg, #D4336E, #8B2035)" }}>

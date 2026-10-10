@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
 
 export const metadata: Metadata = {
-  title: "Ostéopathe HYROX & CrossFit Montpellier — Francis MOMBO, Kiné D.O.",
+  title: "Ostéopathe HYROX & CrossFit Montpellier - Francis MOMBO, Kiné D.O.",
   description:
     "Francis MOMBO, kinésithérapeute et ostéopathe D.O. à Montpellier, accompagne les athlètes HYROX et CrossFit : préparation compétition, prévention blessures, récupération, performance. Cabinet à Castelnau-le-Lez.",
   keywords: [
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteUrl}/osteopathe-hyrox-crossfit-montpellier` },
   openGraph: {
-    title: "Ostéopathe HYROX & CrossFit — Francis MOMBO, Montpellier",
+    title: "Ostéopathe HYROX & CrossFit - Francis MOMBO, Montpellier",
     description: "Accompagnement kiné & ostéopathique des athlètes HYROX et CrossFit à Montpellier. Préparation, prévention, récupération, performance.",
     url: `${siteUrl}/osteopathe-hyrox-crossfit-montpellier`,
     type: "article",
@@ -49,7 +49,7 @@ const jsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
-    name: "Francis MOMBO — Ostéopathe & Kinésithérapeute",
+    name: "Francis MOMBO - Ostéopathe & Kinésithérapeute",
     url: siteUrl,
     telephone: "+33650149192",
     medicalSpecialty: ["Osteopathic", "PhysicalTherapy"],
@@ -193,12 +193,12 @@ export default function Page() {
           <section>
             <h2 className="article-h2">HYROX & CrossFit : pourquoi ces sports exigent un suivi spécialisé</h2>
             <p>Le HYROX et le CrossFit partagent une caractéristique unique : ils combinent <strong>endurance cardiovasculaire</strong> et <strong>force fonctionnelle sous fatigue</strong>. Cette combinaison crée des contraintes biomécaniques que peu de praticiens connaissent réellement.</p>
-            <p className="mt-3">En HYROX, les 8 km de course s'intercalent avec 8 stations (sled push de 152 kg, sandbag lunges, ski erg, wall balls…). Sous fatigue, la posture se dégrade, les compensations apparaissent — et les blessures s'installent progressivement, souvent sans signal d'alarme brutal.</p>
-            <p className="mt-3">En CrossFit, les mouvements olympiques exécutés sous intensité — snatch, clean & jerk, handstand push-up — demandent une mobilité articulaire irréprochable. Un déficit de mobilité de hanche, d'épaule ou de cheville non corrigé devient une blessure certaine à mesure que les charges augmentent.</p>
+            <p className="mt-3">En HYROX, les 8 km de course s'intercalent avec 8 stations (sled push de 152 kg, sandbag lunges, ski erg, wall balls…). Sous fatigue, la posture se dégrade, les compensations apparaissent - et les blessures s'installent progressivement, souvent sans signal d'alarme brutal.</p>
+            <p className="mt-3">En CrossFit, les mouvements olympiques exécutés sous intensité - snatch, clean & jerk, handstand push-up - demandent une mobilité articulaire irréprochable. Un déficit de mobilité de hanche, d'épaule ou de cheville non corrigé devient une blessure certaine à mesure que les charges augmentent.</p>
           </section>
 
           <section>
-            <h2 className="article-h2">Blessures fréquentes — HYROX & CrossFit</h2>
+            <h2 className="article-h2">Blessures fréquentes - HYROX & CrossFit</h2>
             <div className="overflow-x-auto">
               <table className="w-full text-sm border-collapse mt-3">
                 <thead>
@@ -250,21 +250,21 @@ export default function Page() {
 
           <section>
             <h2 className="article-h2">Double expertise kiné + ostéo : l'avantage du haut niveau</h2>
-            <p>La majorité des ostéopathes n'ont pas pratiqué le HYROX. La majorité des kinés ne connaissent pas l'ostéopathie fonctionnelle. Francis MOMBO combine les deux — et y ajoute une expérience réelle du terrain à haut niveau (MHSC VB Pro A, Équipe de France de volley, AfroBasket 2025) — pour des prises en charge qui vont au-delà du symptôme immédiat :</p>
+            <p>La majorité des ostéopathes n'ont pas pratiqué le HYROX. La majorité des kinés ne connaissent pas l'ostéopathie fonctionnelle. Francis MOMBO combine les deux - et y ajoute une expérience réelle du terrain à haut niveau (MHSC VB Pro A, Équipe de France de volley, AfroBasket 2025) - pour des prises en charge qui vont au-delà du symptôme immédiat :</p>
             <ul className="article-list mt-4">
-              <li><strong>Kinésithérapie</strong> — rééducation fonctionnelle, renforcement des zones déficitaires, retour à l'entraînement progressif ;</li>
-              <li><strong>Ostéopathie</strong> — mobilité articulaire, équilibre postural, chaînes musculaires, récupération accélérée ;</li>
-              <li><strong>Hypnose médicale</strong> — gestion de la douleur à l'effort, confiance en compétition, visualisation de la performance, récupération mentale.</li>
+              <li><strong>Kinésithérapie</strong> - rééducation fonctionnelle, renforcement des zones déficitaires, retour à l'entraînement progressif ;</li>
+              <li><strong>Ostéopathie</strong> - mobilité articulaire, équilibre postural, chaînes musculaires, récupération accélérée ;</li>
+              <li><strong>Hypnose médicale</strong> - gestion de la douleur à l'effort, confiance en compétition, visualisation de la performance, récupération mentale.</li>
             </ul>
           </section>
 
           <section>
-            <h2 className="article-h2">Box CrossFit & events HYROX à Montpellier — qui consulte Francis MOMBO ?</h2>
+            <h2 className="article-h2">Box CrossFit & events HYROX à Montpellier - qui consulte Francis MOMBO ?</h2>
             <p>Le cabinet de Castelnau-le-Lez est à 5–10 minutes des principales box CrossFit de la métropole montpelliéraine et des salles de préparation HYROX. Les consultations se font sans ordonnance, du lundi au samedi de 8h à 20h, avec des créneaux possibles en fin de journée pour les athlètes qui s'entraînent le matin.</p>
           </section>
 
           <section>
-            <h2 className="article-h2">FAQ — Ostéopathie HYROX & CrossFit</h2>
+            <h2 className="article-h2">FAQ - Ostéopathie HYROX & CrossFit</h2>
             <div className="space-y-4">
               {(jsonLd[2] as { mainEntity: { name: string; acceptedAnswer: { text: string } }[] }).mainEntity.map((item) => (
                 <div key={item.name} className="bg-gray-50 rounded-xl p-5">
@@ -297,7 +297,7 @@ export default function Page() {
 
         {/* CTA */}
         <div className="mt-12 rounded-2xl p-8 text-center" style={{ background: "linear-gradient(135deg, #0a0a14, #1a2a0a)", border: "1px solid rgba(232,160,32,0.25)" }}>
-          <p className="text-xs font-bold uppercase tracking-widest mb-2" style={{ color: "#E8A020" }}>Castelnau-le-Lez — Sans ordonnance</p>
+          <p className="text-xs font-bold uppercase tracking-widest mb-2" style={{ color: "#E8A020" }}>Castelnau-le-Lez - Sans ordonnance</p>
           <h3 className="text-xl font-black text-white mb-3" style={{ fontFamily: "Figtree, sans-serif" }}>
             Préparez votre prochain HYROX<br />
             <span style={{ color: "#E8A020" }}>avec un kiné de haut niveau</span>

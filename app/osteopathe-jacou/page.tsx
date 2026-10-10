@@ -1,13 +1,13 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
 
 export const metadata: Metadata = {
-  title: "Ostéopathe à Jacou — Francis MOMBO, Kinésithérapeute D.O.",
+  title: "Ostéopathe à Jacou - Francis MOMBO, Kinésithérapeute D.O.",
   description:
-    "Ostéopathe à Jacou (34830) — Francis MOMBO, kinésithérapeute et ostéopathe D.O. Cabinet à 2 min de Jacou, à Castelnau-le-Lez. Consultation sans ordonnance, prise de rendez-vous Doctolib.",
+    "Ostéopathe à Jacou (34830) - Francis MOMBO, kinésithérapeute et ostéopathe D.O. Cabinet à 2 min de Jacou, à Castelnau-le-Lez. Consultation sans ordonnance, prise de rendez-vous Doctolib.",
   keywords: [
     "ostéopathe Jacou",
     "ostéopathe Jacou 34830",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteUrl}/osteopathe-jacou` },
   openGraph: {
-    title: "Ostéopathe à Jacou — Francis MOMBO, Cabinet à 2 min de Jacou",
+    title: "Ostéopathe à Jacou - Francis MOMBO, Cabinet à 2 min de Jacou",
     description: "Cabinet d'ostéopathie à 2 minutes de Jacou : adultes, sportifs, nourrissons, seniors. Francis MOMBO, kinésithérapeute et ostéopathe D.O.",
     url: `${siteUrl}/osteopathe-jacou`,
     type: "article",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "MedicalBusiness",
-  name: "Francis MOMBO — Ostéopathe & Kinésithérapeute",
+  name: "Francis MOMBO - Ostéopathe & Kinésithérapeute",
   url: siteUrl,
   telephone: "+33650149192",
   address: {
@@ -46,7 +46,7 @@ const jsonLd = {
 };
 
 const faq = [
-  { q: "Où se situe le cabinet par rapport à Jacou ?", a: "Le cabinet est situé au 1720 avenue de l'Europe à Castelnau-le-Lez, à seulement 2 km de Jacou — soit environ 2 à 3 minutes en voiture. Jacou et Castelnau-le-Lez sont des communes voisines." },
+  { q: "Où se situe le cabinet par rapport à Jacou ?", a: "Le cabinet est situé au 1720 avenue de l'Europe à Castelnau-le-Lez, à seulement 2 km de Jacou - soit environ 2 à 3 minutes en voiture. Jacou et Castelnau-le-Lez sont des communes voisines." },
   { q: "Faut-il une ordonnance pour consulter un ostéopathe à Jacou ?", a: "Non, l'ostéopathie est accessible en accès direct, sans prescription médicale. Vous pouvez prendre rendez-vous directement sur Doctolib." },
   { q: "Acceptez-vous les nourrissons et enfants de Jacou ?", a: "Oui, Francis MOMBO prend en charge les nourrissons dès les premiers jours de vie, ainsi que les enfants et adolescents, avec des techniques entièrement adaptées à leur âge." },
   { q: "Quelles mutuelles remboursent les séances d'ostéopathie ?", a: "De nombreuses mutuelles prennent en charge tout ou partie des consultations d'ostéopathie. Renseignez-vous auprès de votre complémentaire santé pour connaître les modalités de remboursement." },
@@ -84,7 +84,7 @@ export default function Page() {
             <span className="text-xs text-gray-400">34830 · à 2 km de Castelnau-le-Lez</span>
           </div>
           <h1 className="font-black text-gray-900 leading-tight mb-4" style={{ fontFamily: "Figtree, sans-serif", fontSize: "clamp(28px, 5vw, 42px)" }}>
-            Ostéopathe à Jacou — Cabinet à 2 min de Jacou
+            Ostéopathe à Jacou - Cabinet à 2 min de Jacou
           </h1>
           <p className="text-gray-500 text-lg leading-relaxed">
             Vous habitez <strong>Jacou (34830)</strong> et cherchez un ostéopathe ? Francis MOMBO, kinésithérapeute et ostéopathe D.O., vous reçoit à <strong>2 minutes de Jacou</strong>, au 1720 avenue de l'Europe à Castelnau-le-Lez. Son cabinet dessert Jacou, Castelnau-le-Lez, Le Crès et Montpellier.
@@ -94,7 +94,7 @@ export default function Page() {
         <article className="space-y-10 text-gray-700 leading-relaxed">
 
           <section>
-            <h2 className="article-h2">Ostéopathe proche de Jacou — le cabinet de Castelnau-le-Lez</h2>
+            <h2 className="article-h2">Ostéopathe proche de Jacou - le cabinet de Castelnau-le-Lez</h2>
             <p>Jacou (~7 000 habitants) est directement voisine de Castelnau-le-Lez. Le cabinet de Francis MOMBO est l'adresse la plus proche pour les habitants de Jacou :</p>
             <ul className="article-list">
               <li>adresse : 1720 avenue de l'Europe, 34170 Castelnau-le-Lez ;</li>
@@ -109,9 +109,9 @@ export default function Page() {
             <h2 className="article-h2">Un double profil unique : kiné et ostéopathe</h2>
             <p>Francis MOMBO cumule deux expertises complémentaires :</p>
             <ul className="article-list">
-              <li><strong>Kinésithérapeute</strong> — rééducation fonctionnelle, traitement des blessures, renforcement musculaire, rééducation post-opératoire ;</li>
-              <li><strong>Ostéopathe D.O.</strong> — prise en charge globale du corps, traitement des douleurs chroniques et aiguës, équilibre structurel et viscéral ;</li>
-              <li><strong>Hypnothérapeute</strong> — gestion de la douleur, stress, phobies, préparation mentale sportive.</li>
+              <li><strong>Kinésithérapeute</strong> - rééducation fonctionnelle, traitement des blessures, renforcement musculaire, rééducation post-opératoire ;</li>
+              <li><strong>Ostéopathe D.O.</strong> - prise en charge globale du corps, traitement des douleurs chroniques et aiguës, équilibre structurel et viscéral ;</li>
+              <li><strong>Hypnothérapeute</strong> - gestion de la douleur, stress, phobies, préparation mentale sportive.</li>
             </ul>
             <p>Cette double compétence lui permet d'assurer une prise en charge complète, sans multiplier les intervenants.</p>
           </section>
@@ -119,11 +119,11 @@ export default function Page() {
           <section>
             <h2 className="article-h2">Qui peut consulter depuis Jacou ?</h2>
             <ul className="article-list">
-              <li><strong>Nourrissons et enfants</strong> — coliques, plagiocéphalie, torticolis, troubles du sommeil, scoliose ;</li>
-              <li><strong>Adultes</strong> — douleurs de dos, cervicalgies, migraines, stress, troubles digestifs ;</li>
-              <li><strong>Sportifs</strong> — prévention, récupération, préparation compétition ;</li>
-              <li><strong>Femmes</strong> — grossesse, post-partum, endométriose, cycles douloureux ;</li>
-              <li><strong>Séniors</strong> — arthrose, équilibre, mobilité, prévention des chutes.</li>
+              <li><strong>Nourrissons et enfants</strong> - coliques, plagiocéphalie, torticolis, troubles du sommeil, scoliose ;</li>
+              <li><strong>Adultes</strong> - douleurs de dos, cervicalgies, migraines, stress, troubles digestifs ;</li>
+              <li><strong>Sportifs</strong> - prévention, récupération, préparation compétition ;</li>
+              <li><strong>Femmes</strong> - grossesse, post-partum, endométriose, cycles douloureux ;</li>
+              <li><strong>Séniors</strong> - arthrose, équilibre, mobilité, prévention des chutes.</li>
             </ul>
           </section>
 
@@ -149,7 +149,7 @@ export default function Page() {
           </section>
 
           <section>
-            <h2 className="article-h2">FAQ — Ostéopathe à Jacou</h2>
+            <h2 className="article-h2">FAQ - Ostéopathe à Jacou</h2>
             <div className="space-y-4">
               {faq.map(item => (
                 <div key={item.q} className="bg-gray-50 rounded-xl p-5">
@@ -164,7 +164,7 @@ export default function Page() {
         <div className="mt-10 rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
           <iframe
             src="https://maps.google.com/maps?q=1720+avenue+de+l%27Europe+34170+Castelnau-le-Lez&output=embed"
-            title="Cabinet Francis MOMBO — 1720 avenue de l'Europe, Castelnau-le-Lez"
+            title="Cabinet Francis MOMBO - 1720 avenue de l'Europe, Castelnau-le-Lez"
             width="100%"
             height="300"
             style={{ border: 0, display: "block" }}
@@ -174,7 +174,7 @@ export default function Page() {
           />
           <div className="px-6 py-4 bg-white flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
             <div>
-              <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>1720 avenue de l'Europe — 1er étage bureau B2</p>
+              <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>1720 avenue de l'Europe - 1er étage bureau B2</p>
               <p className="text-gray-500 text-xs mt-0.5">34170 Castelnau-le-Lez · Parking gratuit · Accès transports en commun</p>
             </div>
             <a
@@ -192,8 +192,8 @@ export default function Page() {
 
         <div className="mt-6 rounded-2xl p-8 text-center" style={{ background: "linear-gradient(135deg, #fdeef3, #fff3e8)" }}>
           <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#E8A020" }}>Francis MOMBO</p>
-          <h3 className="text-xl font-black text-gray-900 mb-3" style={{ fontFamily: "Figtree, sans-serif" }}>Cabinet de Castelnau-le-Lez — à 2 min de Jacou</h3>
-          <p className="text-gray-500 text-sm mb-1 max-w-md mx-auto">1720 avenue de l'Europe — 34170 Castelnau-le-Lez</p>
+          <h3 className="text-xl font-black text-gray-900 mb-3" style={{ fontFamily: "Figtree, sans-serif" }}>Cabinet de Castelnau-le-Lez - à 2 min de Jacou</h3>
+          <p className="text-gray-500 text-sm mb-1 max-w-md mx-auto">1720 avenue de l'Europe - 34170 Castelnau-le-Lez</p>
           <p className="text-gray-500 text-sm mb-6 max-w-md mx-auto">06 50 14 91 92</p>
           <a href={doctolib} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-full text-white text-sm" style={{ background: "linear-gradient(135deg, #D4336E, #8B2035)" }}>
             Prendre rendez-vous sur Doctolib

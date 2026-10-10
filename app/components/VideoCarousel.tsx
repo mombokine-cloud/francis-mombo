@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useRef, useCallback, useEffect } from "react";
 
@@ -145,7 +145,7 @@ export default function VideoCarousel() {
                     playsInline
                     muted={muted}
                     loop
-                    aria-label={`${video.title} — ${video.subtitle}`}
+                    aria-label={`${video.title} - ${video.subtitle}`}
                     style={{ width: "100%", height: "100%", objectFit: "cover", background: "#000" }}
                   />
                 )}

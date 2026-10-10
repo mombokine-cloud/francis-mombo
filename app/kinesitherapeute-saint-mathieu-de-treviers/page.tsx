@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
 
 export const metadata: Metadata = {
-  title: "Kinésithérapeute Saint-Mathieu-de-Tréviers — Francis MOMBO, Kiné D.O.",
+  title: "Kinésithérapeute Saint-Mathieu-de-Tréviers - Francis MOMBO, Kiné D.O.",
   description:
     "Francis MOMBO, masseur-kinésithérapeute et ostéopathe D.O. à Saint-Mathieu-de-Tréviers (34270), au pied du Pic Saint-Loup. Rééducation, sport, douleurs chroniques. Cabinet au 5 avenue du Grand Chêne.",
   keywords: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteUrl}/kinesitherapeute-saint-mathieu-de-treviers` },
   openGraph: {
-    title: "Kinésithérapeute Saint-Mathieu-de-Tréviers — Francis MOMBO",
+    title: "Kinésithérapeute Saint-Mathieu-de-Tréviers - Francis MOMBO",
     description: "Masseur-kinésithérapeute et ostéopathe D.O. à Saint-Mathieu-de-Tréviers, Pic Saint-Loup. Sport, rééducation, douleurs chroniques.",
     url: `${siteUrl}/kinesitherapeute-saint-mathieu-de-treviers`,
     type: "article",
@@ -31,7 +31,7 @@ const jsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
-    name: "Francis MOMBO — Kinésithérapeute & Ostéopathe Saint-Mathieu-de-Tréviers",
+    name: "Francis MOMBO - Kinésithérapeute & Ostéopathe Saint-Mathieu-de-Tréviers",
     url: siteUrl,
     telephone: "+33650149192",
     medicalSpecialty: ["PhysicalTherapy", "Osteopathic"],
@@ -122,7 +122,7 @@ export default function Page() {
             <span style={{ color: "#E8A020" }}>Saint-Mathieu-de-Tréviers</span>
           </h1>
           <p className="text-white/70 text-base leading-relaxed max-w-xl">
-            Francis MOMBO — Masseur-kinésithérapeute · Ostéopathe D.O. · Cabinet au pied du Pic Saint-Loup
+            Francis MOMBO - Masseur-kinésithérapeute · Ostéopathe D.O. · Cabinet au pied du Pic Saint-Loup
           </p>
         </div>
       </div>
@@ -133,7 +133,7 @@ export default function Page() {
         <div className="grid sm:grid-cols-3 gap-4 mb-12">
           {[
             { icon: "📍", label: "5 avenue du Grand Chêne", sub: "Saint-Mathieu-de-Tréviers 34270" },
-            { icon: "🕐", label: "Lundi — Samedi", sub: "08h00 → 20h00" },
+            { icon: "🕐", label: "Lundi - Samedi", sub: "08h00 → 20h00" },
             { icon: "📞", label: "06 50 14 91 92", sub: "ou Doctolib en ligne" },
           ].map((i) => (
             <div key={i.label} className="bg-gray-50 rounded-xl p-4 flex items-start gap-3">
@@ -150,25 +150,25 @@ export default function Page() {
 
           <section>
             <h2 className="article-h2">Un cabinet au cœur du Pic Saint-Loup</h2>
-            <p>Saint-Mathieu-de-Tréviers est la commune principale du massif du <strong>Pic Saint-Loup</strong>, à 25 km au nord de Montpellier. C&apos;est également un territoire de randonnée, de trail, d&apos;escalade et de sport de plein air — des pratiques qui génèrent leurs propres blessures et besoins en rééducation.</p>
+            <p>Saint-Mathieu-de-Tréviers est la commune principale du massif du <strong>Pic Saint-Loup</strong>, à 25 km au nord de Montpellier. C&apos;est également un territoire de randonnée, de trail, d&apos;escalade et de sport de plein air - des pratiques qui génèrent leurs propres blessures et besoins en rééducation.</p>
             <p className="mt-3">Le cabinet de Saint-Mathieu complète celui de Castelnau-le-Lez pour couvrir le nord de la métropole montpelliéraine et la zone Pic Saint-Loup → Quissac. Francis MOMBO y propose les mêmes prestations qu&apos;à Castelnau : kinésithérapie, ostéopathie et hypnose médicale.</p>
           </section>
 
           <section>
             <h2 className="article-h2">Prestations disponibles à Saint-Mathieu-de-Tréviers</h2>
             <ul className="article-list">
-              <li><strong>Rééducation musculo-squelettique</strong> — entorses, fractures, post-opératoire ;</li>
-              <li><strong>Ostéopathie générale</strong> — douleurs chroniques, mal de dos, cervicalgies, céphalées ;</li>
-              <li><strong>Kinésithérapie & ostéopathie du sport</strong> — trail, escalade, vélo, sports de raquette ;</li>
-              <li><strong>Santé féminine</strong> — grossesse, endométriose, équilibre féminin ;</li>
+              <li><strong>Rééducation musculo-squelettique</strong> - entorses, fractures, post-opératoire ;</li>
+              <li><strong>Ostéopathie générale</strong> - douleurs chroniques, mal de dos, cervicalgies, céphalées ;</li>
+              <li><strong>Kinésithérapie & ostéopathie du sport</strong> - trail, escalade, vélo, sports de raquette ;</li>
+              <li><strong>Santé féminine</strong> - grossesse, endométriose, équilibre féminin ;</li>
               <li><strong>Ostéopathie enfant & nourrisson</strong> ;</li>
-              <li><strong>Hypnose médicale</strong> — douleur chronique, stress, performance ;</li>
-              <li><strong>Séniors</strong> — mobilité, prévention des chutes, pathologies dégénératives.</li>
+              <li><strong>Hypnose médicale</strong> - douleur chronique, stress, performance ;</li>
+              <li><strong>Séniors</strong> - mobilité, prévention des chutes, pathologies dégénératives.</li>
             </ul>
           </section>
 
           <section>
-            <h2 className="article-h2">Zone de desserte — Pic Saint-Loup et environs</h2>
+            <h2 className="article-h2">Zone de desserte - Pic Saint-Loup et environs</h2>
             <p>Le cabinet accueille des patients des villages du Pic Saint-Loup et du nord-Hérault :</p>
             <div className="flex flex-wrap gap-2 mt-3">
               {communes.map((c) => (

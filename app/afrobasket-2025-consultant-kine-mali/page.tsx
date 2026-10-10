@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "../components/RelatedArticles";
 
@@ -7,7 +7,7 @@ const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mo
 const fibaSource = "https://www.fiba.basketball/en/womensafrobasket/2025";
 
 export const metadata: Metadata = {
-  title: "AfroBasket 2025 — Consultant Kiné · Équipe du Mali | Francis MOMBO",
+  title: "AfroBasket 2025 - Consultant Kiné · Équipe du Mali | Francis MOMBO",
   description:
     "Francis MOMBO, kinésithérapeute et ostéopathe D.O., consultant kiné auprès de l'équipe féminine du Mali au FIBA Women's AfroBasket 2025 (Abidjan). Optimisation de la performance, gestion de la cryothérapie. Le Mali termine finaliste.",
   keywords: [
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteUrl}/afrobasket-2025-consultant-kine-mali` },
   openGraph: {
-    title: "AfroBasket 2025 — Francis MOMBO, consultant kiné de l'équipe du Mali",
+    title: "AfroBasket 2025 - Francis MOMBO, consultant kiné de l'équipe du Mali",
     description:
       "Consultant kiné auprès de l'équipe féminine du Mali au FIBA Women's AfroBasket 2025. Le Mali termine finaliste. Retour sur une mission de performance et cryothérapie à Abidjan.",
     url: `${siteUrl}/afrobasket-2025-consultant-kine-mali`,
@@ -55,18 +55,18 @@ const jsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "FIBA Women's AfroBasket 2025 — Francis MOMBO, consultant kinésithérapeute de l'équipe du Mali",
+    headline: "FIBA Women's AfroBasket 2025 - Francis MOMBO, consultant kinésithérapeute de l'équipe du Mali",
     datePublished: "2025-07-01",
     dateModified: "2026-10-08",
     author: {
       "@type": "Person",
       name: "Francis MOMBO",
       url: siteUrl,
-      jobTitle: "Kinésithérapeute — Ostéopathe D.O.",
+      jobTitle: "Kinésithérapeute - Ostéopathe D.O.",
     },
     publisher: {
       "@type": "MedicalBusiness",
-      name: "Francis MOMBO — Cabinet d'ostéopathie & kinésithérapie",
+      name: "Francis MOMBO - Cabinet d'ostéopathie & kinésithérapie",
       url: siteUrl,
     },
     url: `${siteUrl}/afrobasket-2025-consultant-kine-mali`,
@@ -122,7 +122,7 @@ export default function Page() {
 
       {/* Hero */}
       <div className="relative overflow-hidden" style={{ background: "linear-gradient(135deg, #1a0a10 0%, #2d1020 40%, #8B2035 100%)", minHeight: 320 }}>
-        {/* Photo de compétition — remplacer src par votre photo AfroBasket */}
+        {/* Photo de compétition - remplacer src par votre photo AfroBasket */}
         {/* Pour ajouter vos photos : déposez-les dans /public/ et remplacez l'URL ci-dessous */}
         <div className="absolute inset-0 opacity-20" style={{
           backgroundImage: "url('/equipe-france-b.webp')",
@@ -143,7 +143,7 @@ export default function Page() {
           </div>
           <h1 className="font-black text-white leading-tight mb-4" style={{ fontFamily: "Figtree, sans-serif", fontSize: "clamp(26px, 5vw, 40px)" }}>
             FIBA Women's AfroBasket 2025<br />
-            <span style={{ color: "#E8A020" }}>Consultant Kiné — Équipe du Mali</span>
+            <span style={{ color: "#E8A020" }}>Consultant Kiné - Équipe du Mali</span>
           </h1>
           <p className="text-white/80 text-base leading-relaxed max-w-2xl">
             Optimisation de la performance · Gestion de la cryothérapie · Récupération inter-matchs
@@ -157,14 +157,14 @@ export default function Page() {
           <div className="relative rounded-2xl overflow-hidden bg-gray-100" style={{ aspectRatio: "4/3" }}>
             <img
               src="/afrobasket-mali-competition.webp"
-              alt="FIBA Women's AfroBasket 2025 — Abidjan, Côte d'Ivoire"
+              alt="FIBA Women's AfroBasket 2025 - Abidjan, Côte d'Ivoire"
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
           </div>
           <div className="relative rounded-2xl overflow-hidden bg-gray-100" style={{ aspectRatio: "4/3" }}>
             <img
               src="/afrobasket-mali-equipe.webp"
-              alt="Équipe féminine du Mali — FIBA Women's AfroBasket 2025"
+              alt="Équipe féminine du Mali - FIBA Women's AfroBasket 2025"
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
           </div>
@@ -177,7 +177,7 @@ export default function Page() {
 
           <section>
             <h2 className="article-h2">Une consultation venue d'Abidjan</h2>
-            <p>En 2025, la consultation est venue directement du terrain : c'est le kinésithérapeute basé à Abidjan — lieu de la compétition — qui contacte Francis MOMBO pour renforcer le suivi physique de l'<strong>équipe nationale féminine de basketball du Mali</strong>, engagée dans le <strong>FIBA Women's AfroBasket 2025</strong>.</p>
+            <p>En 2025, la consultation est venue directement du terrain : c'est le kinésithérapeute basé à Abidjan - lieu de la compétition - qui contacte Francis MOMBO pour renforcer le suivi physique de l'<strong>équipe nationale féminine de basketball du Mali</strong>, engagée dans le <strong>FIBA Women's AfroBasket 2025</strong>.</p>
             <p>Ce type de collaboration illustre la reconnaissance du savoir-faire de Francis MOMBO dans la gestion de la performance au plus haut niveau du sport africain : réputé pour son travail avec le MHSC VB et la FFVB, il est sollicité comme <strong>consultant kiné</strong> par des staffs internationaux qui cherchent une expertise spécifique.</p>
           </section>
 
@@ -185,33 +185,33 @@ export default function Page() {
             <h2 className="article-h2">Mission : performance et cryothérapie</h2>
             <p>La mission de Francis MOMBO couvre deux axes complémentaires :</p>
             <ul className="article-list">
-              <li><strong>Optimisation de la performance physique</strong> — évaluation musculaire des joueuses, ajustements ostéopathiques, gestion des tensions et des douleurs entre les matchs ;</li>
-              <li><strong>Protocoles de cryothérapie</strong> — mise en place et supervision des séances de froid thérapeutique pour accélérer la récupération musculaire et réduire l'inflammation ;</li>
-              <li><strong>Préparation inter-matchs</strong> — dans un tournoi à élimination directe où les matchs s'enchaînent sur plusieurs jours, la récupération devient un avantage concurrentiel décisif.</li>
+              <li><strong>Optimisation de la performance physique</strong> - évaluation musculaire des joueuses, ajustements ostéopathiques, gestion des tensions et des douleurs entre les matchs ;</li>
+              <li><strong>Protocoles de cryothérapie</strong> - mise en place et supervision des séances de froid thérapeutique pour accélérer la récupération musculaire et réduire l'inflammation ;</li>
+              <li><strong>Préparation inter-matchs</strong> - dans un tournoi à élimination directe où les matchs s'enchaînent sur plusieurs jours, la récupération devient un avantage concurrentiel décisif.</li>
             </ul>
           </section>
 
           <section>
             <h2 className="article-h2">La cryothérapie dans le sport de haut niveau</h2>
-            <p>La cryothérapie — exposition à des températures très basses, localement ou sur le corps entier — est aujourd'hui un standard dans les clubs professionnels. Ses effets sur la récupération sont documentés :</p>
+            <p>La cryothérapie - exposition à des températures très basses, localement ou sur le corps entier - est aujourd'hui un standard dans les clubs professionnels. Ses effets sur la récupération sont documentés :</p>
             <ul className="article-list">
               <li>réduction de l'inflammation musculaire post-effort ;</li>
               <li>diminution des courbatures et de la fatigue perçue ;</li>
               <li>amélioration de la qualité du sommeil de récupération ;</li>
               <li>maintien du tonus neuromusculaire entre deux compétitions rapprochées.</li>
             </ul>
-            <p>Dans un tournoi comme l'AfroBasket — où l'équipe peut jouer 3 à 4 matchs en une semaine — la gestion du froid fait partie intégrante de la stratégie de performance.</p>
+            <p>Dans un tournoi comme l'AfroBasket - où l'équipe peut jouer 3 à 4 matchs en une semaine - la gestion du froid fait partie intégrante de la stratégie de performance.</p>
           </section>
 
           <section>
-            <h2 className="article-h2">Le Mali finaliste — une performance historique</h2>
+            <h2 className="article-h2">Le Mali finaliste - une performance historique</h2>
             <p>L'équipe féminine du Mali termine le FIBA Women's AfroBasket 2025 à la <strong>2e place de la compétition continentale africaine</strong>. Une performance de haut rang pour une équipe dont la condition physique a été soignée jusqu'en finale.</p>
             <p>Ce résultat s'inscrit dans la trajectoire internationale croissante du basketball malien, porté par des joueuses évoluant dans des championnats professionnels, et d'un staff technique et médical de plus en plus structuré.</p>
           </section>
 
           <section>
             <h2 className="article-h2">Un parcours international continu</h2>
-            <p>L'AfroBasket 2025 s'ajoute à un parcours international déjà dense : après <strong>5 missions avec la Fédération Française de Volley-Ball</strong> (2013–2018) et <strong>9 saisons comme kiné-ostéopathe officiel du MHSC VB</strong>, Francis MOMBO continue d'exercer son expertise au plus haut niveau — désormais à l'échelle du continent africain.</p>
+            <p>L'AfroBasket 2025 s'ajoute à un parcours international déjà dense : après <strong>5 missions avec la Fédération Française de Volley-Ball</strong> (2013–2018) et <strong>9 saisons comme kiné-ostéopathe officiel du MHSC VB</strong>, Francis MOMBO continue d'exercer son expertise au plus haut niveau - désormais à l'échelle du continent africain.</p>
             <p>Chaque mission internationale enrichit la pratique au cabinet de <strong>Castelnau-le-Lez</strong> : précision du diagnostic, efficacité des protocoles de récupération, gestion de la performance sous contrainte de temps. Des compétences que Francis MOMBO met au service de tous ses patients, sportifs ou non.</p>
           </section>
 
@@ -234,7 +234,7 @@ export default function Page() {
           <p className="text-xs text-gray-500">
             Source officielle de la compétition :{" "}
             <a href={fibaSource} target="_blank" rel="noopener noreferrer" className="font-semibold hover:underline" style={{ color: "#D4336E" }}>
-              FIBA Women's AfroBasket 2025 — fiba.basketball
+              FIBA Women's AfroBasket 2025 - fiba.basketball
             </a>
           </p>
         </div>
@@ -246,7 +246,7 @@ export default function Page() {
             Bénéficiez d'une prise en charge de niveau international
           </h3>
           <p className="text-white/70 text-sm mb-6 max-w-md mx-auto">
-            Les mêmes protocoles utilisés en compétition internationale — au cabinet de Castelnau-le-Lez et Saint-Mathieu-de-Tréviers.
+            Les mêmes protocoles utilisés en compétition internationale - au cabinet de Castelnau-le-Lez et Saint-Mathieu-de-Tréviers.
           </p>
           <a href={doctolib} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-full text-sm" style={{ background: "#E8A020", color: "#1a0a10" }}>
             Prendre rendez-vous sur Doctolib

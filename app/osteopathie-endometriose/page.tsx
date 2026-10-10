@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedPages from "../components/RelatedPages";
 
@@ -6,7 +6,7 @@ const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
 
 export const metadata: Metadata = {
-  title: "Ostéopathie endométriose Montpellier — soulagement des douleurs",
+  title: "Ostéopathie endométriose Montpellier - soulagement des douleurs",
   description:
     "L'ostéopathie peut soulager les douleurs liées à l'endométriose : crampes, douleurs pelviennes, tensions abdominales. Francis MOMBO, ostéopathe D.O. à Montpellier, accompagne les femmes atteintes d'endométriose.",
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteUrl}/osteopathie-endometriose` },
   openGraph: {
-    title: "Ostéopathie & endométriose Montpellier — Francis MOMBO",
+    title: "Ostéopathie & endométriose Montpellier - Francis MOMBO",
     description: "Soulagement des douleurs d'endométriose par l'ostéopathie et l'hypnose à Montpellier. Prise en charge douce et globale.",
     url: `${siteUrl}/osteopathie-endometriose`,
     type: "article",
@@ -117,7 +117,7 @@ export default function Page() {
             <h2 className="article-h2">Un témoignage</h2>
             <blockquote className="border-l-4 pl-5 italic text-gray-600 text-sm leading-relaxed" style={{ borderColor: "#D4336E" }}>
               "J'ai consulté M. Mombo pour une sciatique chronique. Dès la première séance d'hypnose, les douleurs qui étaient présentes depuis des mois ont considérablement diminué. Incroyable."
-              <footer className="mt-2 text-xs text-gray-400 not-italic">— julie m., Patiente hypnose, Montpellier</footer>
+              <footer className="mt-2 text-xs text-gray-400 not-italic">- julie m., Patiente hypnose, Montpellier</footer>
             </blockquote>
           </section>
 
@@ -148,7 +148,7 @@ export default function Page() {
         <div className="mt-10 rounded-2xl p-8 text-center" style={{ background: "linear-gradient(135deg, #fdeef3, #fff3e8)" }}>
           <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#E8A020" }}>Francis MOMBO</p>
           <h3 className="text-xl font-black text-gray-900 mb-3" style={{ fontFamily: "Figtree, sans-serif" }}>Prendre rendez-vous</h3>
-          <p className="text-gray-500 text-sm mb-6 max-w-md mx-auto">Castelnau-le-Lez et Saint-Mathieu-de-Tréviers — ostéopathie et hypnose pour l'endométriose.</p>
+          <p className="text-gray-500 text-sm mb-6 max-w-md mx-auto">Castelnau-le-Lez et Saint-Mathieu-de-Tréviers - ostéopathie et hypnose pour l'endométriose.</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a href={doctolib} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 font-bold px-6 py-3 rounded-full text-white text-sm" style={{ background: "linear-gradient(135deg, #D4336E, #8B2035)" }}>
               Réserver sur Doctolib

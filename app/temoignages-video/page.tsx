@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 const siteUrl = "https://www.mombofrancis.com";
 
 export const metadata: Metadata = {
-  title: "Témoignages vidéo — Patients de Francis MOMBO Ostéopathe Montpellier",
+  title: "Témoignages vidéo - Patients de Francis MOMBO Ostéopathe Montpellier",
   description:
     "Regardez les témoignages vidéo des patients de Francis MOMBO, ostéopathe D.O. et kinésithérapeute à Montpellier. Ostéopathie viscérale, endométriose, sport de haut niveau, hypnose.",
   keywords: [
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteUrl}/temoignages-video` },
   openGraph: {
-    title: "Témoignages vidéo — Francis MOMBO Ostéopathe Montpellier",
+    title: "Témoignages vidéo - Francis MOMBO Ostéopathe Montpellier",
     description:
       "Vidéos témoignages de patients : ostéopathie viscérale, endométriose, sport de haut niveau, hypnose. Cabinet à Castelnau-le-Lez et Saint-Mathieu-de-Tréviers.",
     url: `${siteUrl}/temoignages-video`,
@@ -29,25 +29,25 @@ export const metadata: Metadata = {
 const youtubeShorts = [
   {
     id: "0uRQszTv0bU",
-    title: "Témoignage Hatika — Douleurs chroniques",
+    title: "Témoignage Hatika - Douleurs chroniques",
     description: "Hatika partage son expérience après des séances d'ostéopathie avec Francis MOMBO pour des douleurs chroniques au cabinet de Castelnau-le-Lez.",
     uploadDate: "2026-10-07",
   },
   {
     id: "DtxCcbXcwEE",
-    title: "Témoignage Julie — Hypnose & sciatique",
+    title: "Témoignage Julie - Hypnose & sciatique",
     description: "Julie témoigne de sa prise en charge par Francis MOMBO pour une sciatique, combinant ostéopathie et hypnose thérapeutique. Une approche globale pour soulager durablement la douleur.",
     uploadDate: "2026-10-07",
   },
   {
     id: "Ijid8zUrLkw",
-    title: "Témoignage volleyeuse — Blessure sportive & ostéopathie",
+    title: "Témoignage volleyeuse - Blessure sportive & ostéopathie",
     description: "Une volleyeuse témoigne de sa prise en charge ostéopathique à Montpellier après une blessure sportive.",
     uploadDate: "2026-10-07",
   },
   {
     id: "R1uBB6ynk0g",
-    title: "Témoignage sportif — Suivi ostéopathique",
+    title: "Témoignage sportif - Suivi ostéopathique",
     description: "Un sportif partage son ressenti après une séance d'ostéopathie avec Francis MOMBO à Castelnau-le-Lez.",
     uploadDate: "2026-10-07",
   },
@@ -57,19 +57,19 @@ const youtubeEducatif = [
   {
     id: "RysAXR-0uz0",
     title: "Pourquoi ça craque chez l'ostéopathe ?",
-    description: "Francis MOMBO explique le phénomène de craquement articulaire lors des manipulations ostéopathiques — ce que c'est, pourquoi ça se produit, et si c'est utile.",
+    description: "Francis MOMBO explique le phénomène de craquement articulaire lors des manipulations ostéopathiques - ce que c'est, pourquoi ça se produit, et si c'est utile.",
     uploadDate: "2026-10-07",
   },
   {
     id: "OjRbKbrRlPY",
     title: "Manipulations cervicales : non, ce n'est pas comme dans les films",
-    description: "Francis MOMBO démystifie les manipulations cervicales en ostéopathie — une technique précise, douce et contrôlée, très éloignée des représentations que l'on voit au cinéma.",
+    description: "Francis MOMBO démystifie les manipulations cervicales en ostéopathie - une technique précise, douce et contrôlée, très éloignée des représentations que l'on voit au cinéma.",
     uploadDate: "2026-10-07",
   },
   {
     id: "o7OCQLIk2Lg",
     title: "L'hypnose du sport expliquée",
-    description: "Francis MOMBO explique l'hypnose du sport : préparation mentale, gestion du stress, confiance en soi et récupération — comment l'hypnose accompagne les sportifs dans la performance.",
+    description: "Francis MOMBO explique l'hypnose du sport : préparation mentale, gestion du stress, confiance en soi et récupération - comment l'hypnose accompagne les sportifs dans la performance.",
     uploadDate: "2026-10-09",
   },
 ];
@@ -78,7 +78,7 @@ const videos = [
   {
     id: "viscerale",
     src: "/videos/temoignage-viscerale.mp4",
-    title: "Témoignage — Ostéopathie viscérale",
+    title: "Témoignage - Ostéopathie viscérale",
     description:
       "Une patiente partage son expérience après des séances d'ostéopathie viscérale avec Francis MOMBO à Montpellier.",
     duration: "PT1M00S",
@@ -88,7 +88,7 @@ const videos = [
   {
     id: "patient",
     src: "/videos/temoignage-patient.mp4",
-    title: "Témoignage patient — Cabinet Castelnau-le-Lez",
+    title: "Témoignage patient - Cabinet Castelnau-le-Lez",
     description:
       "Un patient témoigne de son suivi ostéopathique au cabinet de Castelnau-le-Lez avec Francis MOMBO.",
     duration: "PT1M00S",
@@ -98,7 +98,7 @@ const videos = [
   {
     id: "endometriose",
     src: "/videos/temoignage-endometriose.mp4",
-    title: "Témoignage — Endométriose & ostéopathie",
+    title: "Témoignage - Endométriose & ostéopathie",
     description:
       "Une patiente atteinte d'endométriose témoigne des résultats obtenus grâce à l'ostéopathie et l'hypnose avec Francis MOMBO.",
     duration: "PT1M00S",
@@ -110,7 +110,7 @@ const videos = [
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  name: "Témoignages vidéo — Francis MOMBO Ostéopathe",
+  name: "Témoignages vidéo - Francis MOMBO Ostéopathe",
   url: `${siteUrl}/temoignages-video`,
   numberOfItems: videos.length + youtubeShorts.length + youtubeEducatif.length, // auto-calculé
   itemListElement: [
@@ -126,7 +126,7 @@ const jsonLd = {
         uploadDate: v.uploadDate,
         publisher: {
           "@type": "Organization",
-          name: "Francis MOMBO — Ostéopathe & Kinésithérapeute",
+          name: "Francis MOMBO - Ostéopathe & Kinésithérapeute",
           url: siteUrl,
         },
       },
@@ -143,7 +143,7 @@ const jsonLd = {
         uploadDate: v.uploadDate,
         publisher: {
           "@type": "Organization",
-          name: "Francis MOMBO — Ostéopathe & Kinésithérapeute",
+          name: "Francis MOMBO - Ostéopathe & Kinésithérapeute",
           url: siteUrl,
         },
       },
@@ -161,7 +161,7 @@ const jsonLd = {
         duration: v.duration,
         publisher: {
           "@type": "Organization",
-          name: "Francis MOMBO — Ostéopathe & Kinésithérapeute",
+          name: "Francis MOMBO - Ostéopathe & Kinésithérapeute",
           url: siteUrl,
         },
       },
@@ -228,7 +228,7 @@ export default function Page() {
             Ils témoignent en vidéo
           </h1>
           <p className="text-gray-500 text-lg leading-relaxed">
-            Ostéopathie viscérale, endométriose, sport de haut niveau, hypnose — des patients racontent leur expérience avec Francis MOMBO en toute authenticité.
+            Ostéopathie viscérale, endométriose, sport de haut niveau, hypnose - des patients racontent leur expérience avec Francis MOMBO en toute authenticité.
           </p>
         </div>
 
@@ -322,7 +322,7 @@ export default function Page() {
             Prendre rendez-vous
           </h2>
           <p className="text-gray-500 text-sm mb-6 max-w-md mx-auto">
-            Castelnau-le-Lez et Saint-Mathieu-de-Tréviers — disponible sur Doctolib.
+            Castelnau-le-Lez et Saint-Mathieu-de-Tréviers - disponible sur Doctolib.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a

@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 const siteUrl = "https://www.mombofrancis.com";
 
 export const metadata: Metadata = {
-  title: "Politique de cookies — Francis MOMBO Ostéopathe",
-  description: "Politique d'utilisation des cookies sur le site mombofrancis.com — cabinet d'ostéopathie et kinésithérapie à Montpellier.",
+  title: "Politique de cookies - Francis MOMBO Ostéopathe",
+  description: "Politique d'utilisation des cookies sur le site mombofrancis.com - cabinet d'ostéopathie et kinésithérapie à Montpellier.",
   alternates: { canonical: `${siteUrl}/politique-cookies` },
   robots: { index: false, follow: false },
 };
@@ -25,11 +25,11 @@ const cookies = [
     required: false,
     description: "Ces cookies permettent de mesurer la fréquentation du site et d'améliorer son contenu. Aucune donnée personnellement identifiable n'est collectée.",
     examples: [
-      { cookie: "_ga, _ga_*", purpose: "Google Analytics — statistiques de visite anonymes", duration: "13 mois" },
+      { cookie: "_ga, _ga_*", purpose: "Google Analytics - statistiques de visite anonymes", duration: "13 mois" },
     ],
   },
   {
-    name: "Cookies tiers — Doctolib",
+    name: "Cookies tiers - Doctolib",
     required: false,
     description: "Lorsque vous cliquez sur le bouton Doctolib, vous êtes redirigé vers doctolib.fr qui peut déposer ses propres cookies, soumis à sa propre politique de confidentialité.",
     examples: [
@@ -37,11 +37,11 @@ const cookies = [
     ],
   },
   {
-    name: "Cookies tiers — YouTube",
+    name: "Cookies tiers - YouTube",
     required: false,
     description: "Les vidéos intégrées depuis YouTube (Google LLC) peuvent déposer des cookies à des fins publicitaires et statistiques. Ces cookies ne sont actifs que si vous lisez une vidéo.",
     examples: [
-      { cookie: "VISITOR_INFO1_LIVE, YSC", purpose: "YouTube — lecture vidéo et statistiques", duration: "Session / 6 mois" },
+      { cookie: "VISITOR_INFO1_LIVE, YSC", purpose: "YouTube - lecture vidéo et statistiques", duration: "Session / 6 mois" },
     ],
   },
 ];

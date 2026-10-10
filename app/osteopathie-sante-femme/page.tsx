@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedPages from "../components/RelatedPages";
 
@@ -79,7 +79,7 @@ export default function SanteFemme() {
               <li>la vascularisation locale par le travail sur les fascias ;</li>
               <li>la gestion du stress lié au parcours médical (en complément de l'hypnose thérapeutique).</li>
             </ul>
-            <p>Cette approche s'inscrit toujours en complément — jamais en substitution — du suivi médical ou gynécologique.</p>
+            <p>Cette approche s'inscrit toujours en complément - jamais en substitution - du suivi médical ou gynécologique.</p>
           </section>
 
           <section>
@@ -125,7 +125,7 @@ export default function SanteFemme() {
 
           <section>
             <h2 className="article-h2">Troubles menstruels et douleurs de règles</h2>
-            <p>Les dysménorrhées (douleurs de règles) peuvent être amplifiées par des tensions pelviennes mécaniques. L'ostéopathie peut intervenir sur la mobilité du sacrum, de l'utérus et des structures environnantes pour réduire ces tensions et améliorer le confort menstruel — sans substituer à un bilan gynécologique.</p>
+            <p>Les dysménorrhées (douleurs de règles) peuvent être amplifiées par des tensions pelviennes mécaniques. L'ostéopathie peut intervenir sur la mobilité du sacrum, de l'utérus et des structures environnantes pour réduire ces tensions et améliorer le confort menstruel - sans substituer à un bilan gynécologique.</p>
           </section>
 
           <section>
@@ -152,7 +152,7 @@ export default function SanteFemme() {
 
           <section>
             <h2 className="article-h2">Conclusion</h2>
-            <p>L'ostéopathie est une alliée précieuse tout au long de la vie féminine — de la fertilité à la ménopause, en passant par la grossesse et le post-partum. Francis MOMBO reçoit les femmes à Castelnau-le-Lez et Saint-Mathieu-de-Tréviers avec une approche douce, individualisée et respectueuse de chaque étape de la vie.</p>
+            <p>L'ostéopathie est une alliée précieuse tout au long de la vie féminine - de la fertilité à la ménopause, en passant par la grossesse et le post-partum. Francis MOMBO reçoit les femmes à Castelnau-le-Lez et Saint-Mathieu-de-Tréviers avec une approche douce, individualisée et respectueuse de chaque étape de la vie.</p>
           </section>
         </article>
 

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedPages from "../components/RelatedPages";
 
@@ -139,9 +139,9 @@ export default function ArticleRecuperationSportive() {
           <section>
             <h2 className="article-h2">L'expérience du sport de haut niveau</h2>
             <p>
-              Fort de ses années aux côtés des athlètes professionnels — kiné et ostéopathe officiel du{" "}
+              Fort de ses années aux côtés des athlètes professionnels - kiné et ostéopathe officiel du{" "}
               <strong>MHSC VB pendant 9 saisons</strong>, accompagnateur de l'<strong>Équipe de France de
-              volley-ball</strong> jusqu'aux Championnats du Monde — Francis MOMBO applique au cabinet les mêmes
+              volley-ball</strong> jusqu'aux Championnats du Monde - Francis MOMBO applique au cabinet les mêmes
               protocoles de récupération et de prévention utilisés avec les sportifs d'élite.
             </p>
             <p>
@@ -170,7 +170,7 @@ export default function ArticleRecuperationSportive() {
               à lever en lien avec la pratique sportive du patient.
             </p>
             <p>
-              Les techniques utilisées sont douces et adaptées à l'état physique du moment — qu'il s'agisse d'une
+              Les techniques utilisées sont douces et adaptées à l'état physique du moment - qu'il s'agisse d'une
               séance de récupération post-compétition ou d'un bilan préventif en cours de saison.
             </p>
           </section>

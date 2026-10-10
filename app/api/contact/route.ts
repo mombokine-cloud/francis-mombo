@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from "next/server";
+﻿import { NextRequest, NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
 export async function POST(req: NextRequest) {
@@ -23,7 +23,7 @@ export async function POST(req: NextRequest) {
       from: `"Site Francis MOMBO" <${process.env.SMTP_USER}>`,
       to: "contact@mombofrancis.com",
       replyTo: email,
-      subject: `Nouveau message de ${name} — francismombo.fr`,
+      subject: `Nouveau message de ${name} - francismombo.fr`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <div style="background: linear-gradient(135deg, #D4336E, #8B2035); padding: 24px; border-radius: 8px 8px 0 0;">
@@ -51,7 +51,7 @@ export async function POST(req: NextRequest) {
             <p style="color: #1a1a2e; line-height: 1.6; white-space: pre-wrap; margin: 0;">${message}</p>
           </div>
           <p style="color: #ccc; font-size: 11px; text-align: center; margin-top: 16px;">
-            Envoyé depuis francismombo.fr — Répondez directement à cet email pour contacter ${name}.
+            Envoyé depuis francismombo.fr - Répondez directement à cet email pour contacter ${name}.
           </p>
         </div>
       `,

@@ -1,26 +1,26 @@
-const timeline = [
+﻿const timeline = [
   {
     year: "2005–2008",
     title: "Master en kinésithérapie",
-    desc: "Haute-École Lier de Bruxelles — Formation complète avec spécialisation en rééducation fonctionnelle.",
+    desc: "Haute-École Lier de Bruxelles - Formation complète avec spécialisation en rééducation fonctionnelle.",
     color: "#D4336E",
   },
   {
     year: "2009–2013",
     title: "Diplôme d'Ostéopathie (D.O.)",
-    desc: "International Academy of Osteopathy — Approches structurelles, viscérales et crânio-sacrées.",
+    desc: "International Academy of Osteopathy - Approches structurelles, viscérales et crânio-sacrées.",
     color: "#E8A020",
   },
   {
     year: "2013",
-    title: "Médaille de bronze — Jeux Méditerranéens",
-    desc: "Mersin (Turquie) — Kiné de l'Équipe de France A de volley-ball lors des Jeux Méditerranéens.",
+    title: "Médaille de bronze - Jeux Méditerranéens",
+    desc: "Mersin (Turquie) - Kiné de l'Équipe de France A de volley-ball lors des Jeux Méditerranéens.",
     color: "#D4336E",
   },
   {
     year: "2015",
-    title: "Tournoi qualificatif Mondial — FFVB",
-    desc: "Pologne — Accompagnement de l'Équipe de France de volley-ball pour les qualifications au Championnat du Monde.",
+    title: "Tournoi qualificatif Mondial - FFVB",
+    desc: "Pologne - Accompagnement de l'Équipe de France de volley-ball pour les qualifications au Championnat du Monde.",
     color: "#E8A020",
   },
   {
@@ -31,19 +31,19 @@ const timeline = [
   },
   {
     year: "2016–2025",
-    title: "Kinésithérapeute & ostéopathe — MHSC VB",
+    title: "Kinésithérapeute & ostéopathe - MHSC VB",
     desc: "9 saisons au Montpellier HSC Volley-Ball : Champion de France 2022, Supercoupe 2022 & 2024, demi-finale CEV, 2 finales Coupe de France.",
     color: "#D4336E",
   },
   {
     year: "2022",
     title: "Champion de France",
-    desc: "Titre de Champion de France de volley-ball avec le MHSC VB — couronnement de 6 ans d'accompagnement quotidien.",
+    desc: "Titre de Champion de France de volley-ball avec le MHSC VB - couronnement de 6 ans d'accompagnement quotidien.",
     color: "#E8A020",
   },
   {
     year: "2025",
-    title: "Consultant international — AfroBasket",
+    title: "Consultant international - AfroBasket",
     desc: "Consultant Kiné Plus pour l'équipe du Mali, finaliste de la FIBA Women's AfroBasket 2025.",
     color: "#8B2035",
   },
@@ -61,7 +61,7 @@ export default function Experience() {
             20 ans d&apos;<span className="gradient-text">expérience</span>
           </h2>
           <p className="section-subtitle mx-auto mt-4 text-center">
-            Du cabinet au sport professionnel international — un parcours d&apos;excellence au service des patients et des athlètes.
+            Du cabinet au sport professionnel international - un parcours d&apos;excellence au service des patients et des athlètes.
           </p>
         </div>
 
@@ -116,13 +116,13 @@ export default function Experience() {
                 <p className="text-white font-bold text-base" style={{ fontFamily: "Figtree, sans-serif" }}>
                   &ldquo;Sur pied pour préparer le prochain match&rdquo;
                 </p>
-                <p className="text-white/70 text-sm mt-0.5">Midi Libre — Les volleyeurs du MHSC profitent des soins de Francis Mombo pour la récupération.</p>
+                <p className="text-white/70 text-sm mt-0.5">Midi Libre - Les volleyeurs du MHSC profitent des soins de Francis Mombo pour la récupération.</p>
               </a>
               <a href="https://www.lanouvellerepublique.fr/tours/msl-avant-le-match-3-de-leur-demi-finale-tours-et-montpellier-face-au-defi-de-la-recuperation-1746298896" target="_blank" rel="noopener noreferrer" className="block hover:opacity-80 transition-opacity border-t border-white/10 pt-3">
                 <p className="text-white font-bold text-base" style={{ fontFamily: "Figtree, sans-serif" }}>
                   &ldquo;Face au défi de la récupération&rdquo;
                 </p>
-                <p className="text-white/70 text-sm mt-0.5">La Nouvelle République — Avant le match 3 de la demi-finale, Tours et Montpellier face à la récupération.</p>
+                <p className="text-white/70 text-sm mt-0.5">La Nouvelle République - Avant le match 3 de la demi-finale, Tours et Montpellier face à la récupération.</p>
               </a>
             </div>
           </div>

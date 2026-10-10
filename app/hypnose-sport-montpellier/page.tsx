@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
 
 export const metadata: Metadata = {
-  title: "Hypnose et performance sportive à Montpellier — préparation mentale",
+  title: "Hypnose et performance sportive à Montpellier - préparation mentale",
   description:
     "Hypnose pour sportifs à Montpellier : préparation mentale, gestion du stress de compétition, confiance en soi, récupération psychologique. Francis MOMBO, kinésithérapeute et ostéopathe du sport.",
   keywords: [
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteUrl}/hypnose-sport-montpellier` },
   openGraph: {
-    title: "Hypnose & performance sportive à Montpellier — Francis MOMBO",
+    title: "Hypnose & performance sportive à Montpellier - Francis MOMBO",
     description: "Préparation mentale par l'hypnose pour sportifs à Montpellier : gestion du stress, confiance, concentration, récupération psychologique.",
     url: `${siteUrl}/hypnose-sport-montpellier`,
     type: "article",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 };
 
 const faq = [
-  { q: "L'hypnose peut-elle vraiment améliorer les performances sportives ?", a: "Oui. De nombreuses études montrent que la préparation mentale — dont l'hypnose — améliore la concentration, réduit le trac et renforce la confiance en soi. Elle est utilisée par des athlètes de haut niveau dans de nombreuses disciplines." },
+  { q: "L'hypnose peut-elle vraiment améliorer les performances sportives ?", a: "Oui. De nombreuses études montrent que la préparation mentale - dont l'hypnose - améliore la concentration, réduit le trac et renforce la confiance en soi. Elle est utilisée par des athlètes de haut niveau dans de nombreuses disciplines." },
   { q: "À quel moment de la saison consulter ?", a: "L'hypnose peut être utilisée en préparation d'une compétition importante, en cours de saison pour gérer une baisse de moral ou une blessure, ou en période de coupure pour travailler sur des objectifs de fond." },
   { q: "Peut-on combiner hypnose et ostéopathie du sport ?", a: "Oui, c'est même l'un des atouts de Francis MOMBO : il peut intégrer les deux approches dans le même suivi, traitant à la fois les tensions physiques et les blocages mentaux." },
   { q: "L'hypnose fonctionne-t-elle pour les blessures et la rééducation ?", a: "Oui. L'hypnose peut réduire la douleur liée à la blessure, accélérer la récupération psychologique et aider le sportif à maintenir une projection positive pendant la période de rééducation." },
@@ -68,7 +68,7 @@ export default function Page() {
             Hypnose et performance sportive à Montpellier
           </h1>
           <p className="text-gray-500 text-lg leading-relaxed">
-            La performance sportive ne repose pas uniquement sur le physique. La dimension mentale — concentration, confiance, gestion du stress de compétition — est souvent décisive. Francis MOMBO propose à Montpellier et Castelnau-le-Lez un accompagnement par l'hypnose, complémentaire de l'entraînement physique et de l'ostéopathie du sport.
+            La performance sportive ne repose pas uniquement sur le physique. La dimension mentale - concentration, confiance, gestion du stress de compétition - est souvent décisive. Francis MOMBO propose à Montpellier et Castelnau-le-Lez un accompagnement par l'hypnose, complémentaire de l'entraînement physique et de l'ostéopathie du sport.
           </p>
         </div>
         <div className="h-px bg-gray-100 mb-10" />
@@ -104,7 +104,7 @@ export default function Page() {
               <li>répéter mentalement des gestes techniques dans les moindres détails ;</li>
               <li>préparer des scénarios de compétition et leurs variantes ;</li>
               <li>renforcer les automatismes moteurs ;</li>
-              <li>travailler le "flow" — cet état de performance optimale et de fluidité.</li>
+              <li>travailler le "flow" - cet état de performance optimale et de fluidité.</li>
             </ul>
           </section>
 
@@ -132,7 +132,7 @@ export default function Page() {
 
           <section>
             <h2 className="article-h2">L'expertise du sport de haut niveau</h2>
-            <p>Francis MOMBO a accompagné pendant <strong>9 saisons le MHSC VB</strong> (Montpellier Hérault Volley-Ball, Champion de France 2022) et les équipes de la <strong>FFVB</strong> aux Championnats du Monde et d'Europe. Il connaît les exigences du sport de haut niveau, les dynamiques d'équipe et la pression de compétition — ce qui lui permet d'adapter son approche hypnotique au contexte sportif réel de chaque patient.</p>
+            <p>Francis MOMBO a accompagné pendant <strong>9 saisons le MHSC VB</strong> (Montpellier Hérault Volley-Ball, Champion de France 2022) et les équipes de la <strong>FFVB</strong> aux Championnats du Monde et d'Europe. Il connaît les exigences du sport de haut niveau, les dynamiques d'équipe et la pression de compétition - ce qui lui permet d'adapter son approche hypnotique au contexte sportif réel de chaque patient.</p>
           </section>
 
           <section>
@@ -160,7 +160,7 @@ export default function Page() {
         <div className="mt-10 rounded-2xl p-8 text-center" style={{ background: "linear-gradient(135deg, #fdeef3, #fff3e8)" }}>
           <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#E8A020" }}>Francis MOMBO</p>
           <h3 className="text-xl font-black text-gray-900 mb-3" style={{ fontFamily: "Figtree, sans-serif" }}>Performez aussi dans votre tête</h3>
-          <p className="text-gray-500 text-sm mb-6 max-w-md mx-auto">Préparation mentale par l'hypnose pour sportifs amateurs et de compétition à Montpellier — Castelnau-le-Lez.</p>
+          <p className="text-gray-500 text-sm mb-6 max-w-md mx-auto">Préparation mentale par l'hypnose pour sportifs amateurs et de compétition à Montpellier - Castelnau-le-Lez.</p>
           <a href={doctolib} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-full text-white text-sm" style={{ background: "linear-gradient(135deg, #D4336E, #8B2035)" }}>
             Prendre rendez-vous sur Doctolib
           </a>

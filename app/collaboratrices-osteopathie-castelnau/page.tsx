@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -7,7 +7,7 @@ const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mo
 const paulineDoctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/pauline-broussard-castelnau-le-lez";
 
 export const metadata: Metadata = {
-  title: "Collaboratrices ostéopathes — Cabinet Castelnau-le-Lez | Francis MOMBO",
+  title: "Collaboratrices ostéopathes - Cabinet Castelnau-le-Lez | Francis MOMBO",
   description:
     "Découvrez Pauline BROUSSARD, ostéopathe D.O. collaboratrice au cabinet de Castelnau-le-Lez. Approche douce et personnalisée pour nourrissons, femmes enceintes, sportifs, adultes et seniors.",
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteUrl}/collaboratrices-osteopathie-castelnau` },
   openGraph: {
-    title: "Collaboratrices ostéopathes — Cabinet Castelnau-le-Lez",
+    title: "Collaboratrices ostéopathes - Cabinet Castelnau-le-Lez",
     description: "Pauline BROUSSARD, ostéopathe D.O., rejoint le cabinet Francis MOMBO à Castelnau-le-Lez.",
     url: `${siteUrl}/collaboratrices-osteopathie-castelnau`,
     type: "website",
@@ -32,7 +32,7 @@ const jsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
-    name: "Cabinet d'ostéopathie Francis MOMBO — Castelnau-le-Lez",
+    name: "Cabinet d'ostéopathie Francis MOMBO - Castelnau-le-Lez",
     url: siteUrl,
     address: {
       "@type": "PostalAddress",
@@ -45,7 +45,7 @@ const jsonLd = [
       {
         "@type": "Person",
         name: "Francis MOMBO",
-        jobTitle: "Ostéopathe D.O. — Kinésithérapeute",
+        jobTitle: "Ostéopathe D.O. - Kinésithérapeute",
         url: siteUrl,
         sameAs: ["https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo"],
       },
@@ -133,10 +133,10 @@ export default function Page() {
                 <span className="text-xs font-semibold px-2 py-1 rounded-full text-white" style={{ background: "#E8A020" }}>Castelnau-le-Lez</span>
               </div>
               <h2 className="text-2xl font-black text-gray-900 mb-1" style={{ fontFamily: "Figtree, sans-serif" }}>Pauline BROUSSARD</h2>
-              <p className="text-sm text-gray-400 mb-4">Ostéopathe D.O. — Cabinet Francis MOMBO, Castelnau-le-Lez</p>
+              <p className="text-sm text-gray-400 mb-4">Ostéopathe D.O. - Cabinet Francis MOMBO, Castelnau-le-Lez</p>
 
               <p className="text-gray-600 text-sm leading-relaxed mb-5">
-                Pauline BROUSSARD propose une approche douce, attentive et personnalisée de l'ostéopathie. Chaque consultation débute par un échange et un bilan permettant d'adapter la prise en charge aux besoins de chaque patient. Elle utilise différentes techniques manuelles — musculo-squelettiques et myofasciales — avec une approche globale du corps et de ses différentes mobilités.
+                Pauline BROUSSARD propose une approche douce, attentive et personnalisée de l'ostéopathie. Chaque consultation débute par un échange et un bilan permettant d'adapter la prise en charge aux besoins de chaque patient. Elle utilise différentes techniques manuelles - musculo-squelettiques et myofasciales - avec une approche globale du corps et de ses différentes mobilités.
               </p>
 
               <a href={paulineDoctolib} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 font-bold px-5 py-2.5 rounded-full text-white text-sm" style={{ background: "linear-gradient(135deg, #D4336E, #8B2035)" }}>

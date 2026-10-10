@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "../components/RelatedArticles";
 
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   alternates: { canonical: `${siteUrl}/tqcm-u21-2017-kine-equipe-france-volley` },
   openGraph: {
     title: "TQCM U21 2017 : Francis MOMBO, kiné de l'équipe de France",
-    description: "Kinésithérapeute officiel des Bleuets U21 lors du TQCM 2017 — Francis MOMBO aux côtés du coach Jocelyn Trillon.",
+    description: "Kinésithérapeute officiel des Bleuets U21 lors du TQCM 2017 - Francis MOMBO aux côtés du coach Jocelyn Trillon.",
     url: `${siteUrl}/tqcm-u21-2017-kine-equipe-france-volley`,
     type: "article",
   },
@@ -34,18 +34,18 @@ const jsonLd = [
     headline: "TQCM U21 2017 : Francis MOMBO, kinésithérapeute de l'équipe de France de volley-ball",
     datePublished: "2026-07-13",
     dateModified: "2026-07-13",
-    author: { "@type": "Person", name: "Francis MOMBO", url: siteUrl, jobTitle: "Kinésithérapeute — Ostéopathe D.O." },
-    publisher: { "@type": "MedicalBusiness", name: "Francis MOMBO — Cabinet d'ostéopathie & kinésithérapie", url: siteUrl },
+    author: { "@type": "Person", name: "Francis MOMBO", url: siteUrl, jobTitle: "Kinésithérapeute - Ostéopathe D.O." },
+    publisher: { "@type": "MedicalBusiness", name: "Francis MOMBO - Cabinet d'ostéopathie & kinésithérapie", url: siteUrl },
     url: `${siteUrl}/tqcm-u21-2017-kine-equipe-france-volley`,
     citation: {
       "@type": "WebPage",
-      name: "TQCM U21 : Les Bleus finissent par une victoire — FFVB",
+      name: "TQCM U21 : Les Bleus finissent par une victoire - FFVB",
       url: ffvbSource,
       publisher: { "@type": "SportsOrganization", name: "Fédération Française de Volley-Ball (FFVB)", url: "https://www.ffvb.org" },
     },
     about: {
       "@type": "Event",
-      name: "Tournoi de Qualification Championnat du Monde U21 — 2017",
+      name: "Tournoi de Qualification Championnat du Monde U21 - 2017",
       startDate: "2017-05-18",
       endDate: "2017-05-21",
       eventStatus: "https://schema.org/EventScheduled",
@@ -90,13 +90,13 @@ export default function Page() {
             TQCM U21 2017 : Francis MOMBO, kinésithérapeute des Bleuets en qualification mondiale
           </h1>
           <p className="text-gray-500 text-lg leading-relaxed">
-            En mai 2017, Francis MOMBO est kinésithérapeute officiel de <strong>l'équipe de France U21</strong> lors du Tournoi de Qualification au Championnat du Monde. Les Bleuets concluent par une victoire 3-2 face à la Bulgarie (25-20, 20-25, 14-25, 25-21, 15-9) — un match à cinq sets qui illustre précisément les enjeux physiques et mentaux du haut niveau.
+            En mai 2017, Francis MOMBO est kinésithérapeute officiel de <strong>l'équipe de France U21</strong> lors du Tournoi de Qualification au Championnat du Monde. Les Bleuets concluent par une victoire 3-2 face à la Bulgarie (25-20, 20-25, 14-25, 25-21, 15-9) - un match à cinq sets qui illustre précisément les enjeux physiques et mentaux du haut niveau.
           </p>
         </div>
 
         <div className="rounded-2xl p-6 mb-10 border border-gray-200" style={{ background: "#f9f9f9" }}>
           <p className="text-xs font-bold uppercase tracking-widest mb-3 text-gray-400">Source officielle FFVB</p>
-          <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>Staff — TQCM U21 2017</p>
+          <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>Staff - TQCM U21 2017</p>
           <p className="text-gray-500 text-sm mt-1">Entraîneur : Jocelyn Trillon · Adjoints : David Vaseux, Loïc Lemarrec · Médecin : Aurélie Ribaut · <strong>Kinésithérapeute : Francis Mombo</strong></p>
           <a href={ffvbSource} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-xs mt-2 font-semibold hover:underline" style={{ color: "#D4336E" }}>
             Voir la fiche FFVB
@@ -109,15 +109,15 @@ export default function Page() {
         <article className="space-y-10 text-gray-700 leading-relaxed">
           <section>
             <h2 className="article-h2">Un match à cinq sets : le test ultime de la récupération</h2>
-            <p>France - Bulgarie, 3-2. Deux heures de jeu intense. Ce type de match — où le corps est poussé bien au-delà du seuil de fatigue ordinaire — est le terrain d'expression par excellence du kinésithérapeute de haut niveau.</p>
+            <p>France - Bulgarie, 3-2. Deux heures de jeu intense. Ce type de match - où le corps est poussé bien au-delà du seuil de fatigue ordinaire - est le terrain d'expression par excellence du kinésithérapeute de haut niveau.</p>
             <p className="mt-3">Entre les sets, il faut évaluer en quelques secondes : qui est en état de jouer, qui nécessite une intervention rapide, qui risque de se blesser si l'effort se prolonge. Les décisions médicales prises dans ces instants influencent directement l'issue sportive.</p>
           </section>
           <section>
             <h2 className="article-h2">Des joueurs en devenir devenus des références</h2>
             <p>Le groupe U21 de 2017 comprenait plusieurs joueurs qui allaient marquer le volley français :</p>
             <ul className="article-list">
-              <li>Barthélémy Chinenyeze — futur Champion olympique avec l'équipe de France senior (Paris 2024) ;</li>
-              <li>Thibaut Thoral, Gilles Lomba, Joachim Panou — tous passés par le MHSC VB ou d'autres clubs de Pro A ;</li>
+              <li>Barthélémy Chinenyeze - futur Champion olympique avec l'équipe de France senior (Paris 2024) ;</li>
+              <li>Thibaut Thoral, Gilles Lomba, Joachim Panou - tous passés par le MHSC VB ou d'autres clubs de Pro A ;</li>
               <li>Une génération qui porterait le volley français vers ses meilleurs résultats historiques.</li>
             </ul>
             <p className="mt-3">Accompagner ces joueurs à 19-21 ans, c'est contribuer à la construction physique qui leur permettra de tenir sur dix ans de carrière au plus haut niveau.</p>
@@ -129,7 +129,7 @@ export default function Page() {
               <li>identifier les joueurs en état de surentraînement avant qu'ils ne se blessent ;</li>
               <li>moduler les protocoles de récupération selon le profil de chaque athlète ;</li>
               <li>communiquer avec le staff technique pour adapter la charge d'entraînement entre les matchs ;</li>
-              <li>prendre les décisions difficiles — retirer un joueur de l'entraînement, même sous pression du résultat.</li>
+              <li>prendre les décisions difficiles - retirer un joueur de l'entraînement, même sous pression du résultat.</li>
             </ul>
           </section>
         </article>

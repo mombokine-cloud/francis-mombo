@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "../components/RelatedArticles";
 
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   alternates: { canonical: `${siteUrl}/tqce-juniors-2018-kine-equipe-france-volley` },
   openGraph: {
     title: "TQCE Juniors 2018 : Francis MOMBO, kiné de l'équipe de France U20",
-    description: "Kinésithérapeute officiel des Bleuets U20 au TQCE Juniors 2018 au Monténégro — Francis MOMBO FFVB.",
+    description: "Kinésithérapeute officiel des Bleuets U20 au TQCE Juniors 2018 au Monténégro - Francis MOMBO FFVB.",
     url: `${siteUrl}/tqce-juniors-2018-kine-equipe-france-volley`,
     type: "article",
   },
@@ -33,18 +33,18 @@ const jsonLd = [
     headline: "TQCE Juniors 2018 : Francis MOMBO, kinésithérapeute de l'équipe de France U20 au Monténégro",
     datePublished: "2026-07-13",
     dateModified: "2026-07-13",
-    author: { "@type": "Person", name: "Francis MOMBO", url: siteUrl, jobTitle: "Kinésithérapeute — Ostéopathe D.O." },
-    publisher: { "@type": "MedicalBusiness", name: "Francis MOMBO — Cabinet d'ostéopathie & kinésithérapie", url: siteUrl },
+    author: { "@type": "Person", name: "Francis MOMBO", url: siteUrl, jobTitle: "Kinésithérapeute - Ostéopathe D.O." },
+    publisher: { "@type": "MedicalBusiness", name: "Francis MOMBO - Cabinet d'ostéopathie & kinésithérapie", url: siteUrl },
     url: `${siteUrl}/tqce-juniors-2018-kine-equipe-france-volley`,
     citation: {
       "@type": "WebPage",
-      name: "TQCE Juniors: interviews croisées Trillon/Salvan — FFVB",
+      name: "TQCE Juniors: interviews croisées Trillon/Salvan - FFVB",
       url: ffvbSource,
       publisher: { "@type": "SportsOrganization", name: "Fédération Française de Volley-Ball (FFVB)", url: "https://www.ffvb.org" },
     },
     about: {
       "@type": "Event",
-      name: "Tournoi de Qualification Championnat d'Europe Juniors U20 — 2018",
+      name: "Tournoi de Qualification Championnat d'Europe Juniors U20 - 2018",
       startDate: "2018-04-26",
       endDate: "2018-04-29",
       eventStatus: "https://schema.org/EventScheduled",
@@ -89,13 +89,13 @@ export default function Page() {
             TQCE Juniors 2018 : Francis MOMBO, kiné des Bleuets U20 au Monténégro
           </h1>
           <p className="text-gray-500 text-lg leading-relaxed">
-            En avril 2018, Francis MOMBO accompagne <strong>l'équipe de France U20</strong> au Tournoi de Qualification Championnat d'Europe Juniors au Monténégro — sa quatrième mission officielle avec la FFVB. Le groupe, encadré par Jocelyn Trillon, visait la qualification pour l'Euro U20 qui se jouerait quelques mois plus tard en Belgique et aux Pays-Bas.
+            En avril 2018, Francis MOMBO accompagne <strong>l'équipe de France U20</strong> au Tournoi de Qualification Championnat d'Europe Juniors au Monténégro - sa quatrième mission officielle avec la FFVB. Le groupe, encadré par Jocelyn Trillon, visait la qualification pour l'Euro U20 qui se jouerait quelques mois plus tard en Belgique et aux Pays-Bas.
           </p>
         </div>
 
         <div className="rounded-2xl p-6 mb-10 border border-gray-200" style={{ background: "#f9f9f9" }}>
           <p className="text-xs font-bold uppercase tracking-widest mb-3 text-gray-400">Source officielle FFVB</p>
-          <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>Staff — TQCE Juniors 2018 · Monténégro</p>
+          <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>Staff - TQCE Juniors 2018 · Monténégro</p>
           <p className="text-gray-500 text-sm mt-1">Entraîneur : Jocelyn Trillon · Adjoints : David Vaseux, Benoît Ognier · Médecin : Aurélie Ribaut · <strong>Kinésithérapeute : Francis Mombo</strong></p>
           <a href={ffvbSource} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-xs mt-2 font-semibold hover:underline" style={{ color: "#D4336E" }}>
             Voir la fiche FFVB
@@ -108,17 +108,17 @@ export default function Page() {
         <article className="space-y-10 text-gray-700 leading-relaxed">
           <section>
             <h2 className="article-h2">Le même staff, une continuité de confiance</h2>
-            <p>Francis MOMBO retrouve en 2018 le même groupe de travail qu'en 2016 et 2017 : Jocelyn Trillon à la tête de l'équipe, David Vaseux en adjoint, Aurélie Ribaut au poste médical. Cette stabilité du staff n'est pas anodine — elle reflète une confiance réciproque construite sur plusieurs années de résultats et de missions réussies ensemble.</p>
+            <p>Francis MOMBO retrouve en 2018 le même groupe de travail qu'en 2016 et 2017 : Jocelyn Trillon à la tête de l'équipe, David Vaseux en adjoint, Aurélie Ribaut au poste médical. Cette stabilité du staff n'est pas anodine - elle reflète une confiance réciproque construite sur plusieurs années de résultats et de missions réussies ensemble.</p>
             <p className="mt-3">En kinésithérapie de haut niveau, cette continuité a une valeur clinique réelle : le praticien connaît les antécédents de chaque joueur, leurs zones de fragilité, leur tolérance à l'effort. L'efficacité de l'intervention n'en est que meilleure.</p>
           </section>
           <section>
             <h2 className="article-h2">Un groupe en devenir : les futurs Champions olympiques</h2>
-            <p>Le groupe U20 de 2018 comptait des joueurs comme Lucas Soldner, Thomas Gill, François Rebeyrol, Théo Faure, Pierre Toledo — une génération qui portait déjà les germes du futur succès du volley français. Plusieurs d'entre eux participeront à la grande épopée des Bleus vers le titre olympique.</p>
-            <p className="mt-3">Accompagner ces joueurs à 18-20 ans — au moment où le corps construit sa capacité athlétique définitive — est une responsabilité médicale majeure. Les habitudes de récupération, la gestion des douleurs, la prévention des blessures chroniques : tout se joue en grande partie à cet âge.</p>
+            <p>Le groupe U20 de 2018 comptait des joueurs comme Lucas Soldner, Thomas Gill, François Rebeyrol, Théo Faure, Pierre Toledo - une génération qui portait déjà les germes du futur succès du volley français. Plusieurs d'entre eux participeront à la grande épopée des Bleus vers le titre olympique.</p>
+            <p className="mt-3">Accompagner ces joueurs à 18-20 ans - au moment où le corps construit sa capacité athlétique définitive - est une responsabilité médicale majeure. Les habitudes de récupération, la gestion des douleurs, la prévention des blessures chroniques : tout se joue en grande partie à cet âge.</p>
           </section>
           <section>
             <h2 className="article-h2">La double mission : qualification et préparation à l'Euro</h2>
-            <p>Ce TQCE de Monténégro n'est pas une fin en soi — c'est une étape préparatoire à l'Euro U20 qui suivra en juillet 2018 en Belgique et aux Pays-Bas. Francis MOMBO sera présent pour les deux échéances, assurant la continuité du suivi médical sur toute la saison internationale.</p>
+            <p>Ce TQCE de Monténégro n'est pas une fin en soi - c'est une étape préparatoire à l'Euro U20 qui suivra en juillet 2018 en Belgique et aux Pays-Bas. Francis MOMBO sera présent pour les deux échéances, assurant la continuité du suivi médical sur toute la saison internationale.</p>
           </section>
         </article>
 

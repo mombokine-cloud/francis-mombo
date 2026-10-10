@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 const siteUrl = "https://www.mombofrancis.com";
@@ -36,15 +36,15 @@ const categories = [
     questions: [
       {
         q: "Qu'est-ce que l'ostéopathie ?",
-        a: "L'ostéopathie est une médecine manuelle qui considère le corps dans sa globalité. L'ostéopathe identifie et traite les restrictions de mobilité des différentes structures du corps — muscles, articulations, viscères, crâne — pour soulager les douleurs et améliorer le fonctionnement général.",
+        a: "L'ostéopathie est une médecine manuelle qui considère le corps dans sa globalité. L'ostéopathe identifie et traite les restrictions de mobilité des différentes structures du corps - muscles, articulations, viscères, crâne - pour soulager les douleurs et améliorer le fonctionnement général.",
       },
       {
         q: "Quelle est la différence entre ostéopathe et kinésithérapeute ?",
-        a: "La kinésithérapie travaille sur la rééducation fonctionnelle — renforcement, mobilisation ciblée — souvent sur prescription médicale. L'ostéopathie s'intéresse aux restrictions de mobilité globales et à l'équilibre général du corps, en accès direct. Francis MOMBO cumule les deux diplômes, ce qui lui permet d'adapter sa prise en charge selon votre besoin.",
+        a: "La kinésithérapie travaille sur la rééducation fonctionnelle - renforcement, mobilisation ciblée - souvent sur prescription médicale. L'ostéopathie s'intéresse aux restrictions de mobilité globales et à l'équilibre général du corps, en accès direct. Francis MOMBO cumule les deux diplômes, ce qui lui permet d'adapter sa prise en charge selon votre besoin.",
       },
       {
         q: "L'ostéopathie est-elle douloureuse ?",
-        a: "Les techniques ostéopathiques sont généralement indolores. Vous pouvez ressentir de légères sensations lors de certaines mobilisations, et parfois une légère courbature dans les 24 à 48h suivant la séance — c'est normal et transitoire.",
+        a: "Les techniques ostéopathiques sont généralement indolores. Vous pouvez ressentir de légères sensations lors de certaines mobilisations, et parfois une légère courbature dans les 24 à 48h suivant la séance - c'est normal et transitoire.",
       },
       {
         q: "Combien de séances sont nécessaires ?",
@@ -101,7 +101,7 @@ const categories = [
         a: "Oui, notamment lorsque la sciatique est d'origine mécanique. L'ostéopathie travaille sur les restrictions de mobilité et les compensations qui compriment le nerf. En cas de sciatique sévère avec signes neurologiques (perte de sensibilité, paralysie), consultez un médecin en urgence.",
       },
       {
-        q: "Quand ne pas consulter un ostéopathe — les contre-indications ?",
+        q: "Quand ne pas consulter un ostéopathe - les contre-indications ?",
         a: "L'ostéopathie est contre-indiquée en cas de fracture récente, tumeur osseuse, infection aiguë, ou signes neurologiques graves. En cas de doute, Francis MOMBO vous oriente vers le professionnel de santé adapté.",
       },
     ],
@@ -121,7 +121,7 @@ const categories = [
       },
       {
         q: "Les manipulations sont-elles sans danger pour un bébé ?",
-        a: "Oui. Les techniques utilisées chez le nourrisson sont extrêmement douces — légères pressions, mobilisations crâniennes — sans aucune manipulation brusque. La séance se déroule dans le calme, avec le bébé dans les bras d'un parent si nécessaire.",
+        a: "Oui. Les techniques utilisées chez le nourrisson sont extrêmement douces - légères pressions, mobilisations crâniennes - sans aucune manipulation brusque. La séance se déroule dans le calme, avec le bébé dans les bras d'un parent si nécessaire.",
       },
       {
         q: "Faut-il traiter une plagiocéphalie (tête plate) par ostéopathie ?",
@@ -136,7 +136,7 @@ const categories = [
     questions: [
       {
         q: "Peut-on consulter un ostéopathe pendant la grossesse ?",
-        a: "Oui, dès le premier trimestre. Les techniques sont adaptées à chaque stade — sans manipulation brusque. Une consultation au 2e et 3e trimestre est particulièrement bénéfique pour préparer le bassin à l'accouchement et soulager les douleurs lombaires, sciatiques et tensions pelviennes.",
+        a: "Oui, dès le premier trimestre. Les techniques sont adaptées à chaque stade - sans manipulation brusque. Une consultation au 2e et 3e trimestre est particulièrement bénéfique pour préparer le bassin à l'accouchement et soulager les douleurs lombaires, sciatiques et tensions pelviennes.",
       },
       {
         q: "Quand consulter après l'accouchement ?",
@@ -148,7 +148,7 @@ const categories = [
       },
       {
         q: "L'ostéopathie aide-t-elle contre les douleurs de règles ?",
-        a: "Oui. L'ostéopathie peut réduire les tensions pelviennes qui amplifient les douleurs menstruelles, en travaillant sur la mobilité du sacrum, de l'utérus et des structures environnantes — sans substituer à un bilan gynécologique.",
+        a: "Oui. L'ostéopathie peut réduire les tensions pelviennes qui amplifient les douleurs menstruelles, en travaillant sur la mobilité du sacrum, de l'utérus et des structures environnantes - sans substituer à un bilan gynécologique.",
       },
     ],
   },
@@ -182,7 +182,7 @@ const categories = [
     questions: [
       {
         q: "Est-ce que je vais perdre le contrôle sous hypnose ?",
-        a: "Non. Contrairement aux représentations du spectacle, l'hypnose thérapeutique ne vous fait pas perdre conscience. Vous restez éveillé, conscient et maître de vous-même. L'état hypnotique ressemble à une concentration profonde — proche de ce que vous ressentez en lisant un livre captivant.",
+        a: "Non. Contrairement aux représentations du spectacle, l'hypnose thérapeutique ne vous fait pas perdre conscience. Vous restez éveillé, conscient et maître de vous-même. L'état hypnotique ressemble à une concentration profonde - proche de ce que vous ressentez en lisant un livre captivant.",
       },
       {
         q: "L'hypnose est-elle efficace contre la douleur chronique ?",
@@ -241,7 +241,7 @@ export default function FaqOsteopathe() {
             Questions fréquentes
           </h1>
           <p className="text-gray-500 text-lg leading-relaxed">
-            Toutes les réponses aux questions que vous vous posez sur l'ostéopathie, les tarifs, le déroulement d'une séance, la prise en charge du nourrisson, de la femme enceinte, du sportif — et sur l'hypnose thérapeutique.
+            Toutes les réponses aux questions que vous vous posez sur l'ostéopathie, les tarifs, le déroulement d'une séance, la prise en charge du nourrisson, de la femme enceinte, du sportif - et sur l'hypnose thérapeutique.
           </p>
         </div>
 
@@ -306,7 +306,7 @@ export default function FaqOsteopathe() {
         <div className="mt-10 rounded-2xl p-8 text-center" style={{ background: "linear-gradient(135deg, #fdeef3, #fff3e8)" }}>
           <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#E8A020" }}>Francis MOMBO</p>
           <h3 className="text-xl font-black text-gray-900 mb-3" style={{ fontFamily: "Figtree, sans-serif" }}>Vous avez d'autres questions ?</h3>
-          <p className="text-gray-500 text-sm mb-6 max-w-md mx-auto">Appelez le cabinet ou prenez rendez-vous directement sur Doctolib — Francis MOMBO répondra à vos questions lors de la consultation.</p>
+          <p className="text-gray-500 text-sm mb-6 max-w-md mx-auto">Appelez le cabinet ou prenez rendez-vous directement sur Doctolib - Francis MOMBO répondra à vos questions lors de la consultation.</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a href={doctolib} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 font-bold px-6 py-3 rounded-full text-white text-sm" style={{ background: "linear-gradient(135deg, #D4336E, #8B2035)" }}>
               Prendre rendez-vous sur Doctolib

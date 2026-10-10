@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import "./globals.css";
 
 const siteUrl = "https://www.mombofrancis.com";
@@ -16,7 +16,7 @@ const directories = [
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Francis MOMBO — Ostéopathe & Kiné Montpellier | 123 avis 5★",
+    default: "Francis MOMBO - Ostéopathe & Kiné Montpellier | 123 avis 5★",
     template: "%s | Francis MOMBO Ostéopathe",
   },
   description:
@@ -221,10 +221,10 @@ const jsonLd = {
         "International Academy of Osteopathy",
       ],
       award: [
-        "Champion de France Pro A Volley-Ball 2022 — MHSC VB",
-        "Supercoupe de France Volley-Ball 2022 & 2024 — MHSC VB",
-        "Médaille de Bronze Jeux Méditerranéens 2013 — Kinésithérapeute Équipe de France Volley-Ball",
-        "Consultant Kiné Plus — Finaliste FIBA Women's AfroBasket 2025 — Équipe du Mali",
+        "Champion de France Pro A Volley-Ball 2022 - MHSC VB",
+        "Supercoupe de France Volley-Ball 2022 & 2024 - MHSC VB",
+        "Médaille de Bronze Jeux Méditerranéens 2013 - Kinésithérapeute Équipe de France Volley-Ball",
+        "Consultant Kiné Plus - Finaliste FIBA Women's AfroBasket 2025 - Équipe du Mali",
       ],
     },
   ],

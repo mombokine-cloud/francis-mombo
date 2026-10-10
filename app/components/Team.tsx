@@ -1,4 +1,4 @@
-export default function Team() {
+﻿export default function Team() {
   return (
     <section id="equipe" className="py-20 lg:py-24 bg-white">
       <div className="max-w-5xl mx-auto px-4 sm:px-6">
@@ -47,7 +47,7 @@ export default function Team() {
             </div>
             <div className="p-6">
               <h3 className="font-black text-gray-900 text-xl mb-1" style={{ fontFamily: "Figtree, sans-serif" }}>Manon DE RUL</h3>
-              <p className="text-sm text-gray-500 mb-3">Ostéopathe D.O. — Castelnau-le-Lez</p>
+              <p className="text-sm text-gray-500 mb-3">Ostéopathe D.O. - Castelnau-le-Lez</p>
               <p className="text-sm text-gray-600 leading-relaxed">
                 Ostéopathe diplômée D.O., Manon rejoint l&apos;équipe au cabinet de Castelnau-le-Lez pour vous accompagner avec précision et douceur dans toutes vos problématiques ostéopathiques.
               </p>
@@ -77,7 +77,7 @@ export default function Team() {
             <div className="p-6">
               <p className="text-xs font-bold uppercase tracking-widest mb-1" style={{ color: "#E8A020" }}>Collaboratrice</p>
               <h3 className="font-black text-gray-900 text-xl mb-1" style={{ fontFamily: "Figtree, sans-serif" }}>Pauline BROUSSARD</h3>
-              <p className="text-sm text-gray-500 mb-3">Ostéopathe D.O. — Castelnau-le-Lez</p>
+              <p className="text-sm text-gray-500 mb-3">Ostéopathe D.O. - Castelnau-le-Lez</p>
               <p className="text-sm text-gray-600 leading-relaxed">
                 Ostéopathe diplômée, Pauline vous accueille au cabinet de Castelnau-le-Lez avec douceur et précision, pour toutes vos problématiques musculo-squelettiques.
               </p>

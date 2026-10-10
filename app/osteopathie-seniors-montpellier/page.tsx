@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedPages from "../components/RelatedPages";
 
@@ -64,7 +64,7 @@ export default function OsteopathieSeniors() {
             <span className="text-xs text-gray-400">Mobilité · Arthrose · Équilibre · Montpellier</span>
           </div>
           <h1 className="font-black text-gray-900 leading-tight mb-4" style={{ fontFamily: "Figtree, sans-serif", fontSize: "clamp(28px, 5vw, 42px)" }}>Ostéopathie pour séniors à Montpellier</h1>
-          <p className="text-gray-500 text-lg leading-relaxed">Avec l'avancée en âge, le corps accumule des raideurs, des douleurs articulaires, des troubles de l'équilibre et une perte progressive de mobilité. L'ostéopathie offre aux séniors une approche douce et adaptée pour maintenir leur autonomie, réduire les douleurs et préserver la qualité de vie — à Montpellier et Castelnau-le-Lez.</p>
+          <p className="text-gray-500 text-lg leading-relaxed">Avec l'avancée en âge, le corps accumule des raideurs, des douleurs articulaires, des troubles de l'équilibre et une perte progressive de mobilité. L'ostéopathie offre aux séniors une approche douce et adaptée pour maintenir leur autonomie, réduire les douleurs et préserver la qualité de vie - à Montpellier et Castelnau-le-Lez.</p>
         </div>
         <div className="h-px bg-gray-100 mb-10" />
 
@@ -126,7 +126,7 @@ export default function OsteopathieSeniors() {
               <li>des pathologies associées et des traitements médicamenteux ;</li>
               <li>de la position sur la table (allongée, assise ou semi-inclinée selon le confort).</li>
             </ul>
-            <p>Les techniques privilégiées sont les mobilisations douces, le travail myofascial, les approches viscérales légères et les techniques crânio-sacrées — sans manipulation à haute vélocité.</p>
+            <p>Les techniques privilégiées sont les mobilisations douces, le travail myofascial, les approches viscérales légères et les techniques crânio-sacrées - sans manipulation à haute vélocité.</p>
           </section>
 
           <section>

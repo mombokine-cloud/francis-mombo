@@ -1,4 +1,4 @@
-const services = [
+﻿const services = [
   {
     id: "osteopathie",
     href: "/maladies-chroniques-osteopathie",
@@ -10,7 +10,7 @@ const services = [
     ),
     title: "Ostéopathie",
     description:
-      "L'ostéopathie traite les douleurs musculosquelettiques, les tensions articulaires et les troubles fonctionnels par des techniques manuelles douces et précises. Elle s'adresse à tous — nourrissons, adultes, sportifs, femmes enceintes.",
+      "L'ostéopathie traite les douleurs musculosquelettiques, les tensions articulaires et les troubles fonctionnels par des techniques manuelles douces et précises. Elle s'adresse à tous - nourrissons, adultes, sportifs, femmes enceintes.",
     benefits: ["Douleurs de dos et cervicales", "Maux de tête et migraines", "Troubles digestifs", "Stress et fatigue chronique"],
   },
   {

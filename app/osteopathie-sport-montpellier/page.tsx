@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedPages from "../components/RelatedPages";
 
@@ -6,7 +6,7 @@ const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
 
 export const metadata: Metadata = {
-  title: "Ostéopathe du sport Montpellier — 9 saisons MHSC VB | Francis MOMBO",
+  title: "Ostéopathe du sport Montpellier - 9 saisons MHSC VB | Francis MOMBO",
   description:
     "Douleur, blessure ou préparation compétition ? Francis MOMBO, kiné-ostéopathe officiel du MHSC VB pendant 9 saisons, vous reçoit à Castelnau-le-Lez et Saint-Mathieu. Disponible sur Doctolib.",
   keywords: [
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 };
 
 const faqItems = [
-  { q: "L'ostéopathie du sport remplace-t-elle le kinésithérapeute ou le médecin du sport ?", a: "Non, elle s'inscrit en complément du suivi médical ou paramédical. Francis MOMBO cumule les deux expertises — kinésithérapeute et ostéopathe D.O. — ce qui lui permet d'assurer une prise en charge globale." },
+  { q: "L'ostéopathie du sport remplace-t-elle le kinésithérapeute ou le médecin du sport ?", a: "Non, elle s'inscrit en complément du suivi médical ou paramédical. Francis MOMBO cumule les deux expertises - kinésithérapeute et ostéopathe D.O. - ce qui lui permet d'assurer une prise en charge globale." },
   { q: "Peut-on consulter même sans douleur ?", a: "Oui. La prévention est l'un des motifs les plus utiles chez le sportif. Un bilan en début ou en cours de saison permet d'identifier les zones de fragilité avant qu'elles ne deviennent problématiques." },
   { q: "Combien de séances faut-il ?", a: "Cela dépend du sport, des antécédents et des objectifs. Pour un sportif régulier, 2 à 3 séances par an en prévention suffisent souvent. En période intensive, le rythme peut être adapté." },
   { q: "Faut-il arrêter le sport après une séance ?", a: "Pas forcément. Pour une séance de prévention ou de récupération légère, la reprise peut être immédiate. En cas de traitement d'une zone douloureuse, un repos relatif de 24h peut être recommandé." },
@@ -51,7 +51,7 @@ const jsonLd = [
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Francis MOMBO",
-    jobTitle: "Kinésithérapeute — Ostéopathe D.O.",
+    jobTitle: "Kinésithérapeute - Ostéopathe D.O.",
     url: siteUrl,
     sameAs: [
       "https://www.montpellier-volley.com/staff/francis-mombo/",
@@ -101,7 +101,7 @@ export default function OsteopathieSport() {
             <span className="text-xs text-gray-400">Ostéopathie du sport · Montpellier</span>
           </div>
           <h1 className="font-black text-gray-900 leading-tight mb-4" style={{ fontFamily: "Figtree, sans-serif", fontSize: "clamp(28px, 5vw, 42px)" }}>Ostéopathe sportif de haut niveau à Montpellier</h1>
-          <p className="text-gray-500 text-lg leading-relaxed">Francis MOMBO est <strong>kinésithérapeute et ostéopathe sportif</strong>, fort de 9 saisons au plus haut niveau du sport professionnel. Il accompagne sportifs amateurs et de haut niveau pour prévenir les blessures, optimiser la récupération et préparer les compétitions — à Montpellier et Castelnau-le-Lez.</p>
+          <p className="text-gray-500 text-lg leading-relaxed">Francis MOMBO est <strong>kinésithérapeute et ostéopathe sportif</strong>, fort de 9 saisons au plus haut niveau du sport professionnel. Il accompagne sportifs amateurs et de haut niveau pour prévenir les blessures, optimiser la récupération et préparer les compétitions - à Montpellier et Castelnau-le-Lez.</p>
         </div>
         <div className="h-px bg-gray-100 mb-10" />
 
@@ -178,7 +178,7 @@ export default function OsteopathieSport() {
 
           <section>
             <h2 className="article-h2">Kiné et ostéopathe sportif de haut niveau</h2>
-            <p>Francis MOMBO a exercé pendant <strong>9 saisons comme kinésithérapeute et ostéopathe officiel du MHSC VB</strong> (Montpellier Hérault Sport Club Volley-Ball) — Champion de France 2022, Supercoupe 2022 et 2024. Il a également accompagné les équipes de la <strong>Fédération Française de Volley-Ball (FFVB)</strong> jusqu'aux Championnats du Monde et d'Europe, ainsi que l'équipe de France lors des <strong>Jeux Méditerranéens 2013</strong> (médaille de bronze) et en Afrobasket 2025 (Mali, finaliste).</p>
+            <p>Francis MOMBO a exercé pendant <strong>9 saisons comme kinésithérapeute et ostéopathe officiel du MHSC VB</strong> (Montpellier Hérault Sport Club Volley-Ball) - Champion de France 2022, Supercoupe 2022 et 2024. Il a également accompagné les équipes de la <strong>Fédération Française de Volley-Ball (FFVB)</strong> jusqu'aux Championnats du Monde et d'Europe, ainsi que l'équipe de France lors des <strong>Jeux Méditerranéens 2013</strong> (médaille de bronze) et en Afrobasket 2025 (Mali, finaliste).</p>
             <p>Cette expérience au plus haut niveau lui permet d'appliquer au cabinet des protocoles éprouvés avec des athlètes professionnels : préparation pré-match, récupération post-compétition, gestion des blessures en cours de saison.</p>
             <p className="mt-3 text-sm">
               <a href="https://www.montpellier-volley.com/staff/francis-mombo/" target="_blank" rel="noopener noreferrer" className="font-semibold underline" style={{ color: "#D4336E" }}>
@@ -230,7 +230,7 @@ export default function OsteopathieSport() {
         <div className="mt-8 rounded-2xl border border-gray-100 p-5 flex items-center justify-between gap-4">
           <div>
             <p className="text-xs font-bold uppercase tracking-widest mb-1" style={{ color: "#D4336E" }}>À lire aussi</p>
-            <p className="font-black text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>Parcours FFVB — Équipe de France de Volley (2013–2018)</p>
+            <p className="font-black text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>Parcours FFVB - Équipe de France de Volley (2013–2018)</p>
             <p className="text-gray-500 text-xs mt-1">5 missions avec les équipes nationales françaises de volley-ball.</p>
           </div>
           <Link href="/parcours-ffvb-equipe-france-volley" className="flex-shrink-0 inline-flex items-center gap-1.5 text-xs font-bold px-4 py-2 rounded-full text-white" style={{ background: "linear-gradient(135deg, #D4336E, #8B2035)" }}>
@@ -242,7 +242,7 @@ export default function OsteopathieSport() {
         <div className="mt-10 rounded-2xl p-8 text-center" style={{ background: "linear-gradient(135deg, #fdeef3, #fff3e8)" }}>
           <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#E8A020" }}>Francis MOMBO</p>
           <h3 className="text-xl font-black text-gray-900 mb-3" style={{ fontFamily: "Figtree, sans-serif" }}>Sportif ? Optimisez votre pratique.</h3>
-          <p className="text-gray-500 text-sm mb-6 max-w-md mx-auto">Prévention, récupération, préparation compétition — Francis MOMBO met son expérience du sport professionnel au service de votre performance à Montpellier et Castelnau-le-Lez.</p>
+          <p className="text-gray-500 text-sm mb-6 max-w-md mx-auto">Prévention, récupération, préparation compétition - Francis MOMBO met son expérience du sport professionnel au service de votre performance à Montpellier et Castelnau-le-Lez.</p>
           <a href={doctolib} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 font-bold px-6 py-3 rounded-full text-white text-sm" style={{ background: "linear-gradient(135deg, #D4336E, #8B2035)" }}>Prendre rendez-vous sur Doctolib</a>
         </div>
       </main>

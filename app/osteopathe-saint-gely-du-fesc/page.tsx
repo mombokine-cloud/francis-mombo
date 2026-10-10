@@ -1,13 +1,13 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 
 const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
 
 export const metadata: Metadata = {
-  title: "Ostéopathe à Saint-Gély-du-Fesc — Francis MOMBO, Kinésithérapeute D.O.",
+  title: "Ostéopathe à Saint-Gély-du-Fesc - Francis MOMBO, Kinésithérapeute D.O.",
   description:
-    "Ostéopathe à Saint-Gély-du-Fesc (34980) — Francis MOMBO, kinésithérapeute et ostéopathe D.O. Cabinets à Castelnau-le-Lez (10 min) et Saint-Mathieu-de-Tréviers (15 min). Doctolib.",
+    "Ostéopathe à Saint-Gély-du-Fesc (34980) - Francis MOMBO, kinésithérapeute et ostéopathe D.O. Cabinets à Castelnau-le-Lez (10 min) et Saint-Mathieu-de-Tréviers (15 min). Doctolib.",
   keywords: [
     "ostéopathe Saint-Gély-du-Fesc",
     "ostéopathe Saint-Gély-du-Fesc 34980",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteUrl}/osteopathe-saint-gely-du-fesc` },
   openGraph: {
-    title: "Ostéopathe à Saint-Gély-du-Fesc — Francis MOMBO",
+    title: "Ostéopathe à Saint-Gély-du-Fesc - Francis MOMBO",
     description: "Cabinet d'ostéopathie à 10 min de Saint-Gély-du-Fesc (Castelnau-le-Lez) et 15 min (Saint-Mathieu-de-Tréviers). Francis MOMBO, kinésithérapeute et ostéopathe D.O.",
     url: `${siteUrl}/osteopathe-saint-gely-du-fesc`,
     type: "article",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "MedicalBusiness",
-  name: "Francis MOMBO — Ostéopathe & Kinésithérapeute",
+  name: "Francis MOMBO - Ostéopathe & Kinésithérapeute",
   url: siteUrl,
   telephone: "+33650149192",
   address: {
@@ -83,7 +83,7 @@ export default function Page() {
             <span className="text-xs text-gray-400">34980 · 2 cabinets accessibles</span>
           </div>
           <h1 className="font-black text-gray-900 leading-tight mb-4" style={{ fontFamily: "Figtree, sans-serif", fontSize: "clamp(28px, 5vw, 42px)" }}>
-            Ostéopathe à Saint-Gély-du-Fesc — Castelnau (10 min) ou Saint-Mathieu (15 min)
+            Ostéopathe à Saint-Gély-du-Fesc - Castelnau (10 min) ou Saint-Mathieu (15 min)
           </h1>
           <p className="text-gray-500 text-lg leading-relaxed">
             Vous habitez <strong>Saint-Gély-du-Fesc (34980)</strong> et cherchez un ostéopathe ? Francis MOMBO, kinésithérapeute et ostéopathe D.O., vous reçoit à <strong>Castelnau-le-Lez (10 min)</strong> ou à <strong>Saint-Mathieu-de-Tréviers (15 min)</strong>. Saint-Gély est idéalement placée entre les deux cabinets.
@@ -96,8 +96,8 @@ export default function Page() {
             <h2 className="article-h2">Deux cabinets accessibles depuis Saint-Gély-du-Fesc</h2>
             <p>Saint-Gély-du-Fesc (~8 000 habitants) est une commune du nord de Montpellier, bien desservie :</p>
             <ul className="article-list">
-              <li><strong>Cabinet Castelnau-le-Lez</strong> — 1720 avenue de l'Europe, 34170 · à 10 min ;</li>
-              <li><strong>Cabinet Saint-Mathieu-de-Tréviers</strong> — 5 avenue du Grand Chêne, 34270 · à 15 min ;</li>
+              <li><strong>Cabinet Castelnau-le-Lez</strong> - 1720 avenue de l'Europe, 34170 · à 10 min ;</li>
+              <li><strong>Cabinet Saint-Mathieu-de-Tréviers</strong> - 5 avenue du Grand Chêne, 34270 · à 15 min ;</li>
               <li>téléphone : 06 50 14 91 92 ;</li>
               <li>prise de rendez-vous en ligne sur Doctolib (24h/24).</li>
             </ul>
@@ -107,20 +107,20 @@ export default function Page() {
             <h2 className="article-h2">Un triple profil unique : kiné, ostéopathe et hypnothérapeute</h2>
             <p>Francis MOMBO cumule trois expertises complémentaires :</p>
             <ul className="article-list">
-              <li><strong>Kinésithérapeute</strong> — rééducation fonctionnelle, traitement des blessures, renforcement musculaire, rééducation post-opératoire ;</li>
-              <li><strong>Ostéopathe D.O.</strong> — prise en charge globale du corps, traitement des douleurs chroniques et aiguës, équilibre structurel et viscéral ;</li>
-              <li><strong>Hypnothérapeute</strong> — gestion de la douleur, stress, phobies, préparation mentale sportive.</li>
+              <li><strong>Kinésithérapeute</strong> - rééducation fonctionnelle, traitement des blessures, renforcement musculaire, rééducation post-opératoire ;</li>
+              <li><strong>Ostéopathe D.O.</strong> - prise en charge globale du corps, traitement des douleurs chroniques et aiguës, équilibre structurel et viscéral ;</li>
+              <li><strong>Hypnothérapeute</strong> - gestion de la douleur, stress, phobies, préparation mentale sportive.</li>
             </ul>
           </section>
 
           <section>
             <h2 className="article-h2">Qui peut consulter depuis Saint-Gély-du-Fesc ?</h2>
             <ul className="article-list">
-              <li><strong>Nourrissons et enfants</strong> — coliques, plagiocéphalie, torticolis, troubles du sommeil, scoliose ;</li>
-              <li><strong>Adultes</strong> — douleurs de dos, cervicalgies, migraines, stress, troubles digestifs ;</li>
-              <li><strong>Sportifs</strong> — prévention, récupération, préparation compétition ;</li>
-              <li><strong>Femmes</strong> — grossesse, post-partum, endométriose, cycles douloureux ;</li>
-              <li><strong>Séniors</strong> — arthrose, équilibre, mobilité, prévention des chutes.</li>
+              <li><strong>Nourrissons et enfants</strong> - coliques, plagiocéphalie, torticolis, troubles du sommeil, scoliose ;</li>
+              <li><strong>Adultes</strong> - douleurs de dos, cervicalgies, migraines, stress, troubles digestifs ;</li>
+              <li><strong>Sportifs</strong> - prévention, récupération, préparation compétition ;</li>
+              <li><strong>Femmes</strong> - grossesse, post-partum, endométriose, cycles douloureux ;</li>
+              <li><strong>Séniors</strong> - arthrose, équilibre, mobilité, prévention des chutes.</li>
             </ul>
           </section>
 
@@ -141,7 +141,7 @@ export default function Page() {
           </section>
 
           <section>
-            <h2 className="article-h2">FAQ — Ostéopathe à Saint-Gély-du-Fesc</h2>
+            <h2 className="article-h2">FAQ - Ostéopathe à Saint-Gély-du-Fesc</h2>
             <div className="space-y-4">
               {faq.map(item => (
                 <div key={item.q} className="bg-gray-50 rounded-xl p-5">
@@ -156,7 +156,7 @@ export default function Page() {
         <div className="mt-10 rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
           <iframe
             src="https://maps.google.com/maps?q=1720+avenue+de+l%27Europe+34170+Castelnau-le-Lez&output=embed"
-            title="Cabinet Francis MOMBO — 1720 avenue de l'Europe, Castelnau-le-Lez"
+            title="Cabinet Francis MOMBO - 1720 avenue de l'Europe, Castelnau-le-Lez"
             width="100%"
             height="300"
             style={{ border: 0, display: "block" }}
@@ -166,7 +166,7 @@ export default function Page() {
           />
           <div className="px-6 py-4 bg-white flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
             <div>
-              <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>1720 avenue de l'Europe — 1er étage bureau B2</p>
+              <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>1720 avenue de l'Europe - 1er étage bureau B2</p>
               <p className="text-gray-500 text-xs mt-0.5">34170 Castelnau-le-Lez · Parking gratuit · à 10 min de Saint-Gély-du-Fesc</p>
             </div>
             <a

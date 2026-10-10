@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export const MHSC_ARTICLES = [
   {
@@ -19,7 +19,7 @@ export const MHSC_ARTICLES = [
   },
   {
     href: "/coupe-de-france-2022-kine-rc-strasbourg",
-    label: "Coupe de France 2022 — RC Strasbourg",
+    label: "Coupe de France 2022 - RC Strasbourg",
     desc: "Kiné du club alsacien · MHSC vs RCS",
     tag: "Football",
     color: "#0a1628",
@@ -27,7 +27,7 @@ export const MHSC_ARTICLES = [
   },
   {
     href: "/afrobasket-2025-consultant-kine-mali",
-    label: "AfroBasket 2025 — Mali",
+    label: "AfroBasket 2025 - Mali",
     desc: "Consultant kiné · Finaliste · Abidjan",
     tag: "2025",
     color: "#E8A020",
@@ -52,14 +52,14 @@ export const MHSC_ARTICLES = [
   {
     href: "/jeux-mediterraneens-2013-kine-equipe-france-volley",
     label: "Jeux Méditerranéens 2013",
-    desc: "Médaille de bronze — Mersin, Turquie",
+    desc: "Médaille de bronze - Mersin, Turquie",
     tag: "2013",
     color: "#E8A020",
     emoji: "🥉",
   },
   {
     href: "/tqce-u20-2016-kine-equipe-france-volley",
-    label: "TQCE U20 — 2016",
+    label: "TQCE U20 - 2016",
     desc: "Qualification Europe avec l'équipe de France U20",
     tag: "FFVB 2016",
     color: "#D4336E",
@@ -67,23 +67,23 @@ export const MHSC_ARTICLES = [
   },
   {
     href: "/tqcm-u21-2017-kine-equipe-france-volley",
-    label: "TQCM U21 — 2017",
-    desc: "Qualification Monde — victoire finale vs Bulgarie",
+    label: "TQCM U21 - 2017",
+    desc: "Qualification Monde - victoire finale vs Bulgarie",
     tag: "FFVB 2017",
     color: "#D4336E",
     emoji: "🏐",
   },
   {
     href: "/tqce-juniors-2018-kine-equipe-france-volley",
-    label: "TQCE Juniors — 2018",
-    desc: "Qualification Euro U20 — Monténégro",
+    label: "TQCE Juniors - 2018",
+    desc: "Qualification Euro U20 - Monténégro",
     tag: "FFVB 2018",
     color: "#D4336E",
     emoji: "🏐",
   },
   {
     href: "/euro-u20-2018-kine-equipe-france-volley",
-    label: "Euro U20 — 2018",
+    label: "Euro U20 - 2018",
     desc: "Championnat d'Europe des moins de 20 ans",
     tag: "FFVB 2018",
     color: "#D4336E",

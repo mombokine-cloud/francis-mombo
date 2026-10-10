@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedPages from "../components/RelatedPages";
 
@@ -32,9 +32,9 @@ export const metadata: Metadata = {
 const faqItems = [
   { q: "L'ostéopathie peut-elle vraiment aider contre les douleurs chroniques ?", a: "L'ostéopathie ne guérit pas les maladies chroniques, mais elle peut contribuer à réduire l'intensité et la fréquence des douleurs, améliorer la mobilité et la qualité de vie, et traiter les tensions mécaniques qui amplifient la douleur. Elle s'intègre dans une approche globale et pluridisciplinaire." },
   { q: "Combien de séances sont nécessaires pour une douleur chronique ?", a: "Les douleurs chroniques nécessitent généralement un suivi régulier plutôt qu'une prise en charge ponctuelle. Un rythme de 1 à 2 séances par mois en phase active, puis une séance de maintenance tous les 2 à 3 mois, est souvent adapté. Le plan de soins est discuté dès la première consultation." },
-  { q: "L'hypnose thérapeutique peut-elle compléter l'ostéopathie dans la douleur chronique ?", a: "Oui. Francis MOMBO pratique l'hypnose thérapeutique en complément de l'ostéopathie, notamment pour la gestion de la douleur, la réduction du stress et l'amélioration du sommeil — trois facteurs qui influencent directement l'intensité de la douleur chronique." },
+  { q: "L'hypnose thérapeutique peut-elle compléter l'ostéopathie dans la douleur chronique ?", a: "Oui. Francis MOMBO pratique l'hypnose thérapeutique en complément de l'ostéopathie, notamment pour la gestion de la douleur, la réduction du stress et l'amélioration du sommeil - trois facteurs qui influencent directement l'intensité de la douleur chronique." },
   { q: "La fibromyalgie peut-elle être traitée par ostéopathie ?", a: "L'ostéopathie n'est pas un traitement de la fibromyalgie. Elle peut cependant contribuer à soulager certaines tensions musculaires, améliorer le sommeil et réduire l'hyperalgésie locale dans le cadre d'un suivi pluridisciplinaire." },
-  { q: "Est-ce douloureux pour quelqu'un qui souffre déjà beaucoup ?", a: "Non. En cas de douleur chronique, les techniques utilisées sont adaptées à la sensibilité du patient — légères, progressives et sans manipulation brusque. L'objectif est d'apporter du confort, pas d'aggraver l'inconfort." },
+  { q: "Est-ce douloureux pour quelqu'un qui souffre déjà beaucoup ?", a: "Non. En cas de douleur chronique, les techniques utilisées sont adaptées à la sensibilité du patient - légères, progressives et sans manipulation brusque. L'objectif est d'apporter du confort, pas d'aggraver l'inconfort." },
 ];
 
 const jsonLd = {
@@ -64,7 +64,7 @@ export default function DouleursChroniqueOsteopathie() {
             <span className="text-xs text-gray-400">Ostéopathie · Hypnose · Montpellier</span>
           </div>
           <h1 className="font-black text-gray-900 leading-tight mb-4" style={{ fontFamily: "Figtree, sans-serif", fontSize: "clamp(28px, 5vw, 42px)" }}>Ostéopathie et douleurs chroniques à Montpellier</h1>
-          <p className="text-gray-500 text-lg leading-relaxed">Les douleurs chroniques — qui durent plus de 3 mois — affectent profondément la qualité de vie. L'ostéopathie, combinée si nécessaire à l'hypnose thérapeutique, offre une approche globale pour accompagner durablement les patients souffrant de lombalgies persistantes, de fibromyalgie, de migraines chroniques ou de douleurs neuropathiques.</p>
+          <p className="text-gray-500 text-lg leading-relaxed">Les douleurs chroniques - qui durent plus de 3 mois - affectent profondément la qualité de vie. L'ostéopathie, combinée si nécessaire à l'hypnose thérapeutique, offre une approche globale pour accompagner durablement les patients souffrant de lombalgies persistantes, de fibromyalgie, de migraines chroniques ou de douleurs neuropathiques.</p>
         </div>
         <div className="h-px bg-gray-100 mb-10" />
 
@@ -130,7 +130,7 @@ export default function DouleursChroniqueOsteopathie() {
               <li>travailler sur les représentations mentales de la douleur ;</li>
               <li>renforcer les ressources intérieures du patient face à la douleur.</li>
             </ul>
-            <p>Les deux approches — ostéopathie et hypnose — peuvent être proposées dans la même séance ou lors de consultations séparées selon les besoins du patient.</p>
+            <p>Les deux approches - ostéopathie et hypnose - peuvent être proposées dans la même séance ou lors de consultations séparées selon les besoins du patient.</p>
           </section>
 
           <section>

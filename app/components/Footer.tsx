@@ -96,14 +96,14 @@ export default function Footer() {
                 <MapPin size={14} style={{ color: "#D4336E", flexShrink: 0, marginTop: 2 }} />
                 <div>
                   <p className="text-gray-300 text-xs font-medium">Castelnau-le-Lez</p>
-                  <p className="text-gray-500 text-xs">1720, Av. de l&apos;Europe — 34170</p>
+                  <p className="text-gray-500 text-xs">1720, Av. de l&apos;Europe - 34170</p>
                 </div>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin size={14} style={{ color: "#E8A020", flexShrink: 0, marginTop: 2 }} />
                 <div>
                   <p className="text-gray-300 text-xs font-medium">Saint-Mathieu-de-Tréviers</p>
-                  <p className="text-gray-500 text-xs">5, Av. du Grand Chêne — 34270</p>
+                  <p className="text-gray-500 text-xs">5, Av. du Grand Chêne - 34270</p>
                 </div>
               </li>
               <li className="flex items-center gap-2">
@@ -154,7 +154,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-gray-500 text-xs">
-            © {year} Francis MOMBO — Ostéopathe &amp; Kinésithérapeute. Tous droits réservés.
+            © {year} Francis MOMBO - Ostéopathe &amp; Kinésithérapeute. Tous droits réservés.
           </p>
           <div className="flex items-center gap-4">
             <Link href="/politique-confidentialite" className="text-gray-600 text-xs hover:text-gray-400 transition-colors">

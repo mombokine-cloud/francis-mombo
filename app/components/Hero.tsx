@@ -92,7 +92,7 @@ export default function Hero() {
           </div>
         </aside>
 
-        {/* CENTER — Photo */}
+        {/* CENTER - Photo */}
         <div className="relative flex-1 flex flex-col items-center justify-end lg:mx-8 min-h-[420px]">
           {/* Photo */}
           <div className="absolute inset-0 flex items-end justify-center">

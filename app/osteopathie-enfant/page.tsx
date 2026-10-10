@@ -3,7 +3,7 @@ import Link from "next/link";
 import RelatedPages from "../components/RelatedPages";
 
 export const metadata: Metadata = {
-  title: "Ostéopathie pour enfant et nourrisson à Montpellier — Castelnau-le-Lez",
+  title: "Ostéopathie pour enfant et nourrisson à Montpellier - Castelnau-le-Lez",
   description:
     "Francis MOMBO, ostéopathe à Castelnau-le-Lez, prend en charge les nourrissons, enfants et adolescents : coliques, plagiocéphalie, troubles du sommeil, scoliose, sport.",
   keywords: [

@@ -83,7 +83,7 @@ export default function Contact() {
                 </h3>
               </div>
               <p className="text-sm text-gray-500 mb-4">
-                La façon la plus rapide de réserver est de passer par Doctolib — disponible 24h/24.
+                La façon la plus rapide de réserver est de passer par Doctolib - disponible 24h/24.
               </p>
               <a
                 href="https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo"

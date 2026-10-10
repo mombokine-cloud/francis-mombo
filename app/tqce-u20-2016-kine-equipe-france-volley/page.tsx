@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedArticles from "../components/RelatedArticles";
 
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   alternates: { canonical: `${siteUrl}/tqce-u20-2016-kine-equipe-france-volley` },
   openGraph: {
     title: "TQCE U20 2016 : Francis MOMBO, kiné de l'équipe de France",
-    description: "Kinésithérapeute officiel des Bleuets U20 lors du TQCE 2016 — Francis MOMBO accompagne la nouvelle génération du volley français.",
+    description: "Kinésithérapeute officiel des Bleuets U20 lors du TQCE 2016 - Francis MOMBO accompagne la nouvelle génération du volley français.",
     url: `${siteUrl}/tqce-u20-2016-kine-equipe-france-volley`,
     type: "article",
   },
@@ -34,18 +34,18 @@ const jsonLd = [
     headline: "TQCE U20 2016 : Francis MOMBO, kinésithérapeute de l'équipe de France de volley-ball",
     datePublished: "2026-07-13",
     dateModified: "2026-07-13",
-    author: { "@type": "Person", name: "Francis MOMBO", url: siteUrl, jobTitle: "Kinésithérapeute — Ostéopathe D.O." },
-    publisher: { "@type": "MedicalBusiness", name: "Francis MOMBO — Cabinet d'ostéopathie & kinésithérapie", url: siteUrl },
+    author: { "@type": "Person", name: "Francis MOMBO", url: siteUrl, jobTitle: "Kinésithérapeute - Ostéopathe D.O." },
+    publisher: { "@type": "MedicalBusiness", name: "Francis MOMBO - Cabinet d'ostéopathie & kinésithérapie", url: siteUrl },
     url: `${siteUrl}/tqce-u20-2016-kine-equipe-france-volley`,
     citation: {
       "@type": "WebPage",
-      name: "TQCE : Les Bleuets confirment — FFVB",
+      name: "TQCE : Les Bleuets confirment - FFVB",
       url: ffvbSource,
       publisher: { "@type": "SportsOrganization", name: "Fédération Française de Volley-Ball (FFVB)", url: "https://www.ffvb.org" },
     },
     about: {
       "@type": "Event",
-      name: "Tournoi de Qualification Championnat d'Europe U20 — 2016",
+      name: "Tournoi de Qualification Championnat d'Europe U20 - 2016",
       startDate: "2016-03-31",
       endDate: "2016-04-02",
       eventStatus: "https://schema.org/EventScheduled",
@@ -96,7 +96,7 @@ export default function Page() {
 
         <div className="rounded-2xl p-6 mb-10 border border-gray-200" style={{ background: "#f9f9f9" }}>
           <p className="text-xs font-bold uppercase tracking-widest mb-3 text-gray-400">Source officielle FFVB</p>
-          <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>Staff — TQCE U20 2016</p>
+          <p className="font-semibold text-gray-900 text-sm" style={{ fontFamily: "Figtree, sans-serif" }}>Staff - TQCE U20 2016</p>
           <p className="text-gray-500 text-sm mt-1">Entraîneur : Jocelyn Trillon · Adjoint : David Vaseux · Médecin : Aurélie Ribaut · <strong>Kinésithérapeute : Francis Mombo</strong></p>
           <a href={ffvbSource} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-xs mt-2 font-semibold hover:underline" style={{ color: "#D4336E" }}>
             Voir la fiche FFVB
@@ -109,22 +109,22 @@ export default function Page() {
         <article className="space-y-10 text-gray-700 leading-relaxed">
           <section>
             <h2 className="article-h2">Le contexte : la filière jeune de la FFVB</h2>
-            <p>Le Tournoi de Qualification pour le Championnat d'Europe U20 est une étape clé dans le développement des jeunes volleyeurs français. C'est à ce niveau que les futures stars du volley national sont identifiées et façonnées — plusieurs joueurs de ce groupe iront ensuite en Pro A et en équipe de France senior.</p>
+            <p>Le Tournoi de Qualification pour le Championnat d'Europe U20 est une étape clé dans le développement des jeunes volleyeurs français. C'est à ce niveau que les futures stars du volley national sont identifiées et façonnées - plusieurs joueurs de ce groupe iront ensuite en Pro A et en équipe de France senior.</p>
             <p className="mt-3">Francis MOMBO accompagne ces jeunes athlètes (18-20 ans) dont les corps sont en pleine construction physique : charge d'entraînement intense, premier contact avec le haut niveau international, gestion de la pression de la compétition qualificative.</p>
           </section>
           <section>
             <h2 className="article-h2">Résultats du tournoi</h2>
             <ul className="article-list">
-              <li>31 mars — Slovaquie 0-3 France (22-25, 18-25, 23-25) ;</li>
-              <li>1er avril — Norvège 0-3 France (18-25, 17-25, 18-25) ;</li>
-              <li>2 avril — France vs Autriche (troisième match du groupe).</li>
+              <li>31 mars - Slovaquie 0-3 France (22-25, 18-25, 23-25) ;</li>
+              <li>1er avril - Norvège 0-3 France (18-25, 17-25, 18-25) ;</li>
+              <li>2 avril - France vs Autriche (troisième match du groupe).</li>
             </ul>
-            <p className="mt-3">Deux victoires nettes en deux matchs, avec des scores sans appel — le signe d'une équipe bien préparée physiquement et médicalement.</p>
+            <p className="mt-3">Deux victoires nettes en deux matchs, avec des scores sans appel - le signe d'une équipe bien préparée physiquement et médicalement.</p>
           </section>
           <section>
             <h2 className="article-h2">Kiné des jeunes : un rôle pédagogique autant que médical</h2>
             <p>Travailler avec des joueurs U20 requiert une approche spécifique. Ces athlètes apprennent encore à écouter et comprendre leur corps. Le kinésithérapeute national joue un rôle pédagogique central : apprendre aux jeunes joueurs à signaler leurs douleurs tôt, à respecter les protocoles de récupération, à intégrer les gestes préventifs qui feront durer leur carrière.</p>
-            <p className="mt-3">Cette compétence — former autant que soigner — est au cœur de la pratique de cabinet de Francis MOMBO à Castelnau-le-Lez. Expliquer, éduquer, responsabiliser le patient sur son propre corps.</p>
+            <p className="mt-3">Cette compétence - former autant que soigner - est au cœur de la pratique de cabinet de Francis MOMBO à Castelnau-le-Lez. Expliquer, éduquer, responsabiliser le patient sur son propre corps.</p>
           </section>
         </article>
 

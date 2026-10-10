@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import RelatedPages from "../components/RelatedPages";
 
@@ -6,9 +6,9 @@ const siteUrl = "https://www.mombofrancis.com";
 const doctolib = "https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo";
 
 export const metadata: Metadata = {
-  title: "Kiné Montpellier — Francis MOMBO, kinésithérapeute & ostéopathe D.O.",
+  title: "Kiné Montpellier - Francis MOMBO, kinésithérapeute & ostéopathe D.O.",
   description:
-    "Kinésithérapeute et ostéopathe D.O. à Montpellier (Castelnau-le-Lez) — Francis MOMBO cumule kiné et ostéo pour traiter douleurs, blessures sportives et rééducation. Remboursé Sécu sur ordonnance.",
+    "Kinésithérapeute et ostéopathe D.O. à Montpellier (Castelnau-le-Lez) - Francis MOMBO cumule kiné et ostéo pour traiter douleurs, blessures sportives et rééducation. Remboursé Sécu sur ordonnance.",
   keywords: [
     "kiné Montpellier",
     "kinésithérapeute Montpellier",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${siteUrl}/kine-osteo-montpellier` },
   openGraph: {
-    title: "Kiné & ostéo Montpellier — Francis MOMBO",
+    title: "Kiné & ostéo Montpellier - Francis MOMBO",
     description: "Double expertise kinésithérapie + ostéopathie à Montpellier. Rééducation, blessures sportives, douleurs chroniques.",
     url: `${siteUrl}/kine-osteo-montpellier`,
     type: "article",
@@ -85,21 +85,21 @@ export default function Page() {
           <div className="rounded-2xl p-6 border border-gray-100">
             <p className="text-xs font-bold uppercase tracking-widest mb-3" style={{ color: "#D4336E" }}>Kinésithérapie</p>
             <ul className="space-y-2 text-sm text-gray-600">
-              <li className="flex gap-2"><span style={{ color: "#D4336E" }}>—</span>Remboursé Sécurité sociale</li>
-              <li className="flex gap-2"><span style={{ color: "#D4336E" }}>—</span>Sur prescription médicale</li>
-              <li className="flex gap-2"><span style={{ color: "#D4336E" }}>—</span>Rééducation fonctionnelle</li>
-              <li className="flex gap-2"><span style={{ color: "#D4336E" }}>—</span>Massages thérapeutiques</li>
-              <li className="flex gap-2"><span style={{ color: "#D4336E" }}>—</span>Post-opératoire</li>
+              <li className="flex gap-2"><span style={{ color: "#D4336E" }}>-</span>Remboursé Sécurité sociale</li>
+              <li className="flex gap-2"><span style={{ color: "#D4336E" }}>-</span>Sur prescription médicale</li>
+              <li className="flex gap-2"><span style={{ color: "#D4336E" }}>-</span>Rééducation fonctionnelle</li>
+              <li className="flex gap-2"><span style={{ color: "#D4336E" }}>-</span>Massages thérapeutiques</li>
+              <li className="flex gap-2"><span style={{ color: "#D4336E" }}>-</span>Post-opératoire</li>
             </ul>
           </div>
           <div className="rounded-2xl p-6 border border-gray-100">
             <p className="text-xs font-bold uppercase tracking-widest mb-3" style={{ color: "#8B2035" }}>Ostéopathie</p>
             <ul className="space-y-2 text-sm text-gray-600">
-              <li className="flex gap-2"><span style={{ color: "#8B2035" }}>—</span>Sans prescription</li>
-              <li className="flex gap-2"><span style={{ color: "#8B2035" }}>—</span>Remboursé mutuelle</li>
-              <li className="flex gap-2"><span style={{ color: "#8B2035" }}>—</span>Approche globale du corps</li>
-              <li className="flex gap-2"><span style={{ color: "#8B2035" }}>—</span>Manipulation structurelle</li>
-              <li className="flex gap-2"><span style={{ color: "#8B2035" }}>—</span>Prévention et bien-être</li>
+              <li className="flex gap-2"><span style={{ color: "#8B2035" }}>-</span>Sans prescription</li>
+              <li className="flex gap-2"><span style={{ color: "#8B2035" }}>-</span>Remboursé mutuelle</li>
+              <li className="flex gap-2"><span style={{ color: "#8B2035" }}>-</span>Approche globale du corps</li>
+              <li className="flex gap-2"><span style={{ color: "#8B2035" }}>-</span>Manipulation structurelle</li>
+              <li className="flex gap-2"><span style={{ color: "#8B2035" }}>-</span>Prévention et bien-être</li>
             </ul>
           </div>
         </div>
@@ -167,7 +167,7 @@ export default function Page() {
         <div className="mt-10 rounded-2xl p-8 text-center" style={{ background: "linear-gradient(135deg, #fdeef3, #fff3e8)" }}>
           <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: "#E8A020" }}>Francis MOMBO</p>
           <h3 className="text-xl font-black text-gray-900 mb-3" style={{ fontFamily: "Figtree, sans-serif" }}>Kinésithérapeute & ostéopathe D.O.</h3>
-          <p className="text-gray-500 text-sm mb-6 max-w-md mx-auto">Castelnau-le-Lez et Saint-Mathieu-de-Tréviers — 20 ans d'expertise au plus haut niveau.</p>
+          <p className="text-gray-500 text-sm mb-6 max-w-md mx-auto">Castelnau-le-Lez et Saint-Mathieu-de-Tréviers - 20 ans d'expertise au plus haut niveau.</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a href={doctolib} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 font-bold px-6 py-3 rounded-full text-white text-sm" style={{ background: "linear-gradient(135deg, #D4336E, #8B2035)" }}>
               Réserver sur Doctolib
