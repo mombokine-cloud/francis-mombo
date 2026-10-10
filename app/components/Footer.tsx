@@ -152,6 +152,27 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Langues */}
+        <div className="border-t border-gray-800 mt-0 pt-6 mb-6">
+          <p className="text-xs font-bold uppercase tracking-widest text-gray-600 mb-3">🌐 Also available in</p>
+          <div className="flex flex-wrap gap-2">
+            {[
+              { flag: "🇬🇧", label: "English", href: "/osteopath-montpellier-english" },
+              { flag: "🇪🇸", label: "Español", href: "/osteopata-montpellier-espanol" },
+              { flag: "🇧🇷", label: "Português", href: "/osteopata-montpellier-portugues" },
+              { flag: "🇮🇹", label: "Italiano", href: "/osteopata-montpellier-italiano" },
+            ].map((l) => (
+              <Link
+                key={l.label}
+                href={l.href}
+                className="text-xs font-medium px-3 py-1.5 rounded-full border border-gray-700 text-gray-400 hover:text-white hover:border-gray-500 transition-colors"
+              >
+                {l.flag} {l.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+
         <div className="border-t border-gray-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-gray-500 text-xs">
             © {year} Francis MOMBO - Ostéopathe &amp; Kinésithérapeute. Tous droits réservés.
