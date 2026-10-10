@@ -69,6 +69,13 @@ export default function Navbar() {
             <Phone size={15} />
             06 50 14 91 92
           </a>
+          <Link
+            href="/urgences-osteopathie-montpellier"
+            className="text-sm font-bold py-2.5 px-4 rounded-full border-2 transition-colors duration-200"
+            style={{ borderColor: "#E8A020", color: "#E8A020" }}
+          >
+            🚨 Urgence
+          </Link>
           <a
             href="https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo"
             target="_blank"
@@ -110,6 +117,14 @@ export default function Navbar() {
               <Phone size={15} />
               06 50 14 91 92
             </a>
+            <Link
+              href="/urgences-osteopathie-montpellier"
+              onClick={() => setOpen(false)}
+              className="text-center text-sm font-bold py-2.5 px-4 rounded-full border-2 transition-colors duration-200"
+              style={{ borderColor: "#E8A020", color: "#E8A020" }}
+            >
+              🚨 Urgence ostéopathique
+            </Link>
             <a
               href="https://www.doctolib.fr/osteopathe/castelnau-le-lez/francis-mombo"
               target="_blank"
