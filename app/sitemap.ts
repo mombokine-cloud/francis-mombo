@@ -59,6 +59,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/osteopathie-urgences`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/kine-osteo-montpellier`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
 
+    // Pages multilingues
+    { url: `${base}/osteopath-montpellier-english`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/osteopata-montpellier-espanol`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/osteopata-montpellier-portugues`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/osteopata-montpellier-italiano`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+
     // Ostéopathie du sport
     { url: `${base}/osteopathie-sport-montpellier`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/recuperation-sportive-osteopathie`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
