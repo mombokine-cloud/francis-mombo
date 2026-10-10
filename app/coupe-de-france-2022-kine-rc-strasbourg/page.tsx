@@ -70,8 +70,20 @@ const jsonLd = [
     about: {
       "@type": "Event",
       name: "Coupe de France 2022 — MHSC / RC Strasbourg",
+      description: "Match de Coupe de France opposant le Montpellier Hérault SC au RC Strasbourg le 2 janvier 2022. Francis MOMBO assure le suivi kinésithérapeute de l'équipe alsacienne en déplacement.",
       startDate: "2022-01-02",
-      location: { "@type": "Place", name: "Montpellier", addressCountry: "FR" },
+      endDate: "2022-01-02",
+      eventStatus: "https://schema.org/EventScheduled",
+      eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+      image: "https://www.mombofrancis.com/og-image.jpeg.png",
+      location: {
+        "@type": "Place",
+        name: "Stade de la Mosson, Montpellier",
+        address: { "@type": "PostalAddress", addressLocality: "Montpellier", addressCountry: "FR" },
+      },
+      performer: { "@type": "Person", name: "Francis MOMBO", url: siteUrl },
+      organizer: { "@type": "SportsOrganization", name: "Fédération Française de Football (FFF)", url: "https://www.fff.fr" },
+      offers: { "@type": "Offer", price: "0", priceCurrency: "EUR", availability: "https://schema.org/InStock" },
     },
   },
   {

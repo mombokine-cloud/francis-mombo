@@ -73,9 +73,21 @@ const jsonLd = [
     about: {
       "@type": "Event",
       name: "FIBA Women's AfroBasket 2025",
-      location: { "@type": "Place", name: "Abidjan", addressCountry: "CI" },
+      description: "Compétition continentale africaine de basketball féminin organisée par FIBA Africa à Abidjan, Côte d'Ivoire. L'équipe du Mali, suivie par le consultant kiné Francis MOMBO, termine finaliste.",
+      startDate: "2025-07-01",
+      endDate: "2025-07-13",
+      eventStatus: "https://schema.org/EventScheduled",
+      eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+      image: "https://www.mombofrancis.com/og-image.jpeg.png",
+      location: {
+        "@type": "Place",
+        name: "Abidjan",
+        address: { "@type": "PostalAddress", addressLocality: "Abidjan", addressCountry: "CI" },
+      },
       url: fibaSource,
+      performer: { "@type": "Person", name: "Francis MOMBO", url: siteUrl },
       organizer: { "@type": "SportsOrganization", name: "FIBA Africa", url: "https://www.fiba.basketball" },
+      offers: { "@type": "Offer", price: "0", priceCurrency: "EUR", availability: "https://schema.org/InStock" },
     },
   },
   {
